@@ -1,0 +1,546 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ----------------------- Normalize ----------------------- */
+/* --------------------------------------------------------- */
+* {
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+p {
+  margin: 14px 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+}
+
+h1, h2, h4, h5, span, form, img, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------------- Text --------------------------- */
+/* -------------------------------------------------------- */
+.centeredText {
+  text-align: center;
+}
+
+/* ----------------------- Headings ----------------------- */
+/* -------------------------------------------------------- */
+h1 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.rtl h1 {
+  font-size: 19px;
+}
+
+h2 {
+  font-size: 15px;
+  color: #333333;
+}
+.rtl h2 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 12px;
+}
+.rtl h4 {
+  font-size: 15px;
+}
+
+h5 {
+  font-size: 13px;
+  font-weight: bold;
+}
+.rtl h5 {
+  font-size: 14px;
+}
+
+h4.round, div.round {
+  display: block;
+  width: calc(100% + 5px);
+  right: -5px;
+  height: 24px;
+  padding: 4px 15px;
+  background-color: #e0ebdf;
+  border-radius: 4px;
+  color: #333333;
+  margin-bottom: 12px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+h4.round.small {
+  width: 100%;
+}
+h4.round.withIcon img {
+  vertical-align: bottom;
+}
+
+/* ------------------------- Links ------------------------- */
+/* --------------------------------------------------------- */
+a, .a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #99C01A;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #99C01A;
+}
+a:active {
+  color: #FF8000;
+}
+a:hover {
+  color: #00BC00;
+}
+
+.a:hover {
+  color: #00BC00;
+}
+
+a.disabled, .a.disabled {
+  color: #777777;
+  cursor: default;
+}
+
+a.arrow, .a.arrow {
+  display: inline-block;
+  background-image: url('../../img_rtl/a/arrow-rtl.gif');
+  background-position: right 4px;
+  padding-right: 8px;
+  white-space: nowrap;
+}
+
+a.arrow.disabled, .a.arrow.disabled {
+  background-position: right -14px;
+}
+
+a.arrow.back, .a.arrow.back {
+  background-image: url('../../img_rtl/a/arrowBack-rtl.gif');
+  background-position: right 4px;
+  padding-right: 14px;
+}
+
+a.arrow.back.disabled, .a.arrow.back.disabled {
+  background-position: right -14px;
+}
+
+/* ------------------- Open Close Switch ------------------- */
+/* --------------------------------------------------------- */
+.openedClosedSwitch {
+  display: inline-block;
+  line-height: 18px;
+  padding-right: 22px;
+  font-weight: bold;
+  color: #99C01A;
+  cursor: pointer;
+}
+
+.openedClosedSwitchMirrored {
+  padding-left: 22px;
+}
+
+.switchOpened {
+  background-image: url('../../img_rtl/a/opened-rtl.png');
+}
+.switchOpened:hover, .switchOpened:active {
+  background-image: url('../../img_rtl/a/opened-rtl.png');
+}
+
+.switchOpenedMirrored {
+  background-image: url('../../img_rtl/a/opened-rtl.png');
+}
+.switchOpenedMirrored:hover, .switchOpenedMirrored:active {
+  background-image: url('../../img_rtl/a/opened-rtl.png');
+}
+
+.switchOpened:hover {
+  background-position: right -28px;
+}
+.switchOpened:active {
+  background-position: right -56px;
+}
+
+.switchOpenedMirrored {
+  background-position: left 0;
+}
+.switchOpenedMirrored:hover {
+  background-position: left -28px;
+}
+.switchOpenedMirrored:active {
+  background-position: left -56px;
+}
+
+.switchClosed {
+  background-image: url('../../img_rtl/a/closed-rtl.png');
+}
+.switchClosed:hover, .switchClosed:active {
+  background-image: url('../../img_rtl/a/closed-rtl.png');
+}
+
+.switchClosedMirrored {
+  background-image: url('../../img_rtl/a/closed-rtl.png');
+}
+.switchClosedMirrored:hover, .switchClosedMirrored:active {
+  background-image: url('../../img_rtl/a/closed-rtl.png');
+}
+
+.switchClosed:hover {
+  background-position: right -28px;
+}
+.switchClosed:active {
+  background-position: right -56px;
+}
+
+.switchClosedMirrored {
+  background-position: left 0;
+}
+.switchClosedMirrored:hover {
+  background-position: left -28px;
+}
+.switchClosedMirrored:active {
+  background-position: left -56px;
+}
+
+.switchDisabled {
+  background-image: url('../../img_rtl/a/closed-rtl.png');
+  background-position: right bottom;
+  cursor: default;
+}
+.switchDisabled:hover, .switchDisabled:active {
+  background-image: url('../../img_rtl/a/closed-rtl.png');
+  background-position: right bottom;
+  cursor: default;
+}
+
+/* --------------------- Standard Table --------------------- */
+/* ---------------------------------------------------------- */
+table {
+  border-collapse: separate;
+  background-color: #C0C0C0;
+  margin: 0;
+  line-height: 16px;
+  width: 100%;
+  max-width: 100%;
+  empty-cells: show;
+}
+table td, table th {
+  vertical-align: middle;
+  text-align: right;
+  padding: 0;
+  font-weight: normal;
+  font-size: 13px;
+  background-color: #FFFFFF;
+}
+.rtl table td, .rtl table th {
+  font-size: 14px;
+}
+table thead td, table thead th {
+  color: #333333;
+  padding: 6px 3px 3px;
+  text-align: center;
+}
+table tbody th {
+  padding: 6px 9px 3px;
+}
+table tbody td {
+  padding: 6px 9px 3px;
+}
+table tbody td.noData {
+  text-align: center;
+}
+table tr.hl th, table tr.hl td {
+  background-color: #E7F0CA;
+}
+table tbody tr.hover:hover th, table tbody tr.hover:hover td {
+  background-color: #fce6c4;
+}
+table td.empty {
+  height: 1px;
+  padding: 0;
+}
+table.transparent {
+  background-color: transparent;
+}
+table.transparent td, table.transparent th {
+  background-color: transparent;
+}
+table.compact {
+  padding: 0;
+}
+table.compact thead th, table.compact thead td {
+  padding: 0;
+}
+table.compact tbody th, table.compact tbody td {
+  padding: 0;
+}
+table .hiddenPasswordField {
+  display: none;
+}
+
+table#seasonal_winter_snow_settings.disabled {
+  color: #C0C0C0;
+}
+
+/* ------------------- Medal description ------------------- */
+/* --------------------------------------------------------- */
+div#medal_mouseover {
+  width: 250px;
+  position: absolute;
+  z-index: 999;
+  border: 1px solid #BBBBBB;
+  padding: 2px 5px;
+  background-color: #F5F5F5;
+}
+div#medal_mouseover table {
+  background: none;
+}
+div#medal_mouseover table th, div#medal_mouseover table td {
+  background: none;
+}
+div#medal_mouseover table th {
+  width: 50px;
+  padding-left: 10px;
+}
+
+/* ------------------- Auto Completer ------------------- */
+/* ------------------------------------------------------ */
+ul.autocompleter-choices {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #7c7c7c;
+  border-right-color: #c3c3c3;
+  border-left-color: #c3c3c3;
+  border-bottom-color: #ddd;
+  background-color: #fff;
+  text-align: right;
+  font-family: Tahoma, Helvetica, Arial, Verdana, sans-serif;
+  z-index: 50;
+  background-color: #fff;
+}
+.fa-IR ul.autocompleter-choices {
+  font-family: IRANSans, Arial, Helvetica, Verdana, sans-serif;
+}
+ul.autocompleter-choices li {
+  position: relative;
+  margin: -2px 0 0 0;
+  padding: 0.2em 1em 0.2em 1.5em;
+  display: block;
+  float: none !important;
+  cursor: pointer;
+  font-weight: normal;
+  white-space: nowrap;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+ul.autocompleter-choices li.autocompleter-selected {
+  background-color: #444;
+  color: #F2F2F2;
+}
+ul.autocompleter-choices span.autocompleter-queried {
+  display: inline;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+ul.autocompleter-choices li.autocompleter-selected span.autocompleter-queried {
+  color: #9FCFFF;
+}
+
+/* ------------------- Fatal Error Page ------------------- */
+/* -------------------------------------------------------- */
+div.fatal_error {
+  text-align: center;
+}
+div.fatal_error h1 {
+  text-align: right;
+}
+div.fatal_error img.fatalErrorImage {
+  width: 493px;
+  height: 190px;
+  background-image: url('../../img_rtl/a/fatalErrorImage.jpg');
+}
+div.fatal_error p.errorText {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+.rtl div.fatal_error p.errorText {
+  font-size: 17px;
+}
+div.fatal_error p.errorMessage {
+  text-align: right;
+}
+div.greenbox {
+  position: relative;
+  border: solid 1px #99C01A;
+  border-radius: 8px;
+  padding: 10px;
+}
+div.greenbox div.greenbox-top, div.greenbox div.greenbox-content, div.greenbox div.greenbox-bottom {
+  float: right;
+}
+
+/* ---------------------- Green Box ---------------------- */
+/* ------------------------------------------------------- */
+div.greenbox div.greenbox-content {
+  min-height: 10px;
+  width: 551px;
+  padding: 0px 0;
+}
+
+/* ------------------- General Classes ------------------- */
+/* ------------------------------------------------------- */
+.none, .inactive, .disabled, .noData {
+  color: #777777;
+}
+
+.error, .alert {
+  color: #D40000;
+}
+
+.colorBlind .error, .colorBlind .alert {
+  color: #0022AF;
+}
+
+.warning, .notice {
+  color: #F88C1F;
+}
+
+.info {
+  color: #228B22;
+}
+
+.hide {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+h4.spacer, div.spacer, table.spacer {
+  margin-top: 20px;
+}
+
+/* ----------------------- Clear ----------------------- */
+/* -------------------------------------------------------- */
+div.clear, span.clear, li.clear {
+  clear: both !important;
+  width: 0 !important;
+  height: 0 !important;
+  line-height: 0 !important;
+  float: none !important;
+  font-size: 0 !important;
+}
+
+/* ----------------------- Clearfix ----------------------- */
+/* -------------------------------------------------------- */
+/* For modern browsers */
+.cf {
+  zoom: 1;
+}
+.cf:before {
+  content: "";
+  display: table;
+}
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.halfSpace {
+  width: 50%;
+  display: block;
+  float: right;
+}
+
+div.vacationMode {
+  text-align: center;
+  padding: 10px;
+}
+div.vacationMode .daySetter {
+  margin: 10px 0 10px 0;
+}
+div.vacationMode .daySetter a {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.switchWrap {
+  padding: 10px;
+}
+
+div.vacationMode .daySetter.sub a {
+  background-image: url('../../img_rtl/a/btnMinus-small.png');
+}
+div.vacationMode .daySetter.add a {
+  background-image: url('../../img_rtl/a/btnPlus-small.png');
+}
+div.vacationMode #vacationTimeWrapper {
+  display: none;
+}
+
+.valignTop {
+  vertical-align: top;
+}
+
+/* Resource selection table */
+table.resourceSelection {
+  width: 100%;
+}
+table.resourceSelection td.resourceIcon {
+  width: 5%;
+  padding-left: 0;
+}
+table.resourceSelection td.resourceName {
+  width: 15%;
+}
+table.resourceSelection td.resourceInput {
+  width: 40%;
+  padding-left: 0;
+  text-align: left;
+}
+table.resourceSelection td.resourceMaximum {
+  width: 50%;
+  padding-right: 4px;
+}

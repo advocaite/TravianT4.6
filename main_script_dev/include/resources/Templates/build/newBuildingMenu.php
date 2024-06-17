@@ -1,0 +1,16 @@
+<div class="contentNavi subNavi tabWrapper">
+   <button type="button" class="scrollFrom" disabled="disabled"></button> 
+   <div class="scrollingContainer">
+      <div class="content "> <a id="<?=$vars['InfrastructureTab']['id'];?>" title="<?=$vars['InfrastructureTab']['text'];?>" class="tabItem infrastructure <?=$vars['activeTab']==1 ? "active" : "normal";?>" href="/build.php?id=<?=$vars['selectedId'];?>&amp;category=1"> <?=$vars['InfrastructureTab']['text'];?> </a> </div>
+      <script type="text/javascript" data-cmp-info="6"> 
+	  jQuery(function(){if (jQuery('#<?=$vars['InfrastructureTab']['id'];?>').length > 0){jQuery('#<?=$vars['InfrastructureTab']['id'];?>').on('click', function (){jQuery(window).trigger('tabClicked', [this,{"class":"infrastructure <?=$vars['activeTab']==1 ? "active" : "normal";?>","title":false,"target":false,"id":"<?=$vars['InfrastructureTab']['id'];?>","href":"\/build.php?id=<?=$vars['selectedId'];?>&amp;category=1","onclick":false,"enabled":true,"text":"Infrastructure","dialog":false,"plusDialog":false,"goldclubDialog":false,"containerId":"","buttonIdentifier":"<?=$vars['InfrastructureTab']['id'];?>"}]);});}}); </script> 
+      <div class="content "> <a id="<?=$vars['MilitaryTab']['id'];?>" title="<?=$vars['MilitaryTab']['text'];?>" class="tabItem military <?=$vars['activeTab']==2 ? "active" : "normal";?>" href="/build.php?id=<?=$vars['selectedId'];?>&amp;category=2"> <?=$vars['MilitaryTab']['text'];?> </a> </div>
+      <script type="text/javascript" data-cmp-info="6"> 
+	  jQuery(function(){if (jQuery('#<?=$vars['MilitaryTab']['id'];?>').length > 0){jQuery('#<?=$vars['MilitaryTab']['id'];?>').on('click', function (){jQuery(window).trigger('tabClicked', [this,{"class":"military <?=$vars['activeTab']==2 ? "active" : "normal";?>","title":false,"target":false,"id":"<?=$vars['MilitaryTab']['id'];?>","href":"\/build.php?id=<?=$vars['selectedId'];?>&amp;category=2","onclick":false,"enabled":true,"text":"Military","dialog":false,"plusDialog":false,"goldclubDialog":false,"containerId":"","buttonIdentifier":"<?=$vars['MilitaryTab']['id'];?>"}]);});}}); </script> 
+      <div class="content "> <a id="<?=$vars['ResourcesTab']['id'];?>" title="<?=$vars['ResourcesTab']['text'];?>" class="tabItem resources <?=$vars['activeTab']==3 ? "active" : "normal";?>" href="/build.php?id=<?=$vars['selectedId'];?>&amp;category=3"> <?=$vars['ResourcesTab']['text'];?> </a> </div>
+      <script type="text/javascript" data-cmp-info="6"> 
+	  jQuery(function(){if (jQuery('#<?=$vars['ResourcesTab']['id'];?>').length > 0){jQuery('#<?=$vars['ResourcesTab']['id'];?>').on('click', function (){jQuery(window).trigger('tabClicked', [this,{"class":"resources <?=$vars['activeTab']==3 ? "active" : "normal";?>","title":false,"target":false,"id":"<?=$vars['ResourcesTab']['id'];?>","href":"\/build.php?id=<?=$vars['selectedId'];?>&amp;category=3","onclick":false,"enabled":true,"text":"Resources","dialog":false,"plusDialog":false,"goldclubDialog":false,"containerId":"","buttonIdentifier":"<?=$vars['ResourcesTab']['id'];?>"}]);});}}); </script> 
+   </div>
+   <button type="button" class="scrollTo" disabled="disabled"></button> 
+</div>
+<div class="navigationSpacer"></div>

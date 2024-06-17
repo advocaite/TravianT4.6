@@ -1,0 +1,60 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#sidebarBoxActiveVillage {
+  margin-top: 25px;
+}
+#sidebarBoxActiveVillage .sidebarBoxInnerBox .header {
+  padding-bottom: 0;
+}
+#sidebarBoxActiveVillage .sidebarBoxInnerBox .header:after {
+  display: none;
+}
+#sidebarBoxActiveVillage .sidebarBoxInnerBox .header #villageNameField {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+}
+#sidebarBoxActiveVillage .sidebarBoxInnerBox .content {
+  margin: 0;
+}
+#sidebarBoxActiveVillage .sidebarBoxInnerBox .content .loyalty {
+  font-size: 11px;
+}
+.rtl #sidebarBoxActiveVillage .sidebarBoxInnerBox .content .loyalty {
+  font-size: 12px;
+}
+#sidebarBoxActiveVillage .sidebarBoxInnerBox .content .loyalty.low {
+  color: #D40000;
+}
+#sidebarBoxActiveVillage .sidebarBoxInnerBox .content .loyalty.medium {
+  color: #666666;
+}
+#sidebarBoxActiveVillage .sidebarBoxInnerBox .content .loyalty.high {
+  color: #228B22;
+}
+#sidebarBoxActiveVillage .sidebarBoxInnerBox .footer {
+  height: 30px;
+}
+#sidebarBoxActiveVillage .sidebarBoxInnerBox .footer .layoutButton {
+  position: absolute;
+  bottom: -18px;
+  right: 23px;
+  top: auto;
+  left: auto;
+}
+
+.colorBlind #sidebarBoxActiveVillage .sidebarBoxInnerBox .content .loyalty.low {
+  color: #0022AF;
+}

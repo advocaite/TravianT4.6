@@ -1,0 +1,125 @@
+.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper{height:440px;-ms-grid-columns:270px 1fr;grid-template-columns:270px 1fr;-ms-grid-rows:1fr;grid-template-rows:1fr}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper *{box-sizing:border-box}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea{-ms-grid-column:1;grid-column-start:1;-ms-grid-row:1;grid-row-start:1;position:relative;box-shadow:0 3px 3px 0 rgba(190,174,154,.8)}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature{position:absolute;width:100%;padding:15px 15px 10px;height:100%;border:2px solid #beae9a;border-radius:2px;background-color:#faf6ea;opacity:0;transition-duration:.5s;transition-timing-function:ease-out}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature.show{opacity:1}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature h4{color:#5e463a;font-size:24px;line-height:24px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature .premiumFeatureDescription ul{padding-left:15px;margin-bottom:0}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature .premiumFeatureDescription ul li{margin-bottom:10px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature .featureImage{margin:10px auto 0}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature.goldclub .descriptionWrapper{min-height:292px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature.goldclub .featureImage{background-image:url(../img_ltr/views/shop/goldClub_huge.png);width:100px;height:73px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature.plus .descriptionWrapper{min-height:285px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature.plus .featureImage{background-image:url(../img_ltr/views/shop/travianPlus_huge.png);width:100px;height:80px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostWood .descriptionWrapper{min-height:292px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostWood .featureImage{background-image:url(../img_ltr/general/resources/lumber_huge.png);width:100px;height:73px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostClay .descriptionWrapper{min-height:300px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostClay .featureImage{background-image:url(../img_ltr/general/resources/clay_huge.png);width:100px;height:65px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostIron .descriptionWrapper{min-height:296px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostIron .featureImage{background-image:url(../img_ltr/general/resources/iron_huge.png);width:100px;height:69px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostCrop .descriptionWrapper{min-height:274px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .infoArea .premiumFeature.productionboostCrop .featureImage{background-image:url(../img_ltr/general/resources/crop_huge.png);width:100px;height:91px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .contentArea{-ms-grid-column:2;grid-column-start:2;-ms-grid-row:1;grid-row-start:1;padding-left:5px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .contentArea .paymentPopupDialogWrapper{height:100%;position:relative}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .contentArea #featureIndicator{width:34px;height:41px;position:absolute;top:14px;left:-20px;background-image:url(../img_ltr/hud/content/scrollTo.png);z-index:99;transform:translateX(0) scale(1);transform-origin:left;transition:transform 150ms}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.paymentFeatures .contentWrapper .contentArea #featureIndicator.moving{transform:translateX(-10px) scale(.8)}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper{height:440px;-ms-grid-columns:270px 1fr;grid-template-columns:270px 1fr;-ms-grid-rows:1fr;grid-template-rows:1fr}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper *{box-sizing:border-box}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea{-ms-grid-column:1;grid-column-start:1;-ms-grid-row:1;grid-row-start:1;position:relative;box-shadow:0 3px 3px 0 rgba(190,174,154,.8)}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature{position:absolute;width:100%;padding:15px 15px 10px;height:100%;border:2px solid #beae9a;border-radius:2px;background-color:#faf6ea;opacity:0;transition-duration:.5s;transition-timing-function:ease-out}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature.show{opacity:1}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature h4{color:#5e463a;font-size:24px;line-height:24px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature .premiumFeatureDescription ul{padding-left:15px;margin-bottom:0}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature .premiumFeatureDescription ul li{margin-bottom:10px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature .featureImage{margin:10px auto 0}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature.goldclub .descriptionWrapper{min-height:292px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature.goldclub .featureImage{background-image:url(../img_ltr/views/shop/goldClub_huge.png);width:100px;height:73px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature.plus .descriptionWrapper{min-height:285px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature.plus .featureImage{background-image:url(../img_ltr/views/shop/travianPlus_huge.png);width:100px;height:80px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature.productionboostWood .descriptionWrapper{min-height:292px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature.productionboostWood .featureImage{background-image:url(../img_ltr/general/resources/lumber_huge.png);width:100px;height:73px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature.productionboostClay .descriptionWrapper{min-height:300px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature.productionboostClay .featureImage{background-image:url(../img_ltr/general/resources/clay_huge.png);width:100px;height:65px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature.productionboostIron .descriptionWrapper{min-height:296px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature.productionboostIron .featureImage{background-image:url(../img_ltr/general/resources/iron_huge.png);width:100px;height:69px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature.productionboostCrop .descriptionWrapper{min-height:274px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .infoArea .premiumFeature.productionboostCrop .featureImage{background-image:url(../img_ltr/general/resources/crop_huge.png);width:100px;height:91px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .contentArea{-ms-grid-column:2;grid-column-start:2;-ms-grid-row:1;grid-row-start:1;padding-left:5px}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .contentArea .paymentPopupDialogWrapper{height:100%;position:relative}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .contentArea #featureIndicator{width:34px;height:41px;position:absolute;top:14px;left:-20px;background-image:url(../img_ltr/hud/content/scrollTo.png);z-index:99;transform:translateX(0) scale(1);transform-origin:left;transition:transform 150ms}.dialog.paymentShopV4 #paymentWizard .paymentFeatures.earnGold .contentWrapper .contentArea #featureIndicator.moving{transform:translateX(-10px) scale(.8)}
+#paymentWizard .paymentFeatures .contentArea::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+#paymentWizard .paymentFeatures .contentArea::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #171717; 
+  border-radius: 7px;
+}
+ 
+/* Handle */
+#paymentWizard .paymentFeatures .contentArea::-webkit-scrollbar-thumb {
+  background: #564034; 
+  border-radius: 5px;
+}
+#paymentWizard .paymentFeatures .buyGoldInfoStep {
+    width: 100%;
+    height: 70px;
+    grid-column-start: auto;
+    transition-property: width,height;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+
+    width: 241px;
+    height: 69px;
+    background-image: url(../img_ltr/paymentWizard/infoArrow-ltr.png);
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+#paymentWizard .paymentFeatures .buyGoldInfoStepNumber {
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color: #eae0af;
+    line-height: 69px;
+    right: 50px;
+}
+#paymentWizard .paymentFeatures .buyGoldInfoStepletter {
+    position: relative;
+    top: 18px;
+    left: 25px;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+#paymentWizard .paymentFeatures .buyGoldInfoStepletter.active {
+    background-position: 0px -79px;
+}
+#paymentWizard .paymentFeatures {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 450px;
+}
+
+#paymentWizard .paymentFeatures .featureContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#paymentWizard .paymentFeatures .featureContent_p1 {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+#paymentWizard .paymentFeatures .button-content {
+    display: flex;
+    width: 70px;
+}
+#paymentWizard .paymentFeatures .goldValue {
+    margin-left: 10px;
+}
+
+#paymentWizard .paymentFeatures .featureTitlef1 {
+    margin: 0px 20px 10px 0px;
+    width: 70%;
+}
+#paymentWizard .paymentFeatures .featureTitle {
+    margin: 0px 20px 0px 0px;
+    width: 50%;
+}
+#paymentWizard .paymentFeatures .featureTitlet3 {
+    margin: 0px 20px 0px 30px;
+    width: 10%;
+}
+
+#paymentWizard .paymentFeatures .featureButtonSubtitle {
+    margin:10px 10px 0px 0px;
+    /*text-align: center;*/
+}
+#paymentWizard .paymentFeatures .bold {
+    display: inline;
+}
+#paymentWizard .paymentFeatures .featureButton {
+    width: 35%;
+}
+
+#paymentWizard .paymentFeatures .titlet3 {
+    text-align: center;
+    margin-top: 30px;
+}
+#paymentWizard .paymentFeatures .featureData {
+    display: flex;
+    border: 1px solid #C0C0C0;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+#paymentWizard .paymentFeatures .featureBuyButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin: 10px 20px;
+    position: relative;
+    left: 50px;
+}
+
+#paymentWizard .paymentFeatures .unitSection {
+    position: relative;
+    left: 20px;
+}
+#paymentWizard .paymentFeatures .contentWrapper {
+    padding-right: 0px;
+}

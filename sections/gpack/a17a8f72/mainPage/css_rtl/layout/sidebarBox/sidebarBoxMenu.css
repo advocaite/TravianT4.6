@@ -1,0 +1,43 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+div.sidebar div#sidebarBoxMenu {
+  margin-top: 60px;
+}
+div.sidebar div#sidebarBoxMenu ul {
+  border-top: 1px solid #d7c095;
+  margin-top: 2px;
+}
+div.sidebar div#sidebarBoxMenu ul li {
+  padding: 0;
+  margin: 0;
+  line-height: 26px;
+  height: 26px;
+}
+div.sidebar div#sidebarBoxMenu ul li.active {
+  background: none;
+}
+div.sidebar div#sidebarBoxMenu ul li a {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 20px 0 0;
+}
+.rtl div.sidebar div#sidebarBoxMenu ul li a {
+  font-size: 15px;
+}
+div.sidebar div#sidebarBoxMenu ul li.active a,
+div.sidebar div#sidebarBoxMenu ul li a:active {
+  color: #F2F2F2;
+  background-color: #B29672;
+}

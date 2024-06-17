@@ -1,0 +1,1802 @@
+@charset "UTF-8";
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+div#paymentWizard {
+  width: 874px;
+  min-height: 503px;
+}
+
+div#paymentWizard h4 {
+  font-size: 13px;
+}
+.rtl div#paymentWizard h4 {
+  font-size: 14px;
+}
+
+/**
+ * Tab styles
+ */
+div#paymentWizard .header {
+  position: absolute;
+  top: -32px;
+  height: 78px;
+  right: 0;
+  left: 0;
+  margin-left: 100px;
+}
+
+div#paymentWizard .header ul,
+div#paymentWizard .header li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div#paymentWizard .header li {
+  float: right;
+  display: block;
+  height: 32px;
+  overflow: hidden;
+  position: relative;
+  transition-duration: 200ms;
+}
+
+div#paymentWizard .header li:not(.active):hover {
+  margin-top: -8px;
+  height: 40px;
+}
+
+div#paymentWizard .header li.active {
+  height: 98px;
+  margin-top: -20px;
+}
+
+/**
+ * Tab Button styles
+ */
+div#paymentWizard .header .tabButton {
+  position: relative;
+  min-width: 146px;
+  margin-left: 5px;
+  height: 80px;
+  text-align: center;
+  display: block;
+}
+
+div#paymentWizard .header li.active .tabButton {
+  margin-top: 20px;
+}
+
+div#paymentWizard .header .tabButton .tabBtnBGPart {
+  position: absolute;
+  background-image: url('../../img_rtl/paymentWizard/tabsInactive-rtl.png');
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+div#paymentWizard .header .tabButton .tabBtnBGPart.start {
+  background-position: right top;
+  position: absolute;
+}
+
+div#paymentWizard .header li.active .tabButton .tabBtnBGPart.start {
+  background-position: right top;
+  position: absolute;
+}
+
+div#paymentWizard .header .tabButton .tabBtnBGPart.end {
+  background-position: left bottom;
+}
+
+div#paymentWizard .header .tabButton .tabBtnBGPart.middle {
+  margin: 0 10px;
+  background-position: right center;
+  background-repeat: repeat-x;
+}
+
+div#paymentWizard .header li.active .tabButton .tabBtnBGPart.middle {
+  margin: 0 68px;
+}
+
+div#paymentWizard .header .tabButton .text {
+  position: relative;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 34px;
+  color: #F9F9F9;
+  overflow: visible;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+.rtl div#paymentWizard .header .tabButton .text {
+  font-size: 15px;
+}
+
+div#paymentWizard .header .active .tabButton .text {
+  background: none;
+}
+
+div#paymentWizard .header li .tabBorder {
+  background-image: url('../../img_rtl/dialogBrown/tc.png');
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  right: 2px;
+  left: 5px;
+  display: block;
+  background-repeat: repeat-x;
+}
+
+div#paymentWizard .header li.active .tabBorder {
+  background: none;
+}
+
+div#paymentWizard .header .tabButton .tabBtnImgWrapper {
+  position: relative;
+}
+
+/**
+ * Tab Button styles active
+ */
+div#paymentWizard .header li.active .tabButton .tabBtnBGPart {
+  background-image: url('../../img_rtl/paymentWizard/tabsActive-rtl.png');
+}
+
+div#paymentWizard .header li.active .tabButton {
+  height: 78px;
+}
+
+div#paymentWizard .header li.active .tabButton .text {
+  color: #323232;
+}
+
+div#paymentWizard .header li.active .tabButton .tabBtnImg {
+  position: relative;
+  background-image: url('../../img_rtl/paymentWizard/tabsButtonImages-rtl-ignore.png');
+  margin-top: -33px;
+  height: 76px;
+  width: 107px;
+}
+
+div#paymentWizard .header .tabButton.buyGold .tabBtnImg {
+  background-position: right 20px;
+  width: 74px;
+}
+
+div#paymentWizard .header .tabButton.pros .tabBtnImg {
+  background-position: right -52px;
+  width: 42px;
+}
+
+div#paymentWizard .header .tabButton.plusSupport .tabBtnImg {
+  background-position: right -122px;
+}
+
+div#paymentWizard .header .tabButton.earnGold .tabBtnImg,
+div#paymentWizard .header .tabButton.openOrders .tabBtnImg {
+  background-position: right -190px;
+}
+
+/**
+ * Account Balance Styles
+ */
+div#paymentWizard .accountBalance {
+  position: absolute;
+  float: left;
+  height: 25px;
+  top: 30px;
+  left: 0;
+  font-size: 14px;
+}
+.rtl div#paymentWizard .accountBalance {
+  font-size: 15px;
+}
+
+div#paymentWizard .accountBalance span {
+  font-weight: bold;
+}
+
+div#paymentWizard .accountBalance .gold {
+  margin: 0 5px 0 2px;
+}
+
+/**
+ * Content Area Styles
+ */
+div#paymentWizard .contentWrapper {
+  position: relative;
+  margin-top: 38px;
+  width: 100%;
+  float: left;
+}
+
+div#paymentWizard .contentArea {
+  position: relative;
+  float: left;
+  width: 594px;
+  min-height: 445px;
+}
+
+div#paymentWizard .iframeArea {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+iframe#paymentWizardIframe {
+  border: solid 0;
+  width: 840px;
+  height: 580px;
+}
+
+div#paymentWizard .contentWrapper .contentHead {
+  float: right;
+  margin-bottom: 10px;
+}
+
+div#paymentWizard .infoArea {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 269px;
+}
+
+div#paymentWizard .infoArea .contentBorder-contents {
+  /* Dieser Teil soll immer im Sichtbereich bleiben */
+  height: 430px;
+  position: relative;
+}
+
+div#paymentWizard .paymentWizard {
+  text-align: right;
+}
+
+/**
+ * Content Area Border Styles
+ */
+div#paymentWizard .contentBorder-tl,
+div#paymentWizard .contentBorder-tr,
+div#paymentWizard .contentBorder-tc,
+div#paymentWizard .contentBorder-bl,
+div#paymentWizard .contentBorder-br,
+div#paymentWizard .contentBorder-bc {
+  position: absolute;
+  background-image: url('../../img_rtl/paymentWizard/contentBorderHorizontalEdge-rtl.png');
+}
+
+div#paymentWizard .contentBorder-ml,
+div#paymentWizard .contentBorder-mr {
+  position: absolute;
+  background-image: url('../../img_rtl/paymentWizard/contentBorderVertical-rtl.png');
+}
+
+div#paymentWizard .contentBorder-tl,
+div#paymentWizard .contentBorder-tr,
+div#paymentWizard .contentBorder-tc {
+  top: 0;
+  height: 7px;
+}
+
+div#paymentWizard .contentBorder-bl,
+div#paymentWizard .contentBorder-br,
+div#paymentWizard .contentBorder-bc {
+  bottom: 0;
+  height: 8px;
+}
+
+div#paymentWizard .contentBorder-tl,
+div#paymentWizard .contentBorder-tr,
+div#paymentWizard .contentBorder-bl,
+div#paymentWizard .contentBorder-br,
+div#paymentWizard .contentBorder-ml,
+div#paymentWizard .contentBorder-mr {
+  width: 7px;
+}
+
+div#paymentWizard .contentBorder-tl {
+  right: 0;
+}
+
+div#paymentWizard .contentBorder-tr {
+  left: 0;
+  background-position: left top;
+}
+
+div#paymentWizard .contentBorder-tc {
+  margin: 0 7px;
+  right: 0;
+  left: 0;
+  background-repeat: repeat-x;
+  background-position: right -19px;
+}
+
+div#paymentWizard .contentBorder-bl {
+  right: 0;
+  background-position: right bottom;
+}
+
+div#paymentWizard .contentBorder-br {
+  left: 0;
+  background-position: left bottom;
+}
+
+div#paymentWizard .contentBorder-bc {
+  margin: 0 7px;
+  right: 0;
+  left: 0;
+  background-repeat: repeat-x;
+  background-position: right -36px;
+}
+
+div#paymentWizard .contentBorder-ml {
+  margin: 7px 0 8px 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat-y;
+  background-position: right top;
+}
+
+div#paymentWizard .contentBorder-mr {
+  margin: 7px 0 8px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: repeat-y;
+  background-position: left top;
+}
+
+div#paymentWizard .contentBorder-contents {
+  margin: 10px 10px 8px;
+}
+
+/* Gold kaufen */
+div#paymentWizard .buyGoldInfoStep {
+  position: relative;
+  width: 241px;
+  height: 69px;
+  background-image: url('../../img_rtl/paymentWizard/infoArrow-rtl.png');
+  background-position: right bottom;
+  color: #666666;
+  float: right;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+div#paymentWizard .buyGoldInfoStep.buyGoldFormStep {
+  display: none;
+}
+
+div#paymentWizard .buyGoldInfoStep.active {
+  background-position: right top;
+  color: #333333;
+}
+
+div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepNumber {
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  color: #eae0af;
+  line-height: 69px;
+  left: 24px;
+}
+.rtl div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepNumber {
+  font-size: 51px;
+}
+
+div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepLabel {
+  margin: 7px 7px 0 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+.rtl div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepLabel {
+  font-size: 16px;
+}
+
+div#paymentWizard .buyGoldInfoStep .buyGoldLocation {
+  max-width: 160px;
+}
+
+div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepContent {
+  margin: 5px 19px 0 0;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.rtl div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepContent {
+  font-size: 15px;
+}
+
+div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepFooter {
+  margin: 3px 19px 0 0;
+  font-size: 13px;
+}
+.rtl div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepFooter {
+  font-size: 14px;
+}
+
+div#paymentWizard .buyGoldFooter .footerItem a,
+div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepFooter a {
+  background-image: url('../../img_rtl/pager/next-rtl.png');
+  background-position: right 4px;
+  padding-right: 8px;
+  margin-right: 10px;
+}
+
+div#paymentWizard .infoArea .locationStep {
+  margin-top: 3px;
+}
+
+div#paymentWizard .buyGoldFooter {
+  position: absolute;
+  bottom: 11px;
+  right: 0;
+  left: 0;
+  font-size: 13px;
+}
+.rtl div#paymentWizard .buyGoldFooter {
+  font-size: 14px;
+}
+
+div#paymentWizard .buyGoldFooter .footNotes {
+  font-style: italic;
+}
+
+div#paymentWizard .buyGoldFooter .footerItem {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+/**
+ * Styles für das GoldProduct
+ */
+.goldProduct,
+.paymentWizard .goldProduct {
+  position: relative;
+  float: right;
+  width: 136px;
+  height: 190px;
+  background-image: url('../../img_rtl/paymentWizard/goldProduct-rtl.png');
+  background-position: right top;
+  cursor: pointer;
+  margin-right: 6px;
+  margin-top: 6px;
+}
+
+.goldProduct:hover,
+.paymentWizard .goldProduct:hover {
+  background-position: right center;
+}
+
+.goldProduct:active,
+.paymentWizard .goldProduct:active {
+  background-position: right bottom;
+}
+
+.goldProduct .goldProductContentWrapper {
+  position: relative;
+  margin: 11px;
+  width: 114px;
+  height: 168px;
+  overflow: hidden;
+}
+
+.goldProduct .goldProductContentWrapper .goldProductImageWrapper {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.goldProduct .goldProductTextWrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  color: #574e39;
+}
+
+.goldProduct .goldProductTextWrapper .goldUnitsTypeText {
+  font-size: 16px;
+}
+.rtl .goldProduct .goldProductTextWrapper .goldUnitsTypeText {
+  font-size: 17px;
+}
+
+.goldProduct .goldProductTextWrapper .goldUnits {
+  font-size: 34px;
+  line-height: 30px;
+}
+.rtl .goldProduct .goldProductTextWrapper .goldUnits {
+  font-size: 35px;
+}
+
+.goldProduct .goldProductTextWrapper .footerLine {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  border-top: 1px solid #bbb49c;
+  color: #3c3c3c;
+  font-size: 13px;
+}
+.rtl .goldProduct .goldProductTextWrapper .footerLine {
+  font-size: 14px;
+}
+
+.goldProduct .goldProductTextWrapper .voucher {
+  font-weight: bold;
+}
+
+/**
+ *	Styles für PaymentProvider
+ */
+div#paymentWizard .providerLink {
+  color: #333333;
+  font-weight: normal;
+  display: block;
+  margin: 0 7px;
+}
+
+div#paymentWizard .providerLink .providerContent {
+  font-size: 12px;
+  min-height: 125px;
+}
+.rtl div#paymentWizard .providerLink .providerContent {
+  font-size: 13px;
+}
+
+div#paymentWizard .providerLink .providerContent h3 {
+  margin-top: 9px;
+  margin-bottom: 7px;
+  font-size: 13px;
+}
+.rtl div#paymentWizard .providerLink .providerContent h3 {
+  font-size: 14px;
+}
+
+div#paymentWizard .providerLink .providerContent p {
+  margin: 8px 0;
+}
+
+div#paymentWizard .providerLink .providerContent .error {
+  font-size: 11px;
+}
+.rtl div#paymentWizard .providerLink .providerContent .error {
+  font-size: 12px;
+}
+
+div#paymentWizard .providerLink .selectedGoldPacket {
+  position: absolute;
+  top: 1px;
+  bottom: 3px;
+  width: 114px;
+  text-align: center;
+  font-size: 10px;
+  background-image: url('../../img_rtl/paymentWizard/providerBGGradient.png');
+  background-repeat: repeat-y;
+}
+.rtl div#paymentWizard .providerLink .selectedGoldPacket {
+  font-size: 11px;
+}
+
+div#paymentWizard .providerLink .selectedGoldPacket img {
+  margin-top: 19px;
+}
+
+div#paymentWizard .providerLink.inactive .selectedGoldPacket {
+  background: none;
+}
+
+/**
+ * Active Styles für die PaymentProvider
+ */
+div#paymentWizard .providerLink .boxes.paymentProvider .boxes-tl {
+  background-position: right -84px;
+}
+
+div#paymentWizard .providerLink .boxes.paymentProvider .boxes-tr {
+  background-position: left -84px;
+}
+
+div#paymentWizard .providerLink .boxes.paymentProvider .boxes-tc {
+  background-position: right -126px;
+  background-repeat: repeat-x;
+}
+
+div#paymentWizard .providerLink .boxes.paymentProvider .boxes-bl {
+  background-position: right -105px;
+}
+
+div#paymentWizard .providerLink .boxes.paymentProvider .boxes-br {
+  background-position: left -105px;
+}
+
+div#paymentWizard .providerLink .boxes.paymentProvider .boxes-bc {
+  background-position: right -147px;
+  background-repeat: repeat-x;
+}
+
+div#paymentWizard .providerLink .boxes.paymentProvider .boxes-ml {
+  background-position: right 0;
+}
+
+div#paymentWizard .providerLink .boxes.paymentProvider .boxes-mr {
+  background-position: left 0;
+}
+
+div#paymentWizard .providerLink .boxes.paymentProvider .boxes-mc {
+  background: none;
+  background-color: #FBF8EC;
+}
+
+/**
+ * Hover Styles für die PaymentProvider
+ */
+div#paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-tl {
+  background-position: right 0;
+}
+
+div#paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-tr {
+  background-position: left 0;
+}
+
+div#paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-tc {
+  background-position: right -42px;
+  background-repeat: repeat-x;
+}
+
+div#paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-bl {
+  background-position: right -21px;
+}
+
+div#paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-br {
+  background-position: left -21px;
+}
+
+div#paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-bc {
+  background-position: right -63px;
+  background-repeat: repeat-x;
+}
+
+div#paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-mc {
+  background: none;
+  background-color: #F8F1D0;
+}
+
+/**
+ * Click Styles für die PaymentProvider
+ */
+div#paymentWizard .providerLink:active .boxes.paymentProvider .boxes-tl {
+  background-position: right -168px;
+}
+
+div#paymentWizard .providerLink:active .boxes.paymentProvider .boxes-tr {
+  background-position: left -168px;
+}
+
+div#paymentWizard .providerLink:active .boxes.paymentProvider .boxes-tc {
+  background-position: right -210px;
+  background-repeat: repeat-x;
+}
+
+div#paymentWizard .providerLink:active .boxes.paymentProvider .boxes-bl {
+  background-position: right -189px;
+}
+
+div#paymentWizard .providerLink:active .boxes.paymentProvider .boxes-br {
+  background-position: left -189px;
+}
+
+div#paymentWizard .providerLink:active .boxes.paymentProvider .boxes-bc {
+  background-position: right -231px;
+  background-repeat: repeat-x;
+}
+
+div#paymentWizard .providerLink:active .boxes.paymentProvider .boxes-mc {
+  background: none;
+  background-color: #EDE5BE;
+}
+
+/**
+ * Inactive Styles für die PaymentProvider
+ */
+div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-tl,
+div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-tl {
+  background-position: right -252px;
+}
+
+div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-tr {
+  background-position: left -252px;
+}
+
+div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-tc {
+  background-position: right -294px;
+  background-repeat: repeat-x;
+}
+
+div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-bl {
+  background-position: right -273px;
+}
+
+div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-br {
+  background-position: left -273px;
+}
+
+div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-bc {
+  background-position: right -315px;
+  background-repeat: repeat-x;
+}
+
+div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-mc {
+  background: none;
+  background-color: #D9D5C1;
+}
+
+div#paymentWizard .paymentWizard .providerLink .providerContent {
+  margin-right: 122px;
+  margin-bottom: 15px;
+}
+
+div#paymentWizard .paymentWizard .providerLink .selectedGoldPacket {
+  right: 1px;
+  border-left: 1px solid #BBB49C;
+}
+
+div#paymentWizard .paymentWizard .providerLink .boxes.paymentProvider .boxes-tl,
+div#paymentWizard .paymentWizard .providerLink .boxes.paymentProvider .boxes-tr,
+div#paymentWizard .paymentWizard .providerLink .boxes.paymentProvider .boxes-tc,
+div#paymentWizard .paymentWizard .providerLink .boxes.paymentProvider .boxes-bl,
+div#paymentWizard .paymentWizard .providerLink .boxes.paymentProvider .boxes-br,
+div#paymentWizard .paymentWizard .providerLink .boxes.paymentProvider .boxes-bc {
+  background-image: url('../../img_rtl/paymentWizard/providerBorders-rtl.png');
+}
+
+div#paymentWizard .paymentWizard .providerLink .boxes.paymentProvider .boxes-ml,
+div#paymentWizard .paymentWizard .providerLink .boxes.paymentProvider .boxes-mr {
+  background-image: url('../../img_rtl/paymentWizard/providerBordersVerticalActive-rtl.png');
+}
+
+div#paymentWizard .paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-ml,
+div#paymentWizard .paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-mr {
+  background-image: url('../../img_rtl/paymentWizard/providerBordersVerticalHover-rtl.png');
+}
+
+div#paymentWizard .paymentWizard .providerLink:active .boxes.paymentProvider .boxes-ml,
+div#paymentWizard .paymentWizard .providerLink:active .boxes.paymentProvider .boxes-mr {
+  background-image: url('../../img_rtl/paymentWizard/providerBordersVerticalDown-rtl.png');
+}
+
+div#paymentWizard .paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-ml,
+div#paymentWizard .paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-mr {
+  background-image: url('../../img_rtl/paymentWizard/providerBordersVerticalInactive-rtl.png');
+}
+
+/**
+ * Styles für die Tabs:
+ * Support und Spielerwerben
+ */
+div#paymentWizard.plusSupport,
+div#paymentWizard.earnGold {
+  font-size: 13px;
+}
+.rtl div#paymentWizard.plusSupport, .rtl
+div#paymentWizard.earnGold {
+  font-size: 14px;
+}
+
+div#paymentWizard div.boxes-contents {
+  margin-top: 10px;
+}
+
+div#paymentWizard.earnGold .contentArea .earnGoldPage {
+  display: none;
+}
+
+div#paymentWizard.plusSupport .infoArea img.mentor {
+  position: absolute;
+  width: 253px;
+  height: 430px;
+  background-image: url('../../img_rtl/paymentWizard/mentorBig-rtl.png');
+}
+
+div#paymentWizard.plusSupport .infoArea img.mentor.vid_1 {
+  background-position: 0 0;
+}
+
+div#paymentWizard.plusSupport .infoArea img.mentor.vid_2 {
+  background-position: 0 -430px;
+}
+
+div#paymentWizard.plusSupport .infoArea img.mentor.vid_3 {
+  background-position: 0 -860px;
+}
+
+div#paymentWizard.plusSupport .infoArea img.mentor.vid_6 {
+  background-position: 0 -1290px;
+}
+
+div#paymentWizard.plusSupport .infoArea img.mentor.vid_7 {
+  background-position: 0 -1720px;
+}
+
+div#paymentWizard.plusSupport .contentArea .plusSupportFooter,
+div#paymentWizard.earnGold .infoArea .footer {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  left: 10px;
+}
+
+div#paymentWizard.plusSupport .contentArea .plusSupportFooter .hint {
+  margin: 0 17px;
+  font-style: italic;
+}
+
+div#paymentWizard.earnGold .contentArea .receiverBlock {
+  margin: 0 12px;
+}
+
+div#paymentWizard.earnGold .contentArea .receiverLinkLine,
+div#paymentWizard.earnGold .contentArea .receiverLine {
+  margin: 6px 0;
+}
+
+div#paymentWizard.earnGold .contentArea .receiverLine input {
+  margin-right: 5px;
+}
+
+div#paymentWizard.pros .infoArea .premiumFeatureDescription,
+div#paymentWizard.earnGold .infoArea .howToDescription {
+  margin: 0 12px;
+}
+
+div#paymentWizard.pros .infoArea .premiumFeatureDescription p {
+  font-size: 12px;
+}
+.rtl div#paymentWizard.pros .infoArea .premiumFeatureDescription p {
+  font-size: 13px;
+}
+
+div#paymentWizard.earnGold .infoArea .howToDescription .goldReward {
+  white-space: nowrap;
+}
+
+div#paymentWizard.earnGold .infoArea .howToDescription .amount {
+  font-weight: bold;
+}
+
+div#paymentWizard.plusSupport .contentArea h5,
+div#paymentWizard.earnGold .contentArea .roundedContentBox h5 {
+  color: #666666;
+  font-weight: bold;
+  margin: 6px 7px;
+}
+
+div#paymentWizard.earnGold .contentArea .roundedContentBox.red h5 {
+  color: #D40000;
+}
+
+div#paymentWizard.earnGold .contentArea .roundedContentBox.red .boxContent {
+  color: #D40000;
+}
+
+div#paymentWizard.earnGold .contentArea .buttonLine,
+div#paymentWizard.earnGold .contentArea .message,
+div#paymentWizard.earnGold .contentArea .messageLine {
+  margin: 10px 5px;
+}
+
+div#paymentWizard.earnGold .contentArea .message textarea {
+  width: 100%;
+}
+
+div#paymentWizard.earnGold .contentArea .buttonLine .earnGoldSendMailCancel {
+  float: right;
+}
+
+div#paymentWizard.earnGold .contentArea .buttonLine .earnGoldSendMailSubmit {
+  float: left;
+}
+
+div#paymentWizard.earnGold .contentArea .messageLine {
+  font-weight: bold;
+}
+
+div#paymentWizard.earnGold .contentArea .messageLine .green {
+  color: #99C01A;
+}
+
+div#paymentWizard .contentArea .roundedContentBox {
+  margin: 1px 10px;
+  width: 559px;
+}
+
+div#paymentWizard .contentArea .roundedContentBox .boxContent {
+  margin: 0 14px;
+}
+
+div#paymentWizard .contentArea .roundedContentBox .footer {
+  margin: 5px 14px 10px 14px;
+}
+
+div#paymentWizard .contentArea .roundedContentBox .footer a,
+div#paymentWizard.earnGold .infoArea .footer a,
+div#paymentWizard.earnGold .contentArea a {
+  background-image: url('../../img_rtl/pager/next-rtl.png');
+  background-position: right 4px;
+  padding-right: 8px;
+}
+
+div#paymentWizard.plusSupport .roundedContentBox .boxes-tl,
+div#paymentWizard.plusSupport .roundedContentBox .boxes-tr,
+div#paymentWizard.plusSupport .roundedContentBox .boxes-tc,
+div#paymentWizard.plusSupport .roundedContentBox .boxes-bl,
+div#paymentWizard.plusSupport .roundedContentBox .boxes-br,
+div#paymentWizard.plusSupport .roundedContentBox .boxes-bc,
+div#paymentWizard.earnGold .roundedContentBox .boxes-tl,
+div#paymentWizard.earnGold .roundedContentBox .boxes-tr,
+div#paymentWizard.earnGold .roundedContentBox .boxes-tc,
+div#paymentWizard.earnGold .roundedContentBox .boxes-bl,
+div#paymentWizard.earnGold .roundedContentBox .boxes-br,
+div#paymentWizard.earnGold .roundedContentBox .boxes-bc {
+  background-image: url('../../img_rtl/paymentWizard/providerBorders-rtl.png');
+}
+
+div#paymentWizard.plusSupport .roundedContentBox .boxes-ml,
+div#paymentWizard.plusSupport .roundedContentBox .boxes-mr,
+div#paymentWizard.earnGold .roundedContentBox .boxes-ml,
+div#paymentWizard.earnGold .roundedContentBox .boxes-mr {
+  background-image: url('../../img_rtl/paymentWizard/providerBordersVerticalHover-rtl.png');
+}
+
+div#paymentWizard.plusSupport .roundedContentBox .boxes-tl,
+div#paymentWizard.earnGold .roundedContentBox .boxes-tl {
+  background-position: left 0;
+}
+
+div#paymentWizard.plusSupport .roundedContentBox .boxes-tr,
+div#paymentWizard.earnGold .roundedContentBox .boxes-tr {
+  background-position: right 0;
+}
+
+div#paymentWizard.plusSupport .roundedContentBox .boxes-tc,
+div#paymentWizard.earnGold .roundedContentBox .boxes-tc {
+  background-position: left -42px;
+  background-repeat: repeat-x;
+}
+
+div#paymentWizard.plusSupport .roundedContentBox .boxes-bl,
+div#paymentWizard.earnGold .roundedContentBox .boxes-bl {
+  background-position: left -21px;
+}
+
+div#paymentWizard.plusSupport .roundedContentBox .boxes-br,
+div#paymentWizard.earnGold .roundedContentBox .boxes-br {
+  background-position: right -21px;
+}
+
+div#paymentWizard.plusSupport .roundedContentBox .boxes-bc,
+div#paymentWizard.earnGold .roundedContentBox .boxes-bc {
+  background-position: left -63px;
+  background-repeat: repeat-x;
+}
+
+div#paymentWizard.plusSupport .roundedContentBox .boxes-mc,
+div#paymentWizard.earnGold .roundedContentBox .boxes-mc {
+  background: none;
+  background-color: #F8F1D0;
+}
+
+div#paymentWizard.plusSupport .roundedContentBox .boxes-mr,
+div#paymentWizard.earnGold .roundedContentBox .boxes-mr {
+  background-position: right 0;
+}
+
+div#paymentWizard table,
+div#paymentWizard tr,
+div#paymentWizard td {
+  border-collapse: collapse;
+  background-color: #F8F1D0;
+  border: 1px solid #AD9251;
+  text-align: center;
+}
+
+div#paymentWizard table thead,
+div#paymentWizard table thead tr,
+div#paymentWizard table thead td,
+div#paymentWizard table thead th {
+  background-color: #99C01A;
+  border: 1px solid #646464;
+  color: #F2F2F2;
+  font-weight: bold;
+}
+
+/**
+ * PaginatorStyles
+ */
+div#paymentWizard.earnGold .earnGoldAdvertisedPersonsList .paginator {
+  margin: 10px 2px;
+  float: left;
+}
+
+/**
+ * Link-Styles für Paginator neutralisieren:
+ */
+div#paymentWizard.earnGold .earnGoldAdvertisedPersonsList .paginator a {
+  background-image: none;
+  padding-right: 0;
+}
+
+/**
+ * Styles für den Vorteile Tab
+ */
+div#paymentWizard.pros .infoArea img {
+  width: 124px;
+  height: 120px;
+  position: absolute;
+  bottom: 17px;
+  right: 12px;
+}
+
+div#paymentWizard.pros .infoArea img.prosProductionboostWoodImage {
+  background-image: url('../../img_rtl/paymentWizard/prosProductionboostWoodImage.png');
+}
+
+div#paymentWizard.pros .infoArea img.prosProductionboostClayImage {
+  background-image: url('../../img_rtl/paymentWizard/prosProductionboostClayImage.png');
+}
+
+div#paymentWizard.pros .infoArea img.prosProductionboostIronImage {
+  background-image: url('../../img_rtl/paymentWizard/prosProductionboostIronImage.png');
+}
+
+div#paymentWizard.pros .infoArea img.prosProductionboostCropImage {
+  background-image: url('../../img_rtl/paymentWizard/prosProductionboostCropImage.png');
+}
+
+div#paymentWizard.pros .infoArea img.prosPlusImage {
+  background-image: url('../../img_rtl/paymentWizard/prosPlusImage.png');
+}
+
+div#paymentWizard.pros .infoArea img.prosGoldclubImage {
+  background-image: url('../../img_rtl/paymentWizard/prosGoldclubimage.png');
+}
+
+div#paymentWizard .paymentPopupDialogWrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+div#paymentWizard .paymentPopupDialogWrapper #featureCollection {
+  margin-top: 25px;
+}
+
+/* Anzeige der einzelnen kaufbaren Features */
+div#paymentWizard .feature {
+  width: 560px;
+}
+
+div#paymentWizard .feature .featureContent {
+  width: 547px;
+}
+
+div#paymentWizard .featureCollection .premiumFeatureProductionBoost {
+  margin-bottom: -1px;
+}
+
+div#paymentWizard .feature .dynamicContent {
+  position: absolute;
+  top: 2px;
+  right: -20px;
+}
+
+div#paymentWizard .feature .dynamicContent .highlightArrow {
+  width: 30px;
+  height: 52px;
+  background: url('../../img_rtl/paymentWizard/prosArrow-rtl.png');
+  margin-right: -10px;
+}
+
+/* From here on: new payment shop UI modifications
+ */
+#paymentWizardContainer #paymentWizard {
+  width: 884px;
+}
+
+#paymentWizardContainer #paymentWizard .infoArea {
+  width: 245px;
+  padding: 10px;
+  border: solid 1px #CCBB8F;
+  border-radius: 5px;
+}
+
+#paymentWizardContainer #paymentWizard .contentArea {
+  width: 578px;
+  padding: 10px;
+  border: solid 1px #CCBB8F;
+  border-radius: 5px;
+}
+
+#paymentWizardContainer #paymentWizard .feature {
+  width: 576px;
+}
+
+#paymentWizardContainer #paymentWizard .feature .featureContent {
+  width: 559px;
+}
+
+#paymentWizardContainer #paymentWizard .contentArea .roundedContentBox {
+  width: 561px;
+}
+
+#paymentWizardContainer #paymentWizard h1 {
+  font-size: 15px;
+}
+
+.headerPlayerInfo {
+  position: absolute;
+  left: 0;
+  top: 30px;
+}
+
+.headerPlayerInfo div {
+  float: right;
+}
+
+.headerPlayerInfo #locationSelector {
+  font-size: 14px;
+  font-weight: bold;
+}
+.rtl .headerPlayerInfo #locationSelector {
+  font-size: 15px;
+}
+
+.headerPlayerInfo .accountBalance, div#paymentWizard .accountBalance.v2 {
+  position: relative;
+  top: 0;
+  margin-right: 10px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider {
+  width: 100%;
+  min-height: 250px;
+  box-sizing: border-box;
+  border-top: solid 3px #DDD9CE;
+  border-bottom: solid 3px #DDD9CE;
+  padding: 6px 10px 0;
+  margin-bottom: 10px;
+}
+
+.slideArea {
+  width: 26px;
+  height: 215px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.slideArea.inactive {
+  cursor: default;
+}
+
+.slideArea div {
+  width: 26px;
+  height: 44px;
+  position: absolute;
+  top: 50%;
+  margin-top: -22px;
+}
+
+.slideArea .arrowL {
+  background: url('../../img_rtl/layout/arrowL-rtl.png') no-repeat 0 -44px;
+}
+
+.slideArea .arrowR {
+  background: url('../../img_rtl/layout/arrowR-rtl.png') no-repeat 0 -44px;
+}
+
+.slideArea:hover div {
+  opacity: 0.8;
+}
+
+.slideArea.inactive:hover div {
+  opacity: 1;
+  cursor: default;
+}
+
+.slideArea:active div {
+  opacity: 1;
+}
+
+.slideArea.inactive div {
+  background-position: 0 0;
+}
+
+#packageSlider .slideArea.area2 {
+  position: absolute;
+  left: 0;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .slidingContentOuter {
+  width: 90%;
+  overflow: hidden;
+  margin-right: 5%;
+  height: 231px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .slidingContentInner {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  height: 250px;
+  width: 99999%;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .slidingContent {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .productsPage {
+  width: 780px;
+  transition-duration: 500ms;
+  position: relative;
+  float: right;
+  display: table;
+  text-align: center;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .productsPage.visible {
+  opacity: 1;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .productsPage.hidden {
+  opacity: 0;
+  cursor: default;
+  pointer-events: none;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package,
+#smallestPackageData .package {
+  border: solid 3px #DDD9CE;
+  margin-right: 10px;
+  background-color: #faf5e1;
+  position: relative;
+  transition-duration: 500ms;
+  cursor: pointer;
+  opacity: 1;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package:hover {
+  box-shadow: 0 0 5px #b3b3b3;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .fakeProductHelper {
+  height: 210px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size1,
+#smallestPackageData .package.size1 {
+  width: 148px;
+  height: 210px;
+}
+
+#smallestPackageData .package.size1 {
+  margin-right: 0;
+  cursor: default;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size2 {
+  width: 139px;
+  height: 197px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size3 {
+  width: 131px;
+  height: 187px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size4 {
+  width: 122px;
+  height: 177px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size5 {
+  width: 118px;
+  height: 172px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.placeholder {
+  width: 118px;
+  height: 172px;
+  border: none;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .productsPage .package:nth-child(2) {
+  margin-right: 0 !important;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.visible {
+  opacity: 1;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.selected {
+  box-shadow: 0 0 5px #0AB507;
+  border-color: rgba(10, 181, 7, 0.38);
+  cursor: default;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.hideForLoading {
+  opacity: 0;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .goldProductImageWrapper,
+#smallestPackageData .package .goldProductImageWrapper {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 25px;
+  z-index: 1;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .goldProductImageWrapper img,
+#smallestPackageData .package .goldProductImageWrapper img {
+  max-width: 100%;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .goldProductTextWrapper,
+#smallestPackageData .package .goldProductTextWrapper {
+  text-align: center;
+  color: #574e39;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .goldProductTextWrapper .goldUnits,
+#smallestPackageData .package .goldProductTextWrapper .goldUnits {
+  padding-top: 15px;
+  font-size: 38px;
+  line-height: 30px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size1 .goldProductTextWrapper .goldUnits,
+#smallestPackageData .package.size1 .goldProductTextWrapper .goldUnits {
+  font-size: 38px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size2 .goldProductTextWrapper .goldUnits {
+  font-size: 36px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size3 .goldProductTextWrapper .goldUnits {
+  font-size: 34px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size4 .goldProductTextWrapper .goldUnits {
+  font-size: 32px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size5 .goldProductTextWrapper .goldUnits {
+  font-size: 30px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size6 .goldProductTextWrapper .goldUnits {
+  font-size: 28px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .goldProductTextWrapper .goldUnitsTypeText,
+#smallestPackageData .package .goldProductTextWrapper .goldUnitsTypeText {
+  font-size: 22px;
+  padding-top: 15px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size1 .goldProductTextWrapper .goldUnitsTypeText {
+  font-size: 22px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size2 .goldProductTextWrapper .goldUnitsTypeText {
+  font-size: 20px;
+  padding-top: 14px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size3 .goldProductTextWrapper .goldUnitsTypeText {
+  font-size: 18px;
+  padding-top: 11px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size4 .goldProductTextWrapper .goldUnitsTypeText {
+  font-size: 16px;
+  padding-top: 9px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size5 .goldProductTextWrapper .goldUnitsTypeText {
+  font-size: 14px;
+  padding-top: 7px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size6 .goldProductTextWrapper .goldUnitsTypeText {
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .goldProductTextWrapper .footerLine,
+#smallestPackageData .package .goldProductTextWrapper .footerLine {
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  font-size: 16px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size1 .goldProductTextWrapper .footerLine {
+  font-size: 16px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size2 .goldProductTextWrapper .footerLine {
+  font-size: 15px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size3 .goldProductTextWrapper .footerLine {
+  font-size: 14px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size4 .goldProductTextWrapper .footerLine {
+  font-size: 13px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size5 .goldProductTextWrapper .footerLine {
+  font-size: 12px;
+}
+
+#paymentWizardContainer #paymentWizard #packageSlider .package.size6 .goldProductTextWrapper .footerLine {
+  font-size: 11px;
+}
+
+#paymentWizardContainer #paymentWizard .priceNotificationBox {
+  float: left;
+  padding-top: 5px;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider {
+  width: 550px;
+  box-sizing: border-box;
+  padding: 0 10px 0;
+  min-height: 190px;
+  float: right;
+}
+
+#paymentMethodsSlider .loading {
+  position: absolute;
+  width: 526px;
+  height: 169px;
+  background: url('../../img_rtl/misc/loading.gif') no-repeat center;
+  z-index: 2;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .slidingContentOuter {
+  margin-right: 40px;
+  width: 454px;
+  height: 170px;
+  overflow: hidden;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .slidingContentInner {
+  width: 99999%;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .methodsPage {
+  width: 444px;
+  transition-duration: 500ms;
+  position: relative;
+  float: right;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .methodsPage.visible {
+  opacity: 1;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .methodsPage.hidden {
+  opacity: 0;
+  cursor: default;
+  pointer-events: none;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .methodItem {
+  width: 100px;
+  height: 67px;
+  float: right;
+  margin-bottom: 23px;
+  margin-right: 5px;
+  border: solid 3px #DDD9CE;
+  background-color: #faf5e1;
+  transition-duration: 500ms;
+  text-align: center;
+  cursor: pointer;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .methodItem img {
+  width: 85px;
+  height: 34px;
+  margin-top: 16px;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .methodItem:hover {
+  box-shadow: 0 0 5px #b3b3b3;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .methodItem.selected {
+  box-shadow: 0 0 5px #0AB507;
+  border-color: rgba(10, 181, 7, 0.38);
+  cursor: default;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .methodItem.inactive {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .methodItem.defect {
+  opacity: 0.5;
+  box-shadow: 0 0 50px #B52828 inset;
+  cursor: not-allowed;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .slideArea {
+  width: 47px;
+  height: 168px;
+  position: absolute;
+  cursor: pointer;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .slideArea.inactive {
+  cursor: default;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .slideArea div {
+  width: 26px;
+  height: 44px;
+  position: absolute;
+  top: 50%;
+  margin-top: -22px;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .slideArea .arrowL {
+  background: url('../../img_rtl/layout/arrowL-rtl.png') no-repeat 0 -44px;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .slideArea .arrowR {
+  background: url('../../img_rtl/layout/arrowR-rtl.png') no-repeat 0 -44px;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .slideArea:hover div {
+  opacity: 0.8;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .slideArea.inactive:hover div {
+  opacity: 1;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .slideArea:active div {
+  opacity: 1;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .slideArea.inactive div {
+  background-position: 0 0;
+}
+
+#paymentWizardContainer #paymentWizard #paymentMethodsSlider .slideArea.area2 {
+  position: absolute;
+  margin-right: 500px;
+}
+
+#paymentWizardContainer #paymentWizard #overview {
+  float: right;
+  width: 334px;
+  box-sizing: border-box;
+  padding-right: 15px;
+  padding-left: 9px;
+  position: relative;
+  border-right: solid 3px #DDD9CE;
+}
+
+#paymentWizardContainer #paymentWizard #overview .resultBox {
+  width: 100%;
+  min-height: 173px;
+  padding: 10px;
+  border: solid 3px #DDD9CE;
+  background-color: #faf5e1;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#paymentWizardContainer #paymentWizard #overview .resultBox tr {
+  background-color: transparent;
+  border: none;
+}
+
+#paymentWizardContainer #paymentWizard #overview .resultBox td {
+  background-color: transparent;
+  border: none;
+  text-align: right;
+  font-weight: bold;
+  font-size: 130%;
+  padding: 10px 10px 5px;
+}
+
+#paymentWizardContainer #paymentWizard #overview .resultBox td:nth-child(2) {
+  text-align: left;
+}
+
+#paymentWizardContainer #paymentWizard #overview .resultBox tr:first-child td {
+  padding-bottom: 30px;
+}
+
+#paymentWizardContainer #paymentWizard #overview .resultBox tr:nth-last-of-type(2) {
+  border-top: solid 2px #DDD9CE;
+  border-bottom: solid 2px #DDD9CE;
+}
+
+#paymentWizardContainer #paymentWizard #overview .resultBox tr:last-of-type td {
+  text-align: left;
+}
+
+#paymentWizardContainer #paymentWizard #overview button {
+  text-align: right;
+}
+
+#paymentWizardContainer #paymentWizard #phonePackages {
+  width: 550px;
+  min-height: 90px;
+  float: right;
+  position: relative;
+  padding: 0 10px 0;
+  box-sizing: border-box;
+  border-left: solid 3px #DDD9CE;
+}
+
+#paymentWizardContainer #paymentWizard #phonePackages .package,
+#paymentWizardContainer #paymentWizard #vouchers .package {
+  border: solid 3px #DDD9CE;
+  float: right;
+  background-color: #faf5e1;
+  position: relative;
+  transition-duration: 500ms;
+  cursor: pointer;
+  opacity: 1;
+  width: 110px;
+  height: 67px;
+  margin-right: 5px;
+}
+
+#paymentWizardContainer #paymentWizard #phonePackages .package:first-of-type {
+  margin-right: 45px;
+}
+
+#paymentWizardContainer #paymentWizard #phonePackages .package:hover,
+#paymentWizardContainer #paymentWizard #vouchers .package:hover {
+  box-shadow: 0 0 5px #b3b3b3;
+}
+
+#paymentWizardContainer #paymentWizard #phonePackages .package.selected,
+#paymentWizardContainer #paymentWizard #vouchers .package.selected {
+  box-shadow: 0 0 5px #0AB507;
+  border-color: rgba(10, 181, 7, 0.38);
+  cursor: default;
+}
+
+#paymentWizardContainer #paymentWizard #phonePackages .goldProductImageWrapper,
+#paymentWizardContainer #paymentWizard #vouchers .goldProductImageWrapper {
+  text-align: right;
+  width: 100%;
+  position: absolute;
+}
+
+#paymentWizardContainer #paymentWizard #phonePackages .goldProductImageWrapper img {
+  max-width: 51px;
+  max-height: 51px;
+  margin-top: 8px;
+}
+
+#paymentWizardContainer #paymentWizard #vouchers .goldProductImageWrapper img {
+  max-width: 53%;
+  max-height: 67px;
+}
+
+#paymentWizardContainer #paymentWizard #phonePackages .goldProductTextWrapper,
+#paymentWizardContainer #paymentWizard #vouchers .goldProductTextWrapper {
+  text-align: center;
+  color: #574e39;
+  width: 60%;
+  float: left;
+  padding-top: 2px;
+  margin-left: 1px;
+  position: relative;
+  z-index: 2;
+}
+
+#paymentWizardContainer #paymentWizard #phonePackages .goldProductTextWrapper .goldUnits {
+  padding-top: 0;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+#paymentWizardContainer #paymentWizard #phonePackages .goldProductTextWrapper .goldUnitsTypeText {
+  font-size: 15px;
+  padding-top: 0;
+}
+
+#paymentWizardContainer #paymentWizard #phonePackages .goldProductTextWrapper .footerLine {
+  font-size: 10px;
+  word-break: break-all;
+  font-weight: bold;
+}
+
+#paymentWizardContainer #paymentWizard #vouchers {
+  width: 334px;
+  min-height: 102px;
+  box-sizing: border-box;
+  float: right;
+  position: relative;
+  padding: 0 10px 0;
+}
+
+#paymentWizardContainer #paymentWizard #vouchers .package:first-of-type {
+  margin-right: 5px;
+}
+
+#paymentWizardContainer #paymentWizard #vouchers .goldProductTextWrapper .goldUnits,
+#paymentWizardContainer #paymentWizard #vouchers .goldProductTextWrapper .goldUnitsTypeText,
+#paymentWizardContainer #paymentWizard #vouchers .goldProductTextWrapper .footerLine {
+  display: none;
+}
+
+#paymentWizardContainer #paymentWizard #vouchers .goldProductTextWrapper {
+  max-width: 45%;
+  font-weight: bold;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+#openOrders {
+  width: 100%;
+  min-height: 467px;
+  padding: 10px;
+  border: solid 1px #CCBB8F;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#paymentWizardContainer #paymentWizard .spaceBorder {
+  width: 100%;
+  height: 1px;
+  border-top: solid 3px #DDD9CE;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}

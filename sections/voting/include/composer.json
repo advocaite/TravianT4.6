@@ -1,0 +1,19 @@
+{
+    "name": "travian/voting",
+    "description": "Travian voting",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Amirhossein Matini",
+            "email": "matiniamirhossein@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core"
+        }
+    }
+}

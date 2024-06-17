@@ -1,0 +1,94 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#expansionCulturePoints table {
+  width: 58%;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 15;
+}
+
+#expansionCulturePoints table th,
+#expansionCulturePoints table td {
+  vertical-align: top;
+}
+
+#expansionCulturePoints td {
+  text-align: left;
+}
+
+#expansionCulturePoints th {
+  text-align: right;
+}
+
+#expansionCulturePoints .fluidSpeechBubble-container {
+  width: 41%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 8;
+}
+
+#expansionCulturePoints #villageSlotInformation,
+#expansionCulturePoints #festivalsHint,
+#expansionCulturePoints #culturePointsProductionHint {
+  position: relative;
+}
+
+#expansionCulturePoints .fluidSpeechBubble {
+  margin: 0 auto;
+  margin-bottom: -8px;
+  width: auto;
+}
+
+#expansionCulturePoints .totalRow td, .totalRow th {
+  font-weight: bold;
+}
+
+#expansionCulturePoints .culturePointsSummary,
+#expansionCulturePoints .culturePointsProduction,
+#expansionCulturePoints .currentFestivals {
+  border-bottom: 3px double black;
+}
+
+#expansionCulturePoints .totalRow td div {
+  float: left;
+}
+
+#expansionCulturePoints .totalRow td .speechArrowWrapper {
+  position: absolute;
+  left: -8px;
+}
+
+#expansionCulturePoints .totalRow td div.speechArrowBack {
+  margin: 0 auto;
+}
+
+#expansionCulturePoints td div.speechArrowBack {
+  background-image: url('../../../img_rtl/round/speechBubble/arrowBack-rtl.png');
+}
+
+#expansionCulturePoints td div.speechArrowBack {
+  height: 23px;
+  top: -3px;
+  width: 12px;
+  z-index: 10;
+}
+
+#expansionCulturePoints td div.speechArrowBack {
+  position: relative;
+}
+
+#expansionCulturePoints .fluidSpeechBubble .speechArrowBack {
+  display: none;
+}

@@ -1,0 +1,41 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#finishNowDialog ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#finishNowDialog ul li.notPossibleToFinishNow {
+  color: #888888;
+}
+
+#finishNowDialog p {
+  margin: 0 0 10px;
+}
+
+#finishNowDialog span.lvl {
+  font-size: 12px;
+  color: #F88C1F;
+  font-weight: bold;
+}
+.rtl #finishNowDialog span.lvl {
+  font-size: 13px;
+}
+
+#finishNowDialog .buttonWrapper {
+  text-align: center;
+}

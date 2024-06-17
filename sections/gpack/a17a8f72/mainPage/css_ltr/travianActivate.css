@@ -1,0 +1,948 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ------------------- Activate ------------------- */
+/* ------------------------------------------------ */
+div.activate hr {
+  height: 1px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px dotted #D3D3D3;
+  margin-bottom: 20px;
+}
+div.activate div.btn {
+  text-align: center;
+}
+div.activate div.notice {
+  margin-bottom: 15px;
+}
+div.activate .activation {
+  margin-bottom: 20px;
+}
+div.activate .activation.boxes {
+  float: left;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+div.activate .activation.boxes .boxes-contents {
+  padding: 5px 15px;
+}
+
+div.activate .startsIn {
+  text-align: center;
+  margin-bottom: 20px;
+}
+div.activate .startsIn .activation_time {
+  color: #FF8000;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px 0;
+}
+.rtl div.activate .startsIn .activation_time {
+  font-size: 21px;
+}
+div.activate .activation .code {
+  font-weight: bold;
+}
+div.activate div.email {
+  margin-bottom: 20px;
+}
+div.activate div.email div.boxes-contents {
+  padding: 7px 0;
+}
+div.activate div.email table td.label {
+  padding-left: 175px;
+}
+div.activate div.email table td.input {
+  width: 56%;
+}
+div.activate .error2 {
+  color: #FF8000;
+}
+div.activate .unavailable {
+  font-size: 24px;
+}
+.rtl div.activate .unavailable {
+  font-size: 25px;
+}
+div.activate .container .kind {
+  float: left;
+  width: 90px;
+  position: relative;
+}
+div.activate .container .description-container {
+  width: 400px;
+  height: 220px;
+  float: left;
+  background-image: url('../img_ltr/activate/volkBackground-ltr.jpg');
+  padding: 15px 18px;
+  position: relative;
+}
+div.activate .container .headline {
+  font-size: 120%;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+div.activate .container .description {
+  display: none;
+  height: 200px;
+}
+div.activate #sector .sectorDescription {
+  padding-bottom: 20px;
+}
+div.activate #sector div.sectorSelect {
+  position: relative;
+  width: 513px;
+  height: 198px;
+}
+div.activate #sector .map {
+  margin-right: 10px;
+  padding: 6px 6px 7px 7px;
+  float: left;
+  height: 185px;
+  width: 185px;
+  background-image: url('../img_ltr/activate/map-ltr.png');
+  position: relative;
+}
+div.activate #sector .map.aeu {
+  background-image: url('../img_ltr/activate/map-aeu.png');
+}
+div.activate #sector .map.territorial {
+  background-image: url('../img_ltr/activate/map-territorial.png');
+}
+div.activate #sector .map .sector {
+  width: 92px;
+  height: 92px;
+  float: left;
+}
+div.activate #sector .map #no {
+  margin-left: 1px;
+}
+div.activate #sector .map #sw {
+  margin-top: 1px;
+}
+div.activate #sector .map #so {
+  margin-top: 1px;
+  margin-left: 1px;
+}
+div.activate #sector .map .sector .active, div.activate #sector .map .sector .hover, div.activate #sector .map .sector .disabled {
+  background-image: url('../img_ltr/activate/mapActive.png');
+}
+
+div.activate #sector .map .sector .highlight {
+  width: 92px;
+  height: 92px;
+}
+div.activate #sector .map .sector .hover {
+  background-position: left -100px;
+}
+div.activate #sector .map .sector .disabled {
+  background-position: left -200px;
+}
+
+div.activate div.vidDescription {
+  padding: 0 20px 20px;
+}
+div.activate .container div.vidSelect {
+  position: relative;
+  width: 541px;
+  height: 252px;
+}
+div.activate .container .kind .vid {
+  background-image: url('../img_ltr/activate/volkIcon-ltr.png');
+  width: 80px;
+  height: 72px;
+  cursor: pointer;
+  padding: 6px 0;
+}
+
+div.activate .container .kind .vid1 {
+  background-position: -11px -388px;
+}
+div.activate .container .kind .vid2 {
+  background-position: -11px -688px;
+}
+div.activate .container .kind .vid3 {
+  background-position: -11px -88px;
+}
+div.activate .container .kind .vid1Highlight {
+  background-position: -11px -482px;
+}
+div.activate .container .kind .vid2Highlight {
+  background-position: -11px -782px;
+}
+div.activate .container .kind .vid3Highlight {
+  background-position: -11px -182px;
+}
+div.activate .container .kind .vid1Active {
+  background-position: -11px -582px;
+}
+div.activate .container .kind .vid2Active {
+  background-position: -11px -882px;
+}
+div.activate .container .kind .vid3Active {
+  background-position: -11px -282px;
+}
+div.activate .container .description-container li {
+  line-height: 140%;
+  padding: 2px 0;
+  background-image: url('../img_ltr/activate/dot.png');
+  padding-left: 16px;
+  background-position: left 9px;
+}
+div.activate .container .description-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+div.activate .container .description-container .text {
+  width: 285px;
+}
+div.activate .container .description-container .special {
+  margin-bottom: 10px;
+}
+div.activate .container .description-container .bubble {
+  background-image: url('../img_ltr/activate/bubble-ltr.png');
+  height: 30px;
+  left: -10px;
+  position: absolute;
+  width: 38px;
+}
+
+div.activate .container .description-container .vid1 .bubble {
+  top: 115px;
+}
+div.activate .container .description-container .vid2 .bubble {
+  top: 200px;
+}
+div.activate .container .description-container .vid3 .bubble {
+  top: 30px;
+}
+div.activate .submitButton {
+  text-align: center;
+  margin-top: 15px;
+}
+div.activate .boxGrey .boxTop, div.activate .boxGrey .boxBottom, div.activate .boxGrey .boxMiddle {
+  width: 551px;
+}
+div.activate .boxGrey .content {
+  position: relative;
+  padding: 15px 5px;
+}
+div.activate div.ffBug {
+  display: none;
+}
+div.activate .boxVidInfo {
+  margin-bottom: 25px;
+}
+div.activate .boxVidInfo .greenbox-content {
+  padding: 0px 20px;
+  width: 515px;
+  color: #228B22;
+  font-weight: bold;
+}
+div.activate .avatar {
+  background-image: url('../img_ltr/activate/avatars-ltr.png');
+  height: 180px;
+  width: 190px;
+  position: absolute;
+  right: -35px;
+}
+
+div.activate #vid .avatar {
+  bottom: -72px;
+}
+
+div.activate .avatar.vid1 {
+  background-position: 0 -416px;
+}
+div.activate .avatar.vid2 {
+  background-position: 0 -216px;
+}
+div.activate .avatar.vid3 {
+  background-position: 0 -16px;
+}
+
+div.activate .changeVid a {
+  color: #333333;
+  background-image: url('../img_ltr/activate/arrow-ltr.png');
+  display: block;
+  height: 20px;
+  padding-left: 30px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+div.activate .start {
+  background-image: url('../img_ltr/activate/bubbleSector-ltr.jpg');
+  float: right;
+  height: 25px;
+  padding: 26px 20px 25px 30px;
+  width: 254px;
+}
+div.activate .start select {
+  width: 100%;
+}
+div.activate #sector .buttonContainer {
+  float: right;
+  padding-left: 5px;
+  padding-top: 20px;
+  width: 299px;
+  height: 25px;
+}
+div.activate #sector .boxGrey .content {
+  padding: 15px 19px;
+  position: relative;
+}
+div.activate #sector .avatar {
+  bottom: -16px;
+}
+
+/* new activation screen UI */
+.activate div#contentOuterContainer {
+  margin-bottom: 50px;
+}
+.activate .activationScreen {
+  width: 100%;
+}
+.activate .activationScreen * {
+  box-sizing: border-box;
+}
+.activate .activationScreen #presentation {
+  padding: 7px 7px 10px;
+  min-height: 330px;
+  position: relative;
+  width: 100%;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+.activate .activationScreen #presentation.sectors {
+  background-color: transparent;
+}
+.activate .activationScreen #presentation.confirmation {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(144, 120, 92, 0.5);
+}
+.activate .activationScreen #presentation svg {
+  width: 100%;
+  min-height: 250px;
+  box-sizing: border-box;
+  overflow: visible;
+  position: relative;
+}
+.activate .activationScreen #presentation svg .outer {
+  stroke: #e4cd98;
+  stroke-width: 5;
+  fill: #bb8050;
+}
+.activate .activationScreen #presentation svg .inner {
+  fill: #fdeaa7;
+}
+.activate .activationScreen #presentation svg .arrowFirst {
+  position: absolute;
+  top: 0;
+}
+.activate .activationScreen #presentation h2 {
+  font-size: 200%;
+  padding: 0;
+  margin: 0;
+  color: #7b2e00;
+  text-shadow: 1px 0 1px rgba(85, 85, 85, 0.35), 1px 1px 1px rgba(85, 85, 85, 0.35), 0 1px 1px rgba(85, 85, 85, 0.35), -1px 1px 1px rgba(85, 85, 85, 0.35), -1px 0 1px rgba(85, 85, 85, 0.35), -1px -1px 1px rgba(85, 85, 85, 0.35), 0 -1px 1px rgba(85, 85, 85, 0.35), 1px -1px 1px rgba(85, 85, 85, 0.35);
+  text-transform: uppercase;
+}
+.activate .activationScreen #presentation #descriptions {
+  position: relative;
+  min-height: 220px;
+}
+.activate .activationScreen #presentation #tribeSelectors {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.activate .activationScreen #presentation #tribeSelectors input {
+  display: none;
+  /* mirror tribe 6 + 7 */
+}
+.activate .activationScreen #presentation #tribeSelectors input + .selector {
+  flex: 1;
+  min-width: 80px;
+  max-width: 80px;
+  height: 80px;
+  border: solid 2px #4f3d2d;
+  border-radius: 3px;
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: #fdeaa7;
+  box-shadow: 2px 2px 30px #958371 inset, -2px -2px 30px #958371 inset;
+  position: relative;
+  cursor: pointer;
+  display: block;
+  transition-duration: 150ms;
+}
+.activate .activationScreen #presentation #tribeSelectors input + .selector[data-text]:before {
+  content: attr(data-text);
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  background-color: #ed1c24;
+  border-bottom: solid 1px #b3191d;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: -22px;
+  right: -2px;
+  z-index: 2;
+  font-size: 70%;
+  line-height: 150%;
+  font-weight: bold;
+}
+.activate .activationScreen #presentation #tribeSelectors input + .selector:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: 0 80px;
+}
+.activate .activationScreen #presentation #tribeSelectors input + .selector:hover:after {
+  background-position: 0 0;
+}
+.activate .activationScreen #presentation #tribeSelectors input + .selector + .tribeDescription {
+  width: calc(100% - 30px);
+  padding: 25px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 200px;
+  z-index: 1;
+  color: transparent;
+  transition-duration: 150ms;
+  opacity: 0;
+}
+.activate .activationScreen #presentation #tribeSelectors input + .selector + .tribeDescription[data-text]:before {
+  content: attr(data-text);
+  width: auto;
+  background-color: #35700e;
+  border-bottom: solid 2px #2f2919;
+  color: #F2F2F2;
+  right: 25px;
+  top: 2px;
+  padding: 7px;
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 80%;
+}
+.activate .activationScreen #presentation #tribeSelectors input + .selector + .tribeDescription ul {
+  top: -15px;
+  left: 0;
+  padding: 70px 0 0 25px;
+  width: 100%;
+  position: absolute;
+  height: calc(100% + 20px);
+  font-weight: bold;
+  list-style: none;
+}
+.activate .activationScreen #presentation #tribeSelectors input + .selector + .tribeDescription ul li {
+  max-width: calc(100% - 180px);
+  padding-left: 25px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+.activate .activationScreen #presentation #tribeSelectors input + .selector + .tribeDescription ul li:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  margin-left: -25px;
+}
+.activate .activationScreen #presentation #tribeSelectors input + .selector + .tribeDescription ul:after {
+  content: "";
+  position: absolute;
+  width: 188px;
+  height: 176px;
+  bottom: -1px;
+  right: 0;
+  background-image: url('../img_ltr/activate/avatars-ltr.png');
+  background-position: 0 0;
+  z-index: -1;
+  opacity: 0;
+}
+.activate .activationScreen #presentation #tribeSelectors input:not(:checked):active + .selector {
+  box-shadow: none;
+}
+.activate .activationScreen #presentation #tribeSelectors input:checked + .selector {
+  border: solid 2px #f8d483;
+  box-shadow: 2px 2px 30px #ba7e4d inset, -2px -2px 30px #ba7e4d inset;
+  cursor: default;
+}
+.activate .activationScreen #presentation #tribeSelectors input:checked + .selector:after {
+  background-position: 0 0;
+}
+.activate .activationScreen #presentation #tribeSelectors input:checked + .selector + .tribeDescription {
+  z-index: 2;
+  opacity: 1;
+  color: #555555;
+}
+.activate .activationScreen #presentation #tribeSelectors input:checked + .selector + .tribeDescription ul:after {
+  opacity: 1;
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="1"] + .selector:after {
+  background-image: url('../img_ltr/activate/tribeSelection/tribe1.png');
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="1"] + .selector + .tribeDescription ul li:before {
+  background-image: url('../img_ltr/u/v1_romans2.gif');
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="1"] + .selector + .tribeDescription ul:after {
+  background-position: 0 -433px;
+  height: 202px;
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="2"] + .selector:after {
+  background-image: url('../img_ltr/activate/tribeSelection/tribe2.png');
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="2"] + .selector + .tribeDescription ul li:before {
+  background-image: url('../img_ltr/u/v2_teutons2.gif');
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="2"] + .selector + .tribeDescription ul:after {
+  background-position: 0 -217px;
+  height: 202px;
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="3"] + .selector:after {
+  background-image: url('../img_ltr/activate/tribeSelection/tribe3.png');
+  background-position-x: -8px;
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="3"] + .selector + .tribeDescription ul li:before {
+  background-image: url('../img_ltr/u/v3_gauls2.gif');
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="3"] + .selector + .tribeDescription ul:after {
+  background-position: 0 0;
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="6"] + .selector:after {
+  background-image: url('../img_ltr/activate/tribeSelection/tribe6.png');
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="6"] + .selector + .tribeDescription ul li:before {
+  background-image: url('../img_ltr/u/v6_egypts2.gif');
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="6"] + .selector + .tribeDescription ul:after {
+  background-position: 0 -649px;
+  height: 215px;
+  bottom: -14px;
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="7"] + .selector:after {
+  background-image: url('../img_ltr/activate/tribeSelection/tribe7.png');
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="7"] + .selector + .tribeDescription ul li:before {
+  background-image: url('../img_ltr/u/v7_huns2.gif');
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="7"] + .selector + .tribeDescription ul:after {
+  background-position: 0 -851px;
+  height: 216px;
+  bottom: -1px;
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="6"] + .selector + .tribeDescription h2, .activate .activationScreen #presentation #tribeSelectors input[value="7"] + .selector + .tribeDescription h2 {
+  margin-left: 180px;
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="6"] + .selector + .tribeDescription ul, .activate .activationScreen #presentation #tribeSelectors input[value="7"] + .selector + .tribeDescription ul {
+  width: calc(100% - 180px);
+  left: 180px;
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="6"] + .selector + .tribeDescription ul:after, .activate .activationScreen #presentation #tribeSelectors input[value="7"] + .selector + .tribeDescription ul:after {
+  left: -180px;
+}
+.activate .activationScreen #presentation #tribeSelectors input[value="6"] + .selector + .tribeDescription ul li, .activate .activationScreen #presentation #tribeSelectors input[value="7"] + .selector + .tribeDescription ul li {
+  max-width: 100%;
+}
+.activate .activationScreen #presentation #activationMapContainer {
+  width: 317px;
+  height: 297px;
+  padding: 10px;
+  box-sizing: content-box;
+  background-color: rgba(144, 120, 92, 0.5);
+  border-radius: 4px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.activate .activationScreen #presentation #activationMapContainer:after {
+  content: "";
+  width: 317px;
+  height: 297px;
+  background-image: url('../img_ltr/activate/sectorSelection/map-background-ltr.png');
+  z-index: -1;
+  position: absolute;
+}
+.activate .activationScreen #presentation #activationMapContainer #map {
+  border: solid 2px rgba(255, 255, 255, 0.4);
+  box-sizing: content-box;
+  width: 276px;
+  height: 256px;
+  left: 28px;
+  top: 28px;
+  position: absolute;
+}
+.activate .activationScreen #presentation #activationMapContainer #map:after {
+  content: "";
+  width: 276px;
+  height: 256px;
+  background-image: url('../img_ltr/activate/sectorSelection/map.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  box-sizing: content-box;
+}
+.activate .activationScreen #presentation #activationMapContainer #map:before {
+  content: "";
+  width: 276px;
+  height: 256px;
+  background: url('../img_ltr/activate/sectorSelection/sector-divider-ltr.png') center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  box-shadow: 2px 2px 40px #ceac76 inset, -2px -2px 40px #ceac76 inset, 2px -2px 40px #ceac76 inset, -2px 2px 40px #ceac76 inset;
+  box-sizing: content-box;
+}
+.activate .activationScreen #presentation #activationMapContainer #map.territorial:after {
+  background-image: url('../img_ltr/activate/sectorSelection/map-territorial.png');
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"] {
+  display: none;
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"]:disabled + label {
+  background-color: rgba(50, 50, 50, 0.5);
+  cursor: auto;
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"] + label {
+  width: 138px;
+  height: 127px;
+  display: inline-block;
+  position: absolute;
+  z-index: 6;
+  color: #655642;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  font-size: 80%;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(196, 158, 102, 0.5);
+  background-position: top center;
+  transition-duration: 250ms;
+  cursor: pointer;
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"] + label:hover {
+  background-color: rgba(116, 94, 60, 0.5);
+  color: #fdefcc;
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"] + label:active {
+  box-shadow: 0 0 40px #5e3f2a inset;
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"] + label[data-text]:before {
+  content: attr(data-text);
+  width: auto;
+  position: absolute;
+  bottom: 10px;
+  background-color: #35700e;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #F2F2F2;
+  font-size: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.65;
+}
+.territorial label[data-text]:before {
+  color: #655642 !important;
+  background-color: #f1b900 !important;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+.rtl .activate .activationScreen #presentation #activationMapContainer #map input[name="sector"] + label[data-text]:before {
+  transform: translateX(50%);
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"][value="nw"] + label {
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"][value="no"] + label {
+  right: 0;
+  top: 0;
+  padding-top: 10px;
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"][value="sw"] + label {
+  left: 0;
+  bottom: 0;
+  padding-top: 90px;
+  height: 129px;
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"][value="so"] + label {
+  right: 0;
+  bottom: 0;
+  padding-top: 90px;
+  height: 129px;
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"][value="sw"] + label[data-text]:before, .activate .activationScreen #presentation #activationMapContainer #map input[name="sector"][value="so"] + label[data-text]:before {
+  bottom: 40px;
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"]:checked + label {
+  background-color: transparent;
+  background: url('../img_ltr/activate/sectorSelection/banner-ltr.png') no-repeat center;
+  cursor: default;
+  transition-timing-function: ease-in;
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"]:checked + label:hover {
+  background-color: transparent;
+  color: #655642;
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"]:checked + label:active {
+  background-color: transparent;
+  color: #655642;
+  box-shadow: none;
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"]:checked + label[data-text]:before {
+  opacity: 1;
+}
+.activate .activationScreen #presentation #activationMapContainer #map input[name="sector"]:checked[value="sw"] + label[data-text], .activate .activationScreen #presentation #activationMapContainer #map input[name="sector"]:checked[value="so"] + label[data-text] {
+  background-position: center 10px;
+}
+.activate .activationScreen #presentation.confirmation #activationMapContainer {
+  top: 10px;
+  right: 0;
+  transform: scale(0.78);
+  background-color: transparent;
+  position: absolute;
+}
+.activate .activationScreen #presentation.confirmation #activationMapContainer input[name="sector"] + label {
+  cursor: default !important;
+  pointer-events: none;
+}
+.activate .activationScreen #presentation.confirmation #selectedTribe {
+  position: absolute;
+  top: 55px;
+  left: 55px;
+}
+.activate .activationScreen #presentation.confirmation #selectedTribe .character {
+  width: 200px;
+  height: 190px;
+  margin-bottom: 10px;
+  background-image: url('../img_ltr/activate/avatars-ltr.png');
+  background-position: 0 0;
+}
+.activate .activationScreen #presentation.confirmation #selectedTribe.tribe1 .character {
+  background-position: 0 -433px;
+}
+.activate .activationScreen #presentation.confirmation #selectedTribe.tribe2 .character {
+  background-position: 0 -217px;
+}
+.activate .activationScreen #presentation.confirmation #selectedTribe.tribe3 .character {
+  background-position: 0 0;
+}
+.activate .activationScreen #presentation.confirmation #selectedTribe.tribe6 .character {
+  height: 207px;
+  background-position: 0 -648px;
+  margin-top: -7px;
+}
+.activate .activationScreen #presentation.confirmation #selectedTribe.tribe7 .character {
+  height: 215px;
+  background-position: 0 -863px;
+  margin-bottom: 0;
+}
+.activate .activationScreen #presentation.confirmation #selectedTribe .tribeName {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.rtl .activate .activationScreen #presentation.confirmation #selectedTribe .tribeName {
+  transform: translateX(50%);
+}
+.activate .activationScreen .acceptChallenge {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  z-index: 3;
+  font-weight: bold;
+  text-shadow: 1px 0 2px #000000, 1px 1px 2px #000000, 0 1px 2px #000000, -1px 1px 2px #000000, -1px 0 2px #000000, -1px -1px 2px #000000, 0 -1px 2px #000000, 1px -1px 2px #000000;
+}
+.activate .activationScreen .buttonContainer {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  z-index: 2;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+  grid-template-columns: 100%;
+}
+.activate .activationScreen .buttonContainer button {
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+.ie .activate .activationScreen .buttonContainer button {
+  margin-top: 40px;
+}
+body:not(.safari) .activate .activationScreen .buttonContainer button.green:disabled span {
+  transition: padding 250ms;
+}
+body:not(.safari) .activate .activationScreen .buttonContainer button.green:disabled span:before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  display: block;
+  top: 3px;
+  right: 15px;
+  background-image: url('../img_ltr/views/activation/loading.png');
+  background-size: contain;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 250ms;
+}
+body:not(.safari) .activate .activationScreen .buttonContainer button.green:disabled.loading span {
+  padding-right: 20px;
+}
+body:not(.safari) .activate .activationScreen .buttonContainer button.green:disabled.loading span:before {
+  opacity: 0.4;
+  animation: loadingSpinner 2s linear infinite;
+}
+@keyframes loadingSpinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.activate .activationScreen .buttonContainer button.green:not(:hover):not(:focus):not(:active) {
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.8), 1px 1px 0 rgba(0, 0, 0, 0.8), 0 1px 0 rgba(0, 0, 0, 0.8), -1px 1px 0 rgba(0, 0, 0, 0.8), -1px 0 0 rgba(0, 0, 0, 0.8), -1px -1px 0 rgba(0, 0, 0, 0.8), 0 -1px 0 rgba(0, 0, 0, 0.8), 1px -1px 0 rgba(0, 0, 0, 0.8);
+}
+.activate .activationScreen .buttonContainer button.green:not(:hover):not(:focus):not(:active):disabled {
+  text-shadow: none;
+}
+.activate .activationScreen .buttonContainer button.green:not(:hover):not(:focus):not(:active):not(:disabled) {
+  animation: activationButtonGrow 6s ease-in-out infinite;
+}
+.ie .activate .activationScreen .buttonContainer button.green:not(:hover):not(:focus):not(:active):not(:disabled), .edge .activate .activationScreen .buttonContainer button.green:not(:hover):not(:focus):not(:active):not(:disabled) {
+  animation: none;
+}
+.activate .activationScreen .buttonContainer button.green:not(:hover):not(:focus):not(:active):not(:disabled):before, .activate .activationScreen .buttonContainer button.green:not(:hover):not(:focus):not(:active):not(:disabled):after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+.activate .activationScreen .buttonContainer button.green:not(:hover):not(:focus):not(:active):not(:disabled):before {
+  background-image: url('../img_ltr/views/activation/buttonHighlight.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: -50px 0;
+  animation: activationButtonFlash 6s linear infinite;
+}
+.activate .activationScreen .buttonContainer button.green:not(:hover):not(:focus):not(:active):not(:disabled):after {
+  opacity: 0;
+  background-color: #8ad220;
+  animation: activationButtonGlow 6s ease-in-out infinite;
+}
+.ie .activate .activationScreen .buttonContainer button.green:not(:hover):not(:focus):not(:active):not(:disabled):after, .edge .activate .activationScreen .buttonContainer button.green:not(:hover):not(:focus):not(:active):not(:disabled):after {
+  animation: none;
+}
+.activate .activationScreen .buttonContainer button.green:not(:hover):not(:focus):not(:active):not(:disabled) span {
+  animation: activationButtonTextGlow 6s ease-in-out infinite;
+  pointer-events: none;
+  position: relative;
+  z-index: 2;
+}
+.ie .activate .activationScreen .buttonContainer button.green:not(:hover):not(:focus):not(:active):not(:disabled) span, .edge .activate .activationScreen .buttonContainer button.green:not(:hover):not(:focus):not(:active):not(:disabled) span {
+  animation: none;
+}
+@keyframes activationButtonFlash {
+  0% {
+    background-position: -50px 0;
+  }
+  92% {
+    background-position: -50px 0;
+  }
+  100% {
+    background-position: 150% 0;
+  }
+}
+@keyframes activationButtonGrow {
+  0% {
+    transform: scale(1.5);
+  }
+  10% {
+    transform: scale(1.5);
+  }
+  35% {
+    transform: scale(1.65);
+  }
+  60% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+@keyframes activationButtonGlow {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 0.9;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes activationButtonTextGlow {
+  0% {
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0.8), 1px 1px 0 rgba(0, 0, 0, 0.8), 0 1px 0 rgba(0, 0, 0, 0.8), -1px 1px 0 rgba(0, 0, 0, 0.8), -1px 0 0 rgba(0, 0, 0, 0.8), -1px -1px 0 rgba(0, 0, 0, 0.8), 0 -1px 0 rgba(0, 0, 0, 0.8), 1px -1px 0 rgba(0, 0, 0, 0.8);
+  }
+  10% {
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0.8), 1px 1px 0 rgba(0, 0, 0, 0.8), 0 1px 0 rgba(0, 0, 0, 0.8), -1px 1px 0 rgba(0, 0, 0, 0.8), -1px 0 0 rgba(0, 0, 0, 0.8), -1px -1px 0 rgba(0, 0, 0, 0.8), 0 -1px 0 rgba(0, 0, 0, 0.8), 1px -1px 0 rgba(0, 0, 0, 0.8);
+  }
+  35% {
+    text-shadow: 1px 0 0 rgba(91, 91, 91, 0.8), 1px 1px 0 rgba(91, 91, 91, 0.8), 0 1px 0 rgba(91, 91, 91, 0.8), -1px 1px 0 rgba(91, 91, 91, 0.8), -1px 0 0 rgba(91, 91, 91, 0.8), -1px -1px 0 rgba(91, 91, 91, 0.8), 0 -1px 0 rgba(91, 91, 91, 0.8), 1px -1px 0 rgba(91, 91, 91, 0.8);
+  }
+  60% {
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0.8), 1px 1px 0 rgba(0, 0, 0, 0.8), 0 1px 0 rgba(0, 0, 0, 0.8), -1px 1px 0 rgba(0, 0, 0, 0.8), -1px 0 0 rgba(0, 0, 0, 0.8), -1px -1px 0 rgba(0, 0, 0, 0.8), 0 -1px 0 rgba(0, 0, 0, 0.8), 1px -1px 0 rgba(0, 0, 0, 0.8);
+  }
+}
+.activate .contentContainer #content a.contentTitleButton {
+  position: absolute;
+  top: 0;
+  left: 5px;
+}

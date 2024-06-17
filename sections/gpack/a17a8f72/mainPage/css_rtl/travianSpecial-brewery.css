@@ -1,0 +1,41 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/*------------------------------------------------------------------------------
+ * travianBrewery.css is used is used to define the image of the brewery.
+ *------------------------------------------------------------------------------
+ */
+img.g35 {
+  background-image: url('../img_rtl/g/defaultBuildings/g35-rtl.png');
+}
+
+img.g35b {
+  background-image: url('../img_rtl/g/defaultBuildings/construction/g35b-rtl.png');
+}
+
+img.g35Icon {
+  background-image: url('../img_rtl/g/defaultBuildings/icon/g35Icon.gif');
+}
+
+img.g35.big {
+  background-image: url('../img_rtl/g/defaultBuildings/big/g35-rtl.png');
+}
+
+/* Winter edition */
+body.season-winter img.g35:not(.big) {
+  background-image: url('../img_rtl/g/defaultBuildings/winter/g35_brewery.png');
+}
+
+body.season-winter img.g35b {
+  background-image: url('../img_rtl/g/defaultBuildings/winter/construction/g35b_brewery.png');
+}

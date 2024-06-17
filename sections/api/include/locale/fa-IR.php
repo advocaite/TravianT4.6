@@ -1,0 +1,26 @@
+<?php
+$T['Thank you for registering on %s'] = 'از ثبت نام شما در جهان بازی %s متشکریم.';
+$T['You have requested a search for your game world'] = 'شما برای سرور بازی‌تان درخواست جستجو داده‌اید';
+$T['You have requested a new password for %s'] = 'شما رمز عبور جدیدی را درخواست کرده‌اید برای %s';
+$T['You received this email because you registered on our website.'] = 'شما این ایمیل را به دلیل اینکه در سایت ما ثبت نام کرده اید دریافت کرده اید.';
+$T['activation.yourRegistrationOn'] = 'ثبت نام شما در %s';
+$T['activation.confirm'] = 'تایید';
+$T['activation.thankYouForRegisteringOn'] = 'از ثبت نام شما در جهان بازی %s متشکریم.';
+$T['activation.activationCode'] = 'کد فعال سازی: <strong>%s</strong>';
+$T['activation.toVerifyYourEmailAndActivate'] = 'برای تایید ایمیل خود و <strong>فعال سازی</strong> اکانت ثبت نامی، روی دکمه زیر کلیک کنید و یا کد فعال سازی را در صفحه فعال سازی وارد کنید.';
+$T['activation.hello'] = 'سلام <strong>%s</strong>،';
+$T['forgotGameWorld.youHaveRequested'] = 'شما درخواست جستجو برای جهان بازی ثبت کرده اید.';
+$T['forgotGameWorld.accountName'] = 'نام کاربری';
+$T['forgotGameWorld.gameWorld'] = 'جهان بازی';
+$T['forgotGameWorld.gameWorldLink'] = 'لینک جهان بازی';
+$T['forgotGameWorld.weHaveSearchedOutGameWorlds'] = 'ما در لیست جهان های بازی به دنبال ایمیل شما گشتیم و اکانت های زیر را پیدا کرده اید. برای ورود روی لینک جهان بازی کلیک کنید.';
+$T['forgotPassword.youHaveRequestedANewPasswordFor'] = 'شما رمز عبور جدیدی را درخواست کرده‌اید برای s%';
+$T['forgotPassword.changePassword'] = 'تغییر رمز عبور';
+$T['forgotPassword.toResetYourAccountPassword'] = 'برای بازیابی رمز عبور، روی دکمه تغییر رمز عبور کلیک کنید. زمانی که رمز عبور جدید را ثبت کردید، می توانید با آن وارد اکانت خود شوید.';
+$T['registrationComplete.thankYouForRegisteringOn'] = 'از ثبت نام شما در جهان بازی %s متشکریم.';
+$T['registrationComplete.yourAccountIsNowActivated'] = 'اکانت شما هم اکنون فعال می باشد و اقدام دیگری از طرف شما لازم نیست.';
+$T['registrationComplete.accountName'] = 'نام کاربری';
+$T['registrationComplete.password'] = 'رمز عبور';
+$T['registrationComplete.gameWorld'] = 'جهان بازی';
+$T['registrationComplete.ifGameIsNotStartedYet'] = 'اگر بازی شروع نشده است، برای فعال سازی اکانت خود بعد از شروع سرور با مشخصات خود وارد شوید.';
+return $T;

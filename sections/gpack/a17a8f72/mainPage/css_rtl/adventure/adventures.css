@@ -1,0 +1,113 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.headerAdventures {
+  line-height: 20px;
+  height: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+div.durationCalculationsContainer img.openedClosedSwitch {
+  width: 18px;
+  height: 18px;
+  float: right;
+  padding: 0;
+  margin-left: 5px;
+}
+
+.adventureStatusMessage {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.adventureStatusMessage .subMessage,
+.attribute .subMessage {
+  padding-right: 20px;
+  font-style: italic;
+}
+
+.durationCalculationsContainer {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+#chooseOtherVillageLink {
+  color: #333333;
+}
+
+.durationCalculations {
+  margin: 10px 30px 0 30px;
+}
+
+.durationCalculationsContainer .close {
+  margin-top: -4px;
+}
+
+#infoMoveHero {
+  padding: 10px 5px 0 5px;
+  text-align: justify;
+}
+
+.durationCalculations select {
+  min-width: 150px;
+}
+
+.slower {
+  color: #fc9511;
+}
+
+.faster {
+  color: #498843;
+}
+
+#adventureListForm a.disabled {
+  color: #d2d2d2;
+  cursor: default;
+}
+
+div#rallyPointNeeded {
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+#heroInVillageInfo {
+  padding: 5px;
+  padding-top: 10px;
+}
+#heroInVillageInfo .duration {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+#heroInVillageInfo .duration i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-left: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+#heroInVillageInfo .duration span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+#heroInVillageInfo .moveHeroLink {
+  float: left;
+}

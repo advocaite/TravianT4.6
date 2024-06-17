@@ -1,0 +1,181 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* --- Center general --- */
+div#center {
+  position: relative;
+  margin-bottom: 10px;
+  min-height: 660px;
+  width: 100%;
+}
+div#center:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* --- Sidebars --- */
+div.sidebar {
+  position: relative;
+  z-index: 30;
+  float: right;
+  width: calc(((100% - 600px) / 2) - 30px);
+  min-width: 300px;
+  min-height: 660px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+div.sidebar.beforeContent {
+  align-items: flex-start;
+  margin-left: 30px;
+}
+div.sidebar.afterContent {
+  align-items: flex-end;
+  margin-right: 30px;
+}
+
+/* --- Content --- */
+div#center div#contentOuterContainer, div#centerPreview div#contentOuterContainerPreview {
+  position: relative;
+  float: right;
+  z-index: 31;
+}
+div#center div#contentOuterContainer.size1, div#centerPreview div#contentOuterContainerPreview.size1 {
+  max-width: 600px;
+}
+div#center div#contentOuterContainer.size2, div#centerPreview div#contentOuterContainerPreview.size2 {
+  width: 795px;
+}
+
+body.loader div#contentOuterContainer, body.login div#contentOuterContainer, body.logout div#contentOuterContainer, body.signup div#contentOuterContainer, body.support div#contentOuterContainer, body.activate div#contentOuterContainer, body.error_site div#contentOuterContainer, body.fatal_error div#contentOuterContainer, body.banned_cn div#contentOuterContainer {
+  padding-top: 56px;
+}
+
+body.activate div#contentOuterContainer {
+  padding-top: 0;
+  margin-top: 56px;
+  box-shadow: 2px 2px 3px #d2c7a9, -2px -2px 3px #d2c7a9, 2px -2px 3px #d2c7a9, -2px 2px 3px #d2c7a9;
+  min-height: 0;
+  align-self: flex-start;
+  font-size: 120%;
+  line-height: 1.5rem;
+}
+
+div#center div#contentOuterContainer div.contentTitle, div#centerPreview div#contentOuterContainerPreview div.contentTitle {
+  height: 37px;
+  background-color: #fef7e7;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border: solid 1px #b39253;
+  box-shadow: 0 0 10px rgba(179, 146, 83, 0.7) inset;
+}
+.activate div#center div#contentOuterContainer div.contentTitle, .activate div#centerPreview div#contentOuterContainerPreview div.contentTitle {
+  background-color: rgba(56, 55, 54, 0.9);
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+}
+div#center div#contentOuterContainer div.contentContainer, div#centerPreview div#contentOuterContainerPreview div.contentContainer {
+  min-height: 435px;
+  padding-bottom: 10px;
+  background-color: white;
+  border: solid 1px #b39253;
+  border-top: 0;
+  border-bottom: 0;
+}
+.activate div#center div#contentOuterContainer div.contentContainer, .activate div#centerPreview div#contentOuterContainerPreview div.contentContainer {
+  background-color: rgba(78, 62, 49, 0.85);
+  color: #F2F2F2;
+  border: none;
+  background-image: url('../../img_rtl/activate/troops-background.png');
+  background-size: contain;
+  background-position: bottom;
+}
+
+div#center div#contentOuterContainer div.contentFooter, div#centerPreview div#contentOuterContainerPreview div.contentFooter {
+  height: 8px;
+  border: solid 1px #b39253;
+  border-top: 0;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: white;
+  font-size: 0;
+  line-height: 0;
+}
+.activate div#center div#contentOuterContainer div.contentFooter, .activate div#centerPreview div#contentOuterContainerPreview div.contentFooter {
+  display: none;
+}
+div#center div#contentOuterContainer div#content, div#centerPreview div#contentOuterContainerPreview div#contentPreview {
+  width: 554px;
+  padding: 26px 23px 0;
+  margin: 0 auto;
+}
+
+div#center div#contentOuterContainer.size1 div#content, div#centerPreview div#contentOuterContainerPreview.size1 div#contentPreview {
+  width: 554px;
+}
+div#center div#contentOuterContainer.size2 div#content {
+  width: 749px;
+}
+div#centerPreview div#contentOuterContainerPreview.size2 div#contentPreview {
+  width: 749px;
+}
+div#centerPreview h1.titleInHeader {
+  height: 26px;
+  right: 10px;
+  line-height: 26px;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+  width: 475px;
+}
+
+/* preview UI/UX debug popup */
+.previewUiContent h4.round {
+  height: 24px;
+  line-height: 24px;
+  padding: 0 10px 0 0;
+  vertical-align: middle;
+  margin-bottom: 0;
+  width: 561px;
+  margin-top: 15px;
+}
+.previewUiContent .preview-collapse {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: -5px;
+  outline: none;
+  /*disable the annoying select outline border of the arrow in some browsers */
+}
+.previewUiContent .preview-collapse img {
+  height: 16px;
+  width: 16px;
+  margin-right: 3px;
+  margin-left: 3px;
+  padding: 0;
+}
+.previewUiContent .preview-title {
+  position: relative;
+  top: -3px;
+  right: 3px;
+}
+.previewUiContent .preview-content {
+  margin-top: 15px;
+}

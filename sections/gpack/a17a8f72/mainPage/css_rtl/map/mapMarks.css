@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#mapContainer #mapMarks {
+  overflow: hidden;
+}
+
+/* alle buttons sind immer rechts ausgerichtet */
+#mapContainer #mapMarks .iconButton {
+  float: left;
+}
+
+/* die überschrift wo man ein und ausklappen kann */
+#mapContainer #mapMarks .headline {
+  height: 16px;
+}
+
+/* Überschrifttitel */
+#mapContainer #mapMarks .headline .title {
+  float: right;
+}
+
+#mapContainer #mapMarks .headline .iconButton {
+  margin-top: 4px;
+}
+
+/* die Tabs */
+#mapContainer #mapMarks .tabContainer {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  left: 0;
+  top: 21px;
+}
+
+#mapContainer #mapMarks .tab {
+  background-image: url('../../img_rtl/map/tabs/border-bottom.png');
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+}
+
+#mapContainer #mapMarks .tab .entry {
+  float: right;
+  height: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+#mapContainer #mapMarks .tab .entry a {
+  display: block;
+  height: 11px;
+  line-height: 8px;
+  margin: 0;
+  padding-top: 0;
+  width: 100%;
+}
+
+#mapContainer #mapMarks .tab a:focus,
+#mapContainer #mapMarks .tab a:active {
+  outline: 0 none red;
+}
+
+#mapContainer #mapMarks .tab .selected a {
+  color: #F2F2F2;
+}
+
+/* Daten Tabs welche alles nun anzeigen für ally / user */
+#mapContainer #mapMarks .dataTab {
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 22px;
+}
+
+#mapContainer #mapMarks .dataTab + .dataTab {
+  display: none;
+}
+
+/* markierungs container */
+#mapContainer #mapMarks .collapseContainer {
+  border: 1px solid #5A5A5A;
+  overflow: hidden;
+  padding: 2px;
+}
+
+#mapContainer #mapMarks .collapseContainer + .collapseContainer {
+  margin-top: 2px;
+}
+
+#mapContainer #mapMarks .collapseContainer .title {
+  float: right;
+}
+
+#mapContainer #mapMarks .collapseContainer .title a {
+  color: #00a693;
+}
+
+#mapContainer #mapMarks .collapseContainer .iconButton {
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+/* Container welcher aufklappt */
+#mapContainer #mapMarks .expandContainer {
+  overflow: hidden;
+}
+
+/* ein eintrag im Daten Container */
+#mapContainer #mapMarks .scroll-dataContainer .entry {
+  margin-bottom: 5px;
+}
+
+/* Elemente in Entry */
+#mapContainer #mapMarks .scroll-dataContainer .marker,
+#mapContainer #mapMarks .scroll-dataContainer .text,
+#mapContainer #mapMarks .scroll-dataContainer .iconButton {
+  float: right;
+  margin-bottom: 2px;
+}
+
+/* Color Picker oder Flaggen auswahl */
+#mapContainer #mapMarks .scroll-dataContainer .color {
+  height: 9px;
+  margin-right: 2px;
+  margin-left: 1px;
+  margin-top: 3px;
+  width: 9px;
+}
+
+/* Link im Marker */
+#mapContainer #mapMarks .scroll-dataContainer .marker a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* der Text zur Anzeige */
+#mapContainer #mapMarks .scroll-dataContainer .text {
+  margin-right: 3px;
+  overflow-x: hidden;
+  width: 125px;
+}
+
+/* button soll rechts sein */
+#mapContainer #mapMarks .scroll-dataContainer .iconButton {
+  float: left;
+  margin-left: 5px;
+}
+
+#mapContainer #mapMarks .scroll-dataContainer .iconButton.delete {
+  background-position: -2px -2px;
+}
+
+#mapContainer #mapMarks .scroll-dataContainer .iconButton.delete:hover {
+  background-position: -11px -2px;
+}
+
+/* dialog farb markierung bearbeiten oder hinzufügen */
+.dialog .mapMarkMark,
+.dialog .mapMarkField {
+  width: 220px;
+}
+
+.dialog .mapMarkMark .color,
+.dialog .mapMarkField .flag {
+  margin-bottom: 10px;
+}
+
+.dialog .mapMarkMark .color .moocolorcheckbox,
+.dialog .mapMarkField .flag .mooimagecheckbox {
+  height: 16px;
+  overflow: hidden;
+  padding: 2px;
+  width: 16px;
+  border: 1px solid transparent;
+}
+
+.dialog .mapMarkMark .color .moocolorcheckbox_selected,
+.dialog .mapMarkField .flag .mooimagecheckbox_selected {
+  border: 1px solid red;
+}
+
+.dialog .mapMarkMark .coord,
+.dialog .mapMarkField .coord {
+  text-align: center;
+}
+
+.dialog .mapMarkMark .coordinatesInput,
+.dialog .mapMarkField .coordinatesInput {
+  display: inline-block;
+}
+
+.dialog .mapMarkField .textDisplay {
+  text-align: center;
+  margin-top: 15px;
+}

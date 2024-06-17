@@ -1,0 +1,157 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* production boost */
+img.productionBoost {
+  background-image: url('../../img_rtl/a/greenPlus-rtl.gif');
+  width: 16px;
+  height: 16px;
+}
+
+/* resources */
+i.r1 {
+  background-image: url('../../img_rtl/general/resources/lumber_tiny.png');
+  width: 16px;
+  height: 12px;
+}
+
+i.r2 {
+  background-image: url('../../img_rtl/general/resources/clay_tiny.png');
+  width: 16px;
+  height: 12px;
+}
+
+i.r3 {
+  background-image: url('../../img_rtl/general/resources/iron_tiny.png');
+  width: 16px;
+  height: 12px;
+}
+
+i.r4 {
+  background-image: url('../../img_rtl/general/resources/crop_small.png');
+  width: 16px;
+  height: 16px;
+}
+
+i.r5,
+i.cropConsumption {
+  background-image: url('../../img_rtl/general/resources/freeCrop_small.png');
+  width: 16px;
+  height: 16px;
+}
+
+i.r1Big {
+  background-image: url('../../img_rtl/general/resources/lumber_small.png');
+  width: 26px;
+  height: 19px;
+}
+
+i.r2Big {
+  background-image: url('../../img_rtl/general/resources/clay_small.png');
+  width: 26px;
+  height: 18px;
+}
+
+i.r3Big {
+  background-image: url('../../img_rtl/general/resources/iron_small.png');
+  width: 26px;
+  height: 18px;
+}
+
+i.r4Big {
+  background-image: url('../../img_rtl/general/resources/crop_medium.png');
+  width: 26px;
+  height: 24px;
+}
+
+i.r5Big,
+i.cropConsumptionBig {
+  background-image: url('../../img_rtl/general/resources/freeCrop_medium.png');
+  width: 26px;
+  height: 24px;
+}
+
+i.r0,
+i.rAll {
+  background-image: url('../../img_rtl/a/resAll-rtl.gif');
+  width: 18px;
+  height: 12px;
+}
+
+img.r0,
+img.rAll {
+  height: 12px;
+  width: 18px;
+  background-image: url('../../img_rtl/a/resAll-rtl.gif');
+}
+
+/* resource oasis icons */
+.merged i.r1,
+.merged i.r2,
+.merged i.r3,
+.merged i.r4,
+.merged i.r5,
+.merged i.r6,
+.merged i.r7,
+.merged i.r8,
+.merged i.r9,
+.merged i.r10,
+.merged i.r11 {
+  height: 21px;
+  width: 25px;
+  background-image: url('../../img_rtl/a/resMerged-rtl.png');
+}
+
+.merged i.r1 {
+  background-position: 0 0px;
+}
+
+.merged i.r2 {
+  background-position: 0 -21px;
+}
+
+.merged i.r3 {
+  background-position: 0 -42px;
+}
+
+.merged i.r4 {
+  background-position: 0 -63px;
+}
+
+.merged i.r5 {
+  background-position: 0 -84px;
+}
+
+.merged i.r6 {
+  background-position: 0 -105px;
+}
+
+.merged i.r7 {
+  background-position: 0 -126px;
+}
+
+.merged i.r8 {
+  background-position: 0 -147px;
+}
+
+.merged i.r9 {
+  background-position: 0 -168px;
+}
+
+.merged i.r10 {
+  background-position: 0 -189px;
+}
+
+.merged i.r11 {
+  background-position: 0 -210px;
+}

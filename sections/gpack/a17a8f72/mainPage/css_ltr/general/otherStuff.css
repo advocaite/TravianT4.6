@@ -1,0 +1,55 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* switch on/off */
+img.plus {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/plus.gif');
+}
+
+/* ressources */
+span.dur {
+  white-space: nowrap;
+}
+
+/* system messages */
+div#sysmsg {
+  width: 502px;
+  margin: auto;
+}
+div#sysmsg .termsAcceptButton {
+  float: right;
+  margin-top: 10px;
+}
+div#sysmsg button#cancel {
+  float: left;
+  margin-top: 10px;
+}
+
+div.peaceMessageIcon {
+  width: 107px;
+  height: 119px;
+  padding: 5px 5px 5px 5px;
+  float: left;
+  background-image: url('../../img_ltr/p/truce_star.png');
+}
+
+/* span tag with grey color and tiny font */
+span.greyInfo {
+  font-size: 11px;
+  color: #777777;
+}
+.rtl span.greyInfo {
+  font-size: 12px;
+}

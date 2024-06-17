@@ -1,0 +1,84 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ------------------- Support ------------------- */
+/* ----------------------------------------------- */
+div.support div.supportDescription {
+  margin-bottom: 15px;
+}
+
+div.support_form div.supportTabs {
+  margin-top: 15px;
+}
+
+div.support_form td.form_table_label,
+div.support td.form_table_label {
+  width: 30%;
+  white-space: nowrap;
+}
+
+div.support_form td.form_table_element,
+div.support td.form_table_element {
+  width: 70%;
+}
+
+div.support_form table.form_table,
+div.support table.form_table {
+  background-color: transparent;
+}
+
+div.support_form table.form_table td,
+div.support table.form_table td {
+  vertical-align: top;
+}
+
+/* ------------------- Help System --------------- */
+/* ----------------------------------------------- */
+.helpInfoBlock {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.helpDescription {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.helpInfoBlock:hover {
+  background-color: #EEEEEE;
+}
+
+.helpInfoLinkLess:hover {
+  background-color: #FFFFFF;
+}
+
+.helpInfoBlock a {
+  display: block;
+  color: black;
+  font-weight: normal;
+}
+
+.helpInfoBlock .plusFaq a {
+  color: #99C01A;
+  display: inline;
+  font-weight: bold;
+}
+
+.helpInfoBlock .helpHeadLine {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 2px;
+}
+.rtl .helpInfoBlock .helpHeadLine {
+  font-size: 18px;
+}

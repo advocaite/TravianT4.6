@@ -1,0 +1,22 @@
+{
+    "name": "travian/payment",
+    "description": "Travian payment",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Amirhossein Matini",
+            "email": "matiniamirhossein@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "paypal/rest-api-sdk-php": "*",
+        "guzzlehttp/guzzle": "^6.3@dev",
+        "ext-json"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core"
+        }
+    }
+}

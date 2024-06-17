@@ -1,0 +1,257 @@
+@charset "UTF-8";
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* Formatierungen für Bezahlfunktions-Popups
+ * CSS Klass "paymentPopupDialogWrapper" wird verwendet,
+ * für Plus-, Pro- und Produktionsboost-Popups und Goldmenü
+ */
+/* --- Layout der Features (Plus, Goldclub, Rohstoffbonus Popups und Vorteile im Goldmenü) --- */
+/* Features allgemein (gelber Hintergrund und Rahmen) */
+.paymentPopupDialogWrapper .feature {
+  width: 510px;
+  min-height: 56px;
+  margin: 0 auto 10px;
+  border: 1px solid #AD9251;
+  background-color: #F8F1D0;
+  position: relative;
+  font-size: 12px;
+}
+.rtl .paymentPopupDialogWrapper .feature {
+  font-size: 13px;
+}
+
+.paymentPopupDialogWrapper .featureImage {
+  width: 65px;
+  height: 50px;
+  float: left;
+  margin: 2px 0 2px 2px;
+  border: 1px solid #AD9251;
+}
+
+.paymentPopupDialogWrapper .featureContent {
+  float: left;
+  width: 427px;
+  margin: 0 5px 2px 9px;
+  position: relative;
+}
+
+/* Feature mit Infotext (Plus / Goldclub Popup) */
+.paymentPopupDialogWrapper .featureInfo .featureText {
+  line-height: 14px;
+}
+
+/* Weitere Features (Plus / Goldclub Popup) - ohne Rahmen/Hintergrund */
+.paymentPopupDialogWrapper .furtherFeatures .featureInfo {
+  border-color: transparent;
+  background: none;
+  margin-bottom: 5px;
+}
+
+.paymentPopupDialogWrapper .furtherFeatures .featureInfo .featureImage {
+  border: 1px solid #AFADA4;
+}
+
+/* Features mit Buchungsmöglichkeit (Rohstoffboostpopup / Goldmenü) - mit Dauer, Restzeit und Button */
+.paymentPopupDialogWrapper .featureBooking .featureContent {
+  height: 54px;
+}
+
+.paymentPopupDialogWrapper .featureBooking h3 {
+  margin: 9px 0;
+  font-size: 14px;
+}
+.rtl .paymentPopupDialogWrapper .featureBooking h3 {
+  font-size: 15px;
+}
+
+.paymentPopupDialogWrapper .featureBooking .featureRemainingTime {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+}
+
+.paymentPopupDialogWrapper .featureBooking .renewalActive {
+  color: #228B22;
+}
+
+.paymentPopupDialogWrapper .featureBooking .bonusEndsSoon {
+  color: #D40000;
+}
+
+.paymentPopupDialogWrapper .featureBooking .featureButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.paymentPopupDialogWrapper .featureBooking .featureDuration,
+.paymentPopupDialogWrapper .featureBooking .featureRenewal {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+/* --- Popup Layout --- */
+.paymentPopupDialogWrapper {
+  width: 525px;
+  min-height: 400px;
+  margin-top: 5px;
+}
+
+.paymentPopupDialogWrapper h3 {
+  margin: 4px 0;
+  font-size: 12px;
+}
+.rtl .paymentPopupDialogWrapper h3 {
+  font-size: 13px;
+}
+
+.paymentPopupDialogWrapper .headlineText {
+  float: left;
+}
+
+.paymentPopupDialogWrapper .goldWrapper {
+  font-size: 14px;
+  float: right;
+  font-weight: normal;
+  margin-top: 2px;
+}
+.rtl .paymentPopupDialogWrapper .goldWrapper {
+  font-size: 15px;
+}
+
+.paymentPopupDialogWrapper .furtherInfos {
+  font-style: italic;
+}
+
+/* Goldbutton mit Info über Dauer (Plus / Goldclub Popup) */
+.paymentPopupDialogWrapper .goldButtonWrapper {
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Abschnitt weitere Features (Plus / Goldclub Popup) */
+.paymentPopupDialogWrapper h3.extraFeatures {
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
+/*--- Popup "Nicht genug Gold" --- */
+#smallestPackageDialog {
+  width: 200px;
+  text-align: center;
+}
+
+#smallestPackageDialog button {
+  display: block;
+  margin: 10px auto;
+}
+
+#smallestPackageDialog #smallestPackageData .goldProduct {
+  cursor: default;
+  margin: 10px 31px;
+}
+
+#smallestPackageDialog #smallestPackageData .goldProduct:active,
+#smallestPackageDialog #smallestPackageData .goldProduct:hover {
+  background-position: left top;
+}
+
+#smallestPackageDialog .buyGoldQuestion {
+  font-weight: bold;
+}
+
+/*--- PremiumFeature Images --- */
+/* production boost */
+.premiumFeatureProductionBoost .paymentPopupDialogWrapper .feature .featureImage {
+  background-image: url('../../img_ltr/payment/productionBoostPopupIcons.png');
+}
+
+.premiumFeatureProductionBoost .paymentPopupDialogWrapper .feature .productionBoostWood {
+  background-position: 0 0;
+}
+
+.premiumFeatureProductionBoost .paymentPopupDialogWrapper .feature .productionBoostClay {
+  background-position: 0 -60px;
+}
+
+.premiumFeatureProductionBoost .paymentPopupDialogWrapper .feature .productionBoostIron {
+  background-position: 0 -120px;
+}
+
+.premiumFeatureProductionBoost .paymentPopupDialogWrapper .feature .productionBoostCrop {
+  background-position: 0 -180px;
+}
+
+/* goldclub */
+.premiumFeatureGoldclub .paymentPopupDialogWrapper .feature .featureImage {
+  background-image: url('../../img_ltr/payment/goldclubPopupIcons.png');
+}
+
+.premiumFeatureGoldclub .paymentPopupDialogWrapper .feature .messageArchive {
+  background-position: 0 0;
+}
+
+.premiumFeatureGoldclub .paymentPopupDialogWrapper .feature .cropFinder {
+  background-position: 0 -60px;
+}
+
+.premiumFeatureGoldclub .paymentPopupDialogWrapper .feature .raidList {
+  background-position: 0 -120px;
+}
+
+.premiumFeatureGoldclub .paymentPopupDialogWrapper .feature .tradeThreeTimes {
+  background-position: 0 -300px;
+}
+
+.premiumFeatureGoldclub .paymentPopupDialogWrapper .feature .troopEscape {
+  background-position: 0 -240px;
+}
+
+.premiumFeatureGoldclub .paymentPopupDialogWrapper .feature .tradeRoute {
+  background-position: 0 -180px;
+}
+
+/* plus */
+.premiumFeaturePlus .paymentPopupDialogWrapper .feature .featureImage {
+  background-image: url('../../img_ltr/payment/plusPopupIcons.png');
+}
+
+.premiumFeaturePlus .paymentPopupDialogWrapper .feature .attackWarning {
+  background-position: 0 0;
+}
+
+.premiumFeaturePlus .paymentPopupDialogWrapper .feature .buildingQueue {
+  background-position: 0 -60px;
+}
+
+.premiumFeaturePlus .paymentPopupDialogWrapper .feature .directLinks {
+  background-position: 0 -120px;
+}
+
+.premiumFeaturePlus .paymentPopupDialogWrapper .feature .fullScreen {
+  background-position: 0 -180px;
+}
+
+.premiumFeaturePlus .paymentPopupDialogWrapper .feature .linkList {
+  background-position: 0 -240px;
+}
+
+.premiumFeaturePlus .paymentPopupDialogWrapper .feature .tradeMulti {
+  background-position: 0 -300px;
+}
+
+.premiumFeaturePlus .paymentPopupDialogWrapper .feature .villageStatistics {
+  background-position: 0 -360px;
+}

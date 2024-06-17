@@ -1,0 +1,175 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* smileys */
+div.forum img.smiley,
+div.messages img.smiley {
+  width: 19px;
+  height: 16px;
+  background-image: url('../../img_rtl/f/smileys.gif');
+}
+
+div.forum img.aha,
+div.messages img.aha {
+  background-position: 0 0;
+}
+
+div.forum img.angry,
+div.messages img.angry {
+  background-position: -22px 0;
+}
+
+div.forum img.cool,
+div.messages img.cool {
+  background-position: -44px 0;
+}
+
+div.forum img.cry,
+div.messages img.cry {
+  background-position: -66px 0;
+}
+
+div.forum img.cute,
+div.messages img.cute {
+  background-position: -88px 0;
+}
+
+div.forum img.depressed,
+div.messages img.depressed {
+  background-position: -110px 0;
+}
+
+div.forum img.eek,
+div.messages img.eek {
+  background-position: -132px 0;
+}
+
+div.forum img.ehem,
+div.messages img.ehem {
+  background-position: -154px 0;
+}
+
+div.forum img.emotional,
+div.messages img.emotional {
+  background-position: -176px 0;
+}
+
+div.forum img.grin,
+div.messages img.grin {
+  background-position: -198px 0;
+}
+
+div.forum img.happy,
+div.messages img.happy {
+  background-position: -220px 0;
+}
+
+div.forum img.hit,
+div.messages img.hit {
+  background-position: -242px 0;
+}
+
+div.forum img.hmm,
+div.messages img.hmm {
+  background-position: -264px 0;
+}
+
+div.forum img.hmpf,
+div.messages img.hmpf {
+  background-position: -286px 0;
+}
+
+div.forum img.hrhr,
+div.messages img.hrhr {
+  background-position: -308px 0;
+}
+
+div.forum img.huh,
+div.messages img.huh {
+  background-position: -330px 0;
+}
+
+div.forum img.lazy,
+div.messages img.lazy {
+  background-position: -352px 0;
+}
+
+div.forum img.love,
+div.messages img.love {
+  background-position: -374px 0;
+}
+
+div.forum img.nocomment,
+div.messages img.nocomment {
+  background-position: -396px 0;
+}
+
+div.forum img.noemotion,
+div.messages img.noemotion {
+  background-position: -418px 0;
+}
+
+div.forum img.notamused,
+div.messages img.notamused {
+  background-position: -440px 0;
+}
+
+div.forum img.pout,
+div.messages img.pout {
+  background-position: -462px 0;
+}
+
+div.forum img.redface,
+div.messages img.redface {
+  background-position: -484px 0;
+}
+
+div.forum img.rolleyes,
+div.messages img.rolleyes {
+  background-position: -506px 0;
+}
+
+div.forum img.sad,
+div.messages img.sad {
+  background-position: -528px 0;
+}
+
+div.forum img.shy,
+div.messages img.shy {
+  background-position: -550px 0;
+}
+
+div.forum img.smile,
+div.messages img.smile {
+  background-position: -572px 0;
+}
+
+div.forum img.tongue,
+div.messages img.tongue {
+  background-position: -594px 0;
+}
+
+div.forum img.veryangry,
+div.messages img.veryangry {
+  background-position: -616px 0;
+}
+
+div.forum img.veryhappy,
+div.messages img.veryhappy {
+  background-position: -638px 0;
+}
+
+div.forum img.wink,
+div.messages img.wink {
+  background-position: -660px 0;
+}

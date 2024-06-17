@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+/* 2010/01/28 by Aces :: aces@wewaii.com */
+
+html {
+    height:100%;
+}
+body {
+    font:12px/1.5 Verdana
+}
+#header, #contentLeft, #socialbookmarks {
+    display: none;
+}
+h1 {
+    font-size: 15px;
+    margin:0;
+    padding:0;
+}
+.printHeader {
+    font-size: 180%;
+    text-transform:uppercase;
+}
+hr, select, h2, input, fieldset {
+    display: none;
+}

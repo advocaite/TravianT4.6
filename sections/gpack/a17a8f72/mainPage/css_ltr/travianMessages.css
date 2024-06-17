@@ -1,0 +1,442 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ------------------- Messages ------------------- */
+/* ------------------------------------------------ */
+/* overview */
+div.messages table#overview td {
+  text-align: center;
+}
+
+div.messages table#overview th.dat a {
+  font-weight: bold;
+  color: black;
+}
+
+div.messages table#overview th.dat a.sorting img {
+  position: relative;
+  top: -2px;
+}
+
+div.messages table#overview tr.sup td {
+  background-color: #E7F0CA;
+}
+
+div.messages table#overview tr.multi td {
+  background-color: #FFEFD2;
+}
+
+div.messages table#overview td.sel {
+  width: 5%;
+  padding: 6px 9px;
+}
+
+div.messages table#overview tr.support td {
+  background-color: #E7F0CA;
+}
+
+div.messages table#overview tr.multihunter td {
+  background-color: #FFEFD2;
+}
+
+div.messages table#overview td.subject {
+  text-align: left;
+}
+
+div.messages table#overview td.subject div.subjectWrapper {
+  width: 100%;
+  position: relative;
+  word-break: break-word;
+}
+div.messages table#overview td.subject div.subjectWrapper .disabled {
+  margin-left: 20px;
+}
+
+/* A nice webkit allows an option to break on spaces where it can and in the middle of the words where it is needed */
+.webkit div.messages table#overview td.subject div.subjectWrapper {
+  word-break: break-word;
+}
+
+div.messages table#overview td.subject img {
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+div.messages table#overview td.subject a {
+  display: block;
+  margin-left: 20px;
+}
+
+div.messages table#overview td.send {
+  width: 25%;
+}
+
+div.messages table#overview td.send a {
+  display: inline-block;
+  max-width: 119px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+div.messages table#overview td.send img.acp {
+  width: 11px;
+  height: 10px;
+  background-image: url('../img_ltr/a/external-ltr.png');
+}
+
+div.messages table#overview td.dat {
+  width: 22%;
+  white-space: nowrap;
+}
+
+div.messages .footer {
+  margin: 10px 0;
+}
+
+div.messages .footer .paginator {
+  float: right;
+}
+
+div.messages #markAll {
+  margin-left: 7px;
+  float: left;
+}
+
+div.messages #markAll span {
+  margin-left: 8px;
+}
+
+/* Administration */
+div.messages div.administration {
+  margin-top: 12px;
+}
+
+div.messages div.administration div.buttons {
+  padding-top: 6px;
+}
+
+/* read & write general */
+div.messages .paper {
+  width: 579px;
+  height: 595px;
+  position: relative;
+  left: -15px;
+}
+
+div.messages .paperTop {
+  background-image: url('../img_ltr/msg/paperTop-ltr.png');
+}
+
+div.messages .paperBottom {
+  background-image: url('../img_ltr/msg/paperBottom-ltr.png');
+  height: 100px;
+  background-position: left bottom;
+  margin-top: -80px;
+}
+
+div.messages .paperContent {
+  width: 495px;
+  padding: 30px 42px 20px;
+}
+
+/* write */
+div.messages .paperContent .header {
+  float: left;
+  line-height: 20px;
+  width: 380px;
+}
+div.messages .paperContent .header #subject div.text {
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+}
+
+div.messages .paperContent .label {
+  width: 80px;
+  color: #898989;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.rtl div.messages .paperContent .label {
+  font-size: 12px;
+}
+
+div.messages .paperContent .separator {
+  width: 100%;
+  height: 4px;
+  background-color: #d3d3d3;
+}
+
+div.messages .paperContent #message {
+  margin-top: 10px;
+  background-image: url('../img_ltr/msg/divider.png');
+  background-repeat: repeat;
+  height: 386px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
+div.messages #backToInbox {
+  float: left;
+  margin-top: 5px;
+}
+
+div.messages #backToInbox a {
+  background-image: url('../img_ltr/pager/back-ltr.png');
+  padding-left: 14px;
+  background-position: left 4px;
+  font-weight: normal;
+  font-size: 12px;
+  display: inline-block;
+}
+.rtl div.messages #backToInbox a {
+  font-size: 13px;
+}
+
+div.messages #deleteMessage {
+  float: right;
+}
+
+div.messages .toolList .delete {
+  background-image: url('../img_ltr/a/trashCan-ltr.png');
+  height: 13px;
+  width: 12px;
+  left: 6px;
+}
+
+div.messages #answer {
+  text-align: right;
+  margin-top: 15px;
+}
+
+div.messages #answer #toggleState {
+  float: left;
+}
+
+div.messages #answer #s1 {
+  float: right;
+}
+
+/* write */
+div.messages #recipient input {
+  width: 316px;
+  color: #99C01A;
+  margin-bottom: 5px;
+}
+div.messages #recipient input.short {
+  width: 290px;
+}
+
+div.messages #subject input {
+  width: 372px;
+}
+
+div.messages #recipient input,
+div.messages #subject input {
+  font-weight: bold;
+  float: left;
+}
+
+div.messages #recipient button.icon,
+div.messages #recipient a.button.icon {
+  float: left;
+  margin: 0 2px;
+}
+
+div.messages #recipient button img.adbook {
+  background-image: url('../img_ltr/msg/friends.gif');
+  width: 16px;
+  height: 16px;
+  left: 4px;
+}
+
+div.messages #recipient button img.ally {
+  background-image: url('../img_ltr/msg/ally.gif');
+  width: 16px;
+  height: 16px;
+  left: 4px;
+}
+
+div.messages #recipient i.support_small {
+  background-image: url('../img_ltr/views/messages/support_small.png');
+  width: 17px;
+  height: 15px;
+  left: 3px;
+  top: 5px;
+  display: inline-block;
+  position: relative;
+}
+
+div.messages #send {
+  text-align: center;
+  margin-top: 12px;
+}
+
+div.messages #bbEditor .messageEditor {
+  margin-top: 12px;
+  background-color: transparent;
+  background-image: url('../img_ltr/msg/divider.png');
+  background-repeat: repeat;
+  background-attachment: scroll;
+  height: 370px;
+  width: 100%;
+  border: 0;
+  line-height: 16px;
+  font-size: 13px;
+  padding: 0;
+}
+.rtl div.messages #bbEditor .messageEditor {
+  font-size: 14px;
+}
+
+div.messages #bbEditor .preview {
+  margin-left: 1px;
+  word-wrap: break-word;
+}
+
+div.messages #bbEditor {
+  margin-top: 10px;
+}
+
+.messages #supportNotAvailableViaIGMAnymore {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* friendlist */
+div#adressbook div.friendListContainer {
+  width: 500px;
+}
+
+div#adressbook table.friendlist {
+  width: 248px;
+  float: left;
+}
+
+div#adressbook table.friendlist.friendlist2 {
+  float: right;
+}
+
+div#adressbook table.friendlist td {
+  height: 28px;
+}
+
+div#adressbook table.friendlist td.sep {
+  width: 5px;
+  padding: 0;
+  background-color: transparent;
+}
+
+div#adressbook table.friendlist td.end,
+div#adressbook table.friendlist td.accept {
+  width: 24px;
+  padding: 2px 4px;
+}
+
+div#adressbook table.friendlist td.pla:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+div#adressbook table.friendlist td.pla img {
+  margin-right: 4px;
+  float: left;
+}
+div#adressbook table.friendlist td.pla a {
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  width: 140px;
+}
+
+div#adressbook table.friendlist td.pla input.text {
+  border: none;
+}
+
+/* notepad */
+div.paper.notices .paperMiddle {
+  height: 291px;
+}
+
+div.messages div#block {
+  margin: 0 auto;
+}
+
+div.messages div#block div.btn {
+  text-align: center;
+  margin-top: 5px;
+  clear: left;
+}
+
+div.messages div.notepad.info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+div.messages div#notepad_container {
+  margin-top: 30px;
+}
+
+div.messages div.notepad #notepad_preview {
+  display: block;
+}
+
+div.bbEditor#notepad_container div.bbToolbar img.bbPreview {
+  width: 12px;
+  height: 13px;
+  background-image: url('../img_ltr/a/editPencil-ltr.png');
+  background-position: 0 0;
+  left: 6px;
+}
+
+#ignore-list table tfoot td {
+  text-align: center;
+}
+
+#ignore-list table {
+  border-spacing: 1px;
+}
+
+#ignore-list table td {
+  padding: 2px 4px;
+  height: 30px;
+}
+
+#ignore-list table td.end {
+  width: 24px;
+}
+
+#ignore-list-columns .column {
+  width: 49.5%;
+  float: left;
+  margin-bottom: 5px;
+}
+
+#ignore-list-columns .column1 {
+  margin-right: 1%;
+}
+
+select#spamReason {
+  width: 100%;
+}

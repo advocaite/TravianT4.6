@@ -1,0 +1,79 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ------------------ Link list ------------------ */
+/* ----------------------------------------------- */
+/* settings */
+div#linkRecommendations {
+  padding: 0px 10px 10px 10px;
+}
+
+div#hiddenRecommendedLinks {
+  display: none;
+}
+
+div.linklist td.sel {
+  width: 3%;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+div.linklist table#links thead td {
+  font-weight: bold;
+}
+
+div.linklist table#links td.nr input.text,
+table#recommendedLinks td.nr input.text {
+  width: 25px;
+}
+
+div.linklist table#links td.nam input.text,
+table#recommendedLinks td.nam input.text {
+  width: 175px;
+}
+
+div.linklist table#links td.link input.text,
+table#recommendedLinks td.link input.text {
+  width: 240px;
+}
+
+div.linklist table#links button,
+table#recommendedLinks button {
+  height: 18px;
+  width: 18px;
+}
+
+div.linklist table#links button.addElement,
+table#recommendedLinks button.addElement {
+  background-image: url('../img_rtl/a/btnPlus-small.png');
+}
+
+div.linklist table#links button.removeElement {
+  background-image: url('../img_rtl/a/btnMinus-small.png');
+}
+
+div.linklist table#links button:hover,
+table#recommendedLinks button:hover {
+  background-position: 0 -28px;
+}
+
+div.linklist table#links button:active,
+table#recommendedLinks button:active {
+  background-position: 0 -56px;
+}
+
+div.linklist div.submitButtonContainer {
+  text-align: left;
+  margin-top: 15px;
+}

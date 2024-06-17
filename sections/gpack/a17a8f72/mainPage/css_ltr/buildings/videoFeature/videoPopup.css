@@ -1,0 +1,298 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.dialogWrapper .videoFeatureV2 {
+  color: #5e463a;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container {
+  padding: 0;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container > div {
+  background: none;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents {
+  background-color: #d2bda1;
+  border-radius: 10px;
+  padding: 0 17px 17px;
+  width: 660px;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents:before, .dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents:after {
+  content: "";
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents:before {
+  position: absolute;
+  top: 19px;
+  right: 0;
+  bottom: auto;
+  left: 0;
+  height: 48px;
+  background-image: url('../../../img_ltr/videoFeature/header.jpg');
+  background-repeat: repeat-x;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+body:not(.ie10) .dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents:after {
+  border-style: solid;
+  border-width: 67px 50px 10px 50px;
+  border-image: url('../../../img_ltr/videoFeature/frame.png') 67 50 10 50 fill repeat;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents form {
+  position: relative;
+  z-index: 2;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .content {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #f4efe4;
+  margin-top: 50px;
+  padding: 35px 10px 10px;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .iconButton {
+  float: right;
+  z-index: 2;
+  width: 31px;
+  height: 31px;
+  padding: 0;
+  position: absolute;
+  top: 26px;
+  background-image: linear-gradient(to bottom, rgba(191, 146, 88, 0.68) 5%, rgba(255, 246, 202, 0.68) 13%, rgba(255, 202, 134, 0.68) 32%, rgba(162, 115, 73, 0.68) 48%, rgba(90, 52, 24, 0.68) 72%, rgba(173, 127, 79, 0.68) 93%, rgba(255, 202, 134, 0.68) 100%);
+  background-color: #a58b6d;
+  border-radius: 1px;
+  border: 1px solid #34353c;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .iconButton:before, .dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .iconButton:after {
+  content: "";
+  background-repeat: no-repeat;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .iconButton:before {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  bottom: 3px;
+  left: 3px;
+  z-index: 2;
+  background-color: #496817;
+  border: 2px solid #5b950f;
+  border-top-color: #c9d7b7;
+  border-bottom-color: #63a90b;
+  box-shadow: 0 0 0 1px #34353c;
+  transition: background-color 150ms;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .iconButton:after {
+  position: absolute;
+  z-index: 2;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .iconButton.cancel {
+  right: 40px;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .iconButton.cancel:after {
+  background-image: url('../../../img_ltr/videoFeature/close_small.png');
+  width: 17px;
+  height: 17px;
+  top: 7px;
+  left: 7px;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .iconButton.info {
+  right: 85px;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .iconButton.info:after {
+  background-image: url('../../../img_ltr/videoFeature/info_small.png');
+  width: 7px;
+  height: 18px;
+  top: 6px;
+  left: 12px;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .iconButton:hover {
+  background-image: linear-gradient(to bottom, rgba(191, 146, 88, 0.68) 5%, rgba(255, 246, 202, 0.68) 13%, rgba(255, 202, 134, 0.68) 32%, rgba(162, 115, 73, 0.68) 48%, rgba(90, 52, 24, 0.68) 72%, rgba(173, 127, 79, 0.68) 93%, rgba(255, 202, 134, 0.68) 100%);
+  background-color: #d7cabb;
+  background-position: inherit;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .iconButton:hover:before {
+  background-color: #699128;
+  border-color: #cfdeb9 #6faf19 #71bb13;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .iconButton:active:before {
+  border-color: #d6e8bd #8fd82a #88d81f;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents button {
+  background-color: #496817;
+  border: 5px solid #5b950f;
+  border-top-color: #c9d7b7;
+  border-bottom-color: #63a90b;
+  border-radius: 1px;
+  padding: 14px 40px;
+  box-shadow: 0 0 0 1px #34353c;
+  height: auto;
+  font-size: 16px;
+  transition: background-color 150ms;
+}
+.rtl .dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents button {
+  font-size: 17px;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents button:hover {
+  background-color: #699128;
+  border-color: #cfdeb9 #6faf19 #71bb13;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents button:active {
+  border-color: #d6e8bd #8fd82a #88d81f;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents label.checkbox {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20px 1fr;
+  grid-template-columns: 20px 1fr;
+  cursor: pointer;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents label.checkbox div.checkbox {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-right: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-image: linear-gradient(to bottom, rgba(191, 146, 88, 0.68) 5%, rgba(255, 246, 202, 0.68) 13%, rgba(255, 202, 134, 0.68) 32%, rgba(162, 115, 73, 0.68) 48%, rgba(90, 52, 24, 0.68) 72%, rgba(173, 127, 79, 0.68) 93%, rgba(255, 202, 134, 0.68) 100%);
+  background-color: #a58b6d;
+  border-radius: 1px;
+  border: 1px solid #34353c;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents label.checkbox div.checkbox:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+  z-index: 2;
+  background-color: #624c40;
+  border: 2px solid #564036;
+  border-top-color: #4a352b;
+  border-bottom-color: #a49687;
+  box-shadow: 0 0 0 1px #34353c;
+  transition: background-color 150ms;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents label.checkbox div.checkbox input[type="checkbox"]:checked ~ i {
+  background-image: url('../../../img_ltr/videoFeature/checkmark_tiny.png');
+  width: 15px;
+  height: 11px;
+  position: absolute;
+  top: 4px;
+  left: 3px;
+  z-index: 2;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents label.checkbox div.checkbox input {
+  visibility: hidden;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents label.checkbox div.checkbox:hover {
+  background-image: linear-gradient(to bottom, rgba(191, 146, 88, 0.68) 5%, rgba(255, 246, 202, 0.68) 13%, rgba(255, 202, 134, 0.68) 32%, rgba(162, 115, 73, 0.68) 48%, rgba(90, 52, 24, 0.68) 72%, rgba(173, 127, 79, 0.68) 93%, rgba(255, 202, 134, 0.68) 100%);
+  background-color: #d7cabb;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents label.checkbox div.checkbox:hover:before {
+  background-color: #776054;
+  border: 2px solid #685146;
+  border-top-color: #594339;
+  border-bottom-color: #927f71;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents label.checkbox div.label {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+  padding-left: 10px;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .content .infoScreen h2 {
+  color: #5e463a;
+  margin-bottom: 10px;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .content .infoScreen .featureContent {
+  border: 1px solid #332a15;
+  background-color: #e5d8bc;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .content .infoScreen .featureContent:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .content .infoScreen .featureContent .videoFeatureIllu {
+  float: left;
+  background-image: url('../../../img_ltr/videoFeature/videoFeatureIllu.png');
+  width: 118px;
+  height: 87px;
+  margin: 10px 20px 4px 10px;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .content .infoScreen .featureContent .featureTitle {
+  margin: 35px 0 0;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .content .infoScreen .videoDescription {
+  margin-top: 30px;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .content .infoScreen .buttonWrapper {
+  margin-top: 60px;
+  text-align: right;
+}
+.dialogWrapper .videoFeatureV2 .dialog-container .dialog-contents .content .infoScreen label {
+  margin-top: 25px;
+}
+
+#videoFeature .videoWrapper, #videoFeature #videoOverlay {
+  background-color: black;
+  width: 640px;
+  height: 360px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#videoFeature .videoStartButton {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  top: 50%;
+  position: relative;
+}
+
+#videoFeature .videoStartButton .videoButtonIcon {
+  background-image: url('../../../img_ltr/videoFeature/play_button.png');
+  height: 16px;
+  width: 32px;
+}
+
+#videoFeature #videoArea {
+  width: 640px;
+  height: 360px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* abort adSales video popup */
+.adSalesVideoAbortPopup {
+  max-width: 300px;
+  font-size: 13px;
+}
+
+.adSalesVideoAbortPopup .adSalesVideoAbortButtons {
+  text-align: center;
+}

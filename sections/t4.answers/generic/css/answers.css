@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+/* 2010/01/28 by Aces :: aces@wewaii.com */
+
+/* id's */
+#wrap {
+    margin-left:auto;
+    margin-right:auto;
+}
+#header, #footer, #content, #call2action, #c2aText1, #c2aText2 {
+    position:relative;
+}
+#infoAreaWrap {
+    position:absolute;
+    text-align:center;
+    z-index:1;
+}
+#startersGuide	{
+    position: relative;
+    text-align: center;
+    z-index: 55;
+}
+#logo	{
+    position: relative;
+    z-index: 1;
+}
+#contentLeft, #contentRight, #contentMiddle {
+    display: inline;
+    position:relative;
+}
+
+/* classes */
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.printHeader {
+    display: none;
+}
+.aligncenter {
+	text-align: center;	
+}
+
+.alignleft {
+	text-align: left;	
+}
+
+.alignright {
+	text-align: right;	
+}
+
+.floatleft {
+	float: left;	
+}
+
+.floatright {
+	float: right;	
+}
+
+.nomargin {
+	margin: 0 !important;		
+}
+
+.emailInput {
+	width: 380px;	
+}	
+/* fixed img size */
+.result img { max-width: 100%; }
+/** social bookmarks **/
+.twitter {
+    width:16px;
+    height:16px;
+    background-image: url(../img/socialbookmarks/twitter.png);
+    background-repeat: no-repeat;
+}
+.facebook {
+    width:16px;
+    height:16px;
+    background-image: url(../img/socialbookmarks/facebook.png);
+    background-repeat: no-repeat;
+}
+.delicious {
+    width:16px;
+    height:16px;
+    background-image: url(../img/socialbookmarks/delicious.png);
+    background-repeat: no-repeat;
+}
+.quicklink {
+    width:16px;
+    height:16px;
+    background-image: url(../img/socialbookmarks/quicklink.png);
+    background-repeat: no-repeat;
+}
+.print {
+    width:16px;
+    height:16px;
+    background-image: url(../img/socialbookmarks/print.png);
+    background-repeat: no-repeat;
+}
+.mail {
+    width:16px;
+    height:16px;
+    background-image: url(../img/socialbookmarks/mail.png);
+    background-repeat: no-repeat;
+}
+.pdf {
+    width:16px;
+    height:16px;
+    background-image: url(../img/socialbookmarks/pdf.png);
+    background-repeat: no-repeat;
+}
+.forum {
+    width:16px;
+    height:16px;
+    background-image: url(../img/socialbookmarks/forum.png);
+    background-repeat: no-repeat;
+}
+.arrowTop {
+	width:16px;
+	height:16px;
+	background-image: url(../img/socialbookmarks/arrow-down.png);
+	background-repeat: no-repeat;
+}
+/* ehemals wiki */
+.externalresource {
+    width:16px;
+    height:16px;
+    background-image: url(../img/socialbookmarks/externalresource.png);
+    background-repeat: no-repeat;
+}
+.game {
+    width:16px;
+    height:16px;
+    background-image: url(../img/socialbookmarks/game.png);
+    background-repeat: no-repeat;
+}
+.home {
+    width:16px;
+    height:16px;
+    background-image: url(../img/socialbookmarks/home.png);
+    background-repeat: no-repeat;
+}
+
+/* Treeview */
+.treeview, .treeview ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.treeview ul {
+	/*background-color: white;*/
+	margin-top: 4px;
+}
+
+.treeview .hitarea {
+	height: 16px;
+	width: 16px;
+	margin-left: -16px;
+	float: left;
+	cursor: pointer;
+}
+/* fix for IE6 */
+ html .hitarea {
+	display: inline;
+	float:none;
+}
+
+.treeview li { 
+	margin: 0;
+	padding: 3px 0pt 3px 16px;
+}
+
+.treeview a.selected { /*background-color: #eee;*/ }
+
+#treecontrol { margin: 1em 0; display: none; }
+
+.treeview .hover { /*color: red;*/ cursor: pointer; }
+
+/* ab hier ist styling für bilder */
+.treeview .hitarea { background: url(../img/jquery.treeview/treeview-default.gif) -64px -25px no-repeat; }
+.treeview li { background: url(../img/jquery.treeview/treeview-default-line.gif) 0 0 no-repeat; }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px; }
+
+.treeview .expandable-hitarea { background-position: -80px -3px; }
+
+.treeview li.last { background-position: 0 -1766px }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(../img/jquery.treeview/treeview-default.gif); }  
+.treeview li.lastCollapsable { background-position: 0 -111px }
+.treeview li.lastExpandable { background-position: -32px -67px }
+
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea { background-position: 0; }
+
+.treeview-black li { background-image: url(../img/jquery.treeview/treeview-black-line.gif); }
+.treeview-black .hitarea, .treeview-black li.lastCollapsable, .treeview-black li.lastExpandable { background-image: url(../img/jquery.treeview/treeview-black.gif); }
+
+.treeview .placeholder { background: url(../img/jquery.treeview/ajax-loader.gif) 0 0 no-repeat; }
+
+/* ende styling */
+.treeview .placeholder {
+	height: 16px;
+	width: 16px;
+	display: block;
+}

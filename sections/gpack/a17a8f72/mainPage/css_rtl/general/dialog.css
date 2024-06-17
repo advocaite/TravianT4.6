@@ -1,0 +1,506 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* Tooptip */
+.dialog {
+  font-size: 11px;
+  color: #333333;
+  overflow: visible;
+}
+.rtl .dialog {
+  font-size: 12px;
+}
+
+.dialog .dialog-contents .title {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.rtl .dialog .dialog-contents .title {
+  font-size: 13px;
+}
+
+.dialog .dialog-contents .dialog-dragbar {
+  height: 20px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 1px;
+  width: 100px;
+}
+
+.dialog .dialog-contents #raidListSlot {
+  width: 476px;
+  height: auto;
+}
+
+.dialog .dialog-contents #raidListSlot .boxes-contents {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.dialog .dialog-contents #raidListSlot select {
+  width: 100%;
+}
+
+.dialog .dialog-contents #raidListSlot option {
+  width: 100%;
+}
+
+.dialog .dialog-contents #raidListSlot table th {
+  width: 20%;
+}
+
+.dialog .dialog-contents #raidListSlot .troop {
+  width: 40px;
+  margin: 4px 10px;
+}
+
+.dialog .dialog-contents #raidListSlot .troop#t5,
+.dialog .dialog-contents #raidListSlot .troop#t10 {
+  margin-left: 0;
+}
+
+.dialog .dialog-contents #raidListSlot .troops {
+  margin-bottom: 10px;
+}
+
+.dialog .dialog-contents #raidListSlot .troopGroup {
+  margin-right: 10px;
+  float: right;
+}
+
+.dialog .dialog-contents #usePrizeDialog {
+  text-align: center;
+}
+
+.dragWrapper .dialog .dialog-contents .dialog-dragbar {
+  cursor: move;
+}
+
+.dragWrapper .dialog .dialog-contents .dialog-dragbar .dragbar-inner-left {
+  float: left;
+  width: 10px;
+  height: 20px;
+  background-image: url('../../img_rtl/dialogWhite/dragbar_corners.png');
+  background-position: 0;
+}
+
+.dragWrapper .dialog .dialog-contents .dialog-dragbar .dragbar-inner-right {
+  float: right;
+  width: 10px;
+  height: 20px;
+  background-image: url('../../img_rtl/dialogWhite/dragbar_corners.png');
+  background-position: -12px 0;
+  margin-top: -20px;
+}
+
+.dragWrapper .dialog.brown .dialog-contents .dialog-dragbar .dragbar-inner-left {
+  background-image: url('../../img_rtl/dialogBrown/dragbar_corners.png');
+}
+
+.dragWrapper .dialog.brown .dialog-contents .dialog-dragbar .dragbar-inner-right {
+  background-image: url('../../img_rtl/dialogBrown/dragbar_corners.png');
+}
+
+.dragWrapper .dialog .dialog-contents .dialog-dragbar .dragbar-inner-mid {
+  background: #EEEEEE;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 20px;
+}
+
+.dialog.white .dialog-contents .dialog-dragbar {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 3px;
+}
+
+.dialog .dialog-contents .title.drag {
+  cursor: move;
+}
+
+.dialog .dialog-contents .buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+.dialog .dialog-contents .buttons.decision:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.dialog .dialog-contents .buttons.decision button:first-of-type {
+  float: right;
+}
+.dialog .dialog-contents .buttons.decision button:last-of-type {
+  float: left;
+}
+
+.dialog .dialog-container {
+  position: relative;
+  padding: 15px 17px;
+}
+
+.dialog .dialog-contents {
+  position: relative;
+  width: 100%;
+}
+
+.dialog .dialog-background-tl, .dialog .dialog-background-tc, .dialog .dialog-background-tr,
+.dialog .dialog-background-ml, .dialog .dialog-background-mc, .dialog .dialog-background-mr,
+.dialog .dialog-background-bl, .dialog .dialog-background-bc, .dialog .dialog-background-br {
+  position: absolute;
+}
+
+.dialog .dialog-background-tl,
+.dialog .dialog-background-tr,
+.dialog .dialog-background-bl,
+.dialog .dialog-background-br {
+  background-repeat: no-repeat;
+}
+
+.dialog .dialog-background-tc,
+.dialog .dialog-background-bc {
+  background-repeat: repeat-x;
+}
+
+.dialog .dialog-background-ml,
+.dialog .dialog-background-mr {
+  background-repeat: repeat-y;
+}
+
+.dialog .dialog-background-mc {
+  background-repeat: repeat;
+}
+
+.dialog .dialog-background-mc {
+  left: 10px;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.dialog .dialog-background-tl {
+  background-image: url('../../img_rtl/round/bg/tl.png');
+}
+
+.dialog .dialog-background-tc {
+  background-image: url('../../img_rtl/round/bg/tc.png');
+}
+
+.dialog .dialog-background-tr {
+  background-image: url('../../img_rtl/round/bg/tr.png');
+}
+
+.dialog .dialog-background-ml {
+  background-image: url('../../img_rtl/round/bg/ml.png');
+}
+
+.dialog .dialog-background-mc {
+  background-image: url('../../img_rtl/round/bg/mc.png');
+}
+
+.dialog .dialog-background-mr {
+  background-image: url('../../img_rtl/round/bg/mr.png');
+}
+
+.dialog .dialog-background-bl {
+  background-image: url('../../img_rtl/round/bg/bl.png');
+}
+
+.dialog .dialog-background-bc {
+  background-image: url('../../img_rtl/round/bg/bc.png');
+}
+
+.dialog .dialog-background-br {
+  background-image: url('../../img_rtl/round/bg/br.png');
+}
+
+/* Dialog: white */
+.dialog.white .dialog-contents .title {
+  font-weight: normal;
+  line-height: 18px;
+}
+
+.dialog .dialog-container {
+  padding: 4px 17px 15px;
+}
+
+/* Dialog Buttons */
+.dialog.white .dialog-contents .cancel {
+  position: absolute;
+  background-position: -26px -25px;
+  background-image: url('../../img_rtl/popup/dialog_close_button.png');
+  width: 16px;
+  height: 15px;
+  left: -8px;
+  top: 3px;
+}
+
+.dialog.brown .dialog-contents .cancel {
+  position: absolute;
+  background-position: 0 0;
+  background-image: url('../../img_rtl/layout/contentTitleDialogButtons.png');
+  width: 28px;
+  height: 32px;
+  left: 0;
+  top: -10px;
+}
+
+.dialog.white .dialog-contents .info {
+  position: absolute;
+  background-position: 0 -25px;
+  background-image: url('../../img_rtl/popup/dialog_close_button.png');
+  width: 16px;
+  height: 15px;
+  display: none;
+  left: 10px;
+  top: 3px;
+}
+
+.dialog.brown .dialog-contents .info {
+  position: absolute;
+  background-position: 0 -84px;
+  background-image: url('../../img_rtl/layout/contentTitleDialogButtons.png');
+  width: 28px;
+  height: 32px;
+  display: none;
+  left: 33px;
+  top: -10px;
+}
+
+.dialog.white .dialog-contents .cancel:hover {
+  background-position: -26px 0;
+}
+
+.dialog.brown .dialog-contents .cancel:hover {
+  background-position: 0 -42px;
+}
+
+.dialog.white .dialog-contents .info:hover {
+  background-position: 0 0;
+}
+
+.dialog.brown .dialog-contents .info:hover {
+  background-position: 0 -126px;
+}
+
+/* Allgemeine Definitionen */
+.dialog .dialog-background-tl {
+  height: 14px;
+  width: 14px;
+  left: 0;
+  top: 0;
+}
+
+.dialog .dialog-background-tc {
+  height: 14px;
+  top: 0;
+  left: 14px;
+  right: 14px;
+}
+
+.dialog .dialog-background-tr {
+  width: 14px;
+  height: 14px;
+  right: 0;
+  top: 0;
+}
+
+.dialog .dialog-background-ml {
+  top: 14px;
+  bottom: 14px;
+  left: 0;
+  width: 14px;
+}
+
+.dialog .dialog-background-mr {
+  right: 0;
+  top: 14px;
+  bottom: 14px;
+  width: 14px;
+}
+
+.dialog .dialog-background-bl {
+  left: 0;
+  bottom: 0;
+  width: 14px;
+  height: 14px;
+}
+
+.dialog .dialog-background-bc {
+  bottom: 0;
+  left: 14px;
+  right: 14px;
+  height: 14px;
+}
+
+.dialog .dialog-background-br {
+  right: 0;
+  bottom: 0;
+  width: 14px;
+  height: 14px;
+}
+
+/* White Dialog */
+.dialog.white .dialog-background-tl {
+  background-image: url('../../img_rtl/dialogWhite/tl.png');
+}
+
+.dialog.white .dialog-background-tc {
+  background-image: url('../../img_rtl/dialogWhite/tc.png');
+}
+
+.dialog.white .dialog-background-tr {
+  background-image: url('../../img_rtl/dialogWhite/tr.png');
+}
+
+.dialog.white .dialog-background-ml {
+  background-image: url('../../img_rtl/dialogWhite/ml.png');
+}
+
+.dialog.white .dialog-background-mc {
+  background-image: url('../../img_rtl/dialogWhite/mc.png');
+}
+
+.dialog.white .dialog-background-mr {
+  background-image: url('../../img_rtl/dialogWhite/mr.png');
+}
+
+.dialog.white .dialog-background-bl {
+  background-image: url('../../img_rtl/dialogWhite/bl.png');
+}
+
+.dialog.white .dialog-background-bc {
+  background-image: url('../../img_rtl/dialogWhite/bc.png');
+}
+
+.dialog.white .dialog-background-br {
+  background-image: url('../../img_rtl/dialogWhite/br.png');
+}
+
+/* Brown Dialog */
+.dialog.brown .dialog-background-tl {
+  background-image: url('../../img_rtl/dialogBrown/tl.png');
+}
+
+.dialog.brown .dialog-background-tc {
+  background-image: url('../../img_rtl/dialogBrown/tc.png');
+}
+
+.dialog.brown .dialog-background-tr {
+  background-image: url('../../img_rtl/dialogBrown/tr.png');
+}
+
+.dialog.brown .dialog-background-ml {
+  background-image: url('../../img_rtl/dialogBrown/ml.png');
+}
+
+.dialog.brown .dialog-background-mc {
+  background-image: url('../../img_rtl/dialogBrown/mc.png');
+}
+
+.dialog.brown .dialog-background-mr {
+  background-image: url('../../img_rtl/dialogBrown/mr.png');
+}
+
+.dialog.brown .dialog-background-bl {
+  background-image: url('../../img_rtl/dialogBrown/bl.png');
+}
+
+.dialog.brown .dialog-background-bc {
+  background-image: url('../../img_rtl/dialogBrown/bc.png');
+}
+
+.dialog.brown .dialog-background-br {
+  background-image: url('../../img_rtl/dialogBrown/br.png');
+}
+
+/* for mobile and tablet */
+@media only screen and (max-device-width: 1024px) {
+  /* White Dialog Buttons */
+  .dialog.white .dialog-contents .cancel {
+    background-position: -38px -38px;
+    background-image: url('../../img_rtl/popup/dialog_close_button_mobile.png');
+    width: 28px;
+    height: 28px;
+  }
+
+  .dialog.white .dialog-contents .info {
+    background-position: 0 -38px;
+    background-image: url('../../img_rtl/popup/dialog_close_button_mobile.png');
+    width: 28px;
+    height: 28px;
+    left: 24px;
+  }
+
+  .dialog.white .dialog-contents .cancel:hover {
+    background-position: -38px 0;
+  }
+
+  .dialog.white .dialog-contents .info:hover {
+    background-position: 0 0;
+  }
+
+  .dialog.white .dialog-contents .dialog-dragbar,
+  .dragWrapper .dialog.white .dialog-contents .dialog-dragbar .dragbar-inner-mid,
+  .dragWrapper .dialog.white .dialog-contents .dialog-dragbar .dragbar-inner-left,
+  .dragWrapper .dialog.white .dialog-contents .dialog-dragbar .dragbar-inner-right {
+    height: 35px;
+  }
+
+  .dragWrapper .dialog.white .dialog-contents .dialog-dragbar .dragbar-inner-mid,
+  .dragWrapper .dialog.white .dialog-contents .dialog-dragbar .dragbar-inner-left,
+  .dragWrapper .dialog.white .dialog-contents .dialog-dragbar .dragbar-inner-right {
+    background-color: #EEEEEE;
+    background-image: none;
+  }
+
+  .dragWrapper .dialog.white .dialog-contents .dialog-dragbar .dragbar-inner-right {
+    margin-top: -35px;
+  }
+}
+.dialog .dialog-contents #vacationModeConfirmationDialog {
+  width: 420px;
+}
+
+.dialog .dialog-contents #vacationModeConfirmationDialog .title {
+  font-size: 11px;
+  font-weight: bold;
+}
+.rtl .dialog .dialog-contents #vacationModeConfirmationDialog .title {
+  font-size: 12px;
+}
+
+.dialog .dialog-contents #vacationModeConfirmationDialog .text {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.dialog .dialog-contents #vacationModeConfirmationDialog .villages table td {
+  font-size: 11px;
+}
+.rtl .dialog .dialog-contents #vacationModeConfirmationDialog .villages table td {
+  font-size: 12px;
+}
+
+.dialog .dialog-contents #vacationModeConfirmationDialog .villages table th {
+  font-size: 11px;
+  background-color: #fce6c4;
+}
+.rtl .dialog .dialog-contents #vacationModeConfirmationDialog .villages table th {
+  font-size: 12px;
+}

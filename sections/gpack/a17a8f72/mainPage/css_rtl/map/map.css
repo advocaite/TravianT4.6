@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#content.map {
+  padding: 12px 14px 0;
+}
+
+/* der Container für die map und allen anderen kram */
+div.map2 {
+  height: 417px;
+  width: 543px;
+  padding-right: 25px;
+  border: 1px solid #636363;
+}
+
+/* Map 2.0 Anzeige Container */
+#mapContainer {
+  position: relative;
+  /* Achtung Höhe und Breite auch in game/appliaction/views/scripts/map/index.phtml anpassen Zeile 146 */
+  width: 543px;
+  height: 401px;
+  z-index: 1000;
+}
+
+#mapContainer:before {
+  content: "";
+  display: block;
+  width: calc(100% + 25px);
+  height: calc(100% + 16px);
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  right: -25px;
+}
+
+/* Allgemeines aussehen mit runden ecken und co */
+#mapContainer .innerShadow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 50;
+}
+
+#mapContainer .innerShadow .innerShadow-tl {
+  background-repeat: no-repeat;
+  right: 0;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+#mapContainer .innerShadow .innerShadow-ml {
+  background-repeat: no-repeat;
+  right: 0;
+  left: 0;
+  top: 8px;
+  bottom: 8px;
+  position: absolute;
+}
+
+#mapContainer .innerShadow .innerShadow-mr {
+  background-repeat: no-repeat;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+#mapContainer .innerShadow .innerShadow-bl {
+  background-repeat: no-repeat;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+#mapContainer .innerShadow .innerShadow-tl, #mapContainer .innerShadow .innerShadow-tc, #mapContainer .innerShadow .innerShadow-tr,
+#mapContainer .innerShadow .innerShadow-ml, #mapContainer .innerShadow .innerShadow-mc, #mapContainer .innerShadow .innerShadow-mr,
+#mapContainer .innerShadow .innerShadow-bl, #mapContainer .innerShadow .innerShadow-bc, #mapContainer .innerShadow .innerShadow-br {
+  background-color: transparent;
+  background-position: left top;
+}
+
+#mapContainer .innerShadow .innerShadow-tc, #mapContainer .innerShadow .innerShadow-mc, #mapContainer .innerShadow .innerShadow-bc {
+  margin-right: 8px;
+  margin-left: 8px;
+  width: auto;
+}
+
+#mapContainer .innerShadow .innerShadow-tl, #mapContainer .innerShadow .innerShadow-tc, #mapContainer .innerShadow .innerShadow-tr {
+  height: 8px;
+}
+
+#mapContainer .innerShadow .innerShadow-tl {
+  background-repeat: no-repeat;
+}
+
+#mapContainer .innerShadow .innerShadow-tc {
+  background-repeat: repeat-x;
+}
+
+#mapContainer .innerShadow .innerShadow-tr {
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+#mapContainer .innerShadow .innerShadow-ml {
+  background-repeat: repeat-y;
+}
+
+#mapContainer .innerShadow .innerShadow-mc {
+  background-repeat: repeat;
+}
+
+#mapContainer .innerShadow .innerShadow-mr {
+  background-position: right top;
+  background-repeat: repeat-y;
+}
+
+#mapContainer .innerShadow .innerShadow-bl, #mapContainer .innerShadow .innerShadow-bc, #mapContainer .innerShadow .innerShadow-br {
+  height: 8px;
+}
+
+#mapContainer .innerShadow .innerShadow-bl {
+  background-repeat: no-repeat;
+}
+
+#mapContainer .innerShadow .innerShadow-bc {
+  background-repeat: repeat-x;
+}
+
+#mapContainer .innerShadow .innerShadow-br {
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+#mapContainer img.image {
+  background-color: #C3EDAE;
+}
+
+/* Dialog images getrennt wegem IE */
+#mapContainer .innerShadow .innerShadow-tl {
+  background-image: url('../../img_rtl/map/innerShadow/tl.png');
+}
+
+#mapContainer .innerShadow .innerShadow-tc {
+  background-image: url('../../img_rtl/map/innerShadow/tc.png');
+}
+
+#mapContainer .innerShadow .innerShadow-tr {
+  background-image: url('../../img_rtl/map/innerShadow/tr.png');
+}
+
+#mapContainer .innerShadow .innerShadow-ml {
+  background-image: url('../../img_rtl/map/innerShadow/ml.png');
+}
+
+#mapContainer .innerShadow .innerShadow-mr {
+  background-image: url('../../img_rtl/map/innerShadow/mr.png');
+}
+
+#mapContainer .innerShadow .innerShadow-bl {
+  background-image: url('../../img_rtl/map/innerShadow/bl.png');
+}
+
+#mapContainer .innerShadow .innerShadow-bc {
+  background-image: url('../../img_rtl/map/innerShadow/bc.png');
+}
+
+#mapContainer .innerShadow .innerShadow-br {
+  background-image: url('../../img_rtl/map/innerShadow/br.png');
+}
+
+/* Fullscreen Karte */
+body.map.fullScreen {
+  background-image: none;
+  background-color: transparent;
+  height: 100%;
+  min-height: inherit;
+  width: 100%;
+  min-width: inherit;
+  overflow: hidden;
+}
+
+body.map.fullScreen #wrapper {
+  display: none;
+}

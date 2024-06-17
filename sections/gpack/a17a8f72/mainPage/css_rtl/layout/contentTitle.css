@@ -1,0 +1,159 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+div#center a.contentTitleButton {
+  float: left;
+  width: 28px;
+  height: 28px;
+  margin-top: 5px;
+  margin-left: 5px;
+  display: block;
+  position: relative;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #5c8d0f, #82b433);
+  background-position: 0 0 !important;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 0 3px #ffffff, 0 0 2px rgba(0, 0, 0, 0.5);
+}
+div#center a.contentTitleButton:not(.background):before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-image: url('../../img_rtl/layout/contentTitleButtons.png');
+}
+div#center a.contentTitleButton:hover {
+  background-image: linear-gradient(to top, #78ab0f, #9fd234);
+}
+div#center a.contentTitleButton:active {
+  background-image: linear-gradient(to top, #9fd234, #78ab0f);
+}
+.activate div#center a.contentTitleButton {
+  border-radius: 4px;
+  box-shadow: none;
+  border: solid 2px #F8C000;
+  background-image: none;
+  background-color: #393736;
+  transition-duration: 150ms;
+}
+.activate div#center a.contentTitleButton:before {
+  background-image: none;
+}
+.activate div#center a.contentTitleButton:hover {
+  background-color: #ffd758;
+}
+.activate div#center a.contentTitleButton:active {
+  background-color: #fee9a7;
+  border-color: #f9bf00;
+}
+
+/* ----- Close Button ----- */
+div#center a#closeContentButton {
+  /* For the highlighting in the tutorials, the button must be one level higher */
+  position: relative;
+  z-index: 2;
+}
+div#center a#closeContentButton:before {
+  background-position: 0 0;
+}
+div#center a#answersButton {
+  background-position: 0 -76px;
+}
+div#center a#answersButton:before {
+  background-position: 0 -114px;
+}
+.activate div#center a#answersButton:before {
+  background: url("data:image/svg+xml, %3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2020.1%2061.2%22%3E%0A%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20path%20%7B%20fill%3A%20%23fdefcc%20%7D%0A%20%20%20%20%20%20%20%20%3C/style%3E%0A%20%20%20%20%3C/defs%3E%0A%0A%20%20%20%20%3Cpath%20d%3D%22M0%2020.9h20.1v40.2H0zM0%200h20.1v14.5H0z%22/%3E%0A%3C/svg%3E%0A") no-repeat center;
+  background-size: 16px 16px;
+}
+.activate div#center a#answersButton:hover:before {
+  background: url("data:image/svg+xml, %3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2020.1%2061.2%22%3E%0A%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20path%20%7B%20fill%3A%20%235b432e%20%7D%0A%20%20%20%20%20%20%20%20%3C/style%3E%0A%20%20%20%20%3C/defs%3E%0A%0A%20%20%20%20%3Cpath%20d%3D%22M0%2020.9h20.1v40.2H0zM0%200h20.1v14.5H0z%22/%3E%0A%3C/svg%3E%0A") no-repeat center;
+  background-size: 16px 16px;
+}
+.activate div#center a#answersButton:active:before {
+  background: url("data:image/svg+xml, %3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2020.1%2061.2%22%3E%0A%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20path%20%7B%20fill%3A%20%23f9bf02%20%7D%0A%20%20%20%20%20%20%20%20%3C/style%3E%0A%20%20%20%20%3C/defs%3E%0A%0A%20%20%20%20%3Cpath%20d%3D%22M0%2020.9h20.1v40.2H0zM0%200h20.1v14.5H0z%22/%3E%0A%3C/svg%3E%0A") no-repeat center;
+  background-size: 16px 16px;
+}
+.activate div#center a#backButton:before {
+  background: url("data:image/svg+xml, %3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2052.5%2050.4%22%3E%0A%20%20%20%20%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20path%20%7B%20fill%3A%20%23fdefcc%20%7D%0A%20%20%20%20%20%20%20%20%3C/style%3E%0A%20%20%20%20%3C/defs%3E%0A%0A%20%20%20%20%3Cpath%20d%3D%22M6.5%2020.2h46v10h-46z%22/%3E%0A%20%20%20%20%3Cpath%20d%3D%22M32%206.8L13.5%2025.2H0L25.2%200M32%2043.6L13.5%2025.2H0l25.2%2025.2%22/%3E%0A%3C/svg%3E") no-repeat center;
+  background-size: 16px 16px;
+}
+.activate div#center a#backButton:hover:before {
+  background: url("data:image/svg+xml, %3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2052.5%2050.4%22%3E%0A%20%20%20%20%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20path%20%7B%20fill%3A%20%235b432e%20%7D%0A%20%20%20%20%20%20%20%20%3C/style%3E%0A%20%20%20%20%3C/defs%3E%0A%0A%20%20%20%20%3Cpath%20d%3D%22M6.5%2020.2h46v10h-46z%22/%3E%0A%20%20%20%20%3Cpath%20d%3D%22M32%206.8L13.5%2025.2H0L25.2%200M32%2043.6L13.5%2025.2H0l25.2%2025.2%22/%3E%0A%3C/svg%3E") no-repeat center;
+  background-size: 16px 16px;
+}
+.activate div#center a#backButton:active:before {
+  background: url("data:image/svg+xml, %3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2052.5%2050.4%22%3E%0A%20%20%20%20%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20path%20%7B%20fill%3A%20%23f9bf02%7D%0A%20%20%20%20%20%20%20%20%3C/style%3E%0A%20%20%20%20%3C/defs%3E%0A%0A%20%20%20%20%3Cpath%20d%3D%22M6.5%2020.2h46v10h-46z%22/%3E%0A%20%20%20%20%3Cpath%20d%3D%22M32%206.8L13.5%2025.2H0L25.2%200M32%2043.6L13.5%2025.2H0l25.2%2025.2%22/%3E%0A%3C/svg%3E") no-repeat center;
+  background-size: 16px 16px;
+}
+
+.rtl div#center a#backButton:before {
+  transform: scaleX(-1);
+}
+div#center a#tabFavorButton {
+  float: none;
+  z-index: 31;
+  position: absolute;
+  left: 66px;
+  top: 58px;
+  background-position: 0 -152px;
+}
+div#center a#tabFavorButton:before {
+  background-position: 0 -190px;
+}
+div#center a.nestedTabRowButton {
+  position: relative;
+  left: 0;
+  top: 0;
+  float: left;
+}
+div#center a#nestedTabFavorButton {
+  width: 21px;
+  height: 21px;
+  background-image: url('../../img_rtl/layout/subTabFavButton.png');
+}
+div#center a#nestedTabFavorButton:hover {
+  background-image: url('../../img_rtl/layout/subTabFavButtonHover.png');
+}
+div#center a#nestedTabFavorButton:active {
+  background-image: url('../../img_rtl/layout/subTabFavButtonClick.png');
+}
+div#center a#nestedTabFavorButton:disabled, div#center a#nestedTabFavorButton.disabled {
+  background-image: url('../../img_rtl/layout/subTabFavButtonDisabled.png');
+}
+div#center h1.titleInHeader {
+  height: 26px;
+  line-height: 26px;
+  right: 10px;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 62px;
+  white-space: nowrap;
+  width: 475px;
+}
+.activate div#center h1.titleInHeader {
+  width: auto;
+  text-align: center;
+  right: 50%;
+  transform: translateX(-50%);
+  color: #F8C000;
+  top: 7px;
+}
+
+.activate.rtl div#center h1.titleInHeader {
+  transform: translateX(50%);
+}

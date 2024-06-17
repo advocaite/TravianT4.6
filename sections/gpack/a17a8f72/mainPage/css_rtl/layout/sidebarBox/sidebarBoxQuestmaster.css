@@ -1,0 +1,167 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#sidebarBoxQuestmaster {
+  margin-top: 120px;
+}
+#sidebarBoxQuestmaster #questmasterButton {
+  position: absolute;
+  top: -130px;
+  right: calc(50% - 102px);
+  height: 135px;
+  width: 204px;
+  display: block;
+  overflow: visible;
+}
+#sidebarBoxQuestmaster #questmasterButton img.mentor, #sidebarBoxQuestmaster #questmasterButton img.border, #sidebarBoxQuestmaster #questmasterButton img.animation {
+  height: 135px;
+  width: 204px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#sidebarBoxQuestmaster #questmasterButton img.mentor {
+  background-position: right top;
+}
+#sidebarBoxQuestmaster #questmasterButton img.border {
+  background-position: right bottom;
+}
+#sidebarBoxQuestmaster #questmasterButton:hover img.mentor {
+  background-position: right center;
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_1 img.border, #sidebarBoxQuestmaster #questmasterButton.vid_1 img.mentor {
+  background-image: url('../../../img_rtl/layout/mentorRoman-rtl.png');
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_1 img.animation {
+  animation: questMasterAnimation 5s infinite step-end;
+  background-image: url('../../../img_rtl/layout/questmasterAnimationRoman-rtl.png');
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_2 img.border, #sidebarBoxQuestmaster #questmasterButton.vid_2 img.mentor {
+  background-image: url('../../../img_rtl/layout/mentorTeuton-rtl.png');
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_2 img.animation {
+  animation: questMasterAnimation 5s infinite step-end;
+  background-image: url('../../../img_rtl/layout/questmasterAnimationTeuton-rtl.png');
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_3 img.border, #sidebarBoxQuestmaster #questmasterButton.vid_3 img.mentor {
+  background-image: url('../../../img_rtl/layout/mentorGaul-rtl.png');
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_3 img.animation {
+  animation: questMasterAnimation 5s infinite step-end;
+  background-image: url('../../../img_rtl/layout/questmasterAnimationGaul-rtl.png');
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_6 img.border, #sidebarBoxQuestmaster #questmasterButton.vid_6 img.mentor {
+  background-image: url('../../../img_rtl/layout/mentorEgypt-rtl.png');
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_6 img.animation {
+  animation: questMasterAnimation 5s infinite step-end;
+  background-image: url('../../../img_rtl/layout/questmasterAnimationEgypt-rtl.png');
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_7 img.border, #sidebarBoxQuestmaster #questmasterButton.vid_7 img.mentor {
+  background-image: url('../../../img_rtl/layout/mentorHun-rtl.png');
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_7 img.animation {
+  animation: questMasterAnimation 5s infinite step-end;
+  background-image: url('../../../img_rtl/layout/questmasterAnimationHun-rtl.png');
+}
+@keyframes questMasterAnimation {
+  0.6% {
+    background-position: 0 0px;
+  }
+  1.2% {
+    background-position: 0 -135px;
+  }
+  1.8% {
+    background-position: 0 -270px;
+  }
+  2.4% {
+    background-position: 0 -405px;
+  }
+  3% {
+    background-position: 0 -540px;
+  }
+  3.6% {
+    background-position: 0 -675px;
+  }
+  4.2% {
+    background-position: 0 -810px;
+  }
+  4.8% {
+    background-position: 0 -945px;
+  }
+  5.4% {
+    background-position: 0 -1080px;
+  }
+  6% {
+    background-position: 0 -1215px;
+  }
+  6.6% {
+    background-position: 0 -1350px;
+  }
+  7.2% {
+    background-position: 0 -1485px;
+  }
+  7.8% {
+    background-position: 0 -1620px;
+  }
+  8.4% {
+    background-position: 0 -1755px;
+  }
+  9% {
+    background-position: 0 -1890px;
+  }
+  9.6% {
+    background-position: 0 -2025px;
+  }
+}
+#sidebarBoxQuestmaster #questmasterButton .bigSpeechBubble {
+  position: absolute;
+}
+#sidebarBoxQuestmaster #questmasterButton .bigSpeechBubble.newQuestSpeechBubble img {
+  background-image: url('../../../img_rtl/layout/icons/exclamationMark-rtl.png');
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_1 .bigSpeechBubble {
+  right: 27px;
+  top: 53px;
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_2 .bigSpeechBubble {
+  right: 33px;
+  top: 62px;
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_3 .bigSpeechBubble {
+  right: 20px;
+  top: 65px;
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_6 .bigSpeechBubble {
+  right: 37px;
+  top: 61px;
+}
+#sidebarBoxQuestmaster #questmasterButton.vid_7 .bigSpeechBubble {
+  right: 40px;
+  top: 70px;
+}
+#sidebarBoxQuestmaster ul#mentorTaskList.notClickable li:hover {
+  background-color: #F5EBBE;
+}
+#sidebarBoxQuestmaster ul#mentorTaskList li {
+  cursor: pointer;
+}
+#sidebarBoxQuestmaster ul#mentorTaskList li img.reward, #sidebarBoxQuestmaster ul#mentorTaskList li img.finished {
+  position: absolute;
+  right: 5px;
+  top: 3px;
+  background-image: url('../../../img_rtl/a/check.png');
+  width: 12px;
+  height: 12px;
+}

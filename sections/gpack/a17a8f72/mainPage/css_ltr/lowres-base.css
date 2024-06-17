@@ -1,0 +1,142 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+body.manual img.building.big {
+  display: none;
+  background-image: none !important;
+  width: 10px;
+}
+body.manual div.bigUnitSection {
+  display: none;
+}
+body.manual div.bigUnitSection img.unitSection {
+  background-image: none !important;
+  width: 10px;
+}
+body.manual p.description {
+  width: 100%;
+  min-height: auto;
+  float: none;
+  margin-bottom: 30px;
+}
+
+#build .building {
+  background-image: none !important;
+}
+
+#qstbg {
+  background-image: none !important;
+}
+
+.reportImage,
+#reportWrapper .victory {
+  display: none;
+}
+
+#reportWrapper > .header {
+  padding-bottom: 20px;
+}
+
+#reportWrapper > .header .toolList {
+  bottom: 23px;
+}
+
+.adventureReportImage {
+  background-image: none !important;
+  display: none;
+}
+
+div.contentContainer div#build.gid27 img.artefact {
+  display: none !important;
+}
+
+.dialog div.content #tileDetails .detailImage,
+.dialog div.content #tileDetails .detailImage:after,
+div.positionDetails #tileDetails div.detailImage,
+div.positionDetails #tileDetails div.detailImage:after {
+  background-image: none !important;
+}
+
+div#build div.bigUnitSection {
+  display: none;
+}
+
+div.activate .avatar {
+  display: none !important;
+}
+
+div.logout img.roman {
+  display: none !important;
+}
+
+.questInformation .questWrapper .questImage img#questLogo {
+  background: none;
+}
+
+div#paymentWizard.pros .infoArea img.prosGoldclubImage,
+div#paymentWizard.pros .infoArea img.prosPlusImage,
+div#paymentWizard.pros .infoArea img.prosProductionboostWoodImage,
+div#paymentWizard.pros .infoArea img.prosProductionboostClayImage,
+div#paymentWizard.pros .infoArea img.prosProductionboostIronImage,
+div#paymentWizard.pros .infoArea img.prosProductionboostCropImage,
+div#paymentWizard.plusSupport .infoArea img.mentor {
+  background-image: none;
+}
+
+div#paymentWizard.pros .infoArea img {
+  border: none;
+}
+
+/* dialog position fix - prevents disappearing dialogs on mobile by giving them a fixed position */
+.dialogWrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  margin: 0 !important;
+  text-align: center;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.dialog {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  padding-top: 120px;
+}
+
+/* we had to break the drag & drop feature of the dialogs, so we also don't show a "move"-cursor anymore */
+.dragWrapper .dialog .dialog-contents .dialog-dragbar {
+  cursor: default;
+}
+
+/* we will use the dialogWrapper class to always display an overlay for dialogs */
+.dialogWrapper + .overlay {
+  display: none;
+}
+
+button.small {
+  padding: 4px 10px;
+}
+
+/* map */
+body.map.fullScreen.perspectiveBuildings div#background {
+  background-image: none;
+  background-color: #ffffff;
+}
+
+body.map.fullScreen.perspectiveBuildings div#background:before {
+  display: none;
+}

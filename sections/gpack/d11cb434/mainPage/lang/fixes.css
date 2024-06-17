@@ -1,0 +1,10 @@
+body.Turbotra div#header #logo {background-image: url("../../../customImg/turbotra_black.svg");}
+.contentNavi .content .tabItem {max-width: 100%;}
+#content.village3 table#troops tbody.noPadding td { 
+padding-left: 0; 
+padding-right: 0;
+}
+#content.village3  table. vil_troops tbody.noPadding td {
+padding-left: 0; 
+padding-right: 0;
+}

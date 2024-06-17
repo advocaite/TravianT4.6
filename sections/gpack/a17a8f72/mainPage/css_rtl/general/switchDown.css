@@ -1,0 +1,32 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+div.switchDown .headline {
+  float: right;
+  margin: 5px 10px;
+  padding-right: 23px;
+}
+
+div.switchDown .switchDownCloseStateContainer,
+div.switchDown .switchDownOpenStateContainer {
+  cursor: pointer;
+}
+
+div.switchDown .switchDownCloseStateContainer .switchDownContent {
+  float: left;
+  margin: 5px 10px;
+}
+
+div.switchDown .switchDownOpenStateContainer .switchDownContent {
+  margin: 0px 10px 5px;
+}

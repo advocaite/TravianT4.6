@@ -1,0 +1,608 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* medals */
+div.player img.medal,
+div.alliance img.medal,
+body.manual img.medal {
+  width: 35px;
+  height: 48px;
+}
+
+div.player img.cmedal,
+div.alliance img.cmedal,
+body.manual img.cmedal {
+  max-width: 235px;
+}
+
+div.player img.t1_1,
+body.manual img.t1_1 {
+  background-image: url('../../img_rtl/t/t1_1.gif');
+}
+
+div.player img.t1_2,
+body.manual img.t1_2 {
+  background-image: url('../../img_rtl/t/t1_2.gif');
+}
+
+div.player img.t1_3,
+body.manual img.t1_3 {
+  background-image: url('../../img_rtl/t/t1_3.gif');
+}
+
+div.player img.t1_4,
+body.manual img.t1_4 {
+  background-image: url('../../img_rtl/t/t1_4.gif');
+}
+
+div.player img.t1_5 {
+  background-image: url('../../img_rtl/t/t1_5.gif');
+}
+
+div.player img.t1_6 {
+  background-image: url('../../img_rtl/t/t1_6.gif');
+}
+
+div.player img.t1_7 {
+  background-image: url('../../img_rtl/t/t1_7.gif');
+}
+
+div.player img.t1_8 {
+  background-image: url('../../img_rtl/t/t1_8.gif');
+}
+
+div.player img.t1_9 {
+  background-image: url('../../img_rtl/t/t1_9.gif');
+}
+
+div.player img.t1_10 {
+  background-image: url('../../img_rtl/t/t1_10.gif');
+}
+
+div.player img.t100_1 {
+  background-image: url('../../img_rtl/t/t100_1.gif');
+}
+
+div.player img.t101_1 {
+  background-image: url('../../img_rtl/t/t101_1.gif');
+}
+
+div.player img.t102_1 {
+  background-image: url('../../img_rtl/t/t102_1.gif');
+}
+
+div.player img.t110_1 {
+  background-image: url('../../img_rtl/t/t110_1.gif');
+}
+
+div.player img.t111_1 {
+  background-image: url('../../img_rtl/t/t111_1.gif');
+}
+
+div.player img.t112_1 {
+  background-image: url('../../img_rtl/t/t112_1.gif');
+}
+
+div.player img.t120_1 {
+  background-image: url('../../img_rtl/t/t120_1.gif');
+}
+
+div.player img.t121_1 {
+  background-image: url('../../img_rtl/t/t121_1.gif');
+}
+
+div.player img.t122_1 {
+  background-image: url('../../img_rtl/t/t122_1.gif');
+}
+
+div.player img.t130_1 {
+  background-image: url('../../img_rtl/t/t130_1.gif');
+}
+
+div.player img.t131_1 {
+  background-image: url('../../img_rtl/t/t131_1.gif');
+}
+
+div.player img.t132_1 {
+  background-image: url('../../img_rtl/t/t132_1.gif');
+}
+
+div.player img.t140_1 {
+  background-image: url('../../img_rtl/t/t140_1.gif');
+}
+
+div.player img.t141_1 {
+  background-image: url('../../img_rtl/t/t141_1.gif');
+}
+
+div.player img.t142_1 {
+  background-image: url('../../img_rtl/t/t142_1.gif');
+}
+
+div.player img.t150_1 {
+  background-image: url('../../img_rtl/t/t150_1.gif');
+}
+
+div.player img.t151_1 {
+  background-image: url('../../img_rtl/t/t151_1.gif');
+}
+
+div.player img.t152_1 {
+  background-image: url('../../img_rtl/t/t152_1.gif');
+}
+
+div.player img.t160_1 {
+  background-image: url('../../img_rtl/t/t160_1.gif');
+}
+
+div.player img.t161_1 {
+  background-image: url('../../img_rtl/t/t161_1.gif');
+}
+
+div.player img.t162_1 {
+  background-image: url('../../img_rtl/t/t162_1.gif');
+}
+
+div.player img.t170_1 {
+  background-image: url('../../img_rtl/t/t170_1.gif');
+}
+
+div.player img.t171_1 {
+  background-image: url('../../img_rtl/t/t171_1.gif');
+}
+
+div.player img.t172_1 {
+  background-image: url('../../img_rtl/t/t172_1.gif');
+}
+
+div.player img.t180_1 {
+  background-image: url('../../img_rtl/t/t180_1.gif');
+}
+
+div.player img.t181_1 {
+  background-image: url('../../img_rtl/t/t181_1.gif');
+}
+
+div.player img.t182_1 {
+  background-image: url('../../img_rtl/t/t182_1.gif');
+}
+
+div.player img.t190_1 {
+  background-image: url('../../img_rtl/t/t190_1.gif');
+}
+
+div.player img.t191_1 {
+  background-image: url('../../img_rtl/t/t191_1.gif');
+}
+
+div.player img.t192_1 {
+  background-image: url('../../img_rtl/t/t192_1.gif');
+}
+
+div.player img.t2_1 {
+  background-image: url('../../img_rtl/t/t2_1.gif');
+}
+
+div.player img.t2_10 {
+  background-image: url('../../img_rtl/t/t2_10.gif');
+}
+
+div.player img.t2_2 {
+  background-image: url('../../img_rtl/t/t2_2.gif');
+}
+
+div.player img.t2_3 {
+  background-image: url('../../img_rtl/t/t2_3.gif');
+}
+
+div.player img.t2_4 {
+  background-image: url('../../img_rtl/t/t2_4.gif');
+}
+
+div.player img.t2_5 {
+  background-image: url('../../img_rtl/t/t2_5.gif');
+}
+
+div.player img.t2_6 {
+  background-image: url('../../img_rtl/t/t2_6.gif');
+}
+
+div.player img.t2_7 {
+  background-image: url('../../img_rtl/t/t2_7.gif');
+}
+
+div.player img.t2_8 {
+  background-image: url('../../img_rtl/t/t2_8.gif');
+}
+
+div.player img.t2_9 {
+  background-image: url('../../img_rtl/t/t2_9.gif');
+}
+
+div.player img.t200_1 {
+  background-image: url('../../img_rtl/t/t200_1.gif');
+}
+
+div.player img.t201_1 {
+  background-image: url('../../img_rtl/t/t201_1.gif');
+}
+
+div.player img.t202_1 {
+  background-image: url('../../img_rtl/t/t202_1.gif');
+}
+
+div.player img.t210_1 {
+  background-image: url('../../img_rtl/t/t210_1.gif');
+}
+
+div.player img.t211_1 {
+  background-image: url('../../img_rtl/t/t211_1.gif');
+}
+
+div.player img.t212_1 {
+  background-image: url('../../img_rtl/t/t212_1.gif');
+}
+
+div.player img.t220_1 {
+  background-image: url('../../img_rtl/t/t220_1.gif');
+}
+
+div.player img.t221_1 {
+  background-image: url('../../img_rtl/t/t221_1.gif');
+}
+
+div.player img.t222_1 {
+  background-image: url('../../img_rtl/t/t222_1.gif');
+}
+
+div.player img.t3_1 {
+  background-image: url('../../img_rtl/t/t3_1.gif');
+}
+
+div.player img.t3_10 {
+  background-image: url('../../img_rtl/t/t3_10.gif');
+}
+
+div.player img.t3_2 {
+  background-image: url('../../img_rtl/t/t3_2.gif');
+}
+
+div.player img.t3_3 {
+  background-image: url('../../img_rtl/t/t3_3.gif');
+}
+
+div.player img.t3_4 {
+  background-image: url('../../img_rtl/t/t3_4.gif');
+}
+
+div.player img.t3_5 {
+  background-image: url('../../img_rtl/t/t3_5.gif');
+}
+
+div.player img.t3_6 {
+  background-image: url('../../img_rtl/t/t3_6.gif');
+}
+
+div.player img.t3_7 {
+  background-image: url('../../img_rtl/t/t3_7.gif');
+}
+
+div.player img.t3_8 {
+  background-image: url('../../img_rtl/t/t3_8.gif');
+}
+
+div.player img.t3_9 {
+  background-image: url('../../img_rtl/t/t3_9.gif');
+}
+
+div.player img.t4_1 {
+  background-image: url('../../img_rtl/t/t4_1.gif');
+}
+
+div.player img.t4_10 {
+  background-image: url('../../img_rtl/t/t4_10.gif');
+}
+
+div.player img.t4_2 {
+  background-image: url('../../img_rtl/t/t4_2.gif');
+}
+
+div.player img.t4_3 {
+  background-image: url('../../img_rtl/t/t4_3.gif');
+}
+
+div.player img.t4_4 {
+  background-image: url('../../img_rtl/t/t4_4.gif');
+}
+
+div.player img.t4_5 {
+  background-image: url('../../img_rtl/t/t4_5.gif');
+}
+
+div.player img.t4_6 {
+  background-image: url('../../img_rtl/t/t4_6.gif');
+}
+
+div.player img.t4_7 {
+  background-image: url('../../img_rtl/t/t4_7.gif');
+}
+
+div.player img.t4_8 {
+  background-image: url('../../img_rtl/t/t4_8.gif');
+}
+
+div.player img.t4_9 {
+  background-image: url('../../img_rtl/t/t4_9.gif');
+}
+
+div.player img.t5_1 {
+  background-image: url('../../img_rtl/t/t5_1.gif');
+}
+
+div.player img.t5_10 {
+  background-image: url('../../img_rtl/t/t5_10.gif');
+}
+
+div.player img.t5_2 {
+  background-image: url('../../img_rtl/t/t5_2.gif');
+}
+
+div.player img.t5_3 {
+  background-image: url('../../img_rtl/t/t5_3.gif');
+}
+
+div.player img.t5_4 {
+  background-image: url('../../img_rtl/t/t5_4.gif');
+}
+
+div.player img.t5_5 {
+  background-image: url('../../img_rtl/t/t5_5.gif');
+}
+
+div.player img.t5_6 {
+  background-image: url('../../img_rtl/t/t5_6.gif');
+}
+
+div.player img.t5_7 {
+  background-image: url('../../img_rtl/t/t5_7.gif');
+}
+
+div.player img.t5_8 {
+  background-image: url('../../img_rtl/t/t5_8.gif');
+}
+
+div.player img.t5_9 {
+  background-image: url('../../img_rtl/t/t5_9.gif');
+}
+
+div.player img.t6_1 {
+  background-image: url('../../img_rtl/t/t6_1.gif');
+}
+
+div.player img.t6_10 {
+  background-image: url('../../img_rtl/t/t6_10.gif');
+}
+
+div.player img.t6_2 {
+  background-image: url('../../img_rtl/t/t6_2.gif');
+}
+
+div.player img.t6_3 {
+  background-image: url('../../img_rtl/t/t6_3.gif');
+}
+
+div.player img.t6_4 {
+  background-image: url('../../img_rtl/t/t6_4.gif');
+}
+
+div.player img.t6_5 {
+  background-image: url('../../img_rtl/t/t6_5.gif');
+}
+
+div.player img.t6_6 {
+  background-image: url('../../img_rtl/t/t6_6.gif');
+}
+
+div.player img.t6_7 {
+  background-image: url('../../img_rtl/t/t6_7.gif');
+}
+
+div.player img.t6_8 {
+  background-image: url('../../img_rtl/t/t6_8.gif');
+}
+
+div.player img.t6_9 {
+  background-image: url('../../img_rtl/t/t6_9.gif');
+}
+
+div.alliance img.a1_1,
+body.manual img.a1_1 {
+  background-image: url('../../img_rtl/t/a1_1.gif');
+}
+
+div.alliance img.a1_2,
+body.manual img.a1_2 {
+  background-image: url('../../img_rtl/t/a1_2.gif');
+}
+
+div.alliance img.a1_3,
+body.manual img.a1_3 {
+  background-image: url('../../img_rtl/t/a1_3.gif');
+}
+
+div.alliance img.a1_4,
+body.manual img.a1_4 {
+  background-image: url('../../img_rtl/t/a1_4.gif');
+}
+
+div.alliance img.a1_5 {
+  background-image: url('../../img_rtl/t/a1_5.gif');
+}
+
+div.alliance img.a1_6 {
+  background-image: url('../../img_rtl/t/a1_6.gif');
+}
+
+div.alliance img.a1_7 {
+  background-image: url('../../img_rtl/t/a1_7.gif');
+}
+
+div.alliance img.a1_8 {
+  background-image: url('../../img_rtl/t/a1_8.gif');
+}
+
+div.alliance img.a1_9 {
+  background-image: url('../../img_rtl/t/a1_9.gif');
+}
+
+div.alliance img.a1_10 {
+  background-image: url('../../img_rtl/t/a1_10.gif');
+}
+
+div.alliance img.a2_1 {
+  background-image: url('../../img_rtl/t/a2_1.gif');
+}
+
+div.alliance img.a2_2 {
+  background-image: url('../../img_rtl/t/a2_2.gif');
+}
+
+div.alliance img.a2_3 {
+  background-image: url('../../img_rtl/t/a2_3.gif');
+}
+
+div.alliance img.a2_4 {
+  background-image: url('../../img_rtl/t/a2_4.gif');
+}
+
+div.alliance img.a2_5 {
+  background-image: url('../../img_rtl/t/a2_5.gif');
+}
+
+div.alliance img.a2_6 {
+  background-image: url('../../img_rtl/t/a2_6.gif');
+}
+
+div.alliance img.a2_7 {
+  background-image: url('../../img_rtl/t/a2_7.gif');
+}
+
+div.alliance img.a2_8 {
+  background-image: url('../../img_rtl/t/a2_8.gif');
+}
+
+div.alliance img.a2_9 {
+  background-image: url('../../img_rtl/t/a2_9.gif');
+}
+
+div.alliance img.a2_10 {
+  background-image: url('../../img_rtl/t/a2_10.gif');
+}
+
+div.alliance img.a3_1 {
+  background-image: url('../../img_rtl/t/a3_1.gif');
+}
+
+div.alliance img.a3_2 {
+  background-image: url('../../img_rtl/t/a3_2.gif');
+}
+
+div.alliance img.a3_3 {
+  background-image: url('../../img_rtl/t/a3_3.gif');
+}
+
+div.alliance img.a3_4 {
+  background-image: url('../../img_rtl/t/a3_4.gif');
+}
+
+div.alliance img.a3_5 {
+  background-image: url('../../img_rtl/t/a3_5.gif');
+}
+
+div.alliance img.a3_6 {
+  background-image: url('../../img_rtl/t/a3_6.gif');
+}
+
+div.alliance img.a3_7 {
+  background-image: url('../../img_rtl/t/a3_7.gif');
+}
+
+div.alliance img.a3_8 {
+  background-image: url('../../img_rtl/t/a3_8.gif');
+}
+
+div.alliance img.a3_9 {
+  background-image: url('../../img_rtl/t/a3_9.gif');
+}
+
+div.alliance img.a3_10 {
+  background-image: url('../../img_rtl/t/a3_10.gif');
+}
+
+div.alliance img.a4_1 {
+  background-image: url('../../img_rtl/t/a4_1.gif');
+}
+
+div.alliance img.a4_2 {
+  background-image: url('../../img_rtl/t/a4_2.gif');
+}
+
+div.alliance img.a4_3 {
+  background-image: url('../../img_rtl/t/a4_3.gif');
+}
+
+div.alliance img.a4_4 {
+  background-image: url('../../img_rtl/t/a4_4.gif');
+}
+
+div.alliance img.a4_5 {
+  background-image: url('../../img_rtl/t/a4_5.gif');
+}
+
+div.alliance img.a4_6 {
+  background-image: url('../../img_rtl/t/a4_6.gif');
+}
+
+div.alliance img.a4_7 {
+  background-image: url('../../img_rtl/t/a4_7.gif');
+}
+
+div.alliance img.a4_8 {
+  background-image: url('../../img_rtl/t/a4_8.gif');
+}
+
+div.alliance img.a4_9 {
+  background-image: url('../../img_rtl/t/a4_9.gif');
+}
+
+div.alliance img.a4_10 {
+  background-image: url('../../img_rtl/t/a4_10.gif');
+}
+
+/* Gloria Formatierung */
+.gloriatitle {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 4px;
+  font-size: 12px;
+}
+.rtl .gloriatitle {
+  font-size: 13px;
+}
+
+.gloriacontent {
+  font-size: 10px;
+}
+.rtl .gloriacontent {
+  font-size: 11px;
+}

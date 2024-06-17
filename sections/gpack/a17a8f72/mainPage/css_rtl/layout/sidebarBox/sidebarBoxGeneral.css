@@ -1,0 +1,252 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.sidebarBoxBaseBox {
+  display: none;
+}
+
+.sidebar a {
+  color: #252525;
+}
+.sidebar * {
+  box-sizing: border-box;
+}
+.sidebar .sidebarBox {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  margin: 10px 5px 18px;
+  color: #333333;
+  background-color: #3C4f56;
+}
+.sidebar .sidebarBox:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  bottom: 2px;
+  right: 5px;
+  z-index: 1;
+}
+body:not(.ie10) .sidebar .sidebarBox:before {
+  border-style: solid;
+  border-width: 28px 30px 30px 34px;
+  border-image: url('../../../img_rtl/components/Box/default_paper.png') 28 30 30 34 fill stretch;
+}
+.sidebar .sidebarBox .sidebarBoxInnerBox {
+  position: relative;
+  z-index: 3;
+}
+.sidebar .sidebarBox .sidebarBoxInnerBox .innerBox {
+  position: relative;
+}
+.sidebar .sidebarBox .sidebarBoxInnerBox .header,
+.sidebar .sidebarBox .sidebarBoxInnerBox .content,
+.sidebar .sidebarBox .sidebarBoxInnerBox .footer {
+  position: relative;
+  z-index: 5;
+  padding: 0 35px;
+}
+.sidebar .sidebarBox .sidebarBoxInnerBox .header,
+.sidebar .sidebarBox .sidebarBoxInnerBox .footer {
+  min-height: 20px;
+}
+.sidebar .sidebarBox .sidebarBoxInnerBox .header {
+  padding-top: 10px;
+}
+.sidebar .sidebarBox .sidebarBoxInnerBox .header + .content {
+  margin-top: 5px;
+}
+.sidebar .sidebarBox .sidebarBoxInnerBox .header,
+.sidebar .sidebarBox .sidebarBoxInnerBox .header a {
+  color: #61332B;
+  font-weight: bold;
+}
+.sidebar .sidebarBox .sidebarBoxInnerBox .header {
+  width: 100%;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.rtl .sidebar .sidebarBox .sidebarBoxInnerBox .header {
+  font-size: 15px;
+}
+.sidebar .sidebarBox .sidebarBoxInnerBox .header img {
+  vertical-align: text-bottom;
+}
+.sidebar .sidebarBox .sidebarBoxInnerBox .header h5,
+.sidebar .sidebarBox .sidebarBoxInnerBox .header h4,
+.sidebar .sidebarBox .sidebarBoxInnerBox .header h3,
+.sidebar .sidebarBox .sidebarBoxInnerBox .header h2 {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  height: 3em;
+  margin: 0;
+  width: 100%;
+}
+.sidebar .sidebarBox .sidebarBoxInnerBox .header h5 {
+  margin: 0.5em auto;
+}
+.sidebar .sidebarBox .sidebarBoxInnerBox .header:not(.noHeader):after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 25px;
+  bottom: 0;
+  right: 25px;
+  opacity: 0.5;
+}
+body:not(.ie10) .sidebar .sidebarBox .sidebarBoxInnerBox .header:not(.noHeader):after {
+  border-style: solid;
+  border-width: 0px 38px 2px 70px;
+  border-image: url('../../../img_rtl/components/Box/default_separator.png') 0 38 2 70 round;
+}
+.sidebar .sidebarBox .sidebarBoxInnerBox:after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  bottom: -5px;
+  right: -5px;
+  z-index: 2;
+}
+body:not(.ie10) .sidebar .sidebarBox .sidebarBoxInnerBox:after {
+  border-style: solid;
+  border-width: 32px;
+  border-image: url('../../../img_rtl/components/Box/default_border.png') 32 round;
+}
+.ie10 .sidebar .sidebarBox {
+  background-color: #d7c095;
+  border: 2px solid;
+  border-color: #e9d0a1 #9b8a6b #b6a27e #b6a27e;
+  border-radius: 4px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7), 0 0 5px #000000, 0 10px 20px -5px rgba(255, 255, 255, 0.5) inset;
+}
+.sidebar .sidebarBox .buttonsWrapper {
+  margin-top: -10px;
+  top: -15px;
+  position: relative;
+  z-index: 2;
+}
+.sidebar .sidebarBox button.layoutButton {
+  float: left;
+  margin-right: 5px;
+  right: 10px;
+}
+.sidebar .sidebarBox button.layoutButton div.speechBubbleContainer {
+  right: 15px;
+  top: -13px;
+  z-index: 4;
+  color: #333333;
+}
+.sidebar .sidebarBox div.sidebarBoxInnerBox div.content ul {
+  margin: 0 0 5px;
+  padding: 0;
+  list-style: none;
+}
+.sidebar .sidebarBox div.sidebarBoxInnerBox div.content ul li {
+  border-bottom: 1px solid #d7c095;
+  padding-right: 20px;
+  position: relative;
+  transition-duration: 250ms;
+}
+.sidebar .sidebarBox div.sidebarBoxInnerBox div.content ul li a {
+  display: block;
+  margin-right: -20px;
+  padding: 2px 20px 2px 0;
+  overflow: hidden;
+  font-weight: normal;
+  color: #252525;
+}
+.sidebar .sidebarBox div.sidebarBoxInnerBox div.content ul li:hover {
+  background-color: #FFFBEB;
+}
+.sidebar .sidebarBox div.sidebarBoxInnerBox div.content ul li.active {
+  background-color: #e9d2a8;
+}
+.sidebar .sidebarBox div.sidebarBoxInnerBox div.content ul li.active a {
+  font-weight: bold;
+}
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist) {
+  margin-bottom: 30px;
+}
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist) .footer:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+  height: 26px;
+  width: 100%;
+  background-image: url('../../../img_rtl/components/Box/default_toggle_fitting.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist) .toggle {
+  position: absolute;
+  top: 18px;
+  height: 16px;
+  width: 22px;
+  z-index: 2;
+  right: 50%;
+  margin-right: -11px;
+  border-radius: 1px;
+  box-shadow: inset 2px 2px 8px -1px rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(to bottom, #8dcb00, #71a308);
+  cursor: pointer;
+}
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist) .toggle .toggle-caret {
+  position: relative;
+  margin: 1px 1px 0;
+  width: 20px;
+  height: 14px;
+}
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist) .toggle .toggle-caret .caret {
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist) .toggle .toggle-caret .down_glow,
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist) .toggle .toggle-caret .up_glow {
+  fill: none;
+}
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist) .toggle .toggle-caret .topshadow,
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist) .toggle .toggle-caret .bottomshadow {
+  fill: none;
+}
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist) .toggle:active {
+  background-image: linear-gradient(to top, #567C06, #7AB000);
+}
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist).collapsed .header:after,
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist).collapsed .content {
+  display: none;
+}
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist).collapsed .toggle-caret .topshadow {
+  fill: #346700;
+}
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist).collapsed .toggle-caret:hover .down_glow {
+  stroke: #FFFFFF;
+  stroke-width: 8;
+  stroke-opacity: 0.5;
+  stroke-miterlimit: 10;
+}
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist).expanded .toggle-caret {
+  transform: scaleY(-1);
+}
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist).expanded .toggle-caret .bottomshadow {
+  fill: #346700;
+}
+.sidebar .sidebarBox.toggleable:not(#sidebarBoxVillagelist).expanded .toggle-caret:hover .up_glow {
+  stroke: #FFFFFF;
+  stroke-width: 8;
+  stroke-opacity: 0.5;
+  stroke-miterlimit: 10;
+}

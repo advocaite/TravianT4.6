@@ -1,0 +1,57 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+div.sidebar div#sidebarBoxNews1 {
+  margin-top: 60px;
+}
+div.sidebar.beforeContent div#sidebarBoxNews1 {
+  margin-top: 0;
+}
+div.sidebar div.sidebarBoxNews {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.rtl div.sidebar div.sidebarBoxNews {
+  font-size: 13px;
+}
+div.sidebar div.sidebarBoxNews div.content {
+  height: 100px;
+}
+div.sidebar div.sidebarBoxNews div.content a {
+  height: 82px;
+}
+div.sidebar div.sidebarBoxNews a {
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  color: #333333;
+}
+div.sidebar div.sidebarBoxNews div.content a {
+  top: -8px;
+}
+div.sidebar div.sidebarBoxNews div.footer a {
+  font-weight: bold;
+  white-space: nowrap;
+  top: -20px;
+  color: #99C01A;
+}
+div.sidebar div.sidebarBoxNews div.footer a:visited {
+  color: #99C01A;
+}
+div.sidebar div.sidebarBoxNews div.footer a:active {
+  color: #FF8000;
+}
+div.sidebar div.sidebarBoxNews div.footer a:hover {
+  color: #00BC00;
+}

@@ -1,0 +1,112 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/*--------------- Display Coord --------------- */
+span.coordinates {
+  vertical-align: top;
+  white-space: pre;
+}
+
+/* aligned */
+span.coordinatesAligned {
+  width: 84px;
+  white-space: nowrap;
+  margin: 0px auto;
+  display: inline-block;
+  text-align: center;
+}
+
+span.coordinatesLTR {
+  direction: ltr;
+}
+
+span.coordinatesRTL {
+  direction: rtl;
+}
+
+span.coordinatesAligned span.coordinateX {
+  width: 38px;
+  display: inline-block;
+}
+
+span.coordinatesAligned span.coordinatePipe {
+  width: 8px;
+  text-align: center;
+  display: inline-block;
+}
+
+span.coordinatesAligned span.coordinateY {
+  width: 38px;
+  display: inline-block;
+}
+
+span.coordinatesAligned.coordinatesltr {
+  direction: ltr;
+}
+span.coordinatesAligned.coordinatesltr .coordinateX {
+  text-align: right;
+}
+span.coordinatesAligned.coordinatesltr .coordinateY {
+  text-align: left;
+}
+
+span.coordinatesAligned.coordinatesrtl {
+  direction: rtl;
+}
+span.coordinatesAligned.coordinatesrtl .coordinateX {
+  text-align: left;
+}
+span.coordinatesAligned.coordinatesrtl .coordinateY {
+  text-align: right;
+}
+
+/*--------------- Coord Inputs --------------- */
+div.coordinatesInput div.xCoord,
+div.coordinatesInput div.yCoord {
+  float: left;
+}
+div.coordinatesInput div.xCoord {
+  margin-right: 15px;
+}
+.ar-AE div.coordinatesInput div.xCoord,
+.ar-AE div.coordinatesInput div.yCoord {
+  float: right;
+}
+.ar-AE div.coordinatesInput div.xCoord {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+div.coordinatesInput label {
+  font-weight: bold;
+  display: inline;
+}
+
+div.coordinatesInput input {
+  width: 36px;
+  text-align: left;
+}
+
+/* Sonderfall Karte */
+#mapContainer #mapCoordEnter.toolbar div.coordinatesInput div.xCoord {
+  margin-right: 5px;
+}
+.ar-AE #mapContainer #mapCoordEnter.toolbar div.coordinatesInput div.xCoord {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/* Sonderfall Raidlist */
+div.build .gid16 #raidListSlot div.coordinatesInput div.xCoord {
+  margin: 0;
+}

@@ -1,0 +1,11 @@
+/**
+ * lessc src/TGP/PaymentShopBundle/Resources/public/less/info.less src/TGP/PaymentShopBundle/Resources/public/css/info.css
+ * Payment Shop v2.0.0
+**/
+header.payments {
+  height: 80px;
+  margin-top: 20px;
+}
+.alert-danger {
+  margin-bottom: 0px;
+}

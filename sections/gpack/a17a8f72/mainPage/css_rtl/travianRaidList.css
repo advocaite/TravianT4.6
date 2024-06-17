@@ -1,0 +1,326 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#raidListCreate .boxes-contents,
+div.build .gid16 #raidListSlot .boxes-contents {
+  padding: 10px 20px;
+}
+
+#raidListCreate .boxes {
+  width: 380px;
+  margin: 6px 0;
+}
+
+div.build .gid16 #raidListSlot .boxes {
+  width: 95%;
+  margin: 6px 0 12px 0;
+}
+
+#raidListCreate table th {
+  width: 40%;
+}
+
+div.build .gid16 #raidListSlot table th {
+  width: 20%;
+}
+
+div.build .gid16 #raidList table .sortable {
+  cursor: pointer;
+}
+
+#raidListCreate table th,
+#raidListCreate table td,
+div.build .gid16 #raidListSlot table th,
+div.build .gid16 #raidListSlot table td {
+  padding-top: 3px;
+}
+
+div.build .gid16 #raidListSlot table th,
+div.build .gid16 #raidListSlot table td {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+div.build .gid16 #raidListSlot label {
+  position: relative;
+  top: 2px;
+}
+
+div.build .gid16 #raidListSlot #target_id {
+  width: 120px;
+}
+
+div.build .gid16 #raidListSlot .troop {
+  width: 40px;
+  margin: 4px 10px;
+}
+
+div.build .gid16 #raidListSlot .troops {
+  margin-bottom: 10px;
+}
+
+div.build .gid16 #raidListSlot .troopGroup {
+  float: right;
+  margin-right: 10px;
+}
+
+div.build .gid16 #raidListSlot .lastTargets {
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+#raidListCreate input {
+  width: 150px;
+}
+
+#raidListCreate select {
+  width: 156px;
+}
+
+div.build .gid16 #raidList td {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+div.build .gid16 #raidList .options {
+  margin-top: 15px;
+}
+
+div.build .gid16 #raidList .village {
+  text-align: right;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+
+div.build .gid16 #raidList .village img.attack {
+  float: right;
+  margin-left: 3px;
+}
+
+div.build .gid16 #raidList .checkbox {
+  width: 3%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+div.build .gid16 #raidList .ew {
+  width: 6%;
+}
+
+div.build .gid16 #raidList .distance {
+  width: 7%;
+}
+
+div.build .gid16 #raidList .troops {
+  width: 15%;
+  line-height: 20px;
+}
+
+div.build .gid16 #raidList .troops .troopIcon {
+  white-space: nowrap;
+}
+
+div.build .gid16 #raidList .lastRaid {
+  width: 30%;
+  white-space: nowrap;
+}
+
+div.build .gid16 #raidList .action {
+  width: 10%;
+}
+
+div.build .gid16 #raidList .raidListSwitchWrapper {
+  width: 18px;
+  height: 21px;
+  background-image: url('../img_rtl/round/button/buttonSmall-rtl.png');
+  padding: 3px 3px;
+  float: left;
+  overflow: hidden;
+}
+
+div.build .gid16 #raidList .openedClosedSwitch {
+  width: 21px;
+  height: 21px;
+}
+
+div.build .gid16 #raidList div.raidListTitleButtons .raidListSwitchWrapper,
+div.build .gid16 #raidList div.raidListTitleButtons #updateRaidList,
+div.build .gid16 #raidList div.raidListTitleButtons #deleteRaidList {
+  float: left;
+  margin-top: -4px;
+  margin-right: 3px;
+}
+
+div.build .gid16 #raidList div.markAll {
+  margin: 10px 1px 0 0;
+  float: right;
+}
+
+div.build .gid16 #raidList div.addSlot {
+  margin: 10px 0 0 5px;
+  float: left;
+}
+
+div.build .gid16 #raidList div.addSlot button {
+  float: left;
+}
+
+div.build .gid16 #raidList div.addSlot .raidListSlotCount {
+  margin-top: 7px;
+}
+
+div.build .gid16 #raidList button img.delete {
+  width: 12px;
+  height: 13px;
+  background-image: url('../img_rtl/a/delete.gif');
+  right: 9px;
+  top: 3px;
+}
+
+.colorBlind div.build .gid16 #raidList button img.delete {
+  width: 12px;
+  height: 13px;
+  background-image: url('../img_rtl/a/deleteColorblind.gif');
+  right: 9px;
+  top: 3px;
+}
+
+div.build .gid16 #raidList button img.update {
+  width: 12px;
+  height: 13px;
+  background-image: url('../img_rtl/a/editPencil-rtl.png');
+  right: 6px;
+}
+
+div.build .gid16 #raidList .listTitle {
+  font-weight: bold;
+  min-height: 24px;
+  height: auto;
+}
+
+div.build .gid16 #raidList #spaceUsed {
+  padding: 20px 0 10px;
+}
+
+div.build .gid16 #raidList #spaceUsed .boxes {
+  float: right;
+}
+
+div.build .gid16 #raidList #spaceUsed .boxes-contents {
+  padding: 8px 20px;
+}
+
+div.build .gid16 #raidList td {
+  text-align: center;
+}
+
+div.build .gid16 #raidList td .markAll {
+  text-align: right;
+  padding-right: 10px;
+}
+
+div.build .gid16 #raidList .startButton {
+  margin: 10px;
+}
+
+div.build .gid16 #raidList .troopSelection {
+  margin: 5px;
+}
+
+div.build .gid16 #raidList .troopSelectionUnit {
+  display: none;
+  white-space: nowrap;
+  margin-left: 15px;
+  line-height: 25px;
+  float: right;
+}
+
+div.build .gid16 #raidList .troopIconAmount {
+  margin-left: 5px;
+  margin-right: 3px;
+}
+
+div.build .gid16 #raidList .boxes {
+  padding: 5px 10px;
+  width: 170px;
+}
+
+div.build .gid16 #raidList .lastRaid img.iReport {
+  float: right;
+}
+
+div.build .gid16 #raidList .lastRaid img.carry {
+  float: left;
+}
+
+/* PB */
+div.build .gid16 #raidListSlot .boxes {
+  width: 100%;
+}
+
+div.build .gid16 #raidListSlot div.coordinatesInput,
+div.build .gid16 #raidListSlot div.targetSelect {
+  height: 22px;
+  float: right;
+  position: relative;
+}
+
+div.build .gid16 #raidListSlot div.coordinatesInput div.xCoord,
+div.build .gid16 #raidListSlot div.coordinatesInput div.yCoord {
+  width: 70px;
+}
+
+div.build .gid16 #raidListSlot div.targetSelect label,
+div.build .gid16 #raidListSlot div.targetSelect select {
+  float: right;
+  direction: rtl;
+}
+
+div.build .gid16 #raidListSlot div.targetSelect {
+  width: 258px;
+}
+
+div.build .gid16 #raidListSlot div.coordinatesInput {
+  width: 142px;
+}
+
+div.build .gid16 #raidListSlot div.coordinatesInput input {
+  height: 18px;
+}
+
+div.build .gid16 #raidListSlot div.targetSelect select {
+  height: 22px;
+}
+
+div.build .gid16 #raidList .raidListSlotCount {
+  float: left;
+  padding-left: 5px;
+  margin-top: 2px;
+}
+
+div.captchaConfirm {
+  min-width: 300px;
+}
+
+div.captchaConfirmButtonContainer {
+  margin-top: 10px;
+  text-align: left;
+}
+
+#recaptcha_audio_download {
+  display: none !important;
+}

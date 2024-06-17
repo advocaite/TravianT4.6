@@ -1,0 +1,621 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+span.maintenance_mode_text {
+  color: #ff6f0f;
+  font-size: 14px;
+  font-weight: bold;
+}
+.rtl span.maintenance_mode_text {
+  font-size: 15px;
+}
+
+table.plus_error th {
+  font-weight: bold;
+  text-align: right;
+}
+
+span.final_sales_amounts_text {
+  font-style: italic;
+  margin-left: 8px;
+}
+
+/* ------------------- Plus ------------------ */
+/* ------------------------------------------- */
+/* language specific */
+hr {
+  border-color: -moz-use-text-color -moz-use-text-color #D3D3D3;
+  border-style: none none dotted;
+  border-width: medium medium 1px;
+  height: 1px;
+  margin-bottom: 17px;
+  margin-top: 17px;
+}
+
+span.provider_defect {
+  color: red;
+  font-style: italic;
+}
+
+div.plus table.lang_ltr a.arrow {
+  background-image: url("../img_ltr/a/arrow-ltr.gif");
+  background-position: left 4px;
+  padding-left: 8px;
+}
+
+div.plus table.lang_rtl a.arrow {
+  background-image: url("../img_rtl/a/arrow-rtl.gif");
+  background-position: right 4px;
+  padding-right: 8px;
+}
+
+div.plus h4.lang_ltr,
+div.plus div.whatToDo.lang_ltr {
+  text-align: left;
+}
+
+div.plus h4.lang_rtl,
+div.plus div.whatToDo.lang_rtl {
+  text-align: right;
+}
+
+div.plus table th,
+div.plus table td {
+  font-size: 13px;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+.rtl div.plus table th, .rtl
+div.plus table td {
+  font-size: 14px;
+}
+.fa-IR div.plus table th, .fa-IR
+div.plus table td {
+  font-family: IRANSans, Arial, Helvetica, Verdana, sans-serif;
+}
+
+div.plus table thead td {
+  font-weight: bold;
+}
+
+div.plus table.lang_ltr {
+  direction: ltr;
+}
+
+div.plus table.lang_rtl {
+  direction: rtl;
+}
+
+div.plus table.lang_ltr th,
+div.plus table.lang_ltr td {
+  text-align: left;
+}
+
+div.plus table.lang_rtl th,
+div.plus table.lang_rtl td {
+  text-align: right;
+}
+
+div.plus div#products table.lang_ltr td.voucher,
+div.plus div#products table.lang_ltr td.units,
+div.plus div#products table.lang_ltr td.price {
+  padding-left: 15px;
+}
+
+div.plus div#products table.lang_ltr td.voucher,
+div.plus div#products table.lang_rtl td.units,
+div.plus div#products table.lang_rtl td.price {
+  padding-right: 15px;
+}
+
+div.plus div#products table.lang_ltr td.next {
+  text-align: right;
+}
+
+div.plus div#products table.lang_ltr td.next a {
+  padding-right: 28px;
+}
+
+div.plus div#products table.lang_rtl td.next {
+  text-align: left;
+}
+
+div.plus div#products table.lang_rtl td.next a {
+  padding-left: 28px;
+}
+
+div.plus table.lang_ar th,
+div.plus table.lang_ar td {
+  font-size: 14px;
+  font-family: Tahoma, Helvetica, Arial, Verdana, sans-serif;
+}
+
+div.plus .productBackground.lang_ltr {
+  float: left;
+}
+
+div.plus .productBackground.lang_rtl {
+  float: right;
+}
+
+/* general */
+div.plus .none {
+  text-align: center;
+}
+
+div.plus p.btn {
+  text-align: left;
+}
+
+div.plus img.gold {
+  margin-right: 2px;
+}
+
+div.plus div.whatToDo {
+  font-weight: bold;
+  margin: 20px 8px 5px;
+}
+
+/* product dropdown */
+div.plus select#product_selection {
+  font-size: 10px;
+}
+.rtl div.plus select#product_selection {
+  font-size: 11px;
+}
+
+div.plus .productSelectLabel {
+  font-weight: bold;
+  font-size: 10px;
+}
+.rtl div.plus .productSelectLabel {
+  font-size: 11px;
+}
+
+div.plus select.product_selection {
+  padding: 2px 3px;
+  font-size: 10px;
+}
+.rtl div.plus select.product_selection {
+  font-size: 11px;
+}
+
+/* open orders */
+div.plus a#orders_link {
+  float: right;
+}
+
+div.plus table#open_orders th,
+div.plus table#open_orders td {
+  text-align: center;
+}
+
+/* products */
+div.plus .productBackground.lang_ltr {
+  background-image: url("../img_ltr/p/plusPackages-ltr.png");
+}
+
+div.plus .productBackground.lang_rtl {
+  background-image: url("../img_rtl/p/plusPackages-rtl.png");
+}
+
+div.plus .productBackground {
+  width: 137px;
+  height: 224px;
+  position: relative;
+  margin-bottom: 6px;
+}
+
+div.plus div#products table.product {
+  margin: 14px 7px 0;
+  width: 123px;
+}
+
+div.plus div#products table.product th {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 10px 2px;
+}
+
+div.plus div#products table.product th div.boxes-contents {
+  color: #F2F2F2;
+  padding: 3px 0;
+}
+
+div.plus div#products table.product td.pic {
+  padding: 5px 2px;
+  text-align: center;
+}
+
+div.plus .productBackground td.voucher a {
+  position: relative;
+}
+
+div.plus .productBackground a.bookProduct, div.plus .productBackground a.bookProduct img, div.plus .productBackground a.voucher, div.plus .productBackground a.voucher img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 130px;
+  height: 220px;
+}
+
+div.plus .productBackground a.voucher {
+  bottom: 70px;
+}
+
+/* payment options */
+div.plus table.rate_details td.pic {
+  width: 120px;
+  text-align: center;
+  vertical-align: top;
+}
+
+div.plus table.rate_details td.pic div {
+  font-size: 10px;
+}
+
+div.plus table.rate_details td.desc {
+  vertical-align: top;
+}
+
+div.plus table.rate_details td.desc span.alert {
+  color: red;
+  font-style: italic;
+}
+
+div.plus table.rate_details td.action {
+  padding-top: 10px;
+  vertical-align: bottom;
+}
+
+/* gold features */
+div.plus table.features th,
+div.plus table.features td {
+  vertical-align: top;
+  padding-top: 0;
+}
+
+div.plus table.features th {
+  font-weight: bold;
+}
+
+div.plus table.features td.empty {
+  padding-bottom: 20px;
+}
+
+div.plus table.features td.preview {
+  width: 131px;
+  padding: 2px 0;
+}
+
+div.plus table.features td.preview a {
+  border: 1px solid #C0C0C0;
+  padding: 1px;
+  display: block;
+}
+
+div.plus table#plus_features td.preview img,
+div.plus table#gold_features td.preview img {
+  width: 127px;
+  height: 88px;
+}
+
+div.plus table#plus_features td.preview img.waitingLoop {
+  background-image: url('../img_ltr/p/waitingLoop.jpg');
+}
+
+div.plus table#plus_features td.preview img.mapFullscreen {
+  background-image: url('../img_ltr/p/mapFullscreen.jpg');
+}
+
+div.plus table#plus_features td.preview img.archive {
+  background-image: url('../img_ltr/p/archive.jpg');
+}
+
+div.plus table#plus_features td.preview img.market {
+  background-image: url('../img_ltr/p/market.jpg');
+}
+
+div.plus table#plus_features td.preview img.autoCompletion {
+  background-image: url('../img_ltr/p/autoCompletion.jpg');
+}
+
+div.plus table#plus_features td.preview img.directLinks {
+  background-image: url('../img_ltr/p/directLinks.jpg');
+}
+
+div.plus table#plus_features td.preview img.graphicStatistics {
+  background-image: url('../img_ltr/p/graphicStatistics.jpg');
+}
+
+div.plus table#plus_features td.preview img.villageOverview {
+  background-image: url('../img_ltr/p/villageOverview.jpg');
+}
+
+div.plus table#plus_features td.preview img.notepad {
+  background-image: url('../img_ltr/p/notepad.jpg');
+}
+
+div.plus table#gold_features td.preview img.p25Lumber {
+  background-image: url('../img_ltr/p/p25Lumber.jpg');
+}
+
+div.plus table#gold_features td.preview img.p25Clay {
+  background-image: url('../img_ltr/p/p25Clay.jpg');
+}
+
+div.plus table#gold_features td.preview img.p25Iron {
+  background-image: url('../img_ltr/p/p25Iron.jpg');
+}
+
+div.plus table#gold_features td.preview img.p25Crop {
+  background-image: url('../img_ltr/p/p25Crop.jpg');
+}
+
+div.plus table#gold_features td.preview img.constructionComplete {
+  background-image: url('../img_ltr/p/constructionComplete.jpg');
+}
+
+div.plus table#gold_features td.preview img.npcMerchant {
+  background-image: url('../img_ltr/p/npcMerchant.jpg');
+}
+
+/* balance */
+div.plus div.goldBalance {
+  display: inline-block;
+}
+
+div.plus div.goldBalance div.boxes-contents {
+  padding: 5px 10px;
+}
+
+div.plus table.plusFunctions {
+  margin-bottom: 5px;
+}
+
+div.plus table.plusFunctions span.none {
+  font-weight: normal;
+}
+
+div.plus table.plusFunctions div.run {
+  font-size: 11px;
+}
+.rtl div.plus table.plusFunctions div.run {
+  font-size: 12px;
+}
+
+div.plus table.plusFunctions td.desc {
+  width: 45%;
+}
+
+div.plus table.plusFunctions td.dur {
+  width: 15%;
+  text-align: center;
+}
+
+div.plus table.plusFunctions td.cost {
+  width: 15%;
+  white-space: nowrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+div.plus table.plusFunctions td.act {
+  width: 25%;
+  text-align: center;
+}
+
+div.plus table.plusFunctions td.act.arrow {
+  text-align: left;
+  background-image: none;
+}
+
+div.plus table.plusFunctions td.act.link {
+  text-align: left;
+}
+
+/* exchange office */
+div.plus div.exchange {
+  width: 300px;
+}
+
+div.plus div.exchange div.boxes-contents {
+  padding: 10px 5px;
+}
+
+div.plus table.exchangeOffice input.text {
+  width: 90px;
+}
+
+/* faq */
+div.plusFaq p {
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+
+div.plusFaq b {
+  background-image: url('../img_ltr/p/faqIcon.png');
+  padding-left: 25px;
+}
+
+/* sws */
+div.plus span.link,
+div.plus p.mail {
+  font-family: Courier New;
+}
+
+div.plus span.notice {
+  font-size: 11px;
+  color: #C0C0C0;
+}
+.rtl div.plus span.notice {
+  font-size: 12px;
+}
+
+div.plus input.mail {
+  width: 170px;
+}
+
+div.plus a#addMailRow {
+  position: relative;
+  top: 4px;
+}
+
+div.plus p.report {
+  color: #228B22;
+  font-size: 21px;
+}
+.rtl div.plus p.report {
+  font-size: 22px;
+}
+
+div.plus textarea#optionalSwsMessage {
+  width: 480px;
+  height: 200px;
+}
+
+div.plus #email_invite_link {
+  margin-top: 10px;
+}
+
+div.plus #invite tbody td {
+  padding: 6px 0 3px;
+}
+
+div.plus #invite td.addRow {
+  vertical-align: top;
+  width: 16px;
+  padding: 2px 0 0 0;
+}
+
+/* Wechselstube */
+div#silverExchange {
+  margin: 4px 0;
+}
+
+div#silverExchange h4 {
+  margin: 8px 12px 3px 12px;
+}
+
+div#silverExchange .exchangeMessageLine {
+  font-weight: bold;
+  font-size: 12px;
+  margin: 3px 17px 8px 17px;
+}
+.rtl div#silverExchange .exchangeMessageLine {
+  font-size: 13px;
+}
+
+div#silverExchange .exchangeLine {
+  margin: 0 7px;
+}
+
+div#silverExchange .exchangeLine button {
+  float: right;
+}
+
+div#silverExchange .exchangeLine input {
+  width: 50px;
+  margin-top: 4px;
+}
+
+div#silverExchange .exchangeLine .exchangeItem {
+  margin-right: 5px;
+  margin-left: 5px;
+  float: left;
+}
+
+div#silverExchange .directionButtons {
+  margin-left: 10px;
+}
+
+div#silverExchange .directionButtons input {
+  display: none;
+  visibility: hidden;
+}
+
+div#silverExchange .directionButtons .directionButton {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  background-image: url('../img_ltr/exchangeSilver/btnSmallSwap.png');
+  width: 61px;
+  height: 27px;
+  cursor: pointer;
+  text-align: center;
+  overflow: hidden;
+}
+
+div#silverExchange .directionButtons .directionButton.active {
+  background-position: center center;
+}
+
+div#silverExchange .directionButtons .directionButton:hover {
+  background-position: center bottom;
+}
+
+div#silverExchange .directionButtons .directionButton img {
+  margin: 0px 2px;
+}
+
+div#silverExchange .directionButtons .directionButton img.silver {
+  position: relative;
+  bottom: 1px;
+}
+
+div#silverExchange .directionButtons .directionButton img.arrow {
+  background-image: url('../img_ltr/exchangeSilver/arrowGreen-ltr.png');
+  width: 14px;
+  height: 12px;
+}
+
+div#silverExchange .exchangeType {
+  display: none;
+  visibility: hidden;
+}
+
+div#silverExchange .exchangeType .exchangeItem .gold,
+div#silverExchange .exchangeType .exchangeItem .silver {
+  margin: 8px 2px 0 2px;
+}
+
+div#silverExchange .exchangeType .exchangeItem .gold {
+  margin-top: 6px;
+}
+
+div#silverExchange .exchangeType .exchangeItem .resultTerm .silver {
+  margin-top: 0;
+}
+
+div#silverExchange .exchangeType.active {
+  display: block;
+  visibility: visible;
+}
+
+div#silverExchange .error {
+  margin: 0;
+}
+
+div#silverExchange .exchangeType .exchangeItem .silverExchangeFormularTerm {
+  margin: 0 3px;
+  line-height: 27px;
+}
+
+div#silverExchange .exchangeType .exchangeItem.formularDirectionLTR .silverExchangeFormularTerm {
+  float: left;
+}
+
+div#silverExchange .exchangeType .exchangeItem.formularDirectionRTL .silverExchangeFormularTerm {
+  float: right;
+}

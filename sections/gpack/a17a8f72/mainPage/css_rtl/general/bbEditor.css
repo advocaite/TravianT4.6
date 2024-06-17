@@ -1,0 +1,118 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* bb editor */
+div.bbEditor div.boxes-contents {
+  padding: 6px 0;
+}
+
+div.bbEditor div.bbToolbar {
+  padding: 0px 10px;
+}
+
+div.bbEditor div.bbToolbar .bbButton {
+  margin: 1px;
+  float: right;
+}
+
+div.bbEditor div.bbToolbar .bbButton img {
+  background-image: url('../../img_rtl/msg/bb_buttons.gif');
+  height: 16px;
+  width: 16px;
+  right: 4px;
+}
+
+div.bbEditor div.bbToolbar img.bbBold {
+  background-position: 0 0;
+}
+
+div.bbEditor div.bbToolbar img.bbItalic {
+  background-position: 0 -26px;
+}
+
+div.bbEditor div.bbToolbar img.bbUnderscore {
+  background-position: 0 -52px;
+}
+
+div.bbEditor div.bbToolbar img.bbAlliance {
+  background-position: 0 -78px;
+}
+
+div.bbEditor div.bbToolbar img.bbPlayer {
+  background-position: 0 -104px;
+}
+
+div.bbEditor div.bbToolbar img.bbCoordinate {
+  background-position: 0 -130px;
+}
+
+div.bbEditor div.bbToolbar img.bbReport {
+  background-position: 0 -156px;
+}
+
+div.bbEditor div.bbToolbar img.bbResource {
+  background-position: 0 -182px;
+}
+
+div.bbEditor div.bbToolbar img.bbSmilies {
+  background-position: 0 -208px;
+}
+
+div.bbEditor div.bbToolbar img.bbTroops {
+  background-position: 0 -234px;
+}
+
+div.bbEditor div.bbToolbar img.bbPreview {
+  background-position: 0 -260px;
+}
+
+div.bbEditor div.bbToolbar button.bbAlliance,
+div.bbEditor div.bbToolbar button.bbResource {
+  margin-right: 8px;
+}
+
+div.bbEditor div.bbToolbar button.bbPreview {
+  float: left;
+}
+
+div.bbEditor div.bbToolbarWindow img,
+div.bbEditor div.bbToolbarWindow i {
+  margin: 4px;
+}
+
+div.bbEditor div.bbToolbarWindow div {
+  position: absolute;
+  margin-top: 5px;
+  margin-right: 197px;
+  border: 1px solid #99C01A;
+  padding: 5px;
+  background: #efefef;
+  max-width: 240px;
+  display: none;
+}
+
+div.bbEditor div.bbToolbarWindow div#message_troops > hr {
+  border-style: none none solid;
+  border-width: 0 0 1px 0;
+  height: 1px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #C0C0C0;
+}
+
+div.bbEditor div.preview {
+  padding: 0;
+  height: 258px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

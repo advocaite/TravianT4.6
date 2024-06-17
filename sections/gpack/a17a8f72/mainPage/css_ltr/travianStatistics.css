@@ -1,0 +1,341 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ------------------- Statistics ------------------- */
+/* -------------------------------------------------- */
+/* general */
+div.statistics table td,
+div.statistics table th {
+  text-align: center;
+}
+
+div.statistics td.ra {
+  width: 5%;
+  text-align: right;
+  white-space: nowrap;
+}
+
+div.statistics td.pop {
+  width: 20%;
+}
+
+div.statistics td.al {
+  text-align: left;
+}
+
+div.statistics td.vil {
+  width: 10%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+
+div.statistics td.po {
+  width: 20%;
+}
+
+div.statistics td.re {
+  width: 20%;
+  white-space: nowrap;
+}
+
+div.statistics td.pla {
+  width: 18%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+
+div.statistics td.av {
+  width: 18%;
+}
+
+div.statistics td.po {
+  width: 20%;
+}
+
+div.statistics p.error {
+  font-size: 9px;
+}
+.rtl div.statistics p.error {
+  font-size: 10px;
+}
+
+/* search & navi */
+div.statistics div#search_navi form .boxes {
+  float: left;
+  margin-top: 15px;
+}
+
+div.statistics div#search_navi form .boxes .boxes-contents {
+  padding: 0px 10px;
+  float: left;
+}
+
+div.statistics div#search_navi div.search {
+  margin: 4px;
+  text-align: center;
+}
+
+div.statistics div#search_navi div.search div.searchItem {
+  float: left;
+}
+
+div.statistics div#search_navi input.ra {
+  width: 32px;
+}
+
+div.statistics div#search_navi table {
+  width: 1%;
+  position: relative;
+}
+
+div.statistics div#search_navi table span {
+  white-space: nowrap;
+}
+
+div.statistics div#search_navi table td {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+div.statistics div#search_navi input.name {
+  width: 90px;
+}
+
+div.statistics div#search_navi div.search span.or {
+  margin: auto 8px;
+}
+
+div.statistics div#search_navi div.navi {
+  float: right;
+  text-align: right;
+  line-height: 22px;
+  white-space: nowrap;
+  color: #C0C0C0;
+  font-weight: bold;
+}
+
+div.statistics div#search_navi .paginator {
+  float: right;
+  margin-top: 15px;
+}
+
+/* player */
+div.statistics table#player td.pla {
+  width: auto;
+  text-align: left;
+}
+
+div.statistics table#player td.al {
+  width: 30%;
+}
+
+div.statistics table#player_off td.pla {
+  width: auto;
+  text-align: left;
+}
+
+div.statistics table#player_def td.pla {
+  width: auto;
+  text-align: left;
+}
+
+/* alliance */
+div.statistics table#alliance td.al {
+  width: auto;
+}
+
+div.statistics table#alliance_off td.al {
+  width: auto;
+}
+
+div.statistics table#alliance_def td.al {
+  width: auto;
+}
+
+/* top10 */
+div.statistics table.top10 {
+  margin: 0px auto;
+  width: 97%;
+}
+
+div.statistics table.top10 td.pla {
+  width: auto;
+  text-align: left;
+}
+
+div.statistics table.top10 td.pla span.archived {
+  font-weight: bold;
+  color: #777777;
+}
+
+div.statistics table.top10 td.val {
+  width: 10%;
+}
+
+div.statistics table.top10 tr.none td {
+  background-color: #EFEFEF;
+}
+
+div.statistics table.top10 tr.own.hl td.ra {
+  text-align: center;
+  white-space: nowrap;
+}
+
+div.statistics div.top10Wrapper {
+  width: 275px;
+  position: relative;
+}
+
+div.statistics div.top10Wrapper h4 {
+  left: 0;
+}
+
+div.statistics div#statLeft {
+  float: left;
+  left: -5px;
+}
+
+div.statistics div#statRight {
+  float: right;
+  right: -5px;
+}
+
+/* villages */
+div.statistics table#villages td.vil {
+  width: auto;
+  text-align: left;
+}
+
+div.statistics table#villages td.pla {
+  width: 30%;
+  text-align: left;
+}
+
+div.statistics table#villages td.hab {
+  width: 15%;
+}
+
+div.statistics table#villages td.aligned_coords {
+  padding: 2px 0;
+}
+
+div.statistics table#villages td.vil {
+  width: 30%;
+}
+
+div.statistics table#villages td.coords {
+  width: 20%;
+}
+
+/* heroes */
+div.statistics table#heroes td.hero {
+  text-align: left;
+}
+
+div.statistics table#heroes td.hero img {
+  position: relative;
+  top: 1px;
+  margin: -2px;
+}
+
+div.statistics table#heroes td.pla {
+  width: 30%;
+  text-align: left;
+}
+
+div.statistics table#heroes td.lev {
+  width: 10%;
+}
+
+div.statistics table#heroes td.xp {
+  width: 15%;
+}
+
+/* world */
+div.statistics table#world_player {
+  width: 264px;
+}
+
+div.statistics table#world_player th {
+  width: 30%;
+  white-space: nowrap;
+}
+
+div.statistics table#world_player th,
+div.statistics table#world_player td {
+  text-align: left;
+}
+
+div.statistics table#world_tribes td,
+div.statistics table#world_misc td {
+  width: 33%;
+}
+
+/* worldwonder */
+div.statistics table#wonder td.nam {
+  width: 35%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+
+div.statistics table#wonder td.al {
+  width: 15%;
+}
+
+div.statistics table#wonder td.lev {
+  width: 10%;
+}
+
+div.statistics table#wonder td.at {
+  width: 2%;
+  color: #C0C0C0;
+}
+
+/* plus */
+div.statistics div.plusInfoText {
+  padding: 0px 9px;
+}
+
+div.statistics div.graph {
+  padding-top: 20px;
+  padding-left: 60px;
+  width: 450px;
+  height: 220px;
+}
+
+div.statistics div.legende {
+  border: solid black 1px;
+  background-color: #ebebeb;
+  padding: 3px 5px;
+  float: left;
+  line-height: 17px;
+  margin-left: 25px;
+}
+
+div.statistics div.legende div.box {
+  width: 9px;
+  height: 9px;
+  font-size: 0;
+  font-border: solid 1px black;
+  font-float: left;
+  margin: 4px 4px 0;
+}

@@ -1,0 +1,209 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+div.village1 div.buildingList,
+div.village2 div.buildingList {
+  position: relative;
+  float: left;
+  width: 405px;
+  z-index: 2;
+}
+
+div.village1 div.buildingList div.boxes-contents.cf,
+div.village2 div.buildingList div.boxes-contents.cf {
+  padding: 11px;
+}
+
+div.village1 div.buildingList h5,
+div.village2 div.buildingList h5 {
+  font-weight: normal;
+}
+
+div.village1 div.buildingList h5 span,
+div.village2 div.buildingList h5 span {
+  font-size: 11px;
+}
+.rtl div.village1 div.buildingList h5 span, .rtl
+div.village2 div.buildingList h5 span {
+  font-size: 12px;
+}
+
+div.village1 div.buildingList h5 img,
+div.village2 div.buildingList h5 img {
+  position: relative;
+  top: 2px;
+}
+
+div.village1 div.buildingList div.finishNow,
+div.village2 div.buildingList div.finishNow {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+div.village1 div.buildingList div.finishNow button,
+div.village2 div.buildingList div.finishNow button {
+  text-align: right;
+}
+
+div.village1 div.buildingList ul,
+div.village2 div.buildingList ul {
+  padding: 0;
+  margin: 8px 0 15px;
+}
+
+div.village1 div.buildingList ul li,
+div.village2 div.buildingList ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+div.village1 div.buildingList a,
+div.village2 div.buildingList a {
+  float: left;
+  padding: 4px;
+}
+
+div.village1 div.buildingList div.name,
+div.village2 div.buildingList div.name {
+  float: left;
+}
+
+div.village1 div.buildingList div.name .lvl,
+div.village2 div.buildingList div.name .lvl {
+  font-size: 12px;
+  color: #F88C1F;
+  font-weight: bold;
+}
+.rtl div.village1 div.buildingList div.name .lvl, .rtl
+div.village2 div.buildingList div.name .lvl {
+  font-size: 13px;
+}
+
+div.village1 div.buildingList div.buildDuration,
+div.village2 div.buildingList div.buildDuration,
+div.village1 div.buildingList div.buildStart,
+div.village2 div.buildingList div.buildStart {
+  float: right;
+  font-size: 11px;
+  text-align: right;
+  color: #6b6b6b;
+}
+.rtl div.village1 div.buildingList div.buildDuration, .rtl
+div.village2 div.buildingList div.buildDuration, .rtl
+div.village1 div.buildingList div.buildStart, .rtl
+div.village2 div.buildingList div.buildStart {
+  font-size: 12px;
+}
+
+/* resource levels */
+/* Levels for T4.2 */
+div.village1 .level:not(.colorLayer),
+div.village2 div#village_map .buildingSlot .level {
+  position: absolute;
+  /* Ungleich des Bildes, da die Zahlen mit ungerader Breite nicht mittig werden */
+  width: 24px;
+  height: 23px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  text-align: center;
+  background-image: url('../img_ltr/g/circle.png');
+  background-position: 1px 0;
+}
+.rtl div.village1 .level:not(.colorLayer), .rtl
+div.village2 div#village_map .buildingSlot .level {
+  font-size: 15px;
+}
+
+/* Levels for T4.4 */
+div.village1 .colorLayer,
+div.village2 div#village_map .buildingSlot div.colorLayer {
+  position: absolute;
+  border: 1px solid #333333;
+  background-image: linear-gradient(to top, #606060, #c8c8c8 100%);
+  margin: 1px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 2px 0 white;
+}
+
+div.village1 .colorLayer.notNow,
+div.village2 div#village_map .buildingSlot .colorLayer.notNow {
+  border: 1px solid #988b42;
+  background-color: #fdf15f;
+  background-image: -moz-linear-gradient(bottom, #988b42, #fdf15f 100%);
+  background-image: -webkit-linear-gradient(bottom, #988b42, #fdf15f 100%);
+  background-image: linear-gradient(to top, #988b42, #fdf15f 100%);
+}
+
+div.village1 .colorLayer.good,
+div.village2 div#village_map .buildingSlot .colorLayer.good {
+  border: 1px solid #506d00;
+  background-color: #c7e94f;
+  background-image: -moz-linear-gradient(bottom, #7da100, #c7e94f 100%);
+  background-image: -webkit-linear-gradient(bottom, #7da100, #c7e94f 100%);
+  background-image: linear-gradient(to top, #7da100, #c7e94f 100%);
+}
+
+div.village1 .colorLayer.maxLevel,
+div.village2 div#village_map .buildingSlot .colorLayer.maxLevel {
+  border: 1px solid #0d648e;
+  background-color: #b1e4ff;
+  background-image: -moz-linear-gradient(bottom, #0d648e, #b1e4ff 100%);
+  background-image: -webkit-linear-gradient(bottom, #0d648e, #b1e4ff 100%);
+  background-image: linear-gradient(to top, #0d648e, #b1e4ff 100%);
+}
+
+div.village1 .colorLayer .labelLayer,
+div.village2 div#village_map .buildingSlot .colorLayer .labelLayer {
+  position: relative;
+  top: 4px;
+  left: 4px;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  border-radius: 50%;
+  line-height: 17px;
+  font-size: 11px;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+.rtl div.village1 .colorLayer .labelLayer, .rtl
+div.village2 div#village_map .buildingSlot .colorLayer .labelLayer {
+  font-size: 12px;
+}
+
+div.village1 .colorLayer.underConstruction .labelLayer,
+div.village2 div#village_map .buildingSlot .colorLayer.underConstruction .labelLayer {
+  background-color: #ffa84f;
+}
+
+.village1 .tip .level,
+.village2 .tip .level {
+  font-weight: normal;
+}
+
+.village1 .tip .showCosts,
+.village2 .tip .showCosts {
+  line-height: 16px;
+}
+
+.village1 .tip .showCosts .resources,
+.village2 .tip .showCosts .resources {
+  margin-bottom: 0;
+}
+
+table#warehouse thead tr td {
+  cursor: pointer;
+}

@@ -1,0 +1,60 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* Banner */
+a#goldSpecialBanner {
+  width: 159px;
+  height: 122px;
+  background-image: url('../img_rtl/misc/goldSpecial/speed/banner.png');
+  display: block;
+  z-index: 30;
+}
+
+a.goldSpecialBannerUnderVillageList {
+  position: relative;
+  right: 21px;
+}
+
+a.goldSpecialBannerUnderVillageName {
+  position: absolute;
+  right: -805px;
+  top: 200px;
+}
+
+div.goldSpecialSpeed h5 {
+  font-size: 18pt;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+div.goldSpecialSpeed img.goldSpecialSpeed5,
+div.goldSpecialSpeed img.goldSpecialSpeed10 {
+  height: 99px;
+  width: 99px;
+}
+
+div.goldSpecialSpeed img.goldSpecialSpeed5 {
+  background-image: url('../img_rtl/misc/goldSpecial/speed/speed_payment_5.jpg');
+}
+
+div.goldSpecialSpeed img.goldSpecialSpeed10 {
+  background-image: url('../img_rtl/misc/goldSpecial/speed/speed_payment_10.jpg');
+}
+
+div.goldSpecialSpeed table td {
+  padding-right: 0;
+}
+
+.a.needGoldClub {
+  color: #DAC065;
+}

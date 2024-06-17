@@ -1,0 +1,59 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+div.speechBubbleContainer {
+  font-size: 10px;
+  line-height: 11px;
+  white-space: nowrap;
+  position: absolute;
+  padding: 2px 7px 10px 8px;
+}
+.rtl div.speechBubbleContainer {
+  font-size: 11px;
+}
+
+div.speechBubbleContainer div.speechBubbleBackground,
+div.speechBubbleContainer div.speechBubbleBackground div {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+div.speechBubbleContainer div.speechBubbleBackground div {
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+div.speechBubbleContainer div.speechBubbleBackground div.middle {
+  margin-right: 13px;
+  margin-left: 4px;
+  width: auto;
+  background-position: right center;
+  background-repeat: repeat-x;
+}
+
+div.speechBubbleContainer div.speechBubbleBackground div.end {
+  background-position: left bottom;
+}
+
+div.speechBubbleContainer div.speechBubbleContent {
+  position: relative;
+  direction: ltr;
+  text-shadow: none;
+}
+
+div.speechBubbleContainer div.speechBubbleBackground div {
+  background-image: url('../../img_rtl/layout/speechBalloonSmall-rtl.png');
+}

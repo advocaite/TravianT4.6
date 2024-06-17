@@ -1,0 +1,57 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* --- Footer general --- */
+div#footer {
+  font-size: 11px;
+  line-height: 11px;
+  text-align: center;
+  color: #F2F2F2;
+  background-image: url('../../img_rtl/layout/footer.png'), radial-gradient(50% 100% ellipse at 50% 0%, rgba(46, 62, 36, 0.7), rgba(46, 62, 36, 0));
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding: 15px 0;
+  width: 100%;
+  align-self: center;
+}
+.rtl div#footer {
+  font-size: 12px;
+}
+div#footer.size2 {
+  margin-right: 46px;
+}
+
+div#footer p {
+  margin-top: 10px;
+}
+div#footer div#pageLinks {
+  margin: 0 auto;
+  min-width: 1280px;
+  max-width: 1440px;
+  position: relative;
+}
+div#footer div#pageLinks div {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+div#footer div#pageLinks a {
+  border-right: 1px solid #F2F2F2;
+  margin: 0 0 0 10px;
+  padding: 0 10px 0 0;
+  color: #F2F2F2;
+  font-weight: normal;
+}
+div#footer div#pageLinks a:first-child {
+  border-right: medium none;
+}

@@ -1,0 +1,613 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* --------------- Welcome Screen ---------------- */
+/* ----------------------------------------------- */
+.welcomeScreen {
+  width: 779px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.welcomeScreen .welcomeScreenHeader {
+  width: 100%;
+  height: 372px;
+  background-image: url('../img_ltr/welcomeScreen/riseOfAlliances/headerBackground-ltr.png');
+  margin-bottom: 60px;
+  box-sizing: border-box;
+  transition-duration: 1000ms;
+  border: solid 1px transparent;
+  position: relative;
+}
+
+.welcomeScreen .welcomeScreenHeader .previewVideoContainer {
+  width: 568px;
+  max-width: 100%;
+  height: 320px;
+  margin: 10px auto;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.2);
+  transition: background-color 250ms, opacity 500ms, height 1000ms, width 1000ms;
+  position: relative;
+  overflow: hidden;
+}
+
+.welcomeScreen .welcomeScreenHeader .previewVideoContainer:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.welcomeScreen .welcomeScreenHeader .previewVideoContainer:active {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.welcomeScreen .welcomeScreenHeader .previewVideoContainer .play {
+  width: 136px;
+  height: 136px;
+  background: url('../img_ltr/welcomeScreen/riseOfAlliances/videoPlay-ltr.png') 0 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -68px;
+  margin-top: -68px;
+}
+
+.welcomeScreen .welcomeScreenHeader .previewVideoContainer .play:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url('../img_ltr/welcomeScreen/riseOfAlliances/videoPlay-ltr.png') 137px;
+  display: block;
+  opacity: 0;
+  transition: opacity 250ms;
+}
+
+.welcomeScreen .welcomeScreenHeader .previewVideoContainer:active .play:after {
+  background-position: bottom left;
+}
+
+.welcomeScreen .welcomeScreenHeader .previewVideoContainer:hover .play:after {
+  opacity: 1;
+}
+
+.welcomeScreen .welcomeScreenHeader .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  transition-duration: 2000ms;
+  transition-delay: 1000ms;
+  border-radius: 4px;
+}
+
+.welcomeScreen .welcomeScreenHeader .overlay.active {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.welcomeScreen .headlineDescription {
+  width: 100%;
+  left: 50%;
+  margin-left: -49%;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  font-style: italic;
+  z-index: 2;
+  padding: 15px 70px 0 10px;
+}
+
+.welcomeScreen .headlineDescription:before {
+  display: block;
+  content: "";
+  width: 82%;
+  height: 100%;
+  position: absolute;
+  border: solid 1px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  background: #ffffff;
+  background: linear-gradient(#ffffff, #efeeee);
+  z-index: -1;
+  top: 0;
+}
+
+.welcomeScreen .headlineDescription p {
+  width: 73%;
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.rtl .welcomeScreen .headlineDescription p {
+  font-size: 15px;
+}
+
+.headlineDescription h1 {
+  font-style: normal;
+  margin-right: 5%;
+}
+
+.welcomeScreen .headlineDescription:after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 119px;
+  background-image: url('../img_ltr/welcomeScreen/riseOfAlliances/senator-ltr.png');
+  right: 11%;
+  top: -20px;
+}
+
+button.orangeBig {
+  box-sizing: border-box;
+  background: url('../img_ltr/round/button/background/orangeBig-ltr.png') repeat-x 0 -54px;
+  text-align: center;
+  color: #F2F2F2;
+  font-weight: bold;
+  font-size: 250%;
+  height: 41px;
+  position: relative;
+  z-index: 2;
+  padding: 13px 115px 25px;
+  border-radius: 50px;
+  outline: none;
+}
+
+button.orangeBig, button.orangeBig:hover, .button.orangeBig:focus {
+  font-size: 250% !important;
+}
+
+button.orangeBig:before {
+  content: "";
+  position: absolute;
+  width: 115px;
+  height: 41px;
+  background: url('../img_ltr/round/button/background/orangeBig-ltr.png') repeat-x 0 0;
+  left: -115px;
+  top: 0;
+  margin-left: 115px;
+  z-index: 1;
+  display: block;
+}
+
+button.orangeBig:after {
+  content: "";
+  position: absolute;
+  width: 115px;
+  height: 41px;
+  background: url('../img_ltr/round/button/background/orangeBig-ltr.png') repeat-x 0 -109px;
+  right: 0px;
+  top: 0;
+  z-index: 1;
+}
+
+button.orangeBig:hover {
+  background-position: 0 -217px;
+}
+
+button.orangeBig:hover:before {
+  background-position: 0 -163px;
+}
+
+button.orangeBig:hover:after {
+  background-position: 0 -272px;
+}
+
+button.orangeBig:active {
+  background-position: 0 -381px;
+}
+
+button.orangeBig:active:before {
+  background-position: 0 -327px;
+}
+
+button.orangeBig:active:after {
+  background-position: 0 -436px;
+}
+
+button.startPlaying {
+  min-width: 460px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.welcomeScreen .doubleBorder {
+  border: solid 1px #e3ede2;
+  position: relative;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+.welcomeScreen .featureContainer {
+  width: 100%;
+  margin-top: 15px;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+  transition: 1000ms;
+}
+
+.welcomeScreen .featureContainerInner {
+  border: solid 1px #e3ede2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.welcomeScreen .featureBox {
+  background: -moz-linear-gradient(bottom, #e0ebdf 0%, rgba(224, 235, 223, 0.52) 32%, rgba(224, 235, 223, 0.26) 83%, rgba(224, 235, 223, 0) 100%);
+  background: -webkit-linear-gradient(bottom, #e0ebdf 0%, rgba(224, 235, 223, 0.52) 32%, rgba(224, 235, 223, 0.26) 83%, rgba(224, 235, 223, 0) 100%);
+  background: linear-gradient(to top, #e0ebdf 0%, rgba(224, 235, 223, 0.52) 32%, rgba(224, 235, 223, 0.26) 83%, rgba(224, 235, 223, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00e0ebdf', endColorstr='#e0ebdf', GradientType=0);
+  position: relative;
+}
+
+.welcomeScreen .featureBox:after {
+  background-image: linear-gradient(to bottom, #ffffff, transparent 10%, transparent), linear-gradient(to bottom, transparent 0, transparent 1px, #C0C0C0 1px, #C0C0C0 2px);
+  background-repeat: no-repeat, repeat;
+  background-size: 100%, 1px 2px;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 33%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  height: calc(100% - 31px);
+}
+
+.welcomeScreen .featureBox:before {
+  background-image: linear-gradient(to bottom, #ffffff, transparent 10%, transparent), linear-gradient(to bottom, transparent 0, transparent 1px, #C0C0C0 1px, #C0C0C0 2px);
+  background-repeat: no-repeat, repeat;
+  background-size: 100%, 1px 2px;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 33%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  height: calc(100% - 31px);
+}
+
+.welcomeScreen .featureContainer .feature {
+  width: 33.333%;
+  height: 170px;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+}
+
+.welcomeScreen .featureContainer .feature .description {
+  background: no-repeat center bottom;
+  width: 100%;
+  height: 120px;
+}
+
+.welcomeScreen .featureContainer .feature .description span {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  width: 90%;
+  padding: 10px;
+  border-top: dotted 1px #d0d0d0;
+  box-sizing: border-box;
+  border-bottom: dotted 1px #d0d0d0;
+  margin-top: 119px;
+  background-image: -moz-linear-gradient(-1deg, rgba(224, 235, 223, 0) 0%, rgba(224, 235, 223, 0.48) 5%, rgba(224, 235, 223, 0.50196) 5%, rgba(240, 245, 239, 0.62) 16%, white 50%, rgba(224, 235, 223, 0.50196) 95%, rgba(224, 235, 223, 0) 100%);
+  background-image: -webkit-linear-gradient(-1deg, rgba(224, 235, 223, 0) 0%, rgba(224, 235, 223, 0.48) 5%, rgba(224, 235, 223, 0.50196) 5%, rgba(240, 245, 239, 0.62) 16%, white 50%, rgba(224, 235, 223, 0.50196) 95%, rgba(224, 235, 223, 0) 100%);
+  background-image: -ms-linear-gradient(-1deg, rgba(224, 235, 223, 0) 0%, rgba(224, 235, 223, 0.48) 5%, rgba(224, 235, 223, 0.50196) 5%, rgba(240, 245, 239, 0.62) 16%, white 50%, rgba(224, 235, 223, 0.50196) 95%, rgba(224, 235, 223, 0) 100%);
+}
+.rtl .welcomeScreen .featureContainer .feature .description span {
+  font-size: 17px;
+}
+
+.welcomeScreen .featureContainer .feature.boostedStart .description {
+  background-image: url('../img_ltr/welcomeScreen/riseOfAlliances/boost-ltr.png');
+}
+
+.welcomeScreen .featureContainer .feature.changedHeroes .description {
+  background-image: url('../img_ltr/welcomeScreen/riseOfAlliances/hero-ltr.png');
+}
+
+.welcomeScreen .featureContainer .feature.allianceBonuses .description {
+  background-image: url('../img_ltr/welcomeScreen/riseOfAlliances/bonus-ltr.png');
+}
+
+.welcomeScreen .victoryConditions {
+  width: 100%;
+  min-height: 30px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+  padding-top: 5px;
+  box-shadow: 0 3px 1px -1px rgba(0, 0, 0, 0.15);
+}
+
+.welcomeScreen .victoryConditions:before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  background: linear-gradient(transparent, #e6efe5);
+  position: relative;
+  margin-top: -30px;
+}
+
+.welcomeScreen .victoryConditions span {
+  min-height: 22px;
+  display: inline-block;
+  line-height: 22px;
+  background: url('../img_ltr/welcomeScreen/riseOfAlliances/victory-points-ltr.png') no-repeat left center;
+  padding-left: 25px;
+  font-size: 14px;
+}
+.rtl .welcomeScreen .victoryConditions span {
+  font-size: 15px;
+}
+
+.welcomeScreen .borderGreen {
+  border: solid 1px #a3c840;
+  padding: 1px;
+  border-radius: 4px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: -42px;
+  display: table;
+  z-index: 2;
+}
+
+.welcomeScreen .readMore,
+.welcomeScreen .readLess {
+  width: 100%;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  background: linear-gradient(#dce7b9, #ffffff);
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  display: table-cell;
+}
+.rtl .welcomeScreen .readMore, .rtl
+.welcomeScreen .readLess {
+  font-size: 19px;
+}
+
+.welcomeScreen .readMore:hover,
+.welcomeScreen .readLess:hover {
+  background: linear-gradient(#d8f08d, #ffffff);
+}
+
+.welcomeScreen .readMore:active,
+.welcomeScreen .readLess:active {
+  background: linear-gradient(#cddd9c, #ffffff);
+}
+
+.welcomeScreen .readLess {
+  display: none;
+}
+
+.welcomeScreen .otherAdditions {
+  max-height: 0;
+  overflow: hidden;
+  transition-duration: 1000ms;
+  text-align: left;
+  box-sizing: border-box;
+  font-size: 14px;
+  background: linear-gradient(#ffffff 70%, #efeeee);
+}
+.rtl .welcomeScreen .otherAdditions {
+  font-size: 15px;
+}
+
+.welcomeScreen .otherAdditions ul,
+.welcomeScreen .extendedFeatureDescriptions ul {
+  list-style-image: url('../img_ltr/layout/icons/bulletPointGreen-ltr.png');
+  margin-top: 5px;
+  width: 100%;
+}
+
+.welcomeScreen .otherAdditions ul li,
+.welcomeScreen .extendedFeatureDescriptions ul li {
+  padding: 4px;
+  max-width: 95%;
+}
+
+.welcomeScreen .extendedFeatureDescriptions {
+  text-align: left;
+  font-size: 14px;
+  min-height: 0;
+  transition-duration: 1000ms;
+  display: inline-table;
+  overflow: hidden;
+}
+.rtl .welcomeScreen .extendedFeatureDescriptions {
+  font-size: 15px;
+}
+
+.welcomeScreen .extendedFeatureDescriptions > div {
+  width: 33.33%;
+  box-sizing: border-box;
+  float: left;
+  transition-duration: 1000ms;
+  z-index: 1;
+  text-align: center;
+  display: table-cell;
+  max-height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.welcomeScreen .extendedFeatureDescriptions > div ul {
+  max-width: 100%;
+  display: table-cell;
+  list-style-position: inside;
+  margin: 0;
+  text-align: left;
+  padding-left: 25px;
+}
+
+.welcomeScreen .extendedFeatureDescriptions > div ul li {
+  margin-bottom: 15px;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+/** Extended state */
+.welcomeScreen.extended .welcomeScreenHeader {
+  height: 110px;
+  border-radius: 4px;
+  border: solid 1px white;
+  margin-bottom: 10px;
+  box-shadow: 0 0 0 1px #a3c840;
+}
+
+.welcomeScreen.extended .headlineDescription {
+  margin-top: -108px;
+}
+
+.welcomeScreen.extended .previewVideoContainer {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.welcomeScreen.extended .victoryConditions:before {
+  display: none;
+}
+
+.welcomeScreen.extended .readMore {
+  display: none;
+}
+
+.welcomeScreen.extended .readLess {
+  display: table-cell;
+}
+
+.welcomeScreen.extended .otherAdditions {
+  max-height: 500px;
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.welcomeScreen.extended .extendedFeatureDescriptions {
+  min-height: 150px;
+  margin-top: -59px;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+
+.welcomeScreen.extended .extendedFeatureDescriptions > div {
+  max-height: 500px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+.welcomeScreen.extended .featureContainer .feature {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+.welcomeScreen.extended .featureContainer .feature:before {
+  border: none;
+}
+
+/** Modifications for the introduction screen */
+.welcomeScreen.introduction .startPlaying {
+  display: none;
+}
+
+.welcomeScreen.introduction .featureContainer {
+  margin-top: 72px;
+}
+
+.welcomeScreen.extended.introduction .featureContainer {
+  margin-top: 15px;
+}
+
+.introductionScreen #dialogCancelButton.iconButton.small.cancel {
+  width: 28px;
+  height: 28px;
+  right: -25px;
+  top: -15px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #5c8d0f, #82b433);
+  background-position: 0 0 !important;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 0 3px #ffffff, 0 0 2px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.introductionScreen #dialogCancelButton.iconButton.small.cancel:hover {
+  background-image: linear-gradient(to top, #78ab0f, #9fd234);
+}
+
+.introductionScreen #dialogCancelButton.iconButton.small.cancel:active {
+  background-image: linear-gradient(to top, #9fd234, #78ab0f);
+}
+
+.introductionScreen #dialogCancelButton.iconButton.small.cancel:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('../img_ltr/layout/contentTitleButtons.png');
+}
+
+.introductionScreen #dialogCancelButton.iconButton.small.cancel:hover {
+  background-position: 0 -38px;
+}
+
+/** Modifications if hero items are enabled (Rise of Alliances) */
+.welcomeScreen.heroItemsEnabled .featureContainer .feature.changedHeroes,
+.welcomeScreen.heroItemsEnabled .extendedFeatureDescriptions .changedHeroes {
+  display: none;
+}
+
+.welcomeScreen.heroItemsEnabled .featureBox:before {
+  display: none;
+}
+
+.welcomeScreen.heroItemsEnabled .featureBox:after {
+  left: 50%;
+}
+
+.welcomeScreen.heroItemsEnabled .extendedFeatureDescriptions > div,
+.welcomeScreen.heroItemsEnabled .featureContainer .feature {
+  width: 50%;
+}
+
+.welcomeScreen.heroItemsEnabled .extendedFeatureDescriptions {
+  width: 100%;
+}
+
+.welcomeScreen.heroItemsEnabled .extendedFeatureDescriptions > div ul {
+  padding-left: 40px;
+}

@@ -1,0 +1,88 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* paginator */
+div.paginator {
+  font-size: 11px;
+}
+.rtl div.paginator {
+  font-size: 12px;
+}
+
+div.paginator .number {
+  margin: 0px 1px;
+}
+
+div.paginator .previous {
+  margin-left: 7px;
+  margin-right: 3px;
+}
+
+div.paginator .next {
+  margin-left: 3px;
+  margin-right: 7px;
+}
+
+div.paginator .currentPage {
+  font-weight: bold;
+}
+
+div.paginator a.next img,
+div.paginator img.next,
+div.paginator a.previous img,
+div.paginator img.previous {
+  width: 4px;
+  height: 8px;
+}
+
+div.paginator a.next img,
+div.paginator img.next {
+  background-image: url('../../img_rtl/pager/next-rtl.png');
+}
+
+div.paginator a.previous img,
+div.paginator img.previous {
+  background-image: url('../../img_rtl/pager/previous-rtl.png');
+}
+
+div.paginator a.last img,
+div.paginator img.last,
+div.paginator a.first img,
+div.paginator img.first {
+  width: 7px;
+  height: 8px;
+}
+
+div.paginator a.last img,
+div.paginator img.last {
+  background-image: url('../../img_rtl/pager/last-rtl.png');
+}
+
+div.paginator a.first img,
+div.paginator img.first {
+  background-image: url('../../img_rtl/pager/first-rtl.png');
+}
+
+div.paginator a.next:hover img,
+div.paginator a.previous:hover img,
+div.paginator a.last:hover img,
+div.paginator a.first:hover img {
+  background-position: right -18px;
+}
+
+div.paginator img.previous.disabled,
+div.paginator img.next.disabled,
+div.paginator img.first.disabled,
+div.paginator img.last.disabled {
+  background-position: right -36px;
+}

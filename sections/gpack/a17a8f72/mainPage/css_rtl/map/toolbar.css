@@ -1,0 +1,268 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* die Toolbar welche in der Map mit enthalten ist */
+#mapContainer .toolbar {
+  color: #F2F2F2;
+  position: absolute;
+  z-index: 1998;
+}
+
+/* Allgemeines aussehn mit runden ecken und co */
+#mapContainer .toolbar .tl, #mapContainer .toolbar .tc, #mapContainer .toolbar .tr,
+#mapContainer .toolbar .ml, #mapContainer .toolbar .mc, #mapContainer .toolbar .mr,
+#mapContainer .toolbar .bl, #mapContainer .toolbar .bc, #mapContainer .toolbar .br {
+  background-color: transparent;
+  background-position: left top;
+}
+
+#mapContainer .toolbar .tc, #mapContainer .toolbar .mc, #mapContainer .toolbar .bc {
+  margin-left: 4px;
+  margin-right: 4px;
+  width: auto;
+}
+
+#mapContainer .toolbar .tl, #mapContainer .toolbar .tc, #mapContainer .toolbar .tr {
+  height: 4px;
+}
+
+#mapContainer .toolbar .tl {
+  background-image: url('../../img_rtl/round/toolbar/tl.png');
+  background-repeat: no-repeat;
+}
+
+#mapContainer .toolbar .tc {
+  background-image: url('../../img_rtl/round/toolbar/tc.png');
+  background-repeat: repeat-x;
+}
+
+#mapContainer .toolbar .tr {
+  background-image: url('../../img_rtl/round/toolbar/tr.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+#mapContainer .toolbar .ml {
+  background-image: url('../../img_rtl/round/toolbar/ml.png');
+  background-repeat: repeat-y;
+}
+
+#mapContainer .toolbar .mc {
+  background-image: url('../../img_rtl/round/toolbar/mc.png');
+  background-repeat: repeat;
+}
+
+#mapContainer .toolbar .mr {
+  background-image: url('../../img_rtl/round/toolbar/mr.png');
+  background-position: right top;
+  background-repeat: repeat-y;
+}
+
+#mapContainer .toolbar .bl, #mapContainer .toolbar .bc, #mapContainer .toolbar .br {
+  height: 4px;
+}
+
+#mapContainer .toolbar .bl {
+  background-image: url('../../img_rtl/round/toolbar/bl.png');
+  background-repeat: no-repeat;
+}
+
+#mapContainer .toolbar .bc {
+  background-image: url('../../img_rtl/round/toolbar/bc.png');
+  background-repeat: repeat-x;
+}
+
+#mapContainer .toolbar .br {
+  background-image: url('../../img_rtl/round/toolbar/br.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+#mapContainer #toolbar {
+  right: 0;
+  top: 0;
+}
+
+#mapContainer #toolbar .contents {
+  padding: 6px 6px 1px;
+  height: 16px;
+}
+
+#mapContainer #mapCoordEnter {
+  left: 0;
+  bottom: 0;
+  width: 193px;
+}
+
+#mapContainer #mapCoordEnter .contents {
+  width: 100%;
+  height: 16px;
+  padding: 4px 0;
+  position: relative;
+}
+
+/* allgemeines zu Buttons, Text und Separatoren */
+#mapContainer .toolbar .separator,
+#mapContainer .toolbar .text,
+#mapContainer .toolbar .dropdown {
+  float: right;
+  position: relative;
+}
+
+#mapContainer .toolbar .iconButton {
+  margin-right: 10px;
+}
+
+#mapContainer .toolbar .iconButton.iconRequireGold {
+  top: -5px;
+  height: 24px;
+  width: 28px;
+  padding: 0;
+}
+
+#mapContainer .toolbar .iconButton.iconRequireGold .iconButton {
+  margin: 4px 6px;
+}
+
+#mapContainer .toolbar .iconButton.zoomIn {
+  margin-right: 0;
+}
+
+#mapContainer .toolbar .iconButton.filterAlliance {
+  margin-right: 9px;
+}
+
+#mapContainer .toolbar .dropdown {
+  margin-right: 15px;
+  width: 41px;
+  font-size: 10px;
+  background-image: url('../../img_rtl/map/dropDown/bg.png');
+  background-repeat: repeat;
+  padding: 2px 7px 2px 2px;
+  text-align: left;
+}
+.rtl #mapContainer .toolbar .dropdown {
+  font-size: 11px;
+}
+
+#mapContainer .toolbar .dropdown .dataContainer {
+  float: right;
+  height: 11px;
+  overflow: hidden;
+  width: 27px;
+}
+
+#mapContainer .toolbar .dropdown .dataContainer .entry {
+  height: 11px;
+  line-height: 10px;
+  cursor: pointer;
+}
+
+#mapContainer .toolbar .dropdown .dataContainer .entry.selected {
+  background-color: #61AE56;
+}
+
+#mapContainer .toolbar .dropdown .dataContainer .entry:hover {
+  background-color: #498841;
+}
+
+#mapContainer .toolbar .dropdown .dataContainer .entry.hide {
+  display: none;
+}
+
+#mapContainer .toolbar .dropdown .dataContainer .entry.display:hover {
+  background-color: transparent;
+}
+
+#mapContainer .toolbar .dropdown .dropDownImage {
+  float: left;
+  margin-right: 0;
+  margin-top: 1px;
+}
+
+#mapContainer .toolbar .dropdown .dropImage img {
+  background-image: url('../../img_rtl/map/buttons/dropdownArrow.gif');
+}
+
+/* Text in Toolbar */
+#mapContainer .toolbar .text {
+  font-size: 11px;
+  margin-right: 10px;
+  width: auto;
+}
+.rtl #mapContainer .toolbar .text {
+  font-size: 12px;
+}
+
+/* Separator */
+#mapContainer .toolbar .separator {
+  background-image: url('../../img_rtl/map/buttons/separator.png');
+  margin-right: 10px;
+  height: 16px;
+  width: 5px;
+}
+
+/* working loading */
+#mapContainer .toolbar #working {
+  float: right;
+  height: 16px;
+  margin: 0 10px 0 0;
+  padding-right: 23px;
+  width: 20px;
+}
+
+/* input coordinates text */
+#mapContainer #mapCoordEnter.toolbar div.coordinatesInput {
+  float: right;
+}
+
+#mapContainer #mapCoordEnter.toolbar div.coordinatesInput label {
+  font-weight: normal;
+  font-size: 11px;
+}
+.rtl #mapContainer #mapCoordEnter.toolbar div.coordinatesInput label {
+  font-size: 12px;
+}
+
+#mapContainer #mapCoordEnter.toolbar div.coordinatesInput input {
+  font-size: 8px;
+  float: none;
+  width: 29px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  top: -2px;
+}
+.rtl #mapContainer #mapCoordEnter.toolbar div.coordinatesInput input {
+  font-size: 9px;
+}
+
+#mapContainer #mapCoordEnter.toolbar button {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 24px;
+}
+
+#mapContainer #mapCoordEnter.toolbar button .bcontents {
+  height: 10px;
+  line-height: 8px;
+}
+
+.trident #mapContainer #mapCoordEnter.toolbar button .bcontents {
+  height: 8px;
+}
+
+.blink #mapContainer #mapCoordEnter.toolbar button .bcontents {
+  line-height: 11px;
+}

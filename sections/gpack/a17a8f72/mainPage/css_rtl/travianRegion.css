@@ -1,0 +1,248 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#regionContainer #regionNeighborDetailsWithMap {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto;
+  grid-template-columns: 1fr auto;
+  margin-bottom: 10px;
+}
+#regionContainer #regionNeighborDetailsWithMap div:first-of-type {
+  padding-left: 10px;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+}
+#regionContainer #regionNeighborDetailsWithMap div:last-of-type {
+  position: relative;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+}
+#regionContainer #regionNeighborDetailsWithMap div:last-of-type #regionMinimap {
+  position: relative;
+  top: auto;
+  right: auto;
+  left: auto;
+  z-index: 1;
+}
+#regionContainer #neighboringRegions tbody tr td {
+  transition-duration: 150ms;
+}
+#regionContainer #neighboringRegions tbody tr td:nth-child(1), #regionContainer #neighboringRegions tbody tr td:nth-child(4) {
+  text-align: center;
+}
+#regionContainer #neighboringRegions tbody tr td:nth-child(2), #regionContainer #neighboringRegions tbody tr td:nth-child(3) {
+  text-align: left;
+}
+#regionContainer #neighboringRegions tbody tr.highlight td {
+  background-color: #E7F0CA;
+}
+#regionContainer svg.regionsInEurope {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  background-color: rgba(242, 242, 242, 0.55);
+}
+#regionContainer svg.regionsInEurope g {
+  cursor: pointer;
+  transition-duration: 150ms;
+  stroke: transparent;
+  stroke-width: 2px;
+}
+#regionContainer svg.regionsInEurope g.active {
+  fill: #991915;
+  stroke: #F8C000;
+}
+#regionContainer svg.regionsInEurope g:hover {
+  stroke: #F2F2F2;
+}
+#regionContainer svg.regionsInEurope g.highlight {
+  stroke: #F2F2F2;
+  filter: url("#regionBrightness");
+}
+#regionContainer svg.regionsInEurope g.copyFront {
+  pointer-events: none;
+}
+#regionContainer a svg.regionsInEurope g {
+  pointer-events: none;
+}
+
+#regionContainer #regionDetailContent {
+  position: relative;
+  float: right;
+}
+
+#regionContainer #regionDetailContent.inTreasury {
+  width: 348px;
+}
+
+#regionContainer #regionDetailContent .lTop {
+  float: right;
+  clear: right;
+  padding-top: 10px;
+  max-width: 50%;
+}
+
+#regionContainer #regionDetailContent .rTop {
+  float: left;
+  clear: left;
+  padding-top: 10px;
+}
+
+#regionContainer #regionDetailContent .lTop.withIcon,
+#regionContainer #regionDetailContent .rTop.withIcon {
+  line-height: 22px;
+}
+
+#regionContainer #regionDetailContent .lTop a.regionSettleIcon {
+  width: 22px;
+  height: 22px;
+  background-image: url('../img_rtl/region/icons/region_info_icon.png');
+  position: relative;
+  display: inline-block;
+}
+
+#regionContainer #regionDetailContent .lBottom {
+  float: right;
+  clear: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 50%;
+}
+
+#regionContainer #regionDetailContent .rBottom {
+  float: left;
+  clear: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 50%;
+}
+
+#regionContainer #regionDetailContent table {
+  width: 348px;
+  margin-top: 10px;
+}
+
+#regionContainer #regionDetailContent:not(.embassyRegion) table td {
+  text-align: center;
+}
+
+#regionContainer #regionDetailContent table td.allianceTag {
+  white-space: nowrap;
+}
+
+#regionContainer #regionDetailContent table tr.none td {
+  background-color: #EFEFEF;
+}
+
+#regionContainer #regionDetailContent table tr.sixth td,
+#regionContainer #regionDetailContent table tr.sixth td a,
+#regionContainer #regionDetailContent table tr.allyNotInTop td,
+#regionContainer #regionDetailContent table tr.allyNotInTop td a {
+  color: #C0C0C0;
+}
+
+#regionContainer #regionMapContainer {
+  position: absolute;
+  left: 24px;
+  top: 210px;
+  z-index: 300;
+}
+
+.victoryArtefactGatherBlock {
+  height: 200px;
+  display: table;
+}
+.territoryStatistics .victoryArtefactGatherBlock:first-child {
+  float: right;
+}
+.territoryStatistics .victoryArtefactGatherBlock:not(:first-child) {
+  padding-right: 15px;
+}
+
+.victoryArtefactGatherBlock #ancientPowerStatus {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.victoryArtefactGatherBlock #embassyRegionPieChart {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.victoryArtefactGatherBlock #embassyRegionPieChartAgenda {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+  padding: 0px 0 0 0;
+}
+
+.victoryArtefactGatherBlock #embassyRegionPieChartAgenda table {
+  background-color: #FFFFFF;
+}
+
+.victoryArtefactGatherBlock #embassyRegionPieChartAgenda table tbody td {
+  line-height: 16px;
+  padding: 0px 7px 0 7px;
+}
+
+#regionContainer #regionDetailContent.embassyRegion table {
+  width: 100%;
+  text-align: center;
+}
+
+#regionContainer #regionDetailContent.embassyRegion table td.allianceName a {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  max-width: 200px;
+}
+
+#regionDetailContent.embassyRegion .populationInRegion,
+#regionDetailContent.embassyRegion .allianceTagHeader,
+#regionDetailContent.embassyRegion .allianceNameHeader,
+#regionDetailContent.embassyRegion .territorialControl {
+  text-align: center;
+}
+
+.progressBarContainer .progressBar {
+  background-color: #ffffff;
+  height: 8px;
+  border: 1px solid #C6C6C6;
+  padding: 1px;
+  margin: 1px;
+}
+
+.progressBarContainer .bar {
+  height: 100%;
+  float: right;
+}
+
+.progressBarContainer .bar.green {
+  background-color: #006900;
+}
+
+.progressBarContainer .progressBarText {
+  position: relative;
+  float: right;
+  padding-bottom: 5px;
+}
+
+.progressBarContainer .progressBarNumbers {
+  position: relative;
+  float: left;
+}

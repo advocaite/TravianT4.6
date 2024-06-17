@@ -1,0 +1,321 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/** hero state */
+div.hero_inventory #attributes .main .health .bar-bg .bar {
+  background-color: #99C01A;
+}
+div.hero_inventory #attributes.hero-regenerate .main .health .bar-bg .bar {
+  background-color: #F88C1F;
+}
+div.hero_inventory #attributes.hero-dead .lineWrapper {
+  margin-top: 10px;
+}
+div.hero_inventory #attributes.hero-dead .lineWrapper:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+div.hero_inventory #attributes.hero-dead .lineWrapper .duration {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+div.hero_inventory #attributes.hero-dead .lineWrapper .duration i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-right: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+div.hero_inventory #attributes.hero-dead .lineWrapper .duration span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+div.hero_inventory #attributes.hero-dead .lineWrapper button {
+  float: right;
+}
+div.hero_inventory #attributes.hero-dead .errorMessage {
+  color: #777777;
+  margin-top: 10px;
+}
+
+/** allgemeine Attribute */
+div.hero_inventory .attribute {
+  margin: 0px 10px 10px;
+}
+
+div.hero_inventory .attribute.heroStatus {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+div.hero_inventory input.radio {
+  margin-right: 8px;
+  vertical-align: middle;
+  position: relative;
+}
+
+div.hero_inventory .attribute .element {
+  margin: 0px 8px 6px 0;
+}
+
+div.hero_inventory div.attribute .element {
+  float: left;
+}
+
+div.hero_inventory div.attribute.regenerate .element.resourceDemandCaption {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 0;
+}
+
+div.hero_inventory div.attribute.regenerate .element.attributesHeadline {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+div.hero_inventory div.attribute.regenerate .element.resourceDemandCaption,
+div.hero_inventory div.attribute.regenerate .element.attributesHeadline,
+div.hero_inventory .attribute .regenerateCosts {
+  float: none;
+}
+
+div.hero_inventory .attribute .attribName {
+  width: 105px;
+  min-width: 105px;
+  max-width: 105px;
+  padding-left: 12px;
+}
+
+div.hero_inventory .attribute .speed .attribName {
+  width: auto;
+}
+
+div.hero_inventory #attributes .main .attribute .value,
+div.hero_inventory #attributes .main .attribute .current {
+  font-weight: bold;
+}
+
+div.hero_inventory .attribute .powervalue {
+  width: 50px;
+  max-width: 50px;
+  min-width: 50px;
+}
+
+div.hero_inventory .attribute .speed .powervalue {
+  width: 170px;
+}
+
+div.hero_inventory .attribute .production {
+  float: right;
+}
+
+div.hero_inventory .attribute .progress {
+  width: 191px;
+  max-width: 191px;
+  min-width: 191px;
+}
+
+/** wirkliche Helden Attribute */
+div.hero_inventory .attributes {
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+div.hero_inventory table.attributes tr:last-of-type td {
+  padding-bottom: 0;
+  padding-top: 16px;
+  padding-left: 12px;
+  font-size: 12px;
+}
+.rtl div.hero_inventory table.attributes tr:last-of-type td {
+  font-size: 13px;
+}
+
+div.hero_inventory .attributes .pointsValue {
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px;
+}
+.rtl div.hero_inventory .attributes .pointsValue {
+  font-size: 13px;
+}
+
+div.hero_inventory .attributes .headline {
+  text-align: left;
+  font-weight: bold;
+  width: 115px;
+}
+
+div.hero_inventory .attributes .pointsText {
+  font-size: 12px;
+  text-align: right;
+}
+.rtl div.hero_inventory .attributes .pointsText {
+  font-size: 13px;
+}
+
+div.hero_inventory .attributes .pointsText.availablePoints {
+  padding-right: 0;
+}
+
+div.hero_inventory .attributes.noPointsToSet .pointsTextWithItems,
+div.hero_inventory .attributes.noPointsToSet .pointsValueWithItems,
+div.hero_inventory .attributes.noPointsToSet .pointsValueSetter,
+div.hero_inventory .attributes.noPointsToSet .pointsEmptyColumn {
+  display: none;
+}
+
+div.hero_inventory .attributes .points {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.hero_inventory .attributes .points input {
+  width: 40px;
+  text-align: center;
+}
+
+div.hero_inventory .attributes .pointsValueSetter.sub {
+  padding-right: 0;
+}
+
+div.hero_inventory .attributes .pointsValueSetter.add {
+  padding-left: 0;
+}
+
+div.hero_inventory .attributes .pointsValueSetter {
+  width: 18px;
+  min-width: 18px;
+  max-width: 18px;
+  height: 18px;
+}
+
+div.hero_inventory .attributes .pointsValueSetter a {
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+  background-position: 0 0;
+}
+
+div.hero_inventory .attributes .pointsValueSetter a:hover {
+  background-position: 0 -28px;
+}
+
+div.hero_inventory .attributes .pointsValueSetter a.click {
+  background-position: 0 -56px;
+}
+
+div.hero_inventory .attributes .pointsValueSetter a.disabled {
+  background-position: 0 -84px;
+  cursor: default;
+}
+
+div.hero_inventory .attributes .pointsValueSetter.sub a {
+  background-image: url('../../img_ltr/a/btnMinus-small.png');
+}
+
+div.hero_inventory .attributes .pointsValueSetter.add a {
+  background-image: url('../../img_ltr/a/btnPlus-small.png');
+}
+
+div.hero_inventory .attributes .points {
+  width: 66px;
+  min-width: 66px;
+  max-width: 66px;
+  text-align: center;
+}
+
+div.hero_inventory .attributes .progress .bar.setted {
+  background-color: #99C01A;
+  transition-duration: 250ms;
+}
+
+div.hero_inventory #attributes .main form {
+  position: relative;
+}
+
+div.hero_inventory #attributes .main form .showCosts {
+  width: 350px;
+  line-height: 20px;
+}
+
+div.hero_inventory #attributes .main form .showCosts .resources {
+  margin-bottom: 0;
+}
+
+div.hero_inventory #attributes .main form button {
+  position: absolute;
+  right: 0;
+}
+
+/* Open-Close-Switch */
+div.hero_inventory .openCloseSwitchBar {
+  margin-left: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+div.hero_inventory .openCloseSwitchBar .openedClosedSwitch {
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  margin-right: 8px;
+  vertical-align: middle;
+  float: left;
+}
+
+div.hero_inventory .openCloseSwitchBar .title {
+  float: left;
+  line-height: 18px;
+}
+
+div.hero_inventory .openCloseSwitchBar .availablePoints .points {
+  font-weight: bold;
+}
+
+div.hero_inventory .openCloseSwitchBar .availablePoints {
+  float: right;
+  font-weight: normal;
+  margin-right: 15px;
+  line-height: 18px;
+}
+
+/** speichern */
+div.hero_inventory .saveHeroAttributes {
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+span.heroAttributesFormMessage {
+  float: right;
+  margin-right: 10px;
+}
+
+span.header.error.notEnoughCrop {
+  width: 340px;
+  float: left;
+}

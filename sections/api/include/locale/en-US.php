@@ -1,0 +1,26 @@
+<?php
+$T['Thank you for registering on %s'] = 'Thank you for registering on %s';
+$T['You have requested a new password for %s'] = 'You have requested a new password for %s';
+$T['This email address is unknown to us.'] = 'This email address is unknown to us.';
+$T['You received this email because you registered on our website.'] = 'You received this email because you registered on our website.';
+$T['activation.yourRegistrationOn'] = 'Your registration on %s.';
+$T['activation.confirm'] = 'CONFIRM';
+$T['activation.thankYouForRegisteringOn'] = 'Thank you for registering on %s.';
+$T['activation.activationCode'] = 'Activation code: <strong>%s</strong>';
+$T['activation.toVerifyYourEmailAndActivate'] = 'To verify your email and <strong>activate</strong> your account please click on the button below or enter the activation code manually to the activation page.';
+$T['activation.hello'] = 'Hello <strong>%s</strong>,';
+$T['forgotGameWorld.youHaveRequested'] = 'You have requested a search for your game world.';
+$T['forgotGameWorld.accountName'] = 'Account name';
+$T['forgotGameWorld.gameWorld'] = 'Game world';
+$T['forgotGameWorld.gameWorldLink'] = 'Game world link';
+$T['forgotGameWorld.weHaveSearchedOutGameWorlds'] = 'We`ve searched our game worlds for your email address and found the following accounts. To log in, just click on the game world. ';
+$T['forgotPassword.youHaveRequestedANewPasswordFor'] = 'You have requested a new password for %s';
+$T['forgotPassword.changePassword'] = 'CHANGE PASSWORD';
+$T['forgotPassword.toResetYourAccountPassword'] = 'To reset your account password, please click on the change password button. Once you`ve set a new password, you can log into your account with it.';
+$T['registrationComplete.thankYouForRegisteringOn'] = 'Thank you for registering on %s';
+$T['registrationComplete.yourAccountIsNowActivated'] = 'Your account is now activated and you don`t need any further actions.';
+$T['registrationComplete.accountName'] = 'Account name';
+$T['registrationComplete.password'] = 'Password';
+$T['registrationComplete.gameWorld'] = 'Game World';
+$T['registrationComplete.ifGameIsNotStartedYet'] = 'If the game world isn`t started yet, you can activate your account by simply loggin in to the game.';
+return $T;

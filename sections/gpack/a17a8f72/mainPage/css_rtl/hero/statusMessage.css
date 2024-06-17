@@ -1,0 +1,68 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.heroStatusMessage {
+  margin-bottom: 6px;
+}
+
+.heroStatusMessage img {
+  width: 20px;
+  height: 16px;
+  background-image: url('../../img_rtl/hero/heroStatusInformations-rtl.png');
+  background-repeat: no-repeat;
+  background-position: 0 52px;
+  position: relative;
+  top: 2px;
+}
+
+/* Captured */
+.heroStatusMessage img.heroStatus102 {
+  background-position: 0 0;
+}
+
+/* Dead */
+.heroStatusMessage img.heroStatus101 {
+  background-position: 0 -26px;
+}
+
+/* inVillage */
+.heroStatusMessage img.heroStatus100 {
+  background-position: 0 -52px;
+}
+.rtl .heroStatusMessage img.heroStatus100 {
+  background-position: 4px -52px;
+}
+
+/* onTheWay Numbers == EventTypeNumber */
+.heroStatusMessage img.heroStatus3,
+.heroStatusMessage img.heroStatus4,
+.heroStatusMessage img.heroStatus5,
+.heroStatusMessage img.heroStatus9,
+.heroStatusMessage img.heroStatus40,
+.heroStatusMessage img.heroStatus50 {
+  background-position: 0 -78px;
+}
+
+/* Dead -> isRegenerate */
+.heroStatusMessage img.heroStatus101Regenerate {
+  background-position: 0 -104px;
+}
+
+/* on Supply */
+.heroStatusMessage img.heroStatus103 {
+  background-position: 0 -130px;
+}
+
+.heroStatusMessage span.titleExtra {
+  font-weight: normal;
+}

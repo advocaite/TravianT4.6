@@ -1,0 +1,45 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* --- goldSilver --- */
+div#goldSilver {
+  position: absolute;
+  top: 28px;
+  right: 738px;
+  font-size: 11px;
+  width: 85px;
+  height: 30px;
+  display: table;
+}
+.rtl div#goldSilver {
+  font-size: 12px;
+}
+
+div #goldSilver #goldSilverContainer {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+div#goldSilver #goldSilverContainer div {
+  line-height: 15px;
+  height: 15px;
+}
+
+div#goldSilver div.gold img {
+  position: relative;
+  top: 1px;
+}
+
+div#goldSilver div.silver img {
+  margin-left: 2px;
+}

@@ -1,0 +1,19 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.buildingV3.perspectiveResources div#background {
+  background-image: url('../img_ltr/lowRes/layout/background2019/bgResources.jpg');
+}
+.buildingV3.perspectiveBuildings div#background {
+  background-image: url('../img_ltr/lowRes/layout/background2019/bgBuildings.jpg');
+}

@@ -1,0 +1,425 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+div.login p {
+  font-size: 12px;
+}
+.rtl div.login p {
+  font-size: 13px;
+}
+div.login p.error_box {
+  line-height: 20px;
+}
+div.login p.error_box a {
+  line-height: 16px;
+}
+div.login table tr.top th {
+  padding-top: 9px;
+  padding-bottom: 2px;
+}
+div.login table tr.top td {
+  padding-top: 9px;
+  padding-bottom: 2px;
+}
+div.login table tr.btm th {
+  padding-top: 2px;
+  padding-bottom: 9px;
+}
+div.login table tr.btm td {
+  padding-top: 2px;
+  padding-bottom: 9px;
+}
+div.login table th {
+  font-size: 11px;
+}
+.rtl div.login table th {
+  font-size: 12px;
+}
+div.login table td {
+  font-size: 11px;
+}
+.rtl div.login table td {
+  font-size: 12px;
+}
+div.login table td input.text {
+  width: 135px;
+  margin-right: 5px;
+}
+div.login .noJavaScript {
+  line-height: 22px;
+  color: #D40000;
+  padding: 10px;
+}
+div.login #login_form {
+  width: 440px;
+  margin: 0 0 0 105px;
+}
+div.login .btn {
+  text-align: center;
+}
+div.outerLoginBox div.pause {
+  line-height: 22px;
+  color: #D40000;
+  padding: 10px;
+}
+div.outerLoginBox div.innerLoginBox {
+  width: 551px;
+  height: 235px;
+  background-image: url('../img_ltr/login/bgLogin-ltr.png');
+  margin-bottom: 10px;
+}
+div.outerLoginBox div.success {
+  color: #228B22;
+}
+div.outerLoginBox h2 {
+  color: #393939;
+  margin-bottom: 15px;
+}
+div.outerLoginBox.withCaptcha div.innerLoginBox {
+  height: 325px;
+  background-image: url('../img_ltr/login/bgLoginCaptcha-ltr.png');
+}
+div.outerLoginBox.withCaptcha table.loginTable button {
+  margin-top: 5px;
+}
+div.outerLoginBox table.loginTable {
+  vertical-align: top;
+  width: 500px;
+  height: 225px;
+  position: relative;
+  top: 10px;
+  margin-left: 6px;
+}
+div.outerLoginBox table.loginTable tr.account td {
+  vertical-align: top;
+  text-align: left;
+  padding-bottom: 15px;
+}
+div.outerLoginBox table.loginTable tr.account th {
+  vertical-align: top;
+  text-align: left;
+  padding-bottom: 15px;
+}
+div.outerLoginBox table.loginTable tr.pass td {
+  vertical-align: top;
+  text-align: left;
+  padding-bottom: 20px;
+}
+div.outerLoginBox table.loginTable tr.pass th {
+  vertical-align: top;
+  text-align: left;
+  padding-bottom: 20px;
+}
+div.outerLoginBox table.loginTable tr.lowResOption td {
+  height: 16px;
+}
+div.outerLoginBox table.loginTable tr.lowResOption .checkbox {
+  margin-left: 0;
+}
+div.outerLoginBox table.loginTable tr.lowResInfo td {
+  padding-top: 0;
+  line-height: 12px;
+  height: 16px;
+}
+div.outerLoginBox table.loginTable tr.loginButtonRow td {
+  vertical-align: bottom;
+  padding-bottom: 10px;
+  height: 100%;
+}
+div.outerLoginBox table.loginTable td.accountNameOrEmailAddress {
+  width: 115px;
+}
+div.outerLoginBox table.loginTable td.captchaFieldTableRow {
+  vertical-align: top;
+  height: 25px;
+}
+div.outerLoginBox table.loginTable div.error {
+  line-height: 15px;
+  font-size: 11px;
+}
+.rtl div.outerLoginBox table.loginTable div.error {
+  font-size: 12px;
+}
+div.outerLoginBox table.pwForgottenTable {
+  position: relative;
+  left: -9px;
+  margin-top: 10px;
+}
+div.outerLoginBox table.pwForgottenTable th {
+  width: 70px;
+}
+div.outerLoginBox table.pwForgottenTable button {
+  margin-top: 20px;
+}
+div.outerLoginBox table.pwForgottenTable div.error {
+  height: 15px;
+  line-height: 15px;
+  position: absolute;
+}
+div.outerLoginBox table.pwForgottenTable tr.mail th {
+  padding-bottom: 15px;
+}
+div.outerLoginBox table.pwForgottenTable tr.mail td {
+  padding-bottom: 15px;
+}
+div.outerLoginBox input.text {
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  font-size: 11px;
+  margin: 0;
+  width: 175px;
+}
+.fa-IR div.outerLoginBox input.text {
+  font-family: IRANSans, Arial, Helvetica, Verdana, sans-serif;
+}
+.rtl div.outerLoginBox input.text {
+  font-size: 12px;
+}
+div.outerLoginBox span.sentTo {
+  font-weight: bold;
+}
+div.forgotPasswordDescription {
+  font-size: 11px;
+}
+.rtl div.forgotPasswordDescription {
+  font-size: 12px;
+}
+div.showPasswordForgotten {
+  margin-left: 45px;
+  margin-top: 10px;
+}
+div.showPasswordForgotten .content {
+  margin-bottom: 15px;
+}
+div.passwordForgottenLink {
+  margin: 0 15px;
+}
+div.passwordForgottenLink a.showPWForgottenLink {
+  display: inline;
+  height: 22px;
+  line-height: 25px;
+  font-weight: bold;
+  color: #393939;
+}
+div#worldStartInfo {
+  margin: 0 auto 20px;
+  position: relative;
+  width: 508px;
+  height: 149px;
+  background-image: url('../img_ltr/login/countdownInfoBox-ltr.jpg');
+}
+div#worldStartInfo div.countdownContent {
+  position: absolute;
+  left: 124px;
+  top: 39px;
+  width: 375px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px;
+}
+.rtl div#worldStartInfo div.countdownContent {
+  font-size: 15px;
+}
+div#worldStartInfo div.countdownContent span.date span.timezone {
+  font-size: 11px;
+  font-weight: normal;
+}
+.rtl div#worldStartInfo div.countdownContent span.date span.timezone {
+  font-size: 12px;
+}
+div.greenBackground div.greenbox-top {
+  color: #228B22;
+  font-weight: bold;
+  background-color: #e5eecc;
+}
+div.greenBackground div.greenbox-content {
+  color: #228B22;
+  font-weight: bold;
+  background-color: #e5eecc;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: auto;
+}
+div.greenBackground div.greenbox-bottom {
+  color: #228B22;
+  font-weight: bold;
+  background-color: #e5eecc;
+  margin-bottom: 15px;
+}
+
+body:not(.gecko) div.outerLoginBox input.text {
+  border-color: #99C01A;
+}
+
+img.open {
+  width: 18px;
+  height: 18px;
+  background-image: url('../img_ltr/a/opened-ltr.png');
+  float: left;
+  margin: 4px 5px 0 0;
+  vertical-align: baseline;
+}
+img.open:hover {
+  width: 18px;
+  height: 18px;
+  background-image: url('../img_ltr/a/opened-ltr.png');
+  float: left;
+  margin: 4px 5px 0 0;
+  vertical-align: baseline;
+  background-position: 0 -28px;
+}
+img.open:active {
+  width: 18px;
+  height: 18px;
+  background-image: url('../img_ltr/a/opened-ltr.png');
+  float: left;
+  margin: 4px 5px 0 0;
+  vertical-align: baseline;
+  background-position: 0 -56px;
+}
+img.close {
+  width: 18px;
+  height: 18px;
+  background-image: url('../img_ltr/a/opened-ltr.png');
+  float: left;
+  margin: 4px 5px 0 0;
+  vertical-align: baseline;
+  background-image: url('../img_ltr/a/closed-ltr.png');
+}
+img.close:hover {
+  width: 18px;
+  height: 18px;
+  background-image: url('../img_ltr/a/opened-ltr.png');
+  float: left;
+  margin: 4px 5px 0 0;
+  vertical-align: baseline;
+  background-image: url('../img_ltr/a/closed-ltr.png');
+  background-position: 0 -28px;
+}
+img.close:active {
+  width: 18px;
+  height: 18px;
+  background-image: url('../img_ltr/a/opened-ltr.png');
+  float: left;
+  margin: 4px 5px 0 0;
+  vertical-align: baseline;
+  background-image: url('../img_ltr/a/closed-ltr.png');
+  background-position: 0 -56px;
+}
+
+span#recaptcha_image {
+  display: inline;
+}
+span#recaptcha_image img {
+  border: 1px solid #333333;
+}
+span#recaptcha_response_field {
+  width: 75px;
+}
+
+.playnow {
+  white-space: nowrap;
+}
+
+.playnow-arrow {
+  height: 53px;
+  min-width: 220px;
+  position: absolute;
+  top: -25px;
+  right: 130px;
+  z-index: 10;
+}
+.playnow-arrow .playnow-bg {
+  height: 53px;
+  width: 50%;
+  margin-left: 90px;
+  position: absolute;
+  z-index: -2;
+  background-repeat: repeat-x;
+}
+.playnow-arrow .playnow-left {
+  height: 53px;
+  position: absolute;
+  left: -30px;
+  z-index: -1;
+  top: 0;
+  width: 122px;
+  background-position: left top;
+}
+.playnow-arrow .playnow-right {
+  height: 53px;
+  position: absolute;
+  right: -52px;
+  top: 0;
+  z-index: -1;
+  width: 180px;
+  background-position: right top;
+}
+
+.playnow-button {
+  width: 400px;
+  height: 45px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.playnow-button .playnow-start {
+  background-image: url('../img_ltr/buttons/play_now_button-ltr.png');
+  height: 45px;
+  background-position: left 0;
+  max-width: 390px;
+  padding-end: 10px;
+  float: left;
+}
+.playnow-button .playnow-end {
+  background-image: url('../img_ltr/buttons/play_now_button-ltr.png');
+  height: 45px;
+  background-position: right 0;
+  width: 10px;
+  float: left;
+}
+.playnow-button:hover .playnow-start {
+  background-position: left -45px;
+}
+.playnow-button:hover .playnow-end {
+  background-position: right -45px;
+}
+.playnow-button h1.play {
+  margin-top: 7px;
+  margin-left: 40px;
+  font-size: 24px;
+  height: 38px;
+  padding-top: 7px;
+}
+
+th.captcha {
+  vertical-align: top;
+}
+
+h1.play {
+  font-size: 25px;
+  margin-top: 8px;
+  max-width: 430px;
+  overflow: hidden;
+}
+.rtl h1.play {
+  font-size: 26px;
+}
+
+a.play {
+  text-decoration: none;
+  color: #F2F2F2;
+}
+a.play:hover {
+  text-decoration: none;
+  color: #fceed5;
+}

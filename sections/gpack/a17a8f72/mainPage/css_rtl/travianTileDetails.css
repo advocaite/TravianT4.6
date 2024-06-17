@@ -1,0 +1,475 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#tileDetails {
+  width: 552px;
+}
+
+.dialog #tileDetails {
+  overflow: hidden;
+  position: relative;
+}
+
+#tileDetails .detailImage {
+  background-position: 0 0;
+  width: 319px;
+  min-height: 0;
+  padding-top: 218px;
+}
+
+#tileDetails.landscape .detailImage {
+  width: 552px;
+  padding-top: 336px;
+}
+
+#tileDetails.village-1 .detailImage {
+  background-image: url('../img_rtl/g/detail/village/f1-rtl.png');
+}
+#tileDetails.village-1 .detailImage.desert {
+  background-image: url('../img_rtl/g/detail/village/d1-rtl.png');
+}
+#tileDetails.village-1 .detailImage.natars {
+  background-image: url('../img_rtl/g/detail/village/natars/f1-rtl.png');
+}
+
+#tileDetails.village-2 .detailImage {
+  background-image: url('../img_rtl/g/detail/village/f2-rtl.png');
+}
+#tileDetails.village-2 .detailImage.desert {
+  background-image: url('../img_rtl/g/detail/village/d2-rtl.png');
+}
+#tileDetails.village-2 .detailImage.natars {
+  background-image: url('../img_rtl/g/detail/village/natars/f2-rtl.png');
+}
+
+#tileDetails.village-3 .detailImage {
+  background-image: url('../img_rtl/g/detail/village/f3-rtl.png');
+}
+#tileDetails.village-3 .detailImage.desert {
+  background-image: url('../img_rtl/g/detail/village/d3-rtl.png');
+}
+#tileDetails.village-3 .detailImage.natars {
+  background-image: url('../img_rtl/g/detail/village/natars/f3-rtl.png');
+}
+
+#tileDetails.village-4 .detailImage {
+  background-image: url('../img_rtl/g/detail/village/f4-rtl.png');
+}
+#tileDetails.village-4 .detailImage.desert {
+  background-image: url('../img_rtl/g/detail/village/d4-rtl.png');
+}
+#tileDetails.village-4 .detailImage.natars {
+  background-image: url('../img_rtl/g/detail/village/natars/f4-rtl.png');
+}
+
+#tileDetails.village-5 .detailImage {
+  background-image: url('../img_rtl/g/detail/village/f5-rtl.png');
+}
+#tileDetails.village-5 .detailImage.desert {
+  background-image: url('../img_rtl/g/detail/village/d5-rtl.png');
+}
+#tileDetails.village-5 .detailImage.natars {
+  background-image: url('../img_rtl/g/detail/village/natars/f5-rtl.png');
+}
+
+#tileDetails.village-6 .detailImage {
+  background-image: url('../img_rtl/g/detail/village/f6-rtl.png');
+}
+#tileDetails.village-6 .detailImage.desert {
+  background-image: url('../img_rtl/g/detail/village/d6-rtl.png');
+}
+#tileDetails.village-6 .detailImage.natars {
+  background-image: url('../img_rtl/g/detail/village/natars/f6-rtl.png');
+}
+
+#tileDetails.village-7 .detailImage {
+  background-image: url('../img_rtl/g/detail/village/f7-rtl.png');
+}
+#tileDetails.village-7 .detailImage.desert {
+  background-image: url('../img_rtl/g/detail/village/d7-rtl.png');
+}
+#tileDetails.village-7 .detailImage.natars {
+  background-image: url('../img_rtl/g/detail/village/natars/f7-rtl.png');
+}
+
+#tileDetails.village-8 .detailImage {
+  background-image: url('../img_rtl/g/detail/village/f8-rtl.png');
+}
+#tileDetails.village-8 .detailImage.desert {
+  background-image: url('../img_rtl/g/detail/village/d8-rtl.png');
+}
+#tileDetails.village-8 .detailImage.natars {
+  background-image: url('../img_rtl/g/detail/village/natars/f8-rtl.png');
+}
+
+#tileDetails.village-9 .detailImage {
+  background-image: url('../img_rtl/g/detail/village/f9-rtl.png');
+}
+#tileDetails.village-9 .detailImage.desert {
+  background-image: url('../img_rtl/g/detail/village/d9-rtl.png');
+}
+#tileDetails.village-9 .detailImage.natars {
+  background-image: url('../img_rtl/g/detail/village/natars/f9-rtl.png');
+}
+
+#tileDetails.village-10 .detailImage {
+  background-image: url('../img_rtl/g/detail/village/f10-rtl.png');
+}
+#tileDetails.village-10 .detailImage.desert {
+  background-image: url('../img_rtl/g/detail/village/d10-rtl.png');
+}
+#tileDetails.village-10 .detailImage.natars {
+  background-image: url('../img_rtl/g/detail/village/natars/f10-rtl.png');
+}
+
+#tileDetails.village-11 .detailImage {
+  background-image: url('../img_rtl/g/detail/village/f11-rtl.png');
+}
+#tileDetails.village-11 .detailImage.desert {
+  background-image: url('../img_rtl/g/detail/village/d11-rtl.png');
+}
+#tileDetails.village-11 .detailImage.natars {
+  background-image: url('../img_rtl/g/detail/village/natars/f11-rtl.png');
+}
+
+#tileDetails.village-12 .detailImage {
+  background-image: url('../img_rtl/g/detail/village/f12-rtl.png');
+}
+#tileDetails.village-12 .detailImage.desert {
+  background-image: url('../img_rtl/g/detail/village/d12-rtl.png');
+}
+#tileDetails.village-12 .detailImage.natars {
+  background-image: url('../img_rtl/g/detail/village/natars/f12-rtl.png');
+}
+
+#tileDetails.village-99 .detailImage {
+  background-image: url('../img_rtl/g/detail/village/f3-rtl.png');
+}
+#tileDetails.village-99 .detailImage.desert {
+  background-image: url('../img_rtl/g/detail/village/d3-rtl.png');
+}
+#tileDetails.village-99 .detailImage.natars {
+  background-image: url('../img_rtl/g/detail/village/natars/f3-rtl.png');
+}
+
+#tileDetails.oasis-2 .detailImage {
+  background-image: url('../img_rtl/g/detail/oasis/w2-rtl.jpg');
+}
+
+#tileDetails.oasis-3 .detailImage {
+  background-image: url('../img_rtl/g/detail/oasis/w3-rtl.jpg');
+}
+
+#tileDetails.oasis-4 .detailImage {
+  background-image: url('../img_rtl/g/detail/oasis/w4-rtl.jpg');
+}
+
+#tileDetails.oasis-6 .detailImage {
+  background-image: url('../img_rtl/g/detail/oasis/w6-rtl.jpg');
+}
+
+#tileDetails.oasis-7 .detailImage {
+  background-image: url('../img_rtl/g/detail/oasis/w7-rtl.jpg');
+}
+
+#tileDetails.oasis-8 .detailImage {
+  background-image: url('../img_rtl/g/detail/oasis/w8-rtl.jpg');
+}
+
+#tileDetails.oasis-10 .detailImage {
+  background-image: url('../img_rtl/g/detail/oasis/w10-rtl.jpg');
+}
+
+#tileDetails.oasis-11 .detailImage {
+  background-image: url('../img_rtl/g/detail/oasis/w11-rtl.jpg');
+}
+
+#tileDetails.oasis-12 .detailImage {
+  background-image: url('../img_rtl/g/detail/oasis/w12-rtl.jpg');
+}
+
+#tileDetails.oasis-14 .detailImage {
+  background-image: url('../img_rtl/g/detail/oasis/w14-rtl.jpg');
+}
+
+#tileDetails.oasis-15 .detailImage {
+  background-image: url('../img_rtl/g/detail/oasis/w15-rtl.jpg');
+}
+
+#tileDetails.landscape-village-normal .detailImage {
+  background-image: url('../img_rtl/g/detail.popup/landscape/village-normal-rtl.jpg');
+}
+
+#tileDetails.landscape-village-natars .detailImage {
+  background-image: url('../img_rtl/g/detail.popup/landscape/village-natars-rtl.jpg');
+}
+
+#tileDetails.landscape-grassland .detailImage {
+  background-image: url('../img_rtl/g/detail.popup/landscape/grassland-rtl.jpg');
+}
+
+#tileDetails.landscape-clay .detailImage {
+  background-image: url('../img_rtl/g/detail/landscape/clay-rtl.jpg');
+}
+
+#tileDetails.landscape-forest .detailImage {
+  background-image: url('../img_rtl/g/detail/landscape/forest-rtl.jpg');
+}
+
+#tileDetails.landscape-hill .detailImage {
+  background-image: url('../img_rtl/g/detail/landscape/hill-rtl.jpg');
+}
+
+#tileDetails.landscape-lake .detailImage {
+  background-image: url('../img_rtl/g/detail/landscape/lake-rtl.jpg');
+}
+
+#tileDetails.landscape-vulcano .detailImage {
+  background-image: url('../img_rtl/g/detail/landscape/vulcano-rtl.jpg');
+}
+
+#tileDetails.landscape-desert_w .detailImage, #tileDetails.landscape-desert .detailImage {
+  background-image: url('../img_rtl/g/detail/landscape/desert_w-rtl.jpg');
+}
+
+#tileDetails.landscape-sea .detailImage {
+  background-image: url('../img_rtl/g/detail/landscape/sea-rtl.jpg');
+}
+
+.adventureTimers {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.adventureTimers table {
+  background: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.adventureTimers table td {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.adventureTimers .adventureArrival {
+  width: 100%;
+}
+
+.adventureTimers .adventureReturn {
+  width: 100%;
+}
+
+.adventureTimers .adventureText {
+  width: 30%;
+  vertical-align: top;
+}
+
+.adventureTimers .adventureDuration {
+  width: 15%;
+  vertical-align: top;
+}
+
+.adventureTimers .adventureTimeAt {
+  width: 54%;
+  vertical-align: top;
+}
+
+.adventureInfo {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.adventureSend {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.adventureBackButton {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+#tileDetails th,
+#tileDetails td {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* detailed map */
+#tileDetails h1 {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+.rtl #tileDetails h1 {
+  font-size: 14px;
+}
+
+#tileDetails h1 table.coordinates td {
+  font-size: 13px;
+}
+.rtl #tileDetails h1 table.coordinates td {
+  font-size: 14px;
+}
+
+#tileDetails h4 {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.rtl #tileDetails h4 {
+  font-size: 14px;
+}
+
+#tileDetails h1 span.mainVillage,
+.positionDetails h1 span.mainVillage {
+  font-size: 11px;
+  font-weight: normal;
+  margin-right: 3px;
+}
+.rtl #tileDetails h1 span.mainVillage, .rtl
+.positionDetails h1 span.mainVillage {
+  font-size: 12px;
+}
+
+.dialog #tileDetails h1 span.mainVillage {
+  color: #C0C0C0;
+}
+
+#tileDetails .detailImage {
+  float: right;
+  margin-left: 16px;
+}
+
+#tileDetails .detailImage .options {
+  margin-top: 16px;
+}
+
+#tileDetails .detailImage .option {
+  margin-top: 2px;
+  padding-right: 10px;
+  padding-top: 4px;
+  height: 19px;
+}
+
+#tileDetails .detailImage .a.arrow {
+  display: block;
+  font-size: 13px;
+}
+.rtl #tileDetails .detailImage .a.arrow {
+  font-size: 14px;
+}
+
+#tileDetails div#map_details {
+  float: left;
+  width: 217px;
+}
+
+#tileDetails table#village_info,
+#tileDetails table#distribution,
+#tileDetails table#troop_info,
+#tileDetails table#surrounding_info {
+  margin-bottom: 20px;
+}
+
+#tileDetails table tr.first th,
+#tileDetails table tr.first td {
+  padding-top: 0;
+}
+
+#tileDetails table#village_info tbody th {
+  width: 35%;
+}
+
+#tileDetails table#village_info tbody td {
+  font-weight: bold;
+}
+
+#tileDetails table#village_info tbody th,
+#tileDetails table#village_info tbody td {
+  padding-top: 3px;
+}
+
+#tileDetails table#village_info tbody tr.first th,
+#tileDetails table#village_info tbody tr.first td {
+  padding-top: 0;
+}
+
+#tileDetails table#village_info .player,
+#tileDetails table#village_info .alliance {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+
+#tileDetails table#troop_info .ico {
+  width: 10%;
+}
+
+#tileDetails table#troop_info .val {
+  width: 10%;
+  text-align: left;
+  padding-left: 5px;
+}
+
+#tileDetails table#troop_info .val {
+  font-weight: bold;
+}
+
+#tileDetails table#troop_info ul {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 2px;
+  padding-right: 12px;
+}
+
+#tileDetails table#troop_info.rep tbody {
+  line-height: 16px;
+}
+
+#tileDetails table#troop_info.rep img {
+  float: right;
+  margin-left: 5px;
+}
+
+#tileDetails table#troop_info.rep img.carry {
+  float: left;
+  margin-left: 55px;
+}
+
+#tileDetails table#distribution {
+  width: 100%;
+}
+
+#tileDetails table#distribution .ico {
+  width: 10%;
+}
+
+#tileDetails table#distribution .val {
+  width: 19%;
+  text-align: left;
+  padding-left: 5px;
+}
+
+#tileDetails table#distribution .val {
+  font-weight: bold;
+}
+
+#tileDetails .options #crud-raidlist-button {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

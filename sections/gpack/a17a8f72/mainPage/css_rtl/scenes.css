@@ -1,0 +1,2837 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.scene {
+  /*** reset styles from old CSS to start new with the new scenes ** */
+  /*** base styles ** */
+}
+.scene .iconButton {
+  float: none;
+  background-image: none;
+}
+.scene * {
+  box-sizing: border-box;
+}
+.scene *:after,
+.scene *:before {
+  background-repeat: no-repeat;
+  background-position: top right;
+  box-sizing: border-box;
+}
+.scene input[type="text"],
+.scene input[type="number"] {
+  background-position: initial;
+}
+.scene i.artefact_buildingMaster {
+  background-image: url('../img_rtl/scenes/General/artefact/buildingMasterBonus-rtl.png');
+  width: 16px;
+  height: 16px;
+}
+.scene i.artefact_spy {
+  background-image: url('../img_rtl/scenes/General/artefact/spyBonus-rtl.png');
+  width: 16px;
+  height: 16px;
+}
+.scene i.hero_offBonus {
+  background-image: url('../img_rtl/scenes/General/hero/offBonus-rtl.png');
+  width: 16px;
+  height: 16px;
+}
+.scene i.hero_defBonus {
+  background-image: url('../img_rtl/scenes/General/hero/defBonus-rtl.png');
+  width: 16px;
+  height: 16px;
+}
+.scene i.hero_health {
+  background-image: url('../img_rtl/scenes/General/hero/health-rtl.png');
+  width: 16px;
+  height: 16px;
+}
+.scene i.hero_strength {
+  background-image: url('../img_rtl/scenes/General/hero/strength-rtl.png');
+  width: 16px;
+  height: 16px;
+}
+.scene i.hero_horse {
+  background-image: url('../img_rtl/scenes/General/hero/horse-rtl.png');
+  width: 16px;
+  height: 16px;
+}
+.scene i.hero_bag {
+  background-image: url('../img_rtl/scenes/General/hero/bag-rtl.png');
+  width: 16px;
+  height: 16px;
+}
+.scene i.hero_handL {
+  background-image: url('../img_rtl/scenes/General/hero/handL.png');
+  width: 15px;
+  height: 16px;
+}
+.scene i.hero_handR {
+  background-image: url('../img_rtl/scenes/General/hero/handR.png');
+  width: 15px;
+  height: 16px;
+}
+.scene i.hero_torso {
+  background-image: url('../img_rtl/scenes/General/hero/torso-rtl.png');
+  width: 16px;
+  height: 15px;
+}
+.scene i.trap {
+  background-image: url('../img_rtl/scenes/General/troops/trap-rtl.png');
+  width: 16px;
+  height: 16px;
+}
+.scene i.troopCount {
+  background-image: url('../img_rtl/scenes/General/troops/troopCount-rtl.png');
+  width: 15px;
+  height: 16px;
+}
+.scene i.troopLevel {
+  background-image: url('../img_rtl/scenes/General/troops/troopLevel-rtl.png');
+  width: 16px;
+  height: 15px;
+}
+.scene i.troopDead {
+  background-image: url('../img_rtl/scenes/General/troops/troopDead-rtl.png');
+  width: 16px;
+  height: 16px;
+}
+.scene i.celebration_small {
+  background-image: url('../img_rtl/scenes/General/misc/celebration_small.png');
+  width: 12px;
+  height: 16px;
+}
+.scene i.celebration_medium {
+  background-image: url('../img_rtl/scenes/General/misc/celebration_medium.png');
+  width: 20px;
+  height: 24px;
+}
+.scene i.target {
+  background-image: url('../img_rtl/scenes/General/misc/target-rtl.png');
+  width: 14px;
+  height: 14px;
+}
+.scene i.trade_small {
+  background-image: url('../img_rtl/scenes/General/misc/trade_small.png');
+  width: 16px;
+  height: 16px;
+}
+.scene i.trade_medium {
+  background-image: url('../img_rtl/scenes/General/misc/trade_medium.png');
+  width: 26px;
+  height: 24px;
+}
+.scene i.village_medium {
+  background-image: url('../img_rtl/scenes/General/misc/village_medium.png');
+  width: 28px;
+  height: 22px;
+}
+.scene i.player_medium {
+  background-image: url('../img_rtl/scenes/General/misc/player_medium.png');
+  width: 14px;
+  height: 24px;
+}
+.scene i.player_large {
+  background-image: url('../img_rtl/scenes/General/misc/player_large.png');
+  width: 30px;
+  height: 56px;
+}
+.scene i.time_medium {
+  background-image: url('../img_rtl/scenes/General/misc/time_medium.png');
+  width: 24px;
+  height: 24px;
+}
+.scene i.bounty_small {
+  background-image: url('../img_rtl/scenes/General/combat/bounty_small.png');
+  width: 14px;
+  height: 16px;
+}
+.scene i.bounty_medium {
+  background-image: url('../img_rtl/scenes/General/combat/bounty_medium.png');
+  width: 24px;
+  height: 24px;
+}
+.scene i.defenseCavalry_small {
+  background-image: url('../img_rtl/scenes/General/combat/defenseCavalry_small.png');
+  width: 14px;
+  height: 16px;
+}
+.scene i.defenseInfantry_small {
+  background-image: url('../img_rtl/scenes/General/combat/defenseInfantry_small.png');
+  width: 14px;
+  height: 16px;
+}
+.scene .tabContainer .tabHeader {
+  display: -ms-grid;
+  display: grid;
+  justify-content: start;
+}
+.scene .tabContainer .tabHeader .tab {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  grid-column-start: auto;
+  -ms-grid-row-align: end;
+  align-self: end;
+  border: 1px solid #DDC6A2;
+  border-bottom: none;
+  display: -ms-grid;
+  display: grid;
+  cursor: pointer;
+  transition: padding 0.2s;
+}
+.scene .tabContainer .tabHeader .tab:nth-child(1) {
+  -ms-grid-column: 1;
+}
+.scene .tabContainer .tabHeader .tab:nth-child(2) {
+  -ms-grid-column: 2;
+}
+.scene .tabContainer .tabHeader .tab:nth-child(3) {
+  -ms-grid-column: 3;
+}
+.scene .tabContainer .tabHeader .tab:nth-child(4) {
+  -ms-grid-column: 4;
+}
+.scene .tabContainer .tabHeader .tab:nth-child(5) {
+  -ms-grid-column: 5;
+}
+.scene .tabContainer .tabHeader .tab i,
+.scene .tabContainer .tabHeader .tab span {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  grid-column-start: auto;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+.scene .tabContainer .tabHeader .tab i:nth-child(1),
+.scene .tabContainer .tabHeader .tab span:nth-child(1) {
+  -ms-grid-column: 1;
+}
+.scene .tabContainer .tabHeader .tab i:nth-child(2),
+.scene .tabContainer .tabHeader .tab span:nth-child(2) {
+  -ms-grid-column: 2;
+}
+.scene .tabContainer .tabHeader .tab i:nth-child(3),
+.scene .tabContainer .tabHeader .tab span:nth-child(3) {
+  -ms-grid-column: 3;
+}
+.scene .tabContainer .tabHeader .tab i:nth-child(4),
+.scene .tabContainer .tabHeader .tab span:nth-child(4) {
+  -ms-grid-column: 4;
+}
+.scene .tabContainer .tabHeader .tab i:nth-child(5),
+.scene .tabContainer .tabHeader .tab span:nth-child(5) {
+  -ms-grid-column: 5;
+}
+.scene .tabContainer .tabHeader .tab i {
+  margin-right: 5px;
+}
+.scene .tabContainer .tabHeader .tab:nth-child(n+2) {
+  margin-right: 3px;
+}
+.scene .tabContainer .tabHeader .tab.selected {
+  position: relative;
+  z-index: 3;
+  padding: 7px 10px;
+  background-color: #FCF2DA;
+}
+.scene .tabContainer .tabHeader .tab:not(.selected) {
+  padding: 7px 10px 2px;
+  background-color: #F2E5C6;
+}
+.scene .tabContainer .tabHeader .tab:hover:not(.selected) {
+  padding-bottom: 7px;
+}
+.scene .tabContainer .tabContent {
+  position: relative;
+  z-index: 2;
+  margin-top: -1px;
+  border: 1px solid #DDC6A2;
+}
+.scene .tabContainer .tabContent .header {
+  background-color: #FCF2DA;
+  padding: 5px;
+}
+.scene .tabContainer .tabContent .body {
+  background-color: #FFF9EB;
+  padding: 5px;
+}
+.scene .iconButton {
+  display: inline-block;
+  position: relative;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  border-radius: 3px;
+  border: 1px solid #cfcfcf;
+  border-bottom-color: #b6b6b6;
+  text-align: center;
+}
+.scene .iconButton span {
+  position: relative;
+  z-index: 2;
+  color: #333333;
+  font-weight: normal;
+  line-height: 26px;
+}
+.scene .iconButton i {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+.scene .iconButton:not(.disabled) {
+  background-color: #fafafa;
+}
+.scene .iconButton:not(.disabled) svg {
+  position: relative;
+  z-index: 3;
+}
+.scene .iconButton:not(.disabled) svg path {
+  fill: #5f5f64;
+}
+.scene .iconButton:not(.disabled):before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  right: 1px;
+  border: 1px solid #e2e2e2;
+  background-color: #fafafa;
+}
+.scene .iconButton:not(.disabled):after {
+  opacity: 0.5;
+  transform: rotate(-10deg);
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  bottom: -5px;
+  right: -5px;
+  background-image: linear-gradient(to bottom, rgba(223, 223, 223, 0) 45%, #dfdfdf 55%, #e6e6e6);
+}
+.scene .iconButton:not(.disabled):active, .scene .iconButton:not(.disabled).active {
+  background-color: #add966;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.scene .iconButton:not(.disabled):active:before, .scene .iconButton:not(.disabled):active:after, .scene .iconButton:not(.disabled).active:before, .scene .iconButton:not(.disabled).active:after {
+  display: none;
+}
+.scene .iconButton:not(.disabled):active:hover, .scene .iconButton:not(.disabled).active:hover {
+  background-color: #add966;
+}
+.scene .iconButton.round {
+  border-radius: 50%;
+}
+.scene .iconButton.round:not(.disabled):before {
+  border-radius: 50%;
+}
+.scene .iconButton:hover:not(.disabled) {
+  background-color: #7cb029;
+}
+.scene .iconButton.disabled {
+  background: #919191;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.scene .iconButton.disabled svg path {
+  fill: #FFFFFF;
+}
+
+/*** colorUsage ** */
+/*** mixins ** */
+/*** import components ** */
+#combatSimulator i.bigTribe1:not(.inactive) {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/roman.png');
+  width: 55px;
+  height: 63px;
+}
+#combatSimulator i.bigTribe1.inactive {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/roman_inactive.png');
+  width: 36px;
+  height: 43px;
+}
+#combatSimulator i.smallTribe1 {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/roman_small.png');
+  width: 37px;
+  height: 37px;
+}
+#combatSimulator i.bigTribe2:not(.inactive) {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/teuton.png');
+  width: 57px;
+  height: 59px;
+}
+#combatSimulator i.bigTribe2.inactive {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/teuton_inactive.png');
+  width: 47px;
+  height: 41px;
+}
+#combatSimulator i.smallTribe2 {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/teuton_small.png');
+  width: 37px;
+  height: 37px;
+}
+#combatSimulator i.bigTribe3:not(.inactive) {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/gaul.png');
+  width: 57px;
+  height: 62px;
+}
+#combatSimulator i.bigTribe3.inactive {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/gaul_inactive.png');
+  width: 43px;
+  height: 45px;
+}
+#combatSimulator i.smallTribe3 {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/gaul_small.png');
+  width: 37px;
+  height: 37px;
+}
+#combatSimulator i.bigTribe4:not(.inactive) {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/nature.png');
+  width: 57px;
+  height: 52px;
+}
+#combatSimulator i.bigTribe4.inactive {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/nature_inactive.png');
+  width: 44px;
+  height: 37px;
+}
+#combatSimulator i.smallTribe4 {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/nature_small.png');
+  width: 37px;
+  height: 37px;
+}
+#combatSimulator i.bigTribe5:not(.inactive) {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/natar.png');
+  width: 57px;
+  height: 51px;
+}
+#combatSimulator i.bigTribe5.inactive {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/natar_inactive.png');
+  width: 43px;
+  height: 35px;
+}
+#combatSimulator i.bigTribe6:not(.inactive) {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/egyptian.png');
+  width: 57px;
+  height: 58px;
+}
+#combatSimulator i.bigTribe6.inactive {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/egyptian_inactive.png');
+  width: 47px;
+  height: 40px;
+}
+#combatSimulator i.smallTribe6 {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/egyptian_small.png');
+  width: 37px;
+  height: 37px;
+}
+#combatSimulator i.bigTribe7:not(.inactive) {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/hun.png');
+  width: 57px;
+  height: 60px;
+}
+#combatSimulator i.bigTribe7.inactive {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/hun_inactive.png');
+  width: 49px;
+  height: 45px;
+}
+#combatSimulator i.smallTribe7 {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/hun_small.png');
+  width: 37px;
+  height: 37px;
+}
+#combatSimulator i.allyBonus {
+  background-image: url('../img_rtl/scenes/CombatSimulator/general/allyBonus-rtl.png');
+  width: 13px;
+  height: 16px;
+}
+#combatSimulator i.population {
+  background-image: url('../img_rtl/scenes/CombatSimulator/general/population-rtl.png');
+  width: 18px;
+  height: 18px;
+}
+#combatSimulator i.shield {
+  background-image: url('../img_rtl/scenes/CombatSimulator/heroEquipment/shield-rtl.png');
+  width: 14px;
+  height: 16px;
+}
+#combatSimulator i.horn {
+  background-image: url('../img_rtl/scenes/CombatSimulator/heroEquipment/horn-rtl.png');
+  width: 16px;
+  height: 15px;
+}
+#combatSimulator i.scaleArmour {
+  background-image: url('../img_rtl/scenes/CombatSimulator/heroEquipment/scaleArmour-rtl.png');
+  width: 16px;
+  height: 15px;
+}
+#combatSimulator i.breastPlate {
+  background-image: url('../img_rtl/scenes/CombatSimulator/heroEquipment/breastPlate-rtl.png');
+  width: 16px;
+  height: 15px;
+}
+#combatSimulator i.segmentedArmour {
+  background-image: url('../img_rtl/scenes/CombatSimulator/heroEquipment/segmentedArmour-rtl.png');
+  width: 16px;
+  height: 15px;
+}
+#combatSimulator i.armourOfHealth {
+  background-image: url('../img_rtl/scenes/CombatSimulator/heroEquipment/armourOfHealth-rtl.png');
+  width: 16px;
+  height: 15px;
+}
+#combatSimulator i.bandage {
+  background-image: url('../img_rtl/scenes/CombatSimulator/heroEquipment/bandage-rtl.png');
+  width: 16px;
+  height: 16px;
+}
+#combatSimulator i.smallBandage {
+  background-image: url('../img_rtl/scenes/CombatSimulator/heroEquipment/smallBandage-rtl.png');
+  width: 16px;
+  height: 16px;
+}
+/* converter.ignore.next */
+.rtl #combatSimulator svg.icon {
+  transform: scale(-1, 1);
+}
+#combatSimulator .description {
+  margin-top: 0;
+  text-align: center;
+}
+#combatSimulator .switchRoleWrapper {
+  text-align: left;
+  margin-bottom: 10px;
+}
+#combatSimulator .switchRoleWrapper .switch {
+  display: inline-block;
+}
+#combatSimulator .switchRoleWrapper .switch.defender {
+  padding: 4px 20px;
+  border: 1px solid #213745;
+  background-image: linear-gradient(to bottom, #75a1bd, #4f84a6);
+  box-shadow: inset 2px 0 1px -1px #477794, inset -2px 0 1px -1px #477794, inset 0 3px 1px -1px #d6e3eb, inset 0 -3px 1px -1px rgba(48, 80, 100, 0.6);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+#combatSimulator .switchRoleWrapper .switch.defender:hover:not(.disabled):not(:disabled) {
+  background-color: #86adc5;
+  border-color: #3d6680;
+  box-shadow: inset 2px 0 1px -1px #477794, inset -2px 0 1px -1px #477794, inset 0 3px 1px -1px #d6e3eb, inset 0 -3px 1px -1px rgba(48, 80, 100, 0.6), inset 0 20px 25px -10px rgba(255, 255, 255, 0.7);
+}
+#combatSimulator .switchRoleWrapper .switch.defender:active:not(.disabled):not(:disabled) {
+  background-image: linear-gradient(to top, #86adc5, #4f84a6);
+  box-shadow: inset 2px 0 1px -1px #477794, inset -2px 0 1px -1px #477794;
+  color: #294556;
+}
+#combatSimulator .switchRoleWrapper .switch.attacker {
+  padding: 4px 20px;
+  border: 1px solid #4a1c1d;
+  background-image: linear-gradient(to bottom, #c66c6e, #b14446);
+  box-shadow: inset 2px 0 1px -1px #9e3d3f, inset -2px 0 1px -1px #9e3d3f, inset 0 3px 1px -1px #eed3d3, inset 0 -3px 1px -1px rgba(107, 41, 43, 0.6);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+#combatSimulator .switchRoleWrapper .switch.attacker:hover:not(.disabled):not(:disabled) {
+  background-color: #cd7e80;
+  border-color: #883536;
+  box-shadow: inset 2px 0 1px -1px #9e3d3f, inset -2px 0 1px -1px #9e3d3f, inset 0 3px 1px -1px #eed3d3, inset 0 -3px 1px -1px rgba(107, 41, 43, 0.6), inset 0 20px 25px -10px rgba(255, 255, 255, 0.7);
+}
+#combatSimulator .switchRoleWrapper .switch.attacker:active:not(.disabled):not(:disabled) {
+  background-image: linear-gradient(to top, #cd7e80, #b14446);
+  box-shadow: inset 2px 0 1px -1px #9e3d3f, inset -2px 0 1px -1px #9e3d3f;
+  color: #5c2425;
+}
+#combatSimulator #simulatePin {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+}
+#combatSimulator #simulatePin .simulateWrapper {
+  position: fixed;
+  z-index: 5;
+  bottom: 0;
+  padding: 10px 0;
+  width: 598px;
+  margin-right: -23px;
+  border-top: 2px solid #9B9999;
+  border-bottom: 2px solid #9B9999;
+  background-image: linear-gradient(to top, #E7E7E6, white);
+}
+#combatSimulator #simulatePin .simulateWrapper.pinned {
+  position: absolute;
+  bottom: 0;
+}
+#combatSimulator #simulatePin .simulate {
+  display: inline-block;
+  min-width: 40%;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  pointer-events: auto;
+  padding: 8px 20px;
+  text-align: center;
+  height: auto;
+  line-height: 24px;
+}
+
+#combatSimulator .bonus {
+  padding: 0 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto;
+  grid-template-columns: 1fr auto;
+  -ms-grid-rows: 39px;
+  grid-template-rows: 39px;
+  align-items: center;
+}
+#combatSimulator .bonus.hidden {
+  visibility: hidden;
+}
+#combatSimulator .bonus .buildings {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-align: start;
+  justify-self: start;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+#combatSimulator .bonus .buildings label {
+  margin-left: 10px;
+}
+#combatSimulator .bonus .artefacts {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-align: end;
+  justify-self: end;
+  -ms-grid-row-align: center;
+  align-self: center;
+  position: relative;
+  z-index: 3;
+}
+#combatSimulator .bonus .artefacts label {
+  margin-right: 10px;
+}
+#combatSimulator .bonus i {
+  margin-left: 5px;
+}
+#combatSimulator .bonus input {
+  width: 20px;
+  font-size: 11px;
+}
+.rtl #combatSimulator .bonus input {
+  font-size: 12px;
+}
+#combatSimulator .bonus select {
+  width: 60px;
+}
+#combatSimulator .attacker .bonus .buildings {
+  -ms-grid-column-align: end;
+  justify-self: end;
+}
+
+#combatSimulator .heroAttributes {
+  border-top: 1px solid #E8E4DC;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto;
+  grid-template-columns: 1fr auto;
+  -ms-grid-rows: 33px;
+  grid-template-rows: 33px;
+  align-items: center;
+  padding: 8px 5px;
+}
+#combatSimulator .heroAttributes.hidden * {
+  visibility: hidden;
+}
+#combatSimulator .heroAttributes label {
+  padding-right: 10px;
+  line-height: 100%;
+}
+#combatSimulator .heroAttributes input {
+  vertical-align: middle;
+}
+#combatSimulator .heroAttributes input[type=text] {
+  width: 33px;
+}
+#combatSimulator .heroAttributes .calculated {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+#combatSimulator .heroAttributes .stats,
+#combatSimulator .heroAttributes .equipment {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+#combatSimulator .heroAttributes .stats > span,
+#combatSimulator .heroAttributes .equipment > span {
+  vertical-align: middle;
+}
+#combatSimulator .heroAttributes .stats {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+#combatSimulator .heroAttributes .stats i {
+  margin-left: 3px;
+  vertical-align: middle;
+}
+#combatSimulator .heroAttributes .equipment {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-align: end;
+  justify-self: end;
+}
+#combatSimulator .heroAttributes .equipment .title {
+  margin-left: 5px;
+}
+#combatSimulator .heroAttributes .equipment .slot {
+  padding: 3px;
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+}
+#combatSimulator .heroAttributes .equipment .slot i {
+  vertical-align: middle;
+}
+#combatSimulator .heroAttributes .equipment .slot:hover {
+  box-shadow: 0 0 1px 1px #B09674;
+  background-color: rgba(223, 196, 149, 0.2);
+  border-radius: 5px;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer {
+  display: inline-block;
+  position: relative;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 6;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer > span {
+  cursor: pointer;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown.opened {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  z-index: 30;
+  padding: 10px 0;
+  background-color: #FCF2DA;
+  border: 1px solid #DDC6A2;
+  white-space: nowrap;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown.opened.dropUp {
+  top: auto;
+  bottom: 25px;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown.closed {
+  display: none;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown .group {
+  color: #61332B;
+  line-height: 1.4em;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown .group ~ .group {
+  margin-top: 10px;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown .group .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.9em;
+  padding: 0 10px 0 15px;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown .group .title i {
+  margin-left: 5px;
+  vertical-align: text-bottom;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown .group .entry {
+  padding: 2px 20px;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown .group .entry input {
+  vertical-align: text-bottom;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown .group .entry .checkmark {
+  width: 1em;
+  height: 1em;
+  margin-left: 3px;
+  vertical-align: text-top;
+  fill: transparent;
+  stroke: #61332B;
+  stroke-width: 4;
+  stroke-dasharray: 40;
+  stroke-dashoffset: 40;
+  transition: stroke-dashoffset 0.3s ease-out;
+}
+/* converter.ignore.next */
+.rtl #combatSimulator .heroAttributes .equipment .equipContainer .dropdown .group .entry .checkmark {
+  transform: none;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown .group .entry.selected {
+  background-color: #B09674;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown .group .entry.selected .checkmark {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 0.2s ease-in;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown .group .entry.selected:not(:hover) {
+  color: white;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown .group .entry.selected:not(:hover) .checkmark {
+  stroke: white;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown .group .entry:not(.owned):not(:hover):not(.selected) {
+  color: rgba(97, 51, 43, 0.4);
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown .group .entry:hover {
+  background-color: #F2E5C6;
+  cursor: pointer;
+}
+#combatSimulator .heroAttributes .equipment .equipContainer .dropdown.bag .entry i {
+  margin-left: 5px;
+  vertical-align: text-bottom;
+}
+
+#combatSimulator .movement {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 2;
+}
+#combatSimulator .movement label {
+  margin-left: 15px;
+}
+#combatSimulator .movement label input {
+  margin-left: 5px;
+}
+
+#combatSimulator .role {
+  position: relative;
+  border: 1px solid #DDC6A2;
+}
+#combatSimulator .role label i {
+  vertical-align: text-top;
+}
+#combatSimulator .role .header {
+  position: relative;
+  z-index: 2;
+  padding: 0 5px;
+  display: -ms-grid;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+}
+#combatSimulator .role .header h2,
+#combatSimulator .role .header h3 {
+  color: #F2F2F2;
+}
+#combatSimulator .role .header h2 {
+  font-size: 1.5em;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+#combatSimulator .role .header .iconButton.clear {
+  -ms-grid-column-align: end;
+  justify-self: end;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+#combatSimulator .role .header .iconButton.clear svg {
+  width: 18px;
+  height: 18px;
+  margin: 3px;
+}
+#combatSimulator .role:not(.reinforcement) h2 {
+  text-transform: uppercase;
+}
+#combatSimulator .role .content {
+  position: relative;
+  background-color: #FFF9EB;
+  padding: 0 5px;
+}
+#combatSimulator .role.attacker, #combatSimulator .role.defender {
+  padding: 0 5px 5px;
+  background-color: #FCF2DA;
+}
+#combatSimulator .role.attacker .header, #combatSimulator .role.defender .header {
+  -ms-grid-rows: 36px;
+  grid-template-rows: 36px;
+  -ms-grid-columns: 60px 1fr 80px 60px;
+  grid-template-columns: 60px 1fr 80px 60px;
+  margin: -1px -6px 5px;
+}
+#combatSimulator .role.attacker .header .roleIcon, #combatSimulator .role.defender .header .roleIcon {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+#combatSimulator .role.attacker .header .roleIcon.svgAttack, #combatSimulator .role.defender .header .roleIcon.svgAttack {
+  width: 45px;
+  height: 51px;
+}
+#combatSimulator .role.attacker .header .roleIcon.svgDefend, #combatSimulator .role.defender .header .roleIcon.svgDefend {
+  width: 43px;
+  height: 48px;
+}
+#combatSimulator .role.attacker .header .villageSelection, #combatSimulator .role.defender .header .villageSelection {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin-right: 20px;
+}
+#combatSimulator .role.attacker .header .villageSelection > *, #combatSimulator .role.defender .header .villageSelection > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+#combatSimulator .role.attacker .header .villageSelection select, #combatSimulator .role.defender .header .villageSelection select {
+  margin-left: 10px;
+  max-width: 200px;
+}
+#combatSimulator .role.attacker .header .villageSelection select .empty.hidden, #combatSimulator .role.defender .header .villageSelection select .empty.hidden {
+  display: none;
+}
+#combatSimulator .role.attacker .header .villageSelection .reload svg, #combatSimulator .role.defender .header .villageSelection .reload svg {
+  width: 17px;
+  height: 17px;
+  margin: 3px;
+}
+#combatSimulator .role.attacker .header .rolePopulation, #combatSimulator .role.defender .header .rolePopulation {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+#combatSimulator .role.attacker .header .rolePopulation > *, #combatSimulator .role.defender .header .rolePopulation > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+#combatSimulator .role.attacker .header .rolePopulation i, #combatSimulator .role.defender .header .rolePopulation i {
+  margin-left: 5px;
+}
+#combatSimulator .role.attacker .header .rolePopulation input, #combatSimulator .role.defender .header .rolePopulation input {
+  width: 45px;
+  font-size: 11px;
+}
+.rtl #combatSimulator .role.attacker .header .rolePopulation input, .rtl #combatSimulator .role.defender .header .rolePopulation input {
+  font-size: 12px;
+}
+#combatSimulator .role.attacker .header .iconButton.clear, #combatSimulator .role.defender .header .iconButton.clear {
+  -ms-grid-column: 4;
+  grid-column-start: 4;
+}
+#combatSimulator .role.attacker .header.you, #combatSimulator .role.defender .header.you {
+  -ms-grid-columns: 65px auto 1fr 80px 60px;
+  grid-template-columns: 65px auto 1fr 80px 60px;
+}
+#combatSimulator .role.attacker .header.you .rolePopulation, #combatSimulator .role.defender .header.you .rolePopulation {
+  -ms-grid-column: 4;
+  grid-column-start: 4;
+}
+#combatSimulator .role.attacker .header.you .iconButton.clear, #combatSimulator .role.defender .header.you .iconButton.clear {
+  -ms-grid-column: 5;
+  grid-column-start: 5;
+}
+#combatSimulator .role.attacker .header.you ~ .content .troopIcons i.unit, #combatSimulator .role.defender .header.you ~ .content .troopIcons i.unit {
+  cursor: pointer;
+}
+#combatSimulator .role.attacker .content, #combatSimulator .role.defender .content {
+  border: 1px solid #DFC495;
+  box-shadow: 0 0 10px 2px #DFC495;
+}
+#combatSimulator .role.attacker .header {
+  background-color: #A33F41;
+}
+#combatSimulator .role.defender .header, #combatSimulator .role.reinforcement .header {
+  background-color: #8CB1C8;
+}
+#combatSimulator .role.reinforcement {
+  margin: -1px 5px 0;
+}
+#combatSimulator .role.reinforcement .header {
+  -ms-grid-rows: 28px;
+  grid-template-rows: 28px;
+  -ms-grid-columns: 45px auto 30px 1fr;
+  grid-template-columns: 45px auto 30px 1fr;
+  margin: -1px 0 0;
+}
+#combatSimulator .role.reinforcement .header .iconButton.delete {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  margin-right: 20px;
+}
+#combatSimulator .role.reinforcement .header .iconButton.delete svg {
+  width: 16px;
+  height: 16px;
+  margin: 4px;
+}
+#combatSimulator .role.reinforcement .header .iconButton.clear {
+  -ms-grid-column: 4;
+  grid-column-start: 4;
+}
+
+#combatSimulator .tribeSelection {
+  position: relative;
+  z-index: 1;
+  top: 1px;
+}
+#combatSimulator .tribeSelection .tribeWrapper {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+#combatSimulator .tribeSelection .tribeWrapper div {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+#combatSimulator .tribeSelection .tribeWrapper div:hover {
+  cursor: pointer;
+}
+#combatSimulator .tribeSelection.attack .tribeWrapper, #combatSimulator .tribeSelection.defense .tribeWrapper {
+  height: 63px;
+}
+#combatSimulator .tribeSelection.attack .tribeWrapper svg, #combatSimulator .tribeSelection.defense .tribeWrapper svg {
+  display: none;
+}
+#combatSimulator .tribeSelection.attack .tribeWrapper div, #combatSimulator .tribeSelection.defense .tribeWrapper div {
+  width: 77px;
+  padding: 0 10px;
+}
+#combatSimulator .tribeSelection.attack .tribeWrapper div:before, #combatSimulator .tribeSelection.defense .tribeWrapper div:before {
+  content: "";
+  position: absolute;
+  top: auto;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 0;
+  background-image: linear-gradient(to top, rgba(223, 196, 149, 0.8), rgba(223, 196, 149, 0));
+  transition: all 0.3s ease-out;
+}
+#combatSimulator .tribeSelection.attack .tribeWrapper div i, #combatSimulator .tribeSelection.defense .tribeWrapper div i {
+  position: relative;
+}
+#combatSimulator .tribeSelection.attack .tribeWrapper div.active, #combatSimulator .tribeSelection.defense .tribeWrapper div.active {
+  cursor: default;
+}
+#combatSimulator .tribeSelection.attack .tribeWrapper div.inactive, #combatSimulator .tribeSelection.defense .tribeWrapper div.inactive {
+  cursor: pointer;
+}
+#combatSimulator .tribeSelection.attack .tribeWrapper div.inactive:hover:before, #combatSimulator .tribeSelection.defense .tribeWrapper div.inactive:hover:before {
+  height: 63px;
+}
+#combatSimulator .tribeSelection.reinforcement {
+  position: relative;
+  margin: -1px 5px 0;
+  border: 1px solid #DFC495;
+  border-top-color: #E8E4DC;
+  background-color: #FCF2DA;
+}
+.roleReinforcement ~ #combatSimulator .tribeSelection.reinforcement {
+  margin-top: -2px;
+}
+#combatSimulator .tribeSelection.reinforcement .tribeWrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+#combatSimulator .tribeSelection.reinforcement .tribeWrapper div {
+  padding: 0 10px;
+  color: #9B9999;
+}
+#combatSimulator .tribeSelection.reinforcement .tribeWrapper div svg {
+  position: absolute;
+  top: 1px;
+  right: 11px;
+  opacity: 1;
+  width: 35px;
+  height: 35px;
+  transition: all 0.1s;
+}
+#combatSimulator .tribeSelection.reinforcement .tribeWrapper div svg circle {
+  fill: #c3dff0;
+}
+#combatSimulator .tribeSelection.reinforcement .tribeWrapper div svg line {
+  stroke-width: 1;
+  stroke: #FFFFFF;
+}
+#combatSimulator .tribeSelection.reinforcement .tribeWrapper div:not(:hover) svg {
+  opacity: 0;
+}
+
+#combatSimulator .bonus ~ .troops,
+#combatSimulator .movement ~ .troops {
+  border-top: 1px solid #E8E4DC;
+}
+#combatSimulator .troops {
+  width: 100%;
+  padding: 5px 0 10px;
+}
+#combatSimulator .troops table th,
+#combatSimulator .troops table td {
+  padding: 3px 2px;
+}
+#combatSimulator .troops table th {
+  text-align: right;
+}
+#combatSimulator .troops table td {
+  text-align: center;
+}
+#combatSimulator .troops input {
+  vertical-align: middle;
+}
+#combatSimulator .troops input[type=text] {
+  width: 100%;
+}
+#combatSimulator .troops input.unit9, #combatSimulator .troops input.unit10 {
+  width: 25px;
+}
+#combatSimulator .troops .hero.hidden {
+  visibility: hidden;
+}
+#combatSimulator .troops td.celebration {
+  text-align: right;
+}
+#combatSimulator .troops td.celebration i {
+  vertical-align: middle;
+  margin-left: 3px;
+}
+#combatSimulator .troops .cataLevels {
+  position: relative;
+  width: 100%;
+  height: 0;
+}
+#combatSimulator .troops .cataLevels.hidden {
+  visibility: hidden;
+}
+#combatSimulator .troops .cataLevels:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: calc(50% - 1px);
+  width: 1px;
+  background-color: #E8E4DC;
+  height: 15px;
+}
+#combatSimulator .troops .cataLevels .cata1,
+#combatSimulator .troops .cataLevels .cata2 {
+  position: absolute;
+  top: 4px;
+  background-color: #FFF9EB;
+}
+#combatSimulator .troops .cataLevels .cata1 {
+  right: -23px;
+}
+#combatSimulator .troops .cataLevels .cata1 input {
+  margin-right: 2px;
+}
+#combatSimulator .troops .cataLevels .cata2 {
+  left: -23px;
+}
+#combatSimulator .troops .cataLevels .cata2 input {
+  margin-left: 2px;
+}
+#combatSimulator .troops .cataLevels i.target {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  top: 4px;
+}
+#combatSimulator .troops .cataLevels input {
+  width: 23px;
+}
+#combatSimulator .troops .cataLevels input:disabled {
+  cursor: not-allowed;
+}
+
+#combatSimulator .results {
+  padding-top: 35px;
+  position: relative;
+}
+#combatSimulator .results #applyLosses {
+  float: left;
+  margin-top: 15px;
+  padding-left: 36px;
+}
+#combatSimulator .results #applyLosses svg.svgArrowShort {
+  width: 16px;
+  height: 12px;
+  fill: #544E44;
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+  left: 17px;
+}
+#combatSimulator .results .separator {
+  position: relative;
+  text-align: center;
+  margin-bottom: 35px;
+  color: #9B9999;
+}
+#combatSimulator .results .separator:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 7px;
+  border-bottom: 1px solid #9B9999;
+}
+#combatSimulator .results .separator.long:before {
+  left: 0;
+}
+#combatSimulator .results .separator.short:before {
+  left: 35px;
+}
+#combatSimulator .results .separator .title {
+  position: relative;
+  display: inline-block;
+  background-color: #FFFFFF;
+  padding: 0 5px;
+  font-size: 1.2rem;
+}
+#combatSimulator .results .separator .iconButton {
+  position: absolute;
+  left: 0;
+  top: -6px;
+}
+#combatSimulator .results .separator .iconButton svg {
+  width: 15px;
+  height: 15px;
+  fill: #FFFFFF;
+  margin: 5px;
+}
+#combatSimulator .results .separator .iconButton svg.collapse {
+  transform: scaleX(-1);
+}
+/* converter.ignore.next */
+.rtl #combatSimulator .results .separator .iconButton svg.collapse {
+  transform: scaleX(1);
+}
+#combatSimulator .results .separator .iconButton:after {
+  content: "";
+  position: absolute;
+  right: -6px;
+  width: 5px;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+#combatSimulator .results .result {
+  background-color: #FFF9EB;
+  border: 1px solid #DFC495;
+}
+#combatSimulator .results .result .header {
+  position: relative;
+  z-index: 3;
+  display: -ms-grid;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+}
+#combatSimulator .results .result .header h2 {
+  color: #F2F2F2;
+}
+#combatSimulator .results .result .content {
+  position: relative;
+}
+#combatSimulator .results .result .content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#combatSimulator .results .result .content table th,
+#combatSimulator .results .result .content table td {
+  box-sizing: content-box;
+  font-size: 13px;
+  padding: 5px 3px;
+  white-space: nowrap;
+}
+.rtl #combatSimulator .results .result .content table th, .rtl
+#combatSimulator .results .result .content table td {
+  font-size: 14px;
+}
+#combatSimulator .results .result .content table th {
+  width: 16px;
+}
+#combatSimulator .results .result .content table td {
+  text-align: left;
+  width: 42px;
+}
+#combatSimulator .results .result .content table td.u9, #combatSimulator .results .result .content table td.u10 {
+  width: 35px;
+}
+#combatSimulator .results .result .content table td.uhero {
+  width: auto;
+}
+#combatSimulator .results .result .content table .troopsLoss td,
+#combatSimulator .results .result .content table .troopsCaptured td {
+  color: #D40000;
+}
+#combatSimulator .results .result .content table .troopsResult {
+  background-color: #FCF2DA;
+  color: #228B22;
+}
+#combatSimulator .results .result .content table .troopsRevived {
+  color: #228B22;
+}
+#combatSimulator .results .result .content table .combatReportLine td {
+  text-align: right;
+}
+#combatSimulator .results .result .content table .combatReportLine td span {
+  white-space: normal;
+  display: inline-block;
+  max-width: 95%;
+  vertical-align: top;
+  margin-right: 4px;
+}
+#combatSimulator .results .result .content table .combatReportLine i {
+  vertical-align: text-bottom;
+  margin-left: 5px;
+}
+#combatSimulator .results .result .content table .combatReportLine i.manual {
+  cursor: pointer;
+}
+#combatSimulator .results .result .content table .combatReportLine .negative {
+  color: #D40000;
+}
+#combatSimulator .results .result .content table .additionalInfo td {
+  text-align: right;
+}
+#combatSimulator .results .result .content table .additionalInfo td i {
+  vertical-align: text-bottom;
+  margin-left: 5px;
+}
+#combatSimulator .results .result .content table .additionalInfo td span {
+  font-weight: bold;
+}
+#combatSimulator .results .result .content table .additionalInfo td span.negative {
+  color: #D40000;
+}
+#combatSimulator .results .result .content.extended {
+  position: relative;
+  right: -50px;
+  width: 650px;
+  padding: 5px;
+  margin: -1px 0;
+  background-color: #FFF9EB;
+  border: 1px solid #9B9999;
+}
+#combatSimulator .results .result .content.extended table td {
+  width: 63px;
+}
+#combatSimulator .results .result .content.extended table td.u9, #combatSimulator .results .result .content.extended table td.u10 {
+  width: 45px;
+}
+#combatSimulator .results .result.attack .header, #combatSimulator .results .result.defense .header {
+  -ms-grid-columns: 100px 1fr 165px;
+  grid-template-columns: 100px 1fr 165px;
+  -ms-grid-rows: 36px;
+  grid-template-rows: 36px;
+}
+#combatSimulator .results .result.attack .header .tribeIcon, #combatSimulator .results .result.defense .header .tribeIcon {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#combatSimulator .results .result.attack .header .roleIcon, #combatSimulator .results .result.defense .header .roleIcon {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  position: absolute;
+  bottom: -4px;
+  right: 45px;
+}
+#combatSimulator .results .result.attack .header .roleIcon.svgAttack, #combatSimulator .results .result.defense .header .roleIcon.svgAttack {
+  width: 40px;
+  height: 46px;
+}
+#combatSimulator .results .result.attack .header .roleIcon.svgDefend, #combatSimulator .results .result.defense .header .roleIcon.svgDefend {
+  width: 40px;
+  height: 45px;
+}
+#combatSimulator .results .result.attack .header h2, #combatSimulator .results .result.defense .header h2 {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  text-transform: uppercase;
+}
+#combatSimulator .results .result.attack .header .outcome, #combatSimulator .results .result.defense .header .outcome {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+#combatSimulator .results .result.attack .header .outcome .arrowWrapper, #combatSimulator .results .result.defense .header .outcome .arrowWrapper {
+  position: relative;
+  width: 39px;
+  height: 36px;
+  overflow: hidden;
+}
+#combatSimulator .results .result.attack .header .outcome .arrowWrapper .outcomeArrow, #combatSimulator .results .result.defense .header .outcome .arrowWrapper .outcomeArrow {
+  width: 40px;
+  height: 38px;
+  position: relative;
+  top: -1px;
+  right: -2px;
+  stroke: rgba(0, 0, 0, 0.2);
+  stroke-width: 0.75;
+}
+/* converter.ignore.next */
+.rtl #combatSimulator .results .result.attack .header .outcome .arrowWrapper .outcomeArrow, .rtl #combatSimulator .results .result.defense .header .outcome .arrowWrapper .outcomeArrow {
+  transform: scale(-1, 1);
+}
+#combatSimulator .results .result.attack .header .outcome .outcomeIcons, #combatSimulator .results .result.defense .header .outcome .outcomeIcons {
+  position: absolute;
+  left: 10px;
+  bottom: -6px;
+}
+#combatSimulator .results .result.attack .header .outcome .outcomeIcons svg, #combatSimulator .results .result.defense .header .outcome .outcomeIcons svg {
+  position: absolute;
+  bottom: 0;
+}
+#combatSimulator .results .result.attack .header .outcome .outcomeIcons .svgAttack,
+#combatSimulator .results .result.attack .header .outcome .outcomeIcons .svgAttackLost, #combatSimulator .results .result.defense .header .outcome .outcomeIcons .svgAttack,
+#combatSimulator .results .result.defense .header .outcome .outcomeIcons .svgAttackLost {
+  left: 0;
+  width: 50px;
+  height: 60px;
+}
+#combatSimulator .results .result.attack .header .outcome .outcomeIcons .svgDefend,
+#combatSimulator .results .result.attack .header .outcome .outcomeIcons .svgDefendLost, #combatSimulator .results .result.defense .header .outcome .outcomeIcons .svgDefend,
+#combatSimulator .results .result.defense .header .outcome .outcomeIcons .svgDefendLost {
+  left: 0;
+  width: 48px;
+  height: 60px;
+}
+#combatSimulator .results .result.attack .header .outcome .outcomeIcons .svgSkull, #combatSimulator .results .result.defense .header .outcome .outcomeIcons .svgSkull {
+  left: -7px;
+  width: 28px;
+  height: 35px;
+}
+#combatSimulator .results .result.attack .content, #combatSimulator .results .result.defense .content {
+  padding: 5px 10px;
+}
+#combatSimulator .results .result.attack .header {
+  background-color: #A33F41;
+}
+#combatSimulator .results .result.attack .header .outcome {
+  background-color: #7e3132;
+}
+#combatSimulator .results .result.attack .header .outcome svg {
+  fill: #A33F41;
+}
+#combatSimulator .results .result.defense {
+  margin-top: 25px;
+}
+#combatSimulator .results .result.defense .header, #combatSimulator .results .result.reinforcement .header {
+  background-color: #8CB1C8;
+}
+#combatSimulator .results .result.defense .header .outcome, #combatSimulator .results .result.reinforcement .header .outcome {
+  background-color: #6a9ab8;
+}
+#combatSimulator .results .result.defense .header .outcome svg, #combatSimulator .results .result.reinforcement .header .outcome svg {
+  fill: #8CB1C8;
+}
+#combatSimulator .results .result.reinforcement {
+  width: calc(100% - 10px);
+  margin: -1px 5px 0;
+}
+#combatSimulator .results .result.reinforcement .header {
+  -ms-grid-columns: 70px 1fr;
+  grid-template-columns: 70px 1fr;
+  -ms-grid-rows: 26px;
+  grid-template-rows: 26px;
+}
+#combatSimulator .results .result.reinforcement .header i.tribeIcon {
+  position: absolute;
+  bottom: -5px;
+  right: 5px;
+}
+#combatSimulator .results .result.reinforcement .header .extendView {
+  position: absolute;
+  left: -25px;
+  top: 8px;
+}
+#combatSimulator .results .result.reinforcement .content {
+  padding: 5px;
+}
+#combatSimulator .results .result.reinforcement .content.tribe4 .content td.uhero, #combatSimulator .results .result.reinforcement .content.tribe5 .content td.uhero {
+  visibility: hidden;
+}
+#combatSimulator .results .combatStatistics {
+  margin-top: 25px;
+  border: 1px solid #DDC6A2;
+}
+#combatSimulator .results .combatStatistics .header {
+  height: 36px;
+  line-height: 36px;
+  background-color: #778243;
+  border-bottom: 1px solid #DDC6A2;
+}
+#combatSimulator .results .combatStatistics .header h2 {
+  color: #F2F2F2;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: 0 10px;
+}
+#combatSimulator .results .combatStatistics table {
+  border-collapse: collapse;
+  background-color: #FFF9EB;
+}
+#combatSimulator .results .combatStatistics table th,
+#combatSimulator .results .combatStatistics table td {
+  line-height: 24px;
+  padding: 2px 5px;
+}
+#combatSimulator .results .combatStatistics table th:nth-child(2),
+#combatSimulator .results .combatStatistics table td:nth-child(2) {
+  border-left: 1px solid #DDC6A2;
+  border-right: 1px solid #DDC6A2;
+}
+#combatSimulator .results .combatStatistics table th {
+  text-align: right;
+}
+#combatSimulator .results .combatStatistics table thead th {
+  font-weight: bold;
+  background-color: #FCF2DA;
+}
+#combatSimulator .results .combatStatistics table tbody tr:nth-child(even) th,
+#combatSimulator .results .combatStatistics table tbody tr:nth-child(even) td {
+  background-color: #FCF2DA;
+}
+#combatSimulator .results .combatStatistics table tbody td {
+  width: 30%;
+}
+#combatSimulator .results .combatStatistics table .inlineIcon {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+#combatSimulator .results .combatStatistics table .inlineIcon i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-left: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+#combatSimulator .results .combatStatistics table .inlineIcon span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+
+#reactDialogWrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 500;
+  pointer-events: none;
+}
+#reactDialogWrapper .reactDialog {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 500ms;
+  text-align: center;
+  overflow: auto;
+  pointer-events: auto;
+}
+#reactDialogWrapper .reactDialog.visible {
+  opacity: 1;
+  visibility: visible;
+}
+#reactDialogWrapper .reactDialog:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+#reactDialogWrapper .reactDialog .dialogBody {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  width: auto;
+  min-width: 600px;
+  max-width: 95%;
+  background-color: #E8E4DC;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  position: relative;
+  transition-duration: 500ms;
+  transform: scale(0.5);
+  opacity: 0;
+  margin: 2.5% auto;
+  padding: 20px;
+}
+#reactDialogWrapper .reactDialog .dialogBody .loading {
+  width: 16px;
+  height: 16px;
+  background-image: url('../img_rtl/map/loading.gif');
+  margin: 0 auto;
+}
+#reactDialogWrapper .reactDialog.visible .dialogBody {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/*** import components ** */
+#statisticsV2 {
+  /** icons */
+  /** general styles */
+}
+#statisticsV2 i.gameworld_large {
+  background-image: url('../img_rtl/scenes/Statistics/general/gameworld_large.png');
+  width: 64px;
+  height: 64px;
+}
+#statisticsV2 i.alliance_medium {
+  background-image: url('../img_rtl/scenes/Statistics/general/alliance_medium.png');
+  width: 20px;
+  height: 24px;
+}
+#statisticsV2 i.alliance_large {
+  background-image: url('../img_rtl/scenes/Statistics/general/alliance_large.png');
+  width: 52px;
+  height: 64px;
+}
+#statisticsV2 table td {
+  text-align: right;
+}
+#statisticsV2 h4 {
+  padding: 0 46px 0 0;
+  background-color: #C4E18A;
+  border: solid 1px #587c1e;
+  height: 30px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  position: relative;
+}
+#statisticsV2 h4 i {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+#statisticsV2 .openedClosedSwitch {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  z-index: 1;
+  padding: 0;
+  left: 30px;
+  margin-top: 6px;
+}
+#statisticsV2 .inlineIcon {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+#statisticsV2 .inlineIcon i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-left: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+#statisticsV2 .inlineIcon span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+
+#statisticsV2 .chartWithLegend {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 43% 57%;
+  grid-template-columns: 43% 57%;
+}
+#statisticsV2 .chartWithLegend .legendContainer {
+  margin-bottom: 30px;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+}
+#statisticsV2 .chartWithLegend .legendContainer .legendTabs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+  width: 98%;
+}
+#statisticsV2 .chartWithLegend .legendContainer .legendTabs .tab {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  position: relative;
+  top: 1px;
+  z-index: 2;
+  border: 1px solid #d8d7d8;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  padding: 10px;
+  color: #333333;
+  font-weight: normal;
+}
+#statisticsV2 .chartWithLegend .legendContainer .legendTabs .tab:last-of-type {
+  margin-right: 5px;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+}
+#statisticsV2 .chartWithLegend .legendContainer .legendTabs .tab.active {
+  background-color: #fbfafb;
+  z-index: 3;
+}
+#statisticsV2 .chartWithLegend .legendContainer .legendTabs .tab:not(.active) {
+  background-color: #D2D2D1;
+  z-index: 1;
+  cursor: pointer;
+  transition-duration: 250ms;
+}
+#statisticsV2 .chartWithLegend .legendContainer .legendTabs .tab:not(.active):hover {
+  background-color: #E7E7E6;
+}
+#statisticsV2 .chartWithLegend .legendContainer .legendTabs .tab:not(.active):active {
+  background-color: #F2F2F2;
+}
+#statisticsV2 .chartWithLegend .legendContainer .legendTabs .tab i {
+  vertical-align: bottom;
+}
+#statisticsV2 .chartWithLegend .legendContainer .simpleLegend {
+  position: relative;
+  z-index: 2;
+  width: 98%;
+  min-height: 190px;
+  background-color: #fbfafb;
+  border: solid 1px #d8d7d8;
+  border-radius: 4px;
+  padding: 10px 5px;
+}
+#statisticsV2 .chartWithLegend .legendContainer .simpleLegend table thead th {
+  text-align: right;
+  padding-right: 10px;
+}
+#statisticsV2 .chartWithLegend .legendContainer .legendTabs ~ .simpleLegend {
+  border-radius: 0 0 4px 4px;
+}
+#statisticsV2 .chartWithLegend.chartIncluded {
+  -ms-grid-columns: 100%;
+  grid-template-columns: 100%;
+}
+#statisticsV2 .chartWithLegend.chartIncluded .legendTabs {
+  display: flex;
+}
+#statisticsV2 .chartWithLegend.chartIncluded .legendTabs .tab {
+  display: inline-block;
+  flex-grow: 0;
+  flex-basis: 23%;
+}
+#statisticsV2 .chartWithLegend .chartContainer {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+}
+#statisticsV2 .chartWithLegend .chartContainer .chartTitle {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding-top: 6px;
+}
+#statisticsV2 .chartWithLegend .chartContainer div {
+  position: relative;
+}
+#statisticsV2 .chartWithLegend .chartContainer p {
+  margin: 5px 0;
+}
+#statisticsV2 .recharts-wrapper {
+  /* please forgive my sins, but we need to overwrite the default inline (!) styles of the react component of the recharts library */
+}
+#statisticsV2 .recharts-wrapper svg {
+  overflow: visible;
+}
+.ie #statisticsV2 .recharts-wrapper svg, .edge #statisticsV2 .recharts-wrapper svg {
+  overflow: hidden;
+}
+#statisticsV2 .recharts-wrapper .recharts-tooltip-wrapper {
+  z-index: 205 !important;
+}
+#statisticsV2 .recharts-wrapper .recharts-tooltip-wrapper .recharts-default-tooltip {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  border: none !important;
+  border-radius: 4px;
+  padding: 4px 9px 4px 9px !important;
+}
+#statisticsV2 .recharts-wrapper .recharts-tooltip-wrapper .recharts-default-tooltip li {
+  color: #DDDDDD !important;
+  padding: 0 !important;
+  font-size: 11px;
+}
+.rtl #statisticsV2 .recharts-wrapper .recharts-tooltip-wrapper .recharts-default-tooltip li {
+  font-size: 12px;
+}
+#statisticsV2 .recharts-wrapper .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-item-name,
+#statisticsV2 .recharts-wrapper .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-item-separator {
+  display: none;
+}
+
+/* RTL fixes */
+.rtl #statisticsV2 .recharts-wrapper .recharts-tooltip-wrapper {
+  right: 300px;
+}
+.rtl #statisticsV2 .raidChart .recharts-wrapper .recharts-tooltip-wrapper, .rtl #statisticsV2 .tradeChart .recharts-wrapper .recharts-tooltip-wrapper {
+  right: 200px;
+}
+
+#statisticsV2 #serverProgression {
+  margin-bottom: 30px;
+}
+#statisticsV2 #serverProgression h4 {
+  margin: 0;
+  z-index: 2;
+}
+#statisticsV2 #serverProgression h4 i.serverProgression {
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/serverProgressionTitle_large.png');
+  width: 54px;
+  height: 54px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine {
+  margin-bottom: 100px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine {
+  position: relative;
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/timelineBackground.png');
+  width: 554px;
+  height: 136px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .serverNumbers {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  text-align: right;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .serverNumbers .counter {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .serverNumbers .counter i {
+  position: absolute;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .serverNumbers .counter.activatedPlayers {
+  min-width: 30px;
+  margin-left: 10px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .serverNumbers .counter.activatedPlayers i {
+  right: calc(50% - (30px / 2));
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .serverNumbers .counter.serverTime {
+  min-width: 53px;
+  margin-left: 15px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .serverNumbers .counter.serverTime i {
+  right: calc(50% - (53px / 2));
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/serverAge_large.png');
+  width: 53px;
+  height: 54px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .serverNumbers .counter span {
+  position: relative;
+  z-index: 2;
+  line-height: 64px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #F2F2F2;
+  text-shadow: 1px 0 3px #000000, 1px 1px 3px #000000, 0 1px 3px #000000, -1px 1px 3px #000000, -1px 0 3px #000000, -1px -1px 3px #000000, 0 -1px 3px #000000, 1px -1px 3px #000000;
+}
+.rtl #statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .serverNumbers .counter span {
+  font-size: 25px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine {
+  position: absolute;
+  bottom: -65px;
+  left: -1px;
+  right: -1px;
+  display: -ms-grid;
+  display: grid;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine:before, #statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine:after {
+  content: "";
+  background-size: auto 14px;
+  height: 16px;
+  position: absolute;
+  top: 44px;
+  right: 2px;
+  left: 2px;
+  background-repeat: repeat-x;
+  border: 1px solid #333333;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine:before {
+  z-index: 1;
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/timelineBarLocked.png');
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine:after {
+  z-index: 2;
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/timelineBarUnlocked.png');
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine.itemCount3 {
+  -ms-grid-columns: 64px 1fr 64px 1fr 64px;
+  grid-template-columns: 64px 1fr 64px 1fr 64px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine.itemCount3.unlocked1:after {
+  display: none;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine.itemCount3.unlocked2:after {
+  left: 50%;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine.itemCount6 {
+  -ms-grid-columns: 64px 1fr 64px 1fr 64px 1fr 64px 1fr 64px 1fr 64px;
+  grid-template-columns: 64px 1fr 64px 1fr 64px 1fr 64px 1fr 64px 1fr 64px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine.itemCount6.unlocked1:after {
+  display: none;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine.itemCount6.unlocked2:after {
+  left: 80%;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine.itemCount6.unlocked3:after {
+  left: 60%;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine.itemCount6.unlocked4:after {
+  left: 40%;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine.itemCount6.unlocked5:after {
+  left: 20%;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: 64px;
+  grid-template-columns: 64px;
+  -ms-grid-rows: 95px 20px;
+  grid-template-rows: 95px 20px;
+  /* icons */
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:nth-of-type(1) {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:nth-of-type(2) {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:nth-of-type(3) {
+  -ms-grid-column: 5;
+  grid-column-start: 5;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:nth-of-type(4) {
+  -ms-grid-column: 7;
+  grid-column-start: 7;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:nth-of-type(5) {
+  -ms-grid-column: 9;
+  grid-column-start: 9;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:nth-of-type(6) {
+  -ms-grid-column: 11;
+  grid-column-start: 11;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step i {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  position: relative;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step .description {
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  width: 80px;
+  -ms-grid-row-align: self-end;
+  align-self: self-end;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step i.secondVillage {
+  right: -2px;
+  top: 19px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step i.artifacts {
+  top: 19px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step i.constructionPlans {
+  top: 19px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step i.firstWWLevelOne {
+  top: 18px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step i.serverEnd {
+  right: -2px;
+  top: 19px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:not(.achieved) i.start, #statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:not(.unlocked) i.start {
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/serverStartLocked_large.png');
+  width: 87px;
+  height: 95px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:not(.achieved) i.secondVillage, #statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:not(.unlocked) i.secondVillage {
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/secondVillageLocked_large.png');
+  width: 69px;
+  height: 64px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:not(.achieved) i.artifacts, #statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:not(.unlocked) i.artifacts {
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/artifactsLocked_large.png');
+  width: 64px;
+  height: 64px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:not(.achieved) i.constructionPlans, #statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:not(.unlocked) i.constructionPlans {
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/constructionPlansLocked_large.png');
+  width: 64px;
+  height: 64px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:not(.achieved) i.firstWWLevelOne, #statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:not(.unlocked) i.firstWWLevelOne {
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/firstWWLocked_large.png');
+  width: 64px;
+  height: 65px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:not(.achieved) i.serverEnd, #statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step:not(.unlocked) i.serverEnd {
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/serverEndLocked_large.png');
+  width: 78px;
+  height: 64px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step.achieved i.start, #statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step.unlocked i.start {
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/serverStart_large.png');
+  width: 87px;
+  height: 95px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step.achieved i.secondVillage, #statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step.unlocked i.secondVillage {
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/secondVillage_large.png');
+  width: 69px;
+  height: 64px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step.achieved i.artifacts, #statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step.unlocked i.artifacts {
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/artifacts_large.png');
+  width: 64px;
+  height: 64px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step.achieved i.constructionPlans, #statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step.unlocked i.constructionPlans {
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/constructionPlans_large.png');
+  width: 64px;
+  height: 64px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step.achieved i.firstWWLevelOne, #statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step.unlocked i.firstWWLevelOne {
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/firstWW_large.png');
+  width: 64px;
+  height: 65px;
+}
+#statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step.achieved i.serverEnd, #statisticsV2 #serverProgression #serverProgressionTimeLine #timeLine .timeLine .step.unlocked i.serverEnd {
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/timeline/serverEnd_large.png');
+  width: 78px;
+  height: 64px;
+}
+#statisticsV2 #serverProgression #serverProgressionTribeDistribution .chartContainer {
+  margin-top: -40px;
+}
+#statisticsV2 #serverProgression #serverProgressionTribeDistribution i.distribution {
+  background-image: url('../img_rtl/scenes/Statistics/serverProgression/tribeDistribution_medium.png');
+  width: 21px;
+  height: 22px;
+  vertical-align: middle;
+}
+#statisticsV2 #serverProgression #serverProgressionTribeDistribution .simpleLegend table {
+  margin: 0 auto;
+  width: calc(100% - 5px);
+}
+#statisticsV2 #serverProgression #serverProgressionTribeDistribution .simpleLegend table thead td {
+  padding-bottom: 15px;
+  padding-right: 0;
+}
+#statisticsV2 #serverProgression #serverProgressionTribeDistribution .simpleLegend table tbody tr td {
+  padding: 0;
+}
+#statisticsV2 #serverProgression #serverProgressionTribeDistribution .simpleLegend table tbody tr td:first-of-type img {
+  float: none;
+}
+#statisticsV2 #serverProgression #serverProgressionTribeDistribution .simpleLegend table tbody tr td:last-of-type {
+  text-align: left;
+  vertical-align: bottom;
+}
+#statisticsV2 #serverProgression #serverProgressionTribeDistribution .simpleLegend table tbody tr td:last-of-type span {
+  display: inline-block;
+  position: relative;
+  padding-left: 15px;
+}
+#statisticsV2 #serverProgression #serverProgressionTribeDistribution .simpleLegend table tbody tr td:last-of-type span:after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  left: 0;
+  bottom: calc(50% - 5px);
+  position: absolute;
+}
+#statisticsV2 #serverProgression #serverProgressionTribeDistribution .simpleLegend table tbody tr td:last-of-type span.v1:after {
+  background-color: #96323d;
+}
+#statisticsV2 #serverProgression #serverProgressionTribeDistribution .simpleLegend table tbody tr td:last-of-type span.v2:after {
+  background-color: #428291;
+}
+#statisticsV2 #serverProgression #serverProgressionTribeDistribution .simpleLegend table tbody tr td:last-of-type span.v3:after {
+  background-color: #de7e1b;
+}
+#statisticsV2 #serverProgression #serverProgressionTribeDistribution .simpleLegend table tbody tr td:last-of-type span.v6:after {
+  background-color: #3e559a;
+}
+#statisticsV2 #serverProgression #serverProgressionTribeDistribution .simpleLegend table tbody tr td:last-of-type span.v7:after {
+  background-color: #674876;
+}
+
+#statisticsV2 #populationRank {
+  margin-bottom: 30px;
+}
+#statisticsV2 #populationRank h4 i.populationRank {
+  background-image: url('../img_rtl/scenes/Statistics/populationRank/populationRankTitle_large.png');
+  width: 54px;
+  height: 54px;
+}
+#statisticsV2 #populationRank .ServerAllianceRank {
+  margin-top: 24px;
+}
+#statisticsV2 #populationRank .recharts-wrapper {
+  margin-top: -4px;
+}
+.ltr #statisticsV2 #populationRank .recharts-wrapper {
+  margin-right: -28px;
+}
+
+.rtl #statisticsV2 #populationRank .recharts-wrapper {
+  margin-right: 10px;
+}
+
+#statisticsV2 .ServerAllianceRank {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
+  height: 100px;
+}
+#statisticsV2 .ServerAllianceRank .typeWrapper {
+  position: relative;
+  self-align: end;
+}
+#statisticsV2 .ServerAllianceRank .typeWrapper:first-of-type {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+}
+#statisticsV2 .ServerAllianceRank .typeWrapper:last-of-type {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+}
+#statisticsV2 .ServerAllianceRank .buttonWrapper {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+#statisticsV2 .ServerAllianceRank .buttonWrapper > div {
+  margin-bottom: 10px;
+  height: 2em;
+}
+#statisticsV2 .ServerAllianceRank .rankDisplay {
+  width: 100%;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  color: #F2F2F2;
+  text-shadow: 1px 0 3px #000000, 1px 1px 3px #000000, 0 1px 3px #000000, -1px 1px 3px #000000, -1px 0 3px #000000, -1px -1px 3px #000000, 0 -1px 3px #000000, 1px -1px 3px #000000;
+}
+.rtl #statisticsV2 .ServerAllianceRank .rankDisplay {
+  font-size: 25px;
+}
+#statisticsV2 .ServerAllianceRank .disabled {
+  opacity: 0.5;
+}
+#statisticsV2 .ServerAllianceRank i {
+  position: relative;
+  z-index: 2;
+}
+
+#statisticsV2 #militaryStrengthRank h4 i.militaryStrengthRank {
+  background-image: url('../img_rtl/scenes/Statistics/militaryStrengthRank/militaryStrengthRankTitle_large.png');
+  width: 54px;
+  height: 54px;
+}
+#statisticsV2 #militaryStrengthRank .ServerAllianceRank {
+  border-bottom: 1px solid #d8d7d8;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 14px;
+  height: calc(100px + 20px);
+}
+#statisticsV2 #militaryStrengthRank .villageList td {
+  padding: 1px 3px;
+  line-height: 26px;
+}
+#statisticsV2 #militaryStrengthRank .villageList .rank {
+  width: 1%;
+}
+#statisticsV2 #militaryStrengthRank .villageList .name {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+#statisticsV2 #militaryStrengthRank .villageList .strength {
+  text-align: left;
+  width: 1%;
+}
+#statisticsV2 #militaryStrengthRank .chartWithLegend .chartContainer .strengthRankChart .worse,
+#statisticsV2 #militaryStrengthRank .chartWithLegend .chartContainer .strengthRankChart .better {
+  width: 75px;
+  min-height: 100%;
+  position: absolute;
+  padding-top: 115px;
+  z-index: 202;
+}
+#statisticsV2 #militaryStrengthRank .chartWithLegend .chartContainer .strengthRankChart .worse.better,
+#statisticsV2 #militaryStrengthRank .chartWithLegend .chartContainer .strengthRankChart .better.better {
+  right: 5px;
+}
+#statisticsV2 #militaryStrengthRank .chartWithLegend .chartContainer .strengthRankChart .worse.worse,
+#statisticsV2 #militaryStrengthRank .chartWithLegend .chartContainer .strengthRankChart .better.worse {
+  left: 0;
+}
+#statisticsV2 #militaryStrengthRank .chartWithLegend .chartContainer .chartDetails {
+  top: -20px;
+  border-radius: 4px;
+  padding: 0 10px;
+  text-align: center;
+}
+#statisticsV2 #militaryStrengthRank .chartWithLegend .chartContainer .chartDetails div:not(.inlineIcon) {
+  margin: 10px 0;
+}
+#statisticsV2 #militaryStrengthRank .chartWithLegend .chartContainer .chartDetails .strength {
+  font-size: 2em;
+}
+#statisticsV2 #militaryStrengthRank .chartWithLegend .chartContainer .chartDetails .strength i {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+#statisticsV2 #militaryStrengthRank .chartWithLegend .chartContainer .chartDetails .strength i + span {
+  line-height: 24px;
+  vertical-align: middle;
+}
+#statisticsV2 #militaryStrengthRank .chartWithLegend .chartContainer .chartDetails .name {
+  font-weight: bold;
+}
+#statisticsV2 #militaryStrengthRank .chartWithLegend .chartContainer .chartDetails .rankDisplay {
+  position: absolute;
+  top: -158px;
+  right: calc(50% - 26px);
+  background-image: url('../img_rtl/scenes/Statistics/general/rank_large.png');
+  width: 55px;
+  height: 47px;
+  line-height: 47px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 14px;
+  z-index: 201;
+}
+.rtl #statisticsV2 #militaryStrengthRank .chartWithLegend .chartContainer .chartDetails .rankDisplay {
+  font-size: 15px;
+}
+
+#statisticsV2 #resourceRank:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#statisticsV2 #resourceRank h4 i.resourceRank {
+  background-image: url('../img_rtl/scenes/Statistics/resourceRank/resourceRankTitle_large.png');
+  width: 54px;
+  height: 54px;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer {
+  margin-right: 3px;
+  margin-bottom: 30px;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart {
+  width: 41.5%;
+  float: right;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .balance {
+  height: 99px;
+  width: 30.5%;
+  line-height: 33px;
+  padding-right: 7px;
+  padding-left: 4px;
+  float: left;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .balance div {
+  height: 33px;
+  font-size: 135%;
+  text-align: right;
+  opacity: 0;
+  transition-duration: 250ms;
+  white-space: nowrap;
+  overflow: visible;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .balance div.positive {
+  color: #eda932;
+  transition-delay: 1000ms;
+  padding-right: 5px;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .balance div.positive.total {
+  color: #afe375;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .balance div.negative {
+  color: #c35742;
+  transition-delay: 2000ms;
+  padding-right: 5px;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .balance div.negative > span {
+  display: inline-block;
+  position: absolute;
+  margin-right: -10px;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .balance div.negative.total {
+  color: #ff0000;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .balance div.total {
+  position: relative;
+  transition-delay: 2500ms;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .positive .raid {
+  background-color: #eda932;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .positive .trade {
+  background-color: #f4c97e;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .positive .production {
+  background-color: #fbebd0;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .negative {
+  margin-top: 5px;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .negative .raid {
+  background-color: #c35742;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .negative .trade {
+  background-color: #d48879;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer {
+  width: 67%;
+  float: right;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer .positive, #statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer .negative {
+  transform: scaleX(0) translateZ(0);
+  transform-origin: right;
+  transition-duration: 1000ms;
+  transition-timing-function: ease-out;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer .positive:after, #statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer .negative:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer .positive span, #statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer .negative span {
+  display: inline-block;
+  float: right;
+  height: 33px;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer .positive.negative, #statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer .negative.negative {
+  transform-origin: left;
+  transition-delay: 1000ms;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer .positive.negative span.raid, #statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer .negative.negative span.raid {
+  float: left;
+  position: relative;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer .positive.negative span.raid:before, #statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer .negative.negative span.raid:before {
+  display: block;
+  content: "";
+  height: 71px;
+  width: 0;
+  border-right: solid 2px #333333;
+  position: absolute;
+  bottom: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer .positive.negative span.trade, #statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart .barContainer .negative.negative span.trade {
+  float: left;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart.animated .balance div {
+  opacity: 1;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart.animated .barContainer .positive, #statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChart.animated .barContainer .negative {
+  transform: scaleX(1) translateZ(0);
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend {
+  width: 56.5%;
+  margin-right: 2%;
+  float: right;
+  padding-right: 25px;
+  border-collapse: collapse;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend td {
+  font-size: 11px;
+  text-align: left;
+  line-height: 12px;
+  padding: 0;
+  white-space: nowrap;
+}
+.rtl #statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend td {
+  font-size: 12px;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend td.value {
+  width: 1%;
+  padding-right: 5px;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend td.indicators {
+  width: 30px;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend td.indicators span.resourceIndicator {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  position: relative;
+  top: -1px;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend td.indicators svg.checkmark {
+  display: inline-block;
+  margin-right: 3px;
+  width: 1em;
+  height: 1em;
+  fill: transparent;
+  stroke-width: 4px;
+  stroke-dasharray: 40;
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 0.3s ease-out;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend td.indicators svg.checkmark.invisible {
+  stroke-dashoffset: 40px;
+}
+/* converter.ignore.next */
+.rtl #statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend td.indicators svg.checkmark {
+  transform: none;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend tr.positive.raid span.resourceIndicator {
+  background-color: #eda932;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend tr.positive.raid svg.checkmark {
+  stroke: #eda932;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend tr.positive.trade span.resourceIndicator {
+  background-color: #f4c97e;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend tr.positive.trade svg.checkmark {
+  stroke: #f4c97e;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend tr.positive.production span.resourceIndicator {
+  background-color: #fbebd0;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend tr.positive.production svg.checkmark {
+  stroke: #fbebd0;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend tr.negative.raid td {
+  padding-top: 10px;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend tr.negative.raid td span.resourceIndicator {
+  background-color: #c35742;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend tr.negative.raid td svg.checkmark {
+  stroke: #c35742;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend tr.negative.trade span.resourceIndicator {
+  background-color: #d48879;
+}
+#statisticsV2 #resourceRank .resourceBarChartContainer .resourceBarChartLegend tr.negative.trade svg.checkmark {
+  stroke: #d48879;
+}
+#statisticsV2 #resourceRank .chartWithLegend {
+  margin-bottom: 20px;
+}
+#statisticsV2 #resourceRank .chartWithLegend .legendContainer {
+  margin-top: 15px;
+}
+#statisticsV2 #resourceRank .chartWithLegend .legendContainer .simpleLegend .ServerAllianceRank {
+  margin-top: 24px;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer {
+  position: relative;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .dataSwitchButtons {
+  width: auto;
+  position: absolute;
+  z-index: 203;
+  left: 0;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .dataSwitchButtons .iconButton {
+  margin-right: 5px;
+  padding: 4px;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .chartTitle ~ .recharts-wrapper {
+  top: 30px;
+  margin-bottom: 30px;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .lost,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .won,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .lost,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .won {
+  width: 75px;
+  min-height: 100%;
+  position: absolute;
+  padding-top: 143px;
+  z-index: 202;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .lost p,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .won p,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .lost p,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .won p {
+  position: relative;
+  z-index: 202;
+  margin: 3px 0;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .lost .svgArrow,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .won .svgArrow,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .lost .svgArrow,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .won .svgArrow {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  z-index: -1;
+  top: -3px;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .lost .svgArrow + span,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .won .svgArrow + span,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .lost .svgArrow + span,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .won .svgArrow + span {
+  display: inline-block;
+  vertical-align: middle;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .lost i.bounty,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .lost i.trade,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .won i.bounty,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .won i.trade,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .lost i.bounty,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .lost i.trade,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .won i.bounty,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .won i.trade {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .lost.lost,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .won.lost,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .lost.lost,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .won.lost {
+  right: 5px;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .lost.won,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .won.won,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .lost.won,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart .won.won {
+  left: 0;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart.raidChart .lost .svgArrow,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart.raidChart .lost .svgArrow {
+  fill: #c35742;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart.raidChart .lost .svgArrow.disabled,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart.raidChart .lost .svgArrow.disabled {
+  fill: #F2F2F2;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart.raidChart .won .svgArrow,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart.raidChart .won .svgArrow {
+  fill: #eda932;
+  transform: rotate(180deg);
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart.raidChart .won .svgArrow.disabled,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart.raidChart .won .svgArrow.disabled {
+  fill: #F2F2F2;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart.tradeChart .lost .svgArrow,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart.tradeChart .lost .svgArrow {
+  fill: #d48879;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart.tradeChart .lost .svgArrow.disabled,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart.tradeChart .lost .svgArrow.disabled {
+  fill: #F2F2F2;
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart.tradeChart .won .svgArrow,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart.tradeChart .won .svgArrow {
+  fill: #f4c97e;
+  transform: rotate(180deg);
+}
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart.tradeChart .won .svgArrow.disabled,
+#statisticsV2 #resourceRank .chartWithLegend .chartContainer .tradeChart.tradeChart .won .svgArrow.disabled {
+  fill: #F2F2F2;
+}
+
+/* RTL fixes */
+.rtl #statisticsV2 #resourceRank .chartWithLegend .chartContainer .raidChart .lost.lost {
+  right: 0;
+}
+
+#statisticsV2 #culturePointsRank i.helmet_medium {
+  background-image: url('../img_rtl/scenes/Statistics/culturePointsRank/helmet_medium.png');
+  width: 22px;
+  height: 24px;
+}
+#statisticsV2 #culturePointsRank i.reward_medium {
+  background-image: url('../img_rtl/scenes/Statistics/culturePointsRank/reward_medium.png');
+  width: 26px;
+  height: 22px;
+}
+#statisticsV2 #culturePointsRank h4 i.culturePointsRank {
+  background-image: url('../img_rtl/scenes/Statistics/culturePointsRank/culturePointsRankTitle_large.png');
+  width: 54px;
+  height: 54px;
+}
+#statisticsV2 #culturePointsRank .ServerAllianceRank {
+  margin-bottom: 30px;
+  margin-top: 14px;
+}
+#statisticsV2 #culturePointsRank .culturePointsHeader {
+  position: relative;
+}
+#statisticsV2 #culturePointsRank .culturePointsHeader .openedClosedSwitch {
+  left: 9px;
+}
+#statisticsV2 #culturePointsRank .culturePointsHeader .dataSwitchButtons {
+  display: flex;
+  position: absolute;
+  left: 40px;
+  top: 3px;
+  margin-top: -1px;
+}
+#statisticsV2 #culturePointsRank .culturePointsHeader .dataSwitchButtons a.iconButton:not(:last-child) {
+  margin: 0 0 0 8px;
+}
+#statisticsV2 #culturePointsRank .culturePointsHeader .dataSwitchButtons a.iconButton {
+  align-content: center;
+  padding: 4px;
+}
+#statisticsV2 #culturePointsRank .culturePointsHeader .dataSwitchButtons a.iconButton i.distribution {
+  background-image: url('../img_rtl/scenes/Statistics/culturePointsRank/distribution_small.png');
+  width: 16px;
+  height: 16px;
+}
+#statisticsV2 #culturePointsRank .culturePointsHeader .dataSwitchButtons a.iconButton i.progression {
+  background-image: url('../img_rtl/scenes/Statistics/culturePointsRank/progression_small.png');
+  width: 16px;
+  height: 16px;
+}
+#statisticsV2 #culturePointsRank .cpProduction {
+  margin-top: 35px;
+  padding-top: 15px;
+  border-top: solid 1px #D2D2D1;
+  text-align: center;
+}
+#statisticsV2 #culturePointsRank .chartWithLegend .chartContainer .culturePointsRankChart .worse,
+#statisticsV2 #culturePointsRank .chartWithLegend .chartContainer .culturePointsRankChart .better {
+  width: 75px;
+  min-height: 100%;
+  position: absolute;
+  padding-top: 115px;
+  z-index: 202;
+}
+#statisticsV2 #culturePointsRank .chartWithLegend .chartContainer .culturePointsRankChart .worse.better,
+#statisticsV2 #culturePointsRank .chartWithLegend .chartContainer .culturePointsRankChart .better.better {
+  right: 5px;
+}
+#statisticsV2 #culturePointsRank .chartWithLegend .chartContainer .culturePointsRankChart .worse.worse,
+#statisticsV2 #culturePointsRank .chartWithLegend .chartContainer .culturePointsRankChart .better.worse {
+  left: 0;
+}
+#statisticsV2 #cpProgressionChart {
+  position: relative;
+}
+#statisticsV2 #cpProgressionChart .chartTitle {
+  position: absolute;
+  left: 32px;
+  top: 15px;
+}
+/** converter.ignore.next */
+.ltr #statisticsV2 #cpProgressionChart .recharts-wrapper {
+  margin-right: -15px;
+  margin-top: 15px;
+}
+#statisticsV2 #cpDistributionChart .chartTitle ~ .recharts-wrapper {
+  top: 30px;
+  margin-bottom: 30px;
+}
+#statisticsV2 #cpDistributionChart .simpleLegend table tr td:first-of-type {
+  text-align: center;
+  padding: 4px 5px 4px 4px;
+}
+#statisticsV2 #cpDistributionChart .simpleLegend table tr td:last-of-type {
+  text-align: left;
+}
+#statisticsV2 #cpDistributionChart .simpleLegend table tr td:last-of-type span {
+  display: inline-block;
+}
+#statisticsV2 #cpDistributionChart .simpleLegend table tr:last-of-type td {
+  font-size: 15px;
+}
+.rtl #statisticsV2 #cpDistributionChart .simpleLegend table tr:last-of-type td {
+  font-size: 16px;
+}
+#statisticsV2 #cpDistributionChart .simpleLegend table tr:last-of-type td:first-of-type {
+  text-align: left;
+}
+#statisticsV2 #cpDistributionChart .simpleLegend table tr:last-of-type td:last-of-type {
+  font-weight: bold;
+}
+#statisticsV2 #cpDistributionChart .simpleLegend table span {
+  position: relative;
+  padding-left: 15px;
+}
+#statisticsV2 #cpDistributionChart .simpleLegend table span:after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  left: 0;
+  bottom: calc(50% - 5px);
+  position: absolute;
+}
+#statisticsV2 #cpDistributionChart .simpleLegend table span.buildings:after {
+  background-color: #ffd667;
+}
+#statisticsV2 #cpDistributionChart .simpleLegend table span.celebrations:after {
+  background-color: #dd2e45;
+}
+#statisticsV2 #cpDistributionChart .simpleLegend table span.helmet:after {
+  background-color: #31a1ed;
+}
+#statisticsV2 #cpDistributionChart .simpleLegend table span.items:after {
+  background-color: #31a1ed;
+}
+#statisticsV2 #cpDistributionChart .simpleLegend table span.rewards:after {
+  background-color: #a9d18e;
+}
+#statisticsV2 #cpDistributionChart .simpleLegend table span.allianceBonus:after {
+  background-color: #8ea3d1;
+}
+#statisticsV2 #cpRankComparison .legendContainer {
+  margin-bottom: 0;
+}
+#statisticsV2 #cpRankComparison .chartContainer {
+  position: relative;
+}
+#statisticsV2 #cpRankComparison .chartContainer .rankDisplay {
+  position: absolute;
+  top: calc(50% - 23px);
+  right: calc(50% - 26px);
+  background-image: url('../img_rtl/scenes/Statistics/general/rank_large.png');
+  width: 55px;
+  height: 47px;
+  line-height: 47px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 14px;
+  z-index: 2;
+}
+.rtl #statisticsV2 #cpRankComparison .chartContainer .rankDisplay {
+  font-size: 15px;
+}

@@ -1,0 +1,482 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ------------------- Rally Point ---------------------- */
+/* ------------------------------------------------------ */
+/* general */
+div#build.gid16 p.switch {
+  text-align: left;
+  margin: 10px 0;
+}
+
+div#build.gid16 p.info a {
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+.rtl div#build.gid16 p.info a {
+  font-size: 15px;
+}
+
+div#build a.build_logo img.g16 {
+  top: 45px;
+}
+
+div#build.gid16 table.troop_details {
+  margin-bottom: 15px;
+}
+
+div#build.gid16 table.troop_details th,
+div#build.gid16 table.troop_details td {
+  padding-right: 2px;
+  padding-left: 2px;
+  text-align: center;
+}
+
+div#build.gid16 table.troop_details thead a {
+  color: black;
+  font-weight: normal;
+}
+
+div#build.gid16 table.troop_details thead td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+
+div#build.gid16 table.troop_details thead td:last-of-type {
+  width: 60%;
+}
+
+div#build.gid16 table.troop_details th {
+  width: 20%;
+}
+
+div#build.gid16 table.troop_details tbody.units th.coords {
+  text-align: center;
+  font-size: 11px;
+  color: #C0C0C0;
+  font-weight: bold;
+}
+.rtl div#build.gid16 table.troop_details tbody.units th.coords {
+  font-size: 12px;
+}
+
+div#build.gid16 table.troop_details tbody.units td {
+  text-align: center;
+  width: 7.2%;
+}
+
+div#build.gid16 table.troop_details tbody.infos th,
+div#build.gid16 table.troop_details tbody.infos td {
+  background-color: #E7E7E7;
+}
+
+div#build.gid16 table.troop_details div.in,
+div#build.gid16 table.troop_details div.sup,
+div#build.gid16 table.troop_details div.res {
+  width: auto;
+  float: right;
+  text-align: right;
+  margin-right: 5px;
+}
+
+div#build.gid16 table.troop_details div.res .resources {
+  margin-left: 10px;
+}
+
+div#build.gid16 table.troop_details div.at,
+div#build.gid16 table.troop_details div.sback,
+div#build.gid16 table.troop_details div.free,
+div#build.gid16 table.troop_details div.gback,
+div#build.gid16 table.troop_details div.diss,
+div#build.gid16 table.troop_details div.carry {
+  width: auto;
+  float: left;
+  text-align: left;
+  margin-left: 5px;
+  position: relative;
+}
+
+div#build.gid16 table.troop_details div.sup img,
+div#build.gid16 table.troop_details div.res img,
+div#build.gid16 table.troop_details div.carry img {
+  margin-left: 5px;
+}
+
+div#build.gid16 table.troop_details div.sup .supplyWrapper {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
+}
+div#build.gid16 table.troop_details div.sup .supplyWrapper .resources {
+  grid-column-start: auto;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+div#build.gid16 table.troop_details div.sup .supplyWrapper .resources:nth-child(1) {
+  -ms-grid-column: 1;
+}
+div#build.gid16 table.troop_details div.sup .supplyWrapper .resources:nth-child(2) {
+  -ms-grid-column: 2;
+}
+div#build.gid16 table.troop_details div.sup .supplyWrapper .resources:nth-child(3) {
+  -ms-grid-column: 3;
+}
+div#build.gid16 table.troop_details div.sup .supplyWrapper .resources:nth-child(4) {
+  -ms-grid-column: 4;
+}
+div#build.gid16 table.troop_details div.sup .supplyWrapper .resources:nth-child(5) {
+  -ms-grid-column: 5;
+}
+div#build.gid16 table.troop_details div.sup .supplyWrapper .resources i, div#build.gid16 table.troop_details div.sup .supplyWrapper .resources a {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  margin-right: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+div#build.gid16 table.troop_details div.sup .supplyWrapper .resources span {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+div#build.gid16 table.troop_details div.sup span:last-of-type {
+  vertical-align: top;
+}
+
+div#build.gid16 table.troop_details button.textButton {
+  position: absolute;
+  left: -7px;
+  top: -6px;
+}
+
+div#build.gid16 table.troop_details div.abort {
+  float: left;
+  text-align: left;
+  margin: -5px 10px 0 5px;
+}
+
+div#rallyPointButtonsContainer {
+  float: left;
+}
+
+div#rallyPointButtonsContainer button {
+  margin-right: 5px;
+}
+
+/* mode-eventTyp Colors */
+div#build.gid16 table.inAttack thead td,
+div#build.gid16 table.inRaid thead td {
+  background-color: #fcd1d1;
+}
+
+.colorBlind div#build.gid16 table.inAttack thead td,
+.colorBlind div#build.gid16 table.inRaid thead td {
+  background-color: #91a2f7;
+}
+
+div#build.gid16 table.inSupply thead td,
+div#build.gid16 table.inForward thead td,
+div#build.gid16 table.inReturn thead td {
+  background-color: #daeeb9;
+}
+
+div#build.gid16 table.outAttack thead td,
+div#build.gid16 table.outRaid thead td,
+div#build.gid16 table.outSupply thead td,
+div#build.gid16 table.outForward thead td,
+div#build.gid16 table.outSpy thead td {
+  background-color: #fff6b5;
+}
+
+div#build.gid16 table.inAttackOasis thead td,
+div#build.gid16 table.inRaidOasis thead td,
+div#build.gid16 table.inSupplyOasis thead td {
+  background-color: #e4d3f1;
+}
+
+/* raid list */
+div#build.gid16 table#raidList {
+  margin-bottom: 10px;
+}
+
+div#build.gid16 table#raidList thead a {
+  font-weight: normal;
+  color: black;
+}
+
+div#build.gid16 table#raidList thead td {
+  white-space: nowrap;
+}
+
+div#build.gid16 table#raidList th,
+div#build.gid16 table#raidList td {
+  padding-right: 2px;
+  padding-left: 2px;
+  text-align: center;
+}
+
+div#build.gid16 table#raidList td.check {
+  padding: 2px;
+  width: 1%;
+}
+
+div#build.gid16 table#raidList td.check img {
+  float: right;
+}
+
+div#build.gid16 table#raidList td.vil {
+  text-align: right;
+}
+
+div#build.gid16 table#raidList td.vil img {
+  float: left;
+}
+
+div#build.gid16 table#raidList td.raids {
+  width: 10%;
+}
+
+div#build.gid16 table#raidList td.goods {
+  width: 10%;
+}
+
+div#build.gid16 table#raidList td.lost {
+  width: 10%;
+}
+
+div#build.gid16 table#raidList td.rep {
+  text-align: right;
+  width: 20%;
+  white-space: nowrap;
+}
+
+div#build.gid16 table#raidList td.rep img {
+  float: right;
+  margin-left: 3px;
+}
+
+/* raid troops */
+div#build.gid16 table#raidTroops {
+  border: 1px dashed #C0C0C0;
+  background-color: #FFFFFF;
+}
+
+div#build.gid16 table#raidTroops td.column-first {
+  padding-right: 8px;
+}
+
+div#build.gid16 table#raidTroops td.column-last {
+  padding-left: 8px;
+}
+
+div#build.gid16 table#raidTroops td.line-first {
+  padding-top: 8px;
+}
+
+div#build.gid16 table#raidTroops td.line-last {
+  padding-bottom: 8px;
+}
+
+div#build.gid16 table#raidTroops td {
+  width: 25%;
+  padding: 1px;
+}
+
+div#build.gid16 table#raidTroops img {
+  vertical-align: bottom;
+  position: relative;
+  bottom: 3px;
+  margin-left: 2px;
+}
+
+div#build.gid16 table#raidTroops input.text {
+  width: 60px;
+}
+
+div#build.gid16 table#raidTroops input.disabled {
+  background-color: #EEEEEE;
+}
+
+/* Troop Escape */
+div#build.gid16 form.troopEscape {
+  padding-right: 9px;
+}
+
+div#build.gid16 .troopEscape {
+  margin-bottom: 10px;
+}
+
+div#build.gid16 .troopEscape label {
+  white-space: normal;
+}
+
+div#build.gid16 table#troopEscape th,
+div#build.gid16 table#troopEscape td {
+  padding: 2px 7px;
+  text-align: center;
+}
+
+div#build.gid16 table#troopEscape td.sel {
+  padding: 2px;
+  width: 5%;
+}
+
+div#build.gid16 table#troopEscape td.vil {
+  text-align: right;
+}
+
+div#build.gid16 table#troopEscape td.own {
+  width: 25%;
+}
+
+div#build.gid16 table#troopEscape td.rein {
+  width: 25%;
+}
+
+/* mark attack symbol */
+div#build.gid16 table.troop_details a.markAttack {
+  float: left;
+  position: relative;
+  top: 1px;
+  left: 5px;
+}
+
+div#build.gid16 table.troop_details img.markAttack {
+  width: 12px;
+  height: 12px;
+  background-image: url('../../img_rtl/a/mark_attack.gif');
+}
+
+div#build.gid16 table.troop_details img.markAttack1 {
+  background-position: 0 0;
+}
+
+div#build.gid16 table.troop_details img.markAttack2 {
+  background-position: -15px 0;
+}
+
+div#build.gid16 table.troop_details img.markAttack3 {
+  background-position: -30px 0;
+}
+
+div#build.gid16 table.troop_details img.markAttack0 {
+  background-position: -45px 0;
+}
+
+div#build.gid16 div.filterContainer {
+  padding: 3px;
+}
+
+div#build.gid16 img.filterCategory {
+  background-image: url('../../img_rtl/a/gid16Filter.png');
+  width: 16px;
+  height: 16px;
+}
+
+div#build.gid16 img.filterCategory1 {
+  background-position: 0 0;
+}
+
+div#build.gid16 img.filterCategory2 {
+  background-position: 0 -16px;
+}
+
+div#build.gid16 img.filterCategory3 {
+  background-position: 0 -32px;
+}
+
+div#build.gid16 img.filterCategory4 {
+  background-position: 0 -48px;
+}
+
+div#build.gid16 img.subFilterCategory1 {
+  background-position: 0 -64px;
+}
+
+div#build.gid16 img.subFilterCategory2 {
+  background-position: 0 -80px;
+}
+
+div#build.gid16 img.subFilterCategory3 {
+  background-position: 0 -96px;
+}
+
+div#build.gid16 img.subFilterCategory4 {
+  background-position: 0 -112px;
+}
+
+div#build.gid16 img.subFilterCategory5 {
+  background-position: 0 -128px;
+}
+
+div#build.gid16 img.subFilterCategory6 {
+  background-position: 0 -144px;
+}
+
+div#build.gid16 div.paginator {
+  float: left;
+}
+
+div#build.gid16 div.filter {
+  float: left;
+}
+
+div#build.gid16 div.subFilterContainer {
+  float: right;
+  margin-right: 300px;
+}
+
+div#build.gid16 div.paginatorTop {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+div#build.gid16 h4.spacer {
+  font-size: 16px;
+}
+.rtl div#build.gid16 h4.spacer {
+  font-size: 17px;
+}
+
+/* merge troops */
+div#build.gid16 .mergeTroops .costsWrapper {
+  margin-bottom: 50px;
+}
+div#build.gid16 .mergeTroops .costsWrapper:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+div#build.gid16 .mergeTroops .costsWrapper .resourceWrapper .resource {
+  margin-left: 20px;
+}
+div#build.gid16 .mergeTroops .costsWrapper button {
+  float: left;
+}
+div#build.gid16 .mergeTroops .buttonWrapper {
+  text-align: center;
+}

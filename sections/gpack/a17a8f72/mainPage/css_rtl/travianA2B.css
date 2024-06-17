@@ -1,0 +1,312 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ------------------- Send troops ------------------- */
+/* --------------------------------------------------- */
+/* general */
+div.a2b form {
+  margin-bottom: 10px;
+}
+
+div.a2b p.btn {
+  text-align: left;
+}
+
+div.a2b p.error {
+  font-weight: bold;
+}
+
+div.a2b span.info {
+  font-size: 11px;
+}
+.rtl div.a2b span.info {
+  font-size: 12px;
+}
+
+/* select */
+div.a2b div.slots {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+div.a2b table#troops {
+  background-color: #FFFFFF;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+div.a2b table#troops a {
+  overflow: visible;
+}
+
+div.a2b table#troops span.none {
+  font-weight: bold;
+}
+
+div.a2b table#troops td {
+  font-size: 12px;
+  white-space: nowrap;
+}
+.rtl div.a2b table#troops td {
+  font-size: 13px;
+}
+
+div.a2b table#troops td.column-first {
+  padding-right: 8px;
+}
+
+div.a2b table#troops td.column-last {
+  padding-left: 8px;
+}
+
+div.a2b table#troops td.line-last {
+  padding-bottom: 8px;
+}
+
+div.a2b table#troops td.large {
+  padding: 1px;
+}
+
+div.a2b table#troops td.large {
+  width: 26%;
+}
+
+div.a2b table#troops td.regular {
+  width: 25%;
+}
+
+div.a2b table#troops td.small {
+  width: 23%;
+}
+
+div.a2b table#troops img {
+  vertical-align: bottom;
+  position: relative;
+  bottom: 3px;
+  margin-left: 2px;
+}
+
+div.a2b table#troops input.text {
+  width: 40px;
+  margin-left: 2px;
+}
+
+div.a2b table#troops input.disabled {
+  background-color: #EEEEEE;
+  border-color: #AAAAAA;
+}
+
+div.a2b .destination {
+  float: right;
+  width: 215px;
+  margin-left: 25px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+div.a2b .destination .boxes-contents {
+  padding: 5px 17px 5px 17px;
+  white-space: nowrap;
+  width: auto;
+}
+
+div.a2b .destination span {
+  font-weight: bold;
+}
+
+div.a2b .destination table.compact {
+  margin: 6px 0 3px 0;
+}
+
+div.a2b .destination table.compact td.compactInput {
+  padding: 0 6px 0 0;
+}
+
+div.a2b .destination table.compact td.compactInput.y {
+  padding-left: 0;
+  width: 40px;
+}
+
+div.a2b .destination input.village {
+  display: block;
+  width: 100%;
+}
+
+div.a2b div.destination span.or {
+  font-weight: normal;
+  margin-left: 5px;
+  line-height: 22px;
+}
+
+div.a2b div.destination span.or,
+div.a2b div.destination div.coordinatesInput {
+  float: right;
+}
+
+div.a2b .option {
+  float: right;
+  margin-left: 10px;
+}
+
+div.a2b .option, div.a2b .redeployHero {
+  line-height: 22px;
+}
+
+div.a2b .redeployHero {
+  float: right;
+}
+
+div.a2b .redeployHero .redeployHeroSetting {
+  margin-left: 5px;
+}
+
+/* confirm */
+div.a2b table#short_info {
+  background-color: #FFFFFF;
+}
+
+div.a2b table#short_info th {
+  width: 15%;
+  padding-right: 0;
+}
+
+div.a2b table.troop_details {
+  margin: 15px 0;
+}
+
+div.a2b table.troop_details thead a {
+  color: black;
+  font-weight: normal;
+}
+
+div.a2b table.troop_details thead p {
+  margin: 0;
+}
+
+div.a2b table.troop_details tbody th {
+  width: 20%;
+}
+
+div.a2b table.troop_details tbody.units th.coords {
+  text-align: center;
+  font-size: 11px;
+  color: #C0C0C0;
+  font-weight: bold;
+}
+.rtl div.a2b table.troop_details tbody.units th.coords {
+  font-size: 12px;
+}
+
+div.a2b table.troop_details tbody.units td {
+  width: 7.2%;
+  text-align: center;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+div.a2b table.troop_details tbody.units input.text {
+  width: 35px;
+}
+
+div.a2b table.troop_details tbody.options td {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  line-height: 22px;
+}
+
+div.a2b table.troop_details tbody.options input.radio {
+  position: relative;
+  top: 2px;
+  margin-left: 2px;
+}
+
+div.a2b table.troop_details tbody.cata select.dropdown {
+  margin: 1px 0;
+}
+
+div.a2b table.troop_details tbody.infos th,
+div.a2b table.troop_details tbody.infos td {
+  background-color: #F5F5F5;
+}
+
+div.a2b table.troop_details tbody.infos .showCosts {
+  line-height: inherit;
+  padding: 0;
+}
+div.a2b table.troop_details tbody.infos .showCosts:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+div.a2b table.troop_details tbody.infos .showCosts .resourceWrapper {
+  float: right;
+  height: 25px;
+}
+div.a2b table.troop_details tbody.infos .showCosts button {
+  float: left;
+}
+
+div.a2b table.troop_details tbody.infos .showCosts .resources {
+  margin-bottom: 0;
+}
+
+div.a2b table.troop_details tbody.infos div.in {
+  float: right;
+}
+
+div.a2b table.troop_details tbody.infos div.at {
+  float: left;
+  text-align: left;
+}
+
+div.a2b .alert {
+  margin-bottom: 10px;
+  color: #D40000;
+}
+.colorBlind div.a2b .alert {
+  color: #0022AF;
+}
+
+div.a2b input.redeployHeroSetting {
+  margin-right: 0;
+}
+
+/* settle */
+#build.gid16 .a2b .settle .infos td {
+  text-align: right;
+  padding: 6px 9px 3px;
+}
+#build.gid16 .a2b .settle .infos .duration {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+  margin: 1px 0;
+}
+#build.gid16 .a2b .settle .infos .duration i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-left: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+#build.gid16 .a2b .settle .infos .duration span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}

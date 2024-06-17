@@ -1,0 +1,122 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+body.buildingsV2 {
+  background-color: #83913a;
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+  min-width: 1290px;
+  overflow-y: scroll;
+}
+body.buildingsV2:before, body.buildingsV2:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-repeat: repeat-x;
+}
+body.buildingsV2:before {
+  left: 0;
+  background-position: left top;
+}
+body.buildingsV2:after {
+  right: 0;
+  background-position: right top;
+}
+body.buildingsV2 div#background {
+  background-position: center top;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-height: 100%;
+}
+body.buildingsV2.perspectiveResources {
+  background-color: #7b9534;
+}
+body.buildingsV2.perspectiveResources:before {
+  background-image: url('../../img_ltr/layout/bgResourcesBefore-ltr.jpg');
+}
+body.buildingsV2.perspectiveResources:after {
+  background-image: url('../../img_ltr/layout/bgResourcesAfter-ltr.jpg');
+}
+body.buildingsV2.perspectiveResources div#background {
+  background-image: url('../../img_ltr/layout/bgResources-ltr.jpg');
+}
+body.buildingsV2.perspectiveResources div.village1 #village_map {
+  background-position: center bottom;
+}
+body.buildingsV2.perspectiveResources div.village1 #village_map.f1 {
+  background-image: url('../../img_ltr/g/f1-ltr.png');
+}
+body.buildingsV2.perspectiveResources div.village1 #village_map.f2 {
+  background-image: url('../../img_ltr/g/f2-ltr.png');
+}
+body.buildingsV2.perspectiveResources div.village1 #village_map.f3 {
+  background-image: url('../../img_ltr/g/f3-ltr.png');
+}
+body.buildingsV2.perspectiveResources div.village1 #village_map.f4 {
+  background-image: url('../../img_ltr/g/f4-ltr.png');
+}
+body.buildingsV2.perspectiveResources div.village1 #village_map.f5 {
+  background-image: url('../../img_ltr/g/f5-ltr.png');
+}
+body.buildingsV2.perspectiveResources div.village1 #village_map.f6 {
+  background-image: url('../../img_ltr/g/f6-ltr.png');
+}
+body.buildingsV2.perspectiveResources div.village1 #village_map.f7 {
+  background-image: url('../../img_ltr/g/f7-ltr.png');
+}
+body.buildingsV2.perspectiveResources div.village1 #village_map.f8 {
+  background-image: url('../../img_ltr/g/f8-ltr.png');
+}
+body.buildingsV2.perspectiveResources div.village1 #village_map.f9 {
+  background-image: url('../../img_ltr/g/f9-ltr.png');
+}
+body.buildingsV2.perspectiveResources div.village1 #village_map.f10 {
+  background-image: url('../../img_ltr/g/f10-ltr.png');
+}
+body.buildingsV2.perspectiveResources div.village1 #village_map.f11 {
+  background-image: url('../../img_ltr/g/f11-ltr.png');
+}
+body.buildingsV2.perspectiveResources div.village1 #village_map.f12 {
+  background-image: url('../../img_ltr/g/f12-ltr.png');
+}
+body.buildingsV2.perspectiveBuildings:before {
+  background-image: url('../../img_ltr/layout/bgBuildingsBefore-ltr.jpg');
+}
+body.buildingsV2.perspectiveBuildings:after {
+  background-image: url('../../img_ltr/layout/bgBuildingsAfter-ltr.jpg');
+}
+body.buildingsV2.perspectiveBuildings div#background {
+  background-image: url('../../img_ltr/layout/bgBuildings-ltr.jpg');
+  background-position: calc(50% - 84px) top;
+  min-height: 1090px;
+}
+body.buildingsV2.perspectiveBuildings div#background:before {
+  content: "";
+  position: absolute;
+  top: 1090px;
+  bottom: 0;
+  width: 100%;
+  min-height: calc(100vh - 1090px);
+  background-image: url('../../img_ltr/layout/bgBuildingsPattern-ltr.jpg');
+  background-position: calc(50% - 84px) top;
+  background-repeat: no-repeat repeat;
+}
+
+/* RTL fixes */
+body.rtl.perspectiveBuildings div#background {
+  background-position: calc(50% + 84px) top;
+}

@@ -1,0 +1,50 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ------------------- Banned Users ------------------- */
+/* ---------------------------------------------------- */
+div.banned_cn table {
+  margin-bottom: 15px;
+  line-height: 16px;
+}
+
+div.banned_cn table th,
+div.banned_cn table td {
+  padding: 2px 3px;
+}
+
+div.banned_cn table td {
+  text-align: center;
+}
+
+div.banned_cn table .ra {
+  text-align: left;
+  padding-left: 7px;
+  width: 5%;
+  white-space: nowrap;
+}
+
+div.banned_cn table .pla {
+  text-align: right;
+  padding-right: 7px;
+}
+
+div.banned_cn table .rea,
+div.banned_cn table .dur,
+div.banned_cn table .al {
+  width: 25%;
+}
+
+div.banned_cn .no_info {
+  color: #777777;
+}

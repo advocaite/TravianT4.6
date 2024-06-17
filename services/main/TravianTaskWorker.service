@@ -1,0 +1,13 @@
+[Unit]
+Description=Travian worker
+After=network.target
+After=mysqld.service
+
+[Service]
+User=root
+Type=simple
+ExecStart=/travian/TaskWorker/runTasks.php
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

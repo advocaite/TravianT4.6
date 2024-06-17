@@ -1,0 +1,168 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ---------------- Production ----------------- */
+/* --------------------------------------------- */
+div.balanceCropBalancePart,
+div.productionPerHourTotal,
+div.productionPerHour {
+  width: 304px;
+  float: right;
+}
+
+div.cropBalanceContainer,
+div.productionContainer {
+  position: relative;
+  float: right;
+  width: 100%;
+}
+
+div.productionContainer h4 {
+  margin-bottom: 10px;
+}
+
+div.total.productionContainer {
+  margin-top: 20px;
+  clear: all;
+}
+
+div.productionBoostSpeechBubble,
+div.fluidSpeechBubble {
+  float: left;
+  width: 230px;
+  margin-top: 2px;
+}
+
+div.cropBalanceContainer div.productionBoostSpeechBubble {
+  position: relative;
+  height: 160px;
+}
+
+div.fluidSpeechBubble {
+  min-height: 55px;
+}
+
+div.productionBoostSpeechBubble .speechArrowBack {
+  bottom: auto;
+  top: 26px;
+}
+
+div.productionBoostSpeechBubble h5 {
+  margin-bottom: 3px;
+}
+
+div.productionBoostSpeechBubble td {
+  padding: 3px 5px;
+}
+
+div.productionContainer .productionBoostResourceSpeechBubble,
+div.cropBalanceContainer .productionBoostResourceSpeechBubble {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+div.productionBoostResourceSpeechBubble .speechArrowBack {
+  top: auto;
+  bottom: 23px;
+}
+
+div.cropBalanceContainer div.productionBoostResourceSpeechBubble .speechArrowBack {
+  bottom: 10px;
+}
+
+div.productionBoostResourceSpeechBubble .productionBoostSpeechBubbleFurtherInfo {
+  font-style: italic;
+  font-size: 11px;
+}
+.rtl div.productionBoostResourceSpeechBubble .productionBoostSpeechBubbleFurtherInfo {
+  font-size: 12px;
+}
+
+div.productionBoostResourceSpeechBubble p {
+  margin: 5px;
+}
+
+div.cropBalanceContainer .balanceCropBalancePart .subtotal td,
+div.productionContainer .productionPerHourTotal .subtotal td {
+  border-bottom: 1px solid black;
+}
+
+div.cropBalanceContainer .balanceCropBalancePart .total td,
+div.productionContainer .productionPerHourTotal .total td {
+  white-space: nowrap;
+  border-bottom: 3px double black;
+}
+
+div.productionContainer .productionPerHour table,
+div.productionContainer .productionPerHour tr,
+div.productionContainer .productionPerHour td {
+  border-collapse: collapse;
+  border: 1px solid #C0C0C0;
+}
+
+div.productionPerHour table thead td {
+  text-align: right;
+  padding: 6px 9px 3px;
+}
+
+div.productionPerHourTotal .row_table_data tr {
+  line-height: 13px;
+}
+
+div.productionPerHour table .productionSum td {
+  font-weight: bold;
+}
+
+div.cropBalanceContainer table .numberCell,
+div.productionContainer table .numberCell {
+  text-align: left;
+  vertical-align: bottom;
+  width: 5%;
+}
+
+div.productionContainer .productionBoostSpeechBubble .numberCell {
+  white-space: nowrap;
+}
+
+div.cropBalanceContainer .balanceCropBalancePart {
+  margin-bottom: 10px;
+}
+
+div.cropBalanceContainer .balanceTroops table,
+div.cropBalanceContainer .balanceTroops tr,
+div.cropBalanceContainer .balanceTroops td {
+  border-collapse: collapse;
+  background-color: #e4e4e4;
+  padding: 4px 0 3px;
+}
+
+div.cropBalanceContainer .balanceTroops .troopLabel {
+  padding-right: 32px;
+}
+
+div.cropBalanceContainer .emptyStorageSpeechBubble {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 205px;
+}
+
+div.cropBalanceContainer .emptyStorageSpeechBubble p {
+  margin: 2px;
+}
+
+div.cropBalanceContainer .emptyStorageSpeechBubble .fluidSpeechBubble .speechArrowBack {
+  top: auto;
+  bottom: 12px;
+}

@@ -1,0 +1,183 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ------------------- Village Infos ------------------- */
+/* ----------------------------------------------------- */
+/* general */
+div.village3 {
+  /* overview */
+  /* ressources */
+  /* warehouse */
+  /* culture points */
+  /* village troops */
+}
+div.village3 table tbody th {
+  font-weight: bold;
+}
+div.village3 table tbody td {
+  white-space: nowrap;
+  text-align: center;
+}
+div.village3 table tbody .vil {
+  text-align: right;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+div.village3 table#overview td {
+  white-space: normal;
+}
+div.village3 table#overview td.vil {
+  text-align: right;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+div.village3 table#overview td.att {
+  width: 15%;
+}
+div.village3 table#overview td.bui {
+  width: 10%;
+}
+div.village3 table#overview td.bui img.bau {
+  width: 10px;
+  height: 16px;
+  background-image: url('../img_rtl/a/bau.gif');
+}
+div.village3 table#overview td.tro {
+  width: 15%;
+}
+div.village3 table#overview td.tra {
+  width: 15%;
+  white-space: nowrap;
+}
+div.village3 table#ressources tbody td {
+  text-align: left;
+}
+div.village3 table#ressources td.vil {
+  text-align: right;
+}
+div.village3 table#ressources td.lum {
+  width: 15%;
+}
+div.village3 table#ressources td.clay {
+  width: 15%;
+}
+div.village3 table#ressources td.iron {
+  width: 15%;
+}
+div.village3 table#ressources td.crop {
+  width: 15%;
+}
+div.village3 table#ressources td.tra {
+  width: 10%;
+}
+div.village3 table#ressources td.tra a {
+  color: black;
+  font-weight: normal;
+}
+div.village3 table#warehouse td.crit,
+div.village3 table#warehouse span.crit {
+  color: #FF0000;
+}
+.colorBlind div.village3 table#warehouse td.crit, .colorBlind
+div.village3 table#warehouse span.crit {
+  color: #0000FF;
+}
+div.village3 table#warehouse td.vil {
+  padding-right: 4px;
+}
+div.village3 table#warehouse td.lum {
+  width: 10%;
+}
+div.village3 table#warehouse td.clay {
+  width: 10%;
+}
+div.village3 table#warehouse td.iron {
+  width: 10%;
+}
+div.village3 table#warehouse td.max123 {
+  width: 15%;
+}
+div.village3 table#warehouse td.crop {
+  width: 10%;
+}
+div.village3 table#warehouse td.max4 {
+  width: 15%;
+}
+div.village3 table#culture_points td.cps {
+  width: 15%;
+}
+div.village3 table#culture_points td.cel {
+  width: 20%;
+}
+div.village3 span.dot {
+  color: #C0C0C0;
+  font-weight: bold;
+}
+div.village3 table#culture_points td.tro {
+  width: 20%;
+  white-space: normal;
+}
+div.village3 table#culture_points td.slo {
+  width: 10%;
+}
+div.village3 div.troops_wrapper {
+  width: 100%;
+  overflow-y: auto;
+  margin-bottom: 15px;
+}
+div.village3 table#troops tr.small th,
+div.village3 table#troops tr.small td {
+  font-size: 11px;
+}
+.rtl div.village3 table#troops tr.small th, .rtl
+div.village3 table#troops tr.small td {
+  font-size: 12px;
+}
+div.village3 table#troops th,
+div.village3 table#troops td, div.village3 table.vil_troops th,
+div.village3 table.vil_troops td, div.village3 table.under_progress th,
+div.village3 table.under_progress td {
+  padding: 6px 1px 3px;
+}
+div.village3 table#troops th.unit,
+div.village3 table#troops td.unit, div.village3 table.vil_troops th.unit,
+div.village3 table.vil_troops td.unit, div.village3 table.under_progress th.unit,
+div.village3 table.under_progress td.unit {
+  width: 7%;
+}
+div.village3 table#troops th.villageName,
+div.village3 table#troops td.villageName, div.village3 table.vil_troops th.villageName,
+div.village3 table.vil_troops td.villageName, div.village3 table.under_progress th.villageName,
+div.village3 table.under_progress td.villageName {
+  text-align: right;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+div.village3 table#troops th.inProgress,
+div.village3 table#troops td.inProgress, div.village3 table.vil_troops th.inProgress,
+div.village3 table.vil_troops td.inProgress, div.village3 table.under_progress th.inProgress,
+div.village3 table.under_progress td.inProgress {
+  width: 22%;
+}
+div.village3 table#troops th.villageName, div.village3 table.vil_troops th.villageName, div.village3 table.under_progress th.villageName {
+  text-align: center;
+}

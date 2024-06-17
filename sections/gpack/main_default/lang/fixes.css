@@ -1,0 +1,6 @@
+body.Turbotra #logo img.logo {
+    margin-right: -13px;
+    background-position: center;
+    background-image: url("../../../customImg/turbotra_black.svg");
+    background-size: 221px 79px;
+}

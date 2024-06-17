@@ -1,0 +1,307 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* kleines loading icon */
+img.loading {
+  background-image: url('../../img_ltr/map/loading.gif');
+  background-position: left center;
+  width: 16px;
+  height: 16px;
+}
+
+/* delete x */
+img.del {
+  width: 7px;
+  height: 7px;
+  background-image: url('../../img_ltr/a/delete.gif');
+  left: 8px;
+  top: 1px;
+}
+
+.colorBlind img.del {
+  width: 7px;
+  height: 7px;
+  background-image: url('../../img_ltr/a/deleteColorblind.gif');
+  left: 8px;
+  top: 1px;
+}
+
+a.infoboxDeleteButton img.del {
+  float: right;
+}
+
+img.del.inactive {
+  background-position: left -17px;
+}
+
+img.accept {
+  width: 12px;
+  height: 12px;
+  background-image: url('../../img_ltr/a/check.png');
+  left: 6px;
+}
+
+.disabled img.accept {
+  background-image: url('../../img_ltr/a/check_grey.png');
+}
+
+/* clock */
+img.clock,
+i.clock {
+  width: 13px;
+  height: 12px;
+  background-image: url('../../img_ltr/a/clock.gif');
+}
+
+img.clock.inlineblock {
+  display: inline-block;
+}
+
+img.clock.inactive {
+  background-position: 0 -22px;
+}
+
+/* carry capacity */
+img.carry {
+  height: 12px;
+  width: 13px;
+  background-image: url('../../img_ltr/a/carry.gif');
+}
+
+img.carry.half {
+  background-position: 0 -15px;
+}
+
+img.carry.empty {
+  background-position: 0 -30px;
+}
+
+img.carry.impossible {
+  background-position: 0 -45px;
+}
+
+/* npc trade */
+img.npc {
+  width: 18px;
+  height: 12px;
+  background-image: url('../../img_ltr/a/npc.gif');
+  background-position: top;
+}
+
+img.npc_inactive {
+  width: 18px;
+  height: 12px;
+  background-image: url('../../img_ltr/a/npc.gif');
+  background-position: bottom;
+}
+
+/* money */
+img.gold,
+img.gold_g {
+  width: 12px;
+  height: 12px;
+  background-image: url('../../img_ltr/a/gold-ltr.gif');
+}
+
+img.gold {
+  background-position: 0 0;
+}
+
+img.gold_g {
+  background-position: 0 -15px;
+}
+
+img.silver,
+img.silver_g {
+  width: 10px;
+  height: 9px;
+  background-image: url('../../img_ltr/a/silver-ltr.gif');
+}
+
+img.silver {
+  background-position: 0 0;
+}
+
+img.silver_g {
+  background-position: 0 -19px;
+}
+
+/* bids - hero auctions */
+img.bids {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/hero/bids.png');
+}
+
+/* adventure danger */
+img.adventureDifficulty0 {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/hero/dangerGreat.gif');
+  background-position: top;
+}
+
+img.adventureDifficulty1,
+img.adventureDifficulty2,
+img.adventureDifficulty3 {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/hero/danger.gif');
+  background-position: top;
+}
+
+/* message status */
+.messageStatus {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/msg/messageStatus.gif');
+}
+
+.messageStatusUnread {
+  background-position: left 0;
+}
+
+.messageStatusRead {
+  background-position: left -26px;
+}
+
+.messageStatusReplied {
+  background-position: left -52px;
+}
+
+img.play_video,
+i.play_video {
+  width: 13px;
+  height: 12px;
+  background-image: url('../../img_ltr/videoFeature/play_video_button.png');
+}
+
+img.iMiniHouse,
+i.iMiniHouse {
+  background-image: url('../../img_ltr/report/mini_house-ltr.png');
+  width: 16px;
+  height: 16px;
+}
+
+img.iMiniHouseFailed,
+i.iMiniHouseFailed {
+  background-image: url('../../img_ltr/report/mini_houseFailed-ltr.gif');
+  width: 16px;
+  height: 16px;
+}
+
+/* new icons */
+i {
+  display: inline-block;
+  /* general */
+}
+i.population_medium {
+  background-image: url('../../img_ltr/general/units/population_medium.png');
+  width: 22px;
+  height: 26px;
+}
+i.culturePoints_small {
+  background-image: url('../../img_ltr/general/units/culturePoints_small.png');
+  width: 18px;
+  height: 16px;
+}
+i.culturePoints_medium {
+  background-image: url('../../img_ltr/general/units/culturePoints_medium.png');
+  width: 26px;
+  height: 24px;
+}
+i.clock_medium {
+  background-image: url('../../img_ltr/general/units/clock_medium.png');
+  width: 22px;
+  height: 22px;
+}
+i.offense_medium {
+  background-image: url('../../img_ltr/general/combat/offense_medium.png');
+  width: 26px;
+  height: 22px;
+}
+i.defense_medium {
+  background-image: url('../../img_ltr/general/combat/defense_medium.png');
+  width: 22px;
+  height: 24px;
+}
+i.resources_small {
+  background-image: url('../../img_ltr/general/resources/resources_small.png');
+  width: 19px;
+  height: 16px;
+}
+i.resources_medium {
+  background-image: url('../../img_ltr/general/resources/resources_medium.png');
+  width: 28px;
+  height: 24px;
+}
+i.tribe1_small {
+  background-image: url('../../img_ltr/general/tribes/roman_small.png');
+  width: 16px;
+  height: 16px;
+}
+i.tribe1_medium {
+  background-image: url('../../img_ltr/general/tribes/roman_medium.png');
+  width: 22px;
+  height: 21px;
+}
+i.tribe2_small {
+  background-image: url('../../img_ltr/general/tribes/teuton_small.png');
+  width: 16px;
+  height: 16px;
+}
+i.tribe2_medium {
+  background-image: url('../../img_ltr/general/tribes/teuton_medium.png');
+  width: 22px;
+  height: 23px;
+}
+i.tribe3_small {
+  background-image: url('../../img_ltr/general/tribes/gaul_small.png');
+  width: 16px;
+  height: 16px;
+}
+i.tribe3_medium {
+  background-image: url('../../img_ltr/general/tribes/gaul_medium.png');
+  width: 22px;
+  height: 22px;
+}
+i.tribe5_small {
+  background-image: url('../../img_ltr/general/tribes/natar_small.png');
+  width: 16px;
+  height: 16px;
+}
+i.tribe5_medium {
+  background-image: url('../../img_ltr/general/tribes/natar_medium.png');
+  width: 22px;
+  height: 22px;
+}
+i.tribe6_small {
+  background-image: url('../../img_ltr/general/tribes/egyptian_small.png');
+  width: 16px;
+  height: 16px;
+}
+i.tribe6_medium {
+  background-image: url('../../img_ltr/general/tribes/egyptian_medium.png');
+  width: 22px;
+  height: 23px;
+}
+i.tribe7_small {
+  background-image: url('../../img_ltr/general/tribes/hun_small.png');
+  width: 16px;
+  height: 16px;
+}
+i.tribe7_medium {
+  background-image: url('../../img_ltr/general/tribes/hun_medium.png');
+  width: 22px;
+  height: 24px;
+}

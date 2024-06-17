@@ -1,0 +1,1347 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.buildingsV1 {
+  /* buildings */
+  /* resource fields in upgrade view */
+  /* walls */
+  /* obelisk */
+  /* building icons */
+  /* buildings with snow */
+}
+.buildingsV1 img {
+  /* standard buildings shared by all tribes */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* special buildings for each tribe */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /* construction */
+  /** world wonder */
+  /* rally point */
+}
+.buildingsV1 img.building:not(.big) {
+  width: 120px;
+  height: 120px;
+}
+.buildingsV1 img.building.big {
+  width: 184px;
+  height: 179px;
+}
+.buildingsV1 img.g5:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g5-ltr.png');
+}
+.buildingsV1 img.g5.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g5-ltr.png');
+}
+.buildingsV1 img.g5b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g5b-ltr.png');
+}
+.buildingsV1 img.g6:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g6-ltr.png');
+}
+.buildingsV1 img.g6.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g6-ltr.png');
+}
+.buildingsV1 img.g6b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g6b-ltr.png');
+}
+.buildingsV1 img.g7:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g7-ltr.png');
+}
+.buildingsV1 img.g7.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g7-ltr.png');
+}
+.buildingsV1 img.g7b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g7b-ltr.png');
+}
+.buildingsV1 img.g8:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g8-ltr.png');
+}
+.buildingsV1 img.g8.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g8-ltr.png');
+}
+.buildingsV1 img.g8b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g8b-ltr.png');
+}
+.buildingsV1 img.g9:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g9-ltr.png');
+}
+.buildingsV1 img.g9.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g9-ltr.png');
+}
+.buildingsV1 img.g9b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g9b-ltr.png');
+}
+.buildingsV1 img.g10:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g10-ltr.png');
+}
+.buildingsV1 img.g10.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g10-ltr.png');
+}
+.buildingsV1 img.g10b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g10b-ltr.png');
+}
+.buildingsV1 img.g11:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g11-ltr.png');
+}
+.buildingsV1 img.g11.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g11-ltr.png');
+}
+.buildingsV1 img.g11b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g11b-ltr.png');
+}
+.buildingsV1 img.g13:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g13-ltr.png');
+}
+.buildingsV1 img.g13.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g13-ltr.png');
+}
+.buildingsV1 img.g13b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g13b-ltr.png');
+}
+.buildingsV1 img.g14:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g14-ltr.png');
+}
+.buildingsV1 img.g14.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g14-ltr.png');
+}
+.buildingsV1 img.g14b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g14b-ltr.png');
+}
+.buildingsV1 img.g15:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g15-ltr.png');
+}
+.buildingsV1 img.g15.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g15-ltr.png');
+}
+.buildingsV1 img.g15b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g15b-ltr.png');
+}
+.buildingsV1 img.g16:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g16-ltr.png');
+}
+.buildingsV1 img.g16.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g16-ltr.png');
+}
+.buildingsV1 img.g16b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g16b-ltr.png');
+}
+.buildingsV1 img.g17:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g17-ltr.png');
+}
+.buildingsV1 img.g17.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g17-ltr.png');
+}
+.buildingsV1 img.g17b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g17b-ltr.png');
+}
+.buildingsV1 img.g18:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g18-ltr.png');
+}
+.buildingsV1 img.g18.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g18-ltr.png');
+}
+.buildingsV1 img.g18b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g18b-ltr.png');
+}
+.buildingsV1 img.g19:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g19-ltr.png');
+}
+.buildingsV1 img.g19.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g19-ltr.png');
+}
+.buildingsV1 img.g19b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g19b-ltr.png');
+}
+.buildingsV1 img.g20:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g20-ltr.png');
+}
+.buildingsV1 img.g20.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g20-ltr.png');
+}
+.buildingsV1 img.g20b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g20b-ltr.png');
+}
+.buildingsV1 img.g21:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g21-ltr.png');
+}
+.buildingsV1 img.g21.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g21-ltr.png');
+}
+.buildingsV1 img.g21b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g21b-ltr.png');
+}
+.buildingsV1 img.g22:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g22-ltr.png');
+}
+.buildingsV1 img.g22.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g22-ltr.png');
+}
+.buildingsV1 img.g22b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g22b-ltr.png');
+}
+.buildingsV1 img.g23:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g23-ltr.png');
+}
+.buildingsV1 img.g23.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g23-ltr.png');
+}
+.buildingsV1 img.g23b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g23b-ltr.png');
+}
+.buildingsV1 img.g24:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g24-ltr.png');
+}
+.buildingsV1 img.g24.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g24-ltr.png');
+}
+.buildingsV1 img.g24b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g24b-ltr.png');
+}
+.buildingsV1 img.g25:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g25-ltr.png');
+}
+.buildingsV1 img.g25.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g25-ltr.png');
+}
+.buildingsV1 img.g25b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g25b-ltr.png');
+}
+.buildingsV1 img.g26:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g26-ltr.png');
+}
+.buildingsV1 img.g26.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g26-ltr.png');
+}
+.buildingsV1 img.g26b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g26b-ltr.png');
+}
+.buildingsV1 img.g27:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g27-ltr.png');
+}
+.buildingsV1 img.g27.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g27-ltr.png');
+}
+.buildingsV1 img.g27b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g27b-ltr.png');
+}
+.buildingsV1 img.g28:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g28-ltr.png');
+}
+.buildingsV1 img.g28.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g28-ltr.png');
+}
+.buildingsV1 img.g28b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g28b-ltr.png');
+}
+.buildingsV1 img.g29:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g29-ltr.png');
+}
+.buildingsV1 img.g29.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g29-ltr.png');
+}
+.buildingsV1 img.g29b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g29b-ltr.png');
+}
+.buildingsV1 img.g30:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g30-ltr.png');
+}
+.buildingsV1 img.g30.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g30-ltr.png');
+}
+.buildingsV1 img.g30b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g30b-ltr.png');
+}
+.buildingsV1 img.g34:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g34-ltr.png');
+}
+.buildingsV1 img.g34.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g34-ltr.png');
+}
+.buildingsV1 img.g34b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g34b-ltr.png');
+}
+.buildingsV1 img.g37:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g37-ltr.png');
+}
+.buildingsV1 img.g37.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g37-ltr.png');
+}
+.buildingsV1 img.g37b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g37b-ltr.png');
+}
+.buildingsV1 img.g38:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g38-ltr.png');
+}
+.buildingsV1 img.g38.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g38-ltr.png');
+}
+.buildingsV1 img.g38b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g38b-ltr.png');
+}
+.buildingsV1 img.g39:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g39-ltr.png');
+}
+.buildingsV1 img.g39.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g39-ltr.png');
+}
+.buildingsV1 img.g39b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g39b-ltr.png');
+}
+.buildingsV1 img.g41:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g41-ltr.png');
+}
+.buildingsV1 img.g41.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g41-ltr.png');
+}
+.buildingsV1 img.g41b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g41b-ltr.png');
+}
+.buildingsV1 img.g35:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g35-ltr.png');
+}
+.buildingsV1 img.g35.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g35-ltr.png');
+}
+.buildingsV1 img.g35b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g35b-ltr.png');
+}
+.buildingsV1 img.g36:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g36-ltr.png');
+}
+.buildingsV1 img.g36.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g36-ltr.png');
+}
+.buildingsV1 img.g36b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g36b-ltr.png');
+}
+.buildingsV1 img.g45:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g45-ltr.png');
+}
+.buildingsV1 img.g45.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g45-ltr.png');
+}
+.buildingsV1 img.g45b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g45b-ltr.png');
+}
+.buildingsV1 img.g44:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g44-ltr.png');
+}
+.buildingsV1 img.g44.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g44-ltr.png');
+}
+.buildingsV1 img.g44b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g44b-ltr.png');
+}
+.buildingsV1 img.g40:not(.big) {
+  width: 298px;
+  height: 318px;
+}
+.buildingsV1 img.g40.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g40-ltr.png');
+  width: 172px;
+  height: 179px;
+}
+.buildingsV1 img.g40_0 {
+  background-image: url('../../img_ltr/g/defaultBuildings/g40_0-ltr.png');
+}
+.buildingsV1 img.g40_1 {
+  background-image: url('../../img_ltr/g/defaultBuildings/g40_1-ltr.png');
+}
+.buildingsV1 img.g40_2 {
+  background-image: url('../../img_ltr/g/defaultBuildings/g40_2-ltr.png');
+}
+.buildingsV1 img.g40_3 {
+  background-image: url('../../img_ltr/g/defaultBuildings/g40_3-ltr.png');
+}
+.buildingsV1 img.g40_4 {
+  background-image: url('../../img_ltr/g/defaultBuildings/g40_4-ltr.png');
+}
+.buildingsV1 img.g40_5 {
+  background-image: url('../../img_ltr/g/defaultBuildings/g40_5-ltr.png');
+}
+.buildingsV1 img.g40_6 {
+  background-image: url('../../img_ltr/g/defaultBuildings/g40_6-ltr.png');
+}
+.buildingsV1 img.g40_7 {
+  background-image: url('../../img_ltr/g/defaultBuildings/g40_7-ltr.png');
+}
+.buildingsV1 img.g40_8 {
+  background-image: url('../../img_ltr/g/defaultBuildings/g40_8-ltr.png');
+}
+.buildingsV1 img.g40_9 {
+  background-image: url('../../img_ltr/g/defaultBuildings/g40_9-ltr.png');
+}
+.buildingsV1 img.g40_10 {
+  background-image: url('../../img_ltr/g/defaultBuildings/g40_10-ltr.png');
+}
+.buildingsV1 img.g40_11 {
+  background-image: url('../../img_ltr/g/defaultBuildings/g40_11-ltr.png');
+}
+.buildingsV1 img.building.g16:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g16-ltr.png');
+  width: 120px;
+  height: 160px;
+}
+.buildingsV1 img.building.g16e:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g16e-ltr.png');
+  width: 120px;
+  height: 180px;
+}
+.buildingsV1 img.building.g16_ww:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g16_ww-ltr.png');
+  width: 83px;
+  height: 133px;
+}
+.buildingsV1 img.g16_ww.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g16-ltr.png');
+  width: 184px;
+  height: 179px;
+}
+.buildingsV1 img.building.g16e_ww:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g16e_ww-ltr.png');
+  width: 83px;
+  height: 133px;
+}
+.buildingsV1 img.building.g16b {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g16b-ltr.png');
+  width: 120px;
+  height: 160px;
+}
+.buildingsV1 img.building.g16b_ww {
+  background-image: url('../../img_ltr/g/defaultBuildings/construction/g16b_ww-ltr.png');
+  width: 83px;
+  height: 133px;
+}
+.buildingsV1 .g1.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g1-ltr.png');
+  width: 184px;
+  height: 179px;
+}
+.buildingsV1 .g2.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g2-ltr.png');
+  width: 184px;
+  height: 179px;
+}
+.buildingsV1 .g3.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g3-ltr.png');
+  width: 184px;
+  height: 179px;
+}
+.buildingsV1 .g4.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g4-ltr.png');
+  width: 184px;
+  height: 179px;
+}
+.buildingsV1 .wall {
+  background-size: 100% 100%;
+}
+.buildingsV1 .wall.g31Top {
+  background-image: url('../../img_ltr/g/defaultBuildings/g31Top-ltr.png');
+  width: 628px;
+  height: 534px;
+}
+.buildingsV1 .wall.g31Bottom, .buildingsV1 .wall.g31bBottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/g31Bottom-ltr.png');
+  width: 628px;
+  height: 534px;
+}
+.buildingsV1 .wall.g31Bottom, .buildingsV1 .wall.g31bBottom, .buildingsV1 .wall.g31Top, .buildingsV1 .wall.g33Bottom, .buildingsV1 .wall.g33bBottom, .buildingsV1 .wall.g33Top, .buildingsV1 .wall.g42Bottom, .buildingsV1 .wall.g42bBottom, .buildingsV1 .wall.g42Top {
+  top: 6px;
+  left: 2px;
+  height: 523px;
+}
+.buildingsV1 .wall.g32Top, .buildingsV1 .wall.g32Bottom, .buildingsV1 .wall.g32bBottom {
+  top: -2px;
+  left: -8px;
+}
+.buildingsV1 .g31.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g31-ltr.png');
+}
+.buildingsV1 .wall {
+  background-size: 100% 100%;
+}
+.buildingsV1 .wall.g32Top {
+  background-image: url('../../img_ltr/g/defaultBuildings/g32Top-ltr.png');
+  width: 675px;
+  height: 534px;
+}
+.buildingsV1 .wall.g32Bottom, .buildingsV1 .wall.g32bBottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/g32Bottom-ltr.png');
+  width: 675px;
+  height: 534px;
+}
+.buildingsV1 .wall.g31Bottom, .buildingsV1 .wall.g31bBottom, .buildingsV1 .wall.g31Top, .buildingsV1 .wall.g33Bottom, .buildingsV1 .wall.g33bBottom, .buildingsV1 .wall.g33Top, .buildingsV1 .wall.g42Bottom, .buildingsV1 .wall.g42bBottom, .buildingsV1 .wall.g42Top {
+  top: 6px;
+  left: 2px;
+  height: 523px;
+}
+.buildingsV1 .wall.g32Top, .buildingsV1 .wall.g32Bottom, .buildingsV1 .wall.g32bBottom {
+  top: -2px;
+  left: -8px;
+}
+.buildingsV1 .g32.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g32-ltr.png');
+}
+.buildingsV1 .wall {
+  background-size: 100% 100%;
+}
+.buildingsV1 .wall.g33Top {
+  background-image: url('../../img_ltr/g/defaultBuildings/g33Top-ltr.png');
+  width: 628px;
+  height: 534px;
+}
+.buildingsV1 .wall.g33Bottom, .buildingsV1 .wall.g33bBottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/g33Bottom-ltr.png');
+  width: 628px;
+  height: 534px;
+}
+.buildingsV1 .wall.g31Bottom, .buildingsV1 .wall.g31bBottom, .buildingsV1 .wall.g31Top, .buildingsV1 .wall.g33Bottom, .buildingsV1 .wall.g33bBottom, .buildingsV1 .wall.g33Top, .buildingsV1 .wall.g42Bottom, .buildingsV1 .wall.g42bBottom, .buildingsV1 .wall.g42Top {
+  top: 6px;
+  left: 2px;
+  height: 523px;
+}
+.buildingsV1 .wall.g32Top, .buildingsV1 .wall.g32Bottom, .buildingsV1 .wall.g32bBottom {
+  top: -2px;
+  left: -8px;
+}
+.buildingsV1 .g33.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g33-ltr.png');
+}
+.buildingsV1 .wall {
+  background-size: 100% 100%;
+}
+.buildingsV1 .wall.g42Top {
+  background-image: url('../../img_ltr/g/defaultBuildings/g42Top-ltr.png');
+  width: 628px;
+  height: 534px;
+}
+.buildingsV1 .wall.g42Bottom, .buildingsV1 .wall.g42bBottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/g42Bottom-ltr.png');
+  width: 628px;
+  height: 534px;
+}
+.buildingsV1 .wall.g31Bottom, .buildingsV1 .wall.g31bBottom, .buildingsV1 .wall.g31Top, .buildingsV1 .wall.g33Bottom, .buildingsV1 .wall.g33bBottom, .buildingsV1 .wall.g33Top, .buildingsV1 .wall.g42Bottom, .buildingsV1 .wall.g42bBottom, .buildingsV1 .wall.g42Top {
+  top: 6px;
+  left: 2px;
+  height: 523px;
+}
+.buildingsV1 .wall.g32Top, .buildingsV1 .wall.g32Bottom, .buildingsV1 .wall.g32bBottom {
+  top: -2px;
+  left: -8px;
+}
+.buildingsV1 .g42.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g42-ltr.png');
+}
+.buildingsV1 .wall {
+  background-size: 100% 100%;
+}
+.buildingsV1 .wall.g43Top {
+  background-image: url('../../img_ltr/g/defaultBuildings/g43Top-ltr.png');
+  width: 628px;
+  height: 534px;
+}
+.buildingsV1 .wall.g43Bottom, .buildingsV1 .wall.g43bBottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/g43Bottom-ltr.png');
+  width: 628px;
+  height: 534px;
+}
+.buildingsV1 .wall.g31Bottom, .buildingsV1 .wall.g31bBottom, .buildingsV1 .wall.g31Top, .buildingsV1 .wall.g33Bottom, .buildingsV1 .wall.g33bBottom, .buildingsV1 .wall.g33Top, .buildingsV1 .wall.g42Bottom, .buildingsV1 .wall.g42bBottom, .buildingsV1 .wall.g42Top {
+  top: 6px;
+  left: 2px;
+  height: 523px;
+}
+.buildingsV1 .wall.g32Top, .buildingsV1 .wall.g32Bottom, .buildingsV1 .wall.g32bBottom {
+  top: -2px;
+  left: -8px;
+}
+.buildingsV1 .g43.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g43-ltr.png');
+}
+.buildingsV1 .aidobelisk img:not(.big) {
+  background-image: url('../../img_ltr/g/defaultBuildings/g_obelisk-ltr.png');
+  width: 172px;
+  height: 179px;
+}
+.buildingsV1 .gebIcon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/gebIcon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g1Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g1Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g2Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g2Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g3Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g3Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g4Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g4Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g5Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g5Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g6Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g6Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g7Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g7Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g8Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g8Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g9Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g9Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g10Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g10Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g11Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g11Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g13Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g13Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g14Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g14Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g15Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g15Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g16Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g16Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g17Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g17Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g18Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g18Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g19Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g19Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g20Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g20Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g21Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g21Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g22Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g22Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g23Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g23Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g24Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g24Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g25Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g25Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g26Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g26Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g27Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g27Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g28Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g28Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g29Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g29Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g30Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g30Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g31Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g31Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g32Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g32Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g33Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g33Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g34Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g34Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g35Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g35Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g36Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g36Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g37Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g37Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g38Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g38Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g39Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g39Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g40Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g40Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g41Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g41Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g42Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g42Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g43Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g43Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g44Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g44Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 .gebIcon.g45Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g45Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV1 body.season-winter img:not(.big).g5 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g5.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g5b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g5b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g6 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g6.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g6b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g6b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g7 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g7.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g7b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g7b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g8 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g8.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g8b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g8b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g9 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g9.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g9b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g9b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g10 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g10.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g10b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g10b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g11 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g11.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g11b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g11b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g13 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g13.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g13b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g13b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g14 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g14.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g14b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g14b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g15 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g15.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g15b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g15b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g16 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g16.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g16b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g16b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g17 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g17.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g17b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g17b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g18 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g18.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g18b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g18b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g19 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g19.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g19b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g19b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g20 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g20.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g20b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g20b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g21 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g21.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g21b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g21b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g22 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g22.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g22b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g22b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g23 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g23.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g23b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g23b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g24 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g24.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g24b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g24b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g25 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g25.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g25b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g25b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g26 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g26.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g26b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g26b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g27 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g27.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g27b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g27b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g28 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g28.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g28b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g28b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g29 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g29.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g29b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g29b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g30 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g30.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g30b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g30b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g31Top {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g31Top.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g31Bottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g31Bottom.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g31bBottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g31Bottom.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g32Top {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g32Top.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g32Bottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g32Bottom.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g32bBottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g32Bottom.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g33Top {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g33Top.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g33Bottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g33Bottom.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g33bBottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g33Bottom.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g34 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g34.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g34b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g34b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g36 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g36.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g36b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g36b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g37 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g37.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g37b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g37b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g38 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g38.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g38b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g38b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g39 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g39.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g39b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g39b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g41 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g41.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g41b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/g41b.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g42Top {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g42Top.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g42Bottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g42Bottom.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g42bBottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g42Bottom.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g43Top {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g43Top.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g43Bottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g43Bottom.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g43bBottom {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g43Bottom.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g44 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g44.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g44b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/construction.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g45 {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/g45.png');
+}
+.buildingsV1 body.season-winter img:not(.big).g45b {
+  background-image: url('../../img_ltr/g/defaultBuildings/winter/construction/construction.png');
+}
+.buildingsV1 .buildingSlot {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  user-select: none;
+  /* building image */
+  /* level indicator */
+  /* building shapes */
+}
+.buildingsV1 .buildingSlot.a19 {
+  left: 81px;
+  top: 57px;
+  z-index: 19;
+}
+.buildingsV1 .buildingSlot.a20 {
+  left: 174px;
+  top: 15px;
+  z-index: 17;
+}
+.buildingsV1 .buildingSlot.a21 {
+  left: 261px;
+  top: -3px;
+  z-index: 15;
+}
+.buildingsV1 .buildingSlot.a22 {
+  left: 354px;
+  top: 26px;
+  z-index: 17;
+}
+.buildingsV1 .buildingSlot.a23 {
+  left: 428px;
+  top: 69px;
+  z-index: 20;
+}
+.buildingsV1 .buildingSlot.a24 {
+  left: 42px;
+  top: 107px;
+  z-index: 23;
+}
+.buildingsV1 .buildingSlot.a25 {
+  left: 485px;
+  top: 119px;
+  z-index: 24;
+}
+.buildingsV1 .buildingSlot.a26 {
+  left: 249px;
+  top: 71px;
+  z-index: 20;
+}
+.buildingsV1 .buildingSlot.a26.g40 {
+  width: 298px;
+  height: 318px;
+  top: 14px;
+  left: 153px;
+}
+.buildingsV1 .buildingSlot.a27 {
+  left: 68px;
+  top: 241px;
+  z-index: 32;
+}
+.buildingsV1 .buildingSlot.a28 {
+  left: 31px;
+  top: 167px;
+  z-index: 27;
+}
+.buildingsV1 .buildingSlot.a29 {
+  left: 448px;
+  top: 170px;
+  z-index: 29;
+}
+.buildingsV1 .buildingSlot.a30 {
+  left: 153px;
+  top: 183px;
+  z-index: 28;
+}
+.buildingsV1 .buildingSlot.a31 {
+  left: 155px;
+  top: 110px;
+  z-index: 23;
+}
+.buildingsV1 .buildingSlot.a32 {
+  left: 227px;
+  top: 230px;
+  z-index: 32;
+}
+.buildingsV1 .buildingSlot.a33 {
+  left: 476px;
+  top: 238px;
+  z-index: 32;
+}
+.buildingsV1 .buildingSlot.a34 {
+  left: 153px;
+  top: 300px;
+  z-index: 36;
+}
+.buildingsV1 .buildingSlot.a35 {
+  left: 295px;
+  top: 291px;
+  z-index: 36;
+}
+.buildingsV1 .buildingSlot.a36 {
+  left: 404px;
+  top: 254px;
+  z-index: 33;
+}
+.buildingsV1 .buildingSlot.a37 {
+  left: 241px;
+  top: 333px;
+  z-index: 39;
+}
+.buildingsV1 .buildingSlot.a38 {
+  left: 365px;
+  top: 318px;
+  z-index: 38;
+}
+.buildingsV1 .buildingSlot.a39 {
+  width: 120px;
+  height: 160px;
+  left: 355px;
+  top: 174px;
+  z-index: 28;
+}
+.buildingsV1 .buildingSlot.a39.g0 {
+  top: 156px;
+  left: 354px;
+}
+.buildingsV1 .buildingSlot.a39.g16.ww_vp, .buildingsV1 .buildingSlot.a39.g16.b_ww, .buildingsV1 .buildingSlot.a39.g16.e_ww {
+  left: 378px;
+  top: 169px;
+}
+.buildingsV1 .buildingSlot.a40 {
+  width: 100%;
+  height: 100%;
+  z-index: 39;
+  /* empty wall building slot */
+}
+.buildingsV1 .buildingSlot.a40.g0 {
+  width: 628px;
+  height: 464px;
+  top: 46px;
+  left: 12px;
+  z-index: 0;
+}
+.buildingsV1 .buildingSlot.a40 .level {
+  pointer-events: none;
+}
+.buildingsV1 .buildingSlot.a40.top {
+  z-index: 0;
+}
+.buildingsV1 .buildingSlot.aidobelisk {
+  left: 260px;
+  top: 90px;
+  width: 172px;
+  height: 179px;
+  z-index: 39;
+}
+.buildingsV1 .buildingSlot img {
+  z-index: 0;
+  position: absolute;
+}
+.buildingsV1 .buildingSlot .level {
+  z-index: 2;
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 11px);
+  pointer-events: auto;
+  line-height: 25px;
+  cursor: pointer;
+}
+.buildingsV1 .buildingSlot .level:hover ~ svg .hoverShape path,
+.buildingsV1 .buildingSlot .level:hover ~ svg .hoverShapeWinter path {
+  fill: rgba(255, 255, 255, 0.2);
+}
+.buildingsV1 .buildingSlot .level:active ~ svg .hoverShape path,
+.buildingsV1 .buildingSlot .level:active ~ svg .hoverShapeWinter path {
+  fill: rgba(255, 255, 255, 0.35);
+}
+.buildingsV1 .buildingSlot .level.aid40 {
+  top: auto;
+  bottom: 11%;
+}
+.buildingsV1 .buildingSlot svg.buildingShape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+.buildingsV1 .buildingSlot svg.buildingShape path {
+  fill: transparent;
+  outline: none;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.buildingsV1 .buildingSlot svg.buildingShape .clickShape:hover + .hoverShape path {
+  fill: rgba(255, 255, 255, 0.2);
+}
+.buildingsV1 .buildingSlot svg.buildingShape .clickShape:active + .hoverShape path {
+  fill: rgba(255, 255, 255, 0.35);
+  -webkit-tap-highlight-color: transparent;
+}
+.season-winter.buildingsV1 .buildingSlot svg.buildingShape .clickShape path {
+  pointer-events: none;
+}
+.buildingsV1 .buildingSlot svg.buildingShape .clickShapeWinter {
+  pointer-events: none;
+}
+.buildingsV1 .buildingSlot svg.buildingShape .clickShapeWinter path {
+  pointer-events: none;
+}
+.season-winter.buildingsV1 .buildingSlot svg.buildingShape .clickShapeWinter path {
+  pointer-events: auto;
+}
+.season-winter.buildingsV1 .buildingSlot svg.buildingShape .clickShapeWinter:hover + .hoverShapeWinter path {
+  fill: rgba(255, 255, 255, 0.2);
+}
+.season-winter.buildingsV1 .buildingSlot svg.buildingShape .clickShapeWinter:active + .hoverShapeWinter path {
+  fill: rgba(255, 255, 255, 0.35);
+  -webkit-tap-highlight-color: transparent;
+}
+.buildingsV1 .buildingSlot svg.buildingShape .hoverShape path,
+.buildingsV1 .buildingSlot svg.buildingShape .hoverShapeWinter path {
+  transition-duration: 150ms;
+  transition-timing-function: ease-in;
+}
+.buildingsV1 .buildingSlot svg.buildingShape .hoverShape:hover path,
+.buildingsV1 .buildingSlot svg.buildingShape .hoverShapeWinter:hover path {
+  fill: rgba(255, 255, 255, 0.2);
+}
+.buildingsV1 .buildingSlot svg.buildingShape .hoverShape:active path,
+.buildingsV1 .buildingSlot svg.buildingShape .hoverShapeWinter:active path {
+  fill: rgba(255, 255, 255, 0.35);
+  -webkit-tap-highlight-color: transparent;
+}
+.season-winter.buildingsV1 .buildingSlot svg.buildingShape .hoverShape.hoverShape path, .buildingsV1 .buildingSlot svg.buildingShape .hoverShapeWinter.hoverShape path {
+  pointer-events: none;
+  opacity: 0;
+}
+.buildingsV1 .buildingSlot svg.buildingShape .hoverShape.hoverShapeWinter path,
+.buildingsV1 .buildingSlot svg.buildingShape .hoverShapeWinter.hoverShapeWinter path {
+  pointer-events: none;
+  opacity: 0;
+}
+.season-winter.buildingsV1 .buildingSlot svg.buildingShape .hoverShape.hoverShapeWinter path, .buildingsV1 .buildingSlot svg.buildingShape .hoverShapeWinter.hoverShapeWinter path {
+  pointer-events: auto;
+  opacity: 1;
+}
+.rtl.buildingsV1 .buildingSlot svg.buildingShape:not(.iso) {
+  transform: scale(-1, 1);
+}
+.buildingsV1 .buildingSlot svg.buildingShape.g32Top, .buildingsV1 .buildingSlot svg.buildingShape.g32Bottom {
+  top: -2px;
+  left: -8px;
+}
+.buildingsV1 .buildingSlot svg.buildingShape.g31Top, .buildingsV1 .buildingSlot svg.buildingShape.g33Top, .buildingsV1 .buildingSlot svg.buildingShape.g42 {
+  top: 6px;
+  left: 2px;
+}
+.buildingsV1 .buildingSlot svg.buildingShape.hover > .hoverShape path, .buildingsV1 .buildingSlot svg.buildingShape.hover > .hoverShapeWinter path {
+  fill: rgba(255, 255, 255, 0.2);
+}
+.buildingsV1 .buildingSlot svg.buildingShape.hover.wallTop > .hoverShapeWinter path, .buildingsV1 .buildingSlot svg.buildingShape.hover.wallBottom > .hoverShapeWinter path {
+  fill: rgba(132, 160, 190, 0.1);
+}
+.buildingsV1 .buildingSlot svg.buildingShape.active > .hoverShape path, .buildingsV1 .buildingSlot svg.buildingShape.active > .hoverShapeWinter path {
+  fill: rgba(255, 255, 255, 0.35);
+  -webkit-tap-highlight-color: transparent;
+}
+.buildingsV1 .buildingSlot svg.buildingShape.active.wallTop > .hoverShapeWinter path, .buildingsV1 .buildingSlot svg.buildingShape.active.wallBottom > .hoverShapeWinter path {
+  fill: rgba(132, 160, 190, 0.2);
+}

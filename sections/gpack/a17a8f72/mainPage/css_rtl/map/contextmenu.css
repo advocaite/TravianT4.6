@@ -1,0 +1,148 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* Map 2.0 Context Menu specific */
+#contextmenu {
+  display: none;
+  z-index: 10001;
+}
+
+/* Allgemeines aussehen mit runden ecken und co */
+#contextmenu .tl, #contextmenu .tc, #contextmenu .tr,
+#contextmenu .ml, #contextmenu .mc, #contextmenu .mr,
+#contextmenu .bl, #contextmenu .bc, #contextmenu .br {
+  background-color: transparent;
+  background-position: left top;
+}
+
+#contextmenu .tc, #contextmenu .mc, #contextmenu .bc {
+  margin-right: 4px;
+  margin-left: 4px;
+  width: auto;
+}
+
+#contextmenu .tl, #contextmenu .tc, #contextmenu .tr {
+  height: 4px;
+}
+
+#contextmenu .tl {
+  background-repeat: no-repeat;
+}
+
+#contextmenu .tc {
+  background-repeat: repeat-x;
+}
+
+#contextmenu .tr {
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+#contextmenu .ml {
+  background-repeat: repeat-y;
+}
+
+#contextmenu .mc {
+  background-repeat: repeat;
+}
+
+#contextmenu .mr {
+  background-position: right top;
+  background-repeat: repeat-y;
+}
+
+#contextmenu .bl, #contextmenu .bc, #contextmenu .br {
+  height: 4px;
+}
+
+#contextmenu .bl {
+  background-repeat: no-repeat;
+}
+
+#contextmenu .bc {
+  background-repeat: repeat-x;
+}
+
+#contextmenu .br {
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+/* Dialog images getrennt wegem IE */
+#contextmenu .tl {
+  background-image: url('../../img_rtl/round/contextmenu/tl.png');
+}
+
+#contextmenu .tc {
+  background-image: url('../../img_rtl/round/contextmenu/tc.png');
+}
+
+#contextmenu .tr {
+  background-image: url('../../img_rtl/round/contextmenu/tr.png');
+}
+
+#contextmenu .ml {
+  background-image: url('../../img_rtl/round/contextmenu/ml.png');
+}
+
+#contextmenu .mc {
+  background-image: url('../../img_rtl/round/contextmenu/mc.png');
+}
+
+#contextmenu .mr {
+  background-image: url('../../img_rtl/round/contextmenu/mr.png');
+}
+
+#contextmenu .bl {
+  background-image: url('../../img_rtl/round/contextmenu/bl.png');
+}
+
+#contextmenu .bc {
+  background-image: url('../../img_rtl/round/contextmenu/bc.png');
+}
+
+#contextmenu .br {
+  background-image: url('../../img_rtl/round/contextmenu/br.png');
+}
+
+#contextmenu .separator {
+  height: 1px;
+}
+
+/* Map 2.0 Context Menu Item */
+#contextmenu .title {
+  text-align: center;
+  color: #D1CFD2;
+}
+
+#contextmenu a {
+  display: block;
+  padding-right: 13px;
+  padding-left: 13px;
+  text-decoration: none;
+  font-weight: normal;
+  color: #FEFEFE;
+  height: 17px;
+}
+
+#contextmenu a:hover {
+  background-color: #498841;
+}
+
+#contextmenu a.disabled {
+  color: #D0D0D0;
+}
+
+#contextmenu a.disabled:hover {
+  background-color: transparent;
+}

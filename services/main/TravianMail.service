@@ -1,0 +1,12 @@
+[Unit]
+Description=Travian mail service
+After=network.target
+After=mysqld.service
+
+[Service]
+Type=simple
+ExecStart=/travian/mailNotify/include/mailNotify.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

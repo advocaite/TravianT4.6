@@ -1,0 +1,375 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+body.village1 div#center div#contentOuterContainer {
+  background: none;
+  padding: 0;
+  z-index: 24;
+}
+body.village1 div#center div#contentOuterContainer div.contentContainer {
+  background: none;
+  padding: 0;
+}
+body.village1 div#center div#contentOuterContainer div.contentTitle {
+  background: none;
+  box-shadow: none;
+  position: absolute;
+  left: -5px;
+  z-index: 500;
+  border: none;
+}
+body.village1 div#center div#contentOuterContainer div.contentTitle .contentTitleButton {
+  display: none;
+}
+body.village1 div#center div#contentOuterContainer div.contentTitle .contentTitleButton#answersButton {
+  display: inline-block;
+}
+body.village1 div#center div#contentOuterContainer div.contentFooter {
+  display: none;
+}
+body.village1 div#center div#contentOuterContainer div.contentContainer {
+  padding-top: 7px;
+  border: none;
+}
+body.village1 div#center div#contentOuterContainer #content {
+  padding: 0;
+  margin-right: -67px;
+}
+
+/* ------------------- Village Overview------------------- */
+/* ------------------------------------------------------- */
+/* general */
+div.village1 table {
+  line-height: 19px;
+  background: none;
+}
+div.village1 table th, div.village1 table td {
+  padding: 0;
+  background: none;
+}
+div.village1 table thead th {
+  text-align: right;
+}
+div.village1 table tbody td {
+  padding: 4px 2px 1px;
+  line-height: 16px;
+  background: none;
+}
+div.village1 table td.ico {
+  width: 5px;
+  padding-right: 4px;
+  padding-top: 1px;
+}
+div.village1 table td.ico div {
+  position: relative;
+}
+div.village1 table td.ico div img.productionBoost {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+div.village1 table td.num {
+  text-align: left;
+  white-space: nowrap;
+}
+div.village1 div#village_map {
+  margin: 27px 0 15px;
+  width: 500px;
+  height: 370px;
+  position: relative;
+  z-index: 23;
+  background-position: center bottom;
+}
+div.village1 img.villageCenter {
+  width: 74px;
+  height: 57px;
+  position: absolute;
+  top: 163px;
+  right: 213px;
+}
+div.village1 img#resfeld {
+  width: 400px;
+  height: 370px;
+  position: absolute;
+  z-index: 999;
+  right: -10px;
+}
+div.village1 .level {
+  z-index: 21;
+  line-height: 23px;
+  position: absolute;
+}
+
+/* ressource map */
+/* resource levels */
+div.villaged1 img.rf1 {
+  left: 93px;
+  top: 27px;
+}
+div.villaged1 img.rf2 {
+  left: 156px;
+  top: 26px;
+}
+div.villaged1 img.rf3 {
+  left: 216px;
+  top: 41px;
+}
+div.villaged1 img.rf4 {
+  left: 38px;
+  top: 59px;
+}
+div.villaged1 img.rf5 {
+  left: 130px;
+  top: 67px;
+}
+div.villaged1 img.rf6 {
+  left: 195px;
+  top: 87px;
+}
+div.villaged1 img.rf7 {
+  left: 253px;
+  top: 81px;
+}
+div.villaged1 img.rf8 {
+  left: 23px;
+  top: 111px;
+}
+div.villaged1 img.rf9 {
+  left: 74px;
+  top: 104px;
+}
+div.villaged1 img.rf10 {
+  left: 205px;
+  top: 136px;
+}
+div.villaged1 img.rf11 {
+  left: 260px;
+  top: 139px;
+}
+div.villaged1 img.rf12 {
+  left: 33px;
+  top: 165px;
+}
+div.villaged1 img.rf13 {
+  left: 84px;
+  top: 158px;
+}
+div.villaged1 img.rf14 {
+  left: 151px;
+  top: 178px;
+}
+div.villaged1 img.rf15 {
+  left: 230px;
+  top: 192px;
+}
+div.villaged1 img.rf16 {
+  left: 79px;
+  top: 211px;
+}
+div.villaged1 img.rf17 {
+  left: 132px;
+  top: 223px;
+}
+div.villaged1 img.rf18 {
+  left: 182px;
+  top: 227px;
+}
+
+div.village1 div#map_details {
+  position: relative;
+  margin-left: -118px;
+  margin-top: -375px;
+  width: 222px;
+  z-index: 1000;
+  float: left;
+}
+
+div.village1 div.production, div.village1 div.units {
+  width: 200px;
+}
+div.village1 div.movements div.boxes-contents.cf, div.village1 div.production div.boxes-contents.cf, div.village1 div.units div.boxes-contents.cf {
+  padding: 8px;
+}
+div.village1 div#map_details .boxes {
+  float: left;
+}
+div.village1 div.movements {
+  min-height: 130px;
+  width: 221px;
+  line-height: 19px;
+  float: left;
+}
+div.village1 table#movements {
+  margin-top: -1px;
+}
+div.village1 table#movements td {
+  padding: 1px 0;
+}
+div.village1 table#movements td.typ {
+  width: 32px;
+  vertical-align: top;
+  font-weight: bold;
+}
+div.village1 table#movements td.typ img {
+  margin: 0 4px 0 1px;
+}
+div.village1 table#movements div.mov {
+  float: right;
+  font-weight: bold;
+  white-space: nowrap;
+}
+div.village1 table#movements div.dur_r {
+  float: left;
+  padding-left: 2px;
+  font-size: 11px;
+  color: #6B6B6B;
+  white-space: nowrap;
+}
+.rtl div.village1 table#movements div.dur_r {
+  font-size: 12px;
+}
+div.village1 table#movements td.wrap {
+  line-height: 10px;
+}
+div.village1 table#movements div.dur_l {
+  float: right;
+  padding-bottom: 2px;
+  font-size: 11px;
+  color: #6B6B6B;
+}
+.rtl div.village1 table#movements div.dur_l {
+  font-size: 12px;
+}
+div.village1 table#movements .a1 {
+  color: #FF0000;
+}
+
+/* truppenbewegungen */
+.colorBlind div.village1 table#movements .a1 {
+  color: #0022AF;
+}
+
+div.village1 table#movements .d1 {
+  color: #228B22;
+}
+div.village1 table#movements .a2, div.village1 table#movements .d2 {
+  color: #F2C700;
+}
+div.village1 table#movements .a3, div.village1 table#movements .d3 {
+  color: #B500A3;
+}
+div.village1 table#movements .adventure, div.village1 table#movements .settle {
+  color: #0022AF;
+}
+
+.colorBlind div.village1 table#movements .adventure {
+  color: #228B22;
+}
+
+div.village1 table#movements .settle {
+  color: #228B22;
+}
+div.village1 table#production td.res {
+  width: 70%;
+}
+div.village1 table#production td.per {
+  width: 30%;
+}
+div.village1 div.production button.productionBoostButton {
+  float: left;
+}
+div.village1 table#troops td.un {
+  width: 80%;
+}
+div.village1 div.buildingList {
+  right: 60px;
+}
+
+/* ressource field */
+div.village1 div.f1 {
+  background-image: url('../img_rtl/g/f1-rtl.png');
+}
+div.village1 div.f2 {
+  background-image: url('../img_rtl/g/f2-rtl.png');
+}
+div.village1 div.f3 {
+  background-image: url('../img_rtl/g/f3-rtl.png');
+}
+div.village1 div.f4 {
+  background-image: url('../img_rtl/g/f4-rtl.png');
+}
+div.village1 div.f5 {
+  background-image: url('../img_rtl/g/f5-rtl.png');
+}
+div.village1 div.f6 {
+  background-image: url('../img_rtl/g/f6-rtl.png');
+}
+div.village1 div.f7 {
+  background-image: url('../img_rtl/g/f7-rtl.png');
+}
+div.village1 div.f8 {
+  background-image: url('../img_rtl/g/f8-rtl.png');
+}
+div.village1 div.f9 {
+  background-image: url('../img_rtl/g/f9-rtl.png');
+}
+div.village1 div.f10 {
+  background-image: url('../img_rtl/g/f10-rtl.png');
+}
+div.village1 div.f11 {
+  background-image: url('../img_rtl/g/f11-rtl.png');
+}
+div.village1 div.f12 {
+  background-image: url('../img_rtl/g/f12-rtl.png');
+}
+
+body.season-winter div.village1 div.f1 {
+  background-image: url('../img_rtl/g/f1_winter-rtl.png');
+}
+body.season-winter div.village1 div.f2 {
+  background-image: url('../img_rtl/g/f2_winter-rtl.png');
+}
+body.season-winter div.village1 div.f3 {
+  background-image: url('../img_rtl/g/f3_winter-rtl.png');
+}
+body.season-winter div.village1 div.f4 {
+  background-image: url('../img_rtl/g/f4_winter-rtl.png');
+}
+body.season-winter div.village1 div.f5 {
+  background-image: url('../img_rtl/g/f5_winter-rtl.png');
+}
+body.season-winter div.village1 div.f6 {
+  background-image: url('../img_rtl/g/f6_winter-rtl.png');
+}
+body.season-winter div.village1 div.f7 {
+  background-image: url('../img_rtl/g/f7_winter-rtl.png');
+}
+body.season-winter div.village1 div.f8 {
+  background-image: url('../img_rtl/g/f8_winter-rtl.png');
+}
+body.season-winter div.village1 div.f9 {
+  background-image: url('../img_rtl/g/f9_winter-rtl.png');
+}
+body.season-winter div.village1 div.f10 {
+  background-image: url('../img_rtl/g/f10_winter-rtl.png');
+}
+body.season-winter div.village1 div.f11 {
+  background-image: url('../img_rtl/g/f11_winter-rtl.png');
+}
+body.season-winter div.village1 div.f12 {
+  background-image: url('../img_rtl/g/f12_winter-rtl.png');
+}
+
+body.village1 #ingameManual {
+  z-index: 1;
+}

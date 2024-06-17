@@ -1,0 +1,706 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* Allgemeines aussehn mit runden ecken und co */
+.boxes {
+  position: relative;
+}
+
+/* ie7 */
+* + html .boxes {
+  float: none;
+}
+
+.boxes .boxes-container {
+  position: relative;
+  padding: 11px;
+}
+
+.boxes .boxes-contents {
+  position: relative;
+}
+
+.boxes .boxes-tl, .boxes .boxes-tc, .boxes .boxes-tr,
+.boxes .boxes-ml, .boxes .boxes-mc, .boxes .boxes-mr,
+.boxes .boxes-bl, .boxes .boxes-bc, .boxes .boxes-br {
+  position: absolute;
+}
+
+.boxes .boxes-tl {
+  left: 0;
+  top: 0;
+  width: 11px;
+  height: 11px;
+}
+
+.boxes .boxes-tc {
+  right: 11px;
+  top: 0;
+  left: 11px;
+  height: 11px;
+}
+
+.boxes .boxes-tr {
+  right: 0;
+  top: 0;
+  width: 11px;
+  height: 11px;
+}
+
+.boxes .boxes-ml {
+  left: 0;
+  top: 11px;
+  width: 11px;
+  bottom: 11px;
+}
+
+.boxes .boxes-mc {
+  left: 11px;
+  top: 11px;
+  right: 11px;
+  bottom: 11px;
+}
+
+.boxes .boxes-mr {
+  right: 0;
+  top: 11px;
+  width: 11px;
+  bottom: 11px;
+}
+
+.boxes .boxes-bl {
+  left: 0;
+  bottom: 0;
+  width: 11px;
+  height: 11px;
+}
+
+.boxes .boxes-bc {
+  left: 11px;
+  bottom: 0;
+  right: 11px;
+  height: 11px;
+}
+
+.boxes .boxes-br {
+  right: 0;
+  bottom: 0;
+  width: 11px;
+  height: 11px;
+}
+
+.boxes .boxes-tl, .boxes .boxes-tc, .boxes .boxes-tr,
+.boxes .boxes-ml, .boxes .boxes-mc, .boxes .boxes-mr,
+.boxes .boxes-bl, .boxes .boxes-bc, .boxes .boxes-br {
+  background-color: transparent;
+  background-position: left top;
+}
+
+.boxes .boxes-tl {
+  background-repeat: no-repeat;
+}
+
+.boxes .boxes-tc {
+  background-repeat: repeat-x;
+}
+
+.boxes .boxes-tr {
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.boxes .boxes-ml {
+  background-repeat: repeat-y;
+}
+
+.boxes .boxes-mc {
+  background-repeat: repeat;
+}
+
+.boxes .boxes-mr {
+  background-position: right top;
+  background-repeat: repeat-y;
+}
+
+.boxes .boxes-bl, .boxes .boxes-bc {
+  background-position: left bottom;
+}
+
+.boxes .boxes-bl {
+  background-repeat: no-repeat;
+}
+
+.boxes .boxes-bc {
+  background-repeat: repeat-x;
+}
+
+.boxes .boxes-br {
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.boxes .boxes-tl, .boxes .boxes-tc, .boxes .boxes-tr, .boxes .boxes-ml, .boxes .boxes-mc, .boxes .boxes-mr, .boxes .boxes-bl, .boxes .boxes-bc, .boxes .boxes-br {
+  background-image: url('../../img_rtl/round/boxes/sprite.png');
+}
+
+.boxes .boxes-tl {
+  background-position: 1px 2px;
+}
+
+.boxes .boxes-tc {
+  background-position: -40px 2px;
+}
+
+.boxes .boxes-tr {
+  background-position: -21px 2px;
+}
+
+.boxes .boxes-ml {
+  background-position: 0 -40px;
+}
+
+.boxes .boxes-mc {
+  background-position: -40px -40px;
+}
+
+.boxes .boxes-mr {
+  background-position: -20px -40px;
+}
+
+.boxes .boxes-bl {
+  background-position: 1px -20px;
+}
+
+.boxes .boxes-bc {
+  background-position: -40px -20px;
+}
+
+.boxes .boxes-br {
+  background-position: -21px -20px;
+}
+
+.boxesColor .boxes-container {
+  padding: 4px 0;
+}
+
+.boxesColor .boxes-tl {
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 4px;
+}
+
+.boxesColor .boxes-tc {
+  left: 4px;
+  top: 0;
+  right: 4px;
+  height: 4px;
+}
+
+.boxesColor .boxes-tr {
+  right: 0;
+  top: 0;
+  width: 4px;
+  height: 4px;
+}
+
+.boxesColor .boxes-ml {
+  left: 0;
+  top: 4px;
+  width: 4px;
+  bottom: 4px;
+}
+
+.boxesColor .boxes-mc {
+  left: 4px;
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+}
+
+.boxesColor .boxes-mr {
+  right: 0;
+  top: 4px;
+  width: 4px;
+  bottom: 4px;
+}
+
+.boxesColor .boxes-bl {
+  left: 0;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+}
+
+.boxesColor .boxes-bc {
+  left: 4px;
+  bottom: 0;
+  right: 4px;
+  height: 4px;
+}
+
+.boxesColor .boxes-br {
+  right: 0;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+}
+
+.boxesColor.gray .boxes-tl, .boxesColor.gray .boxes-tc, .boxesColor.gray .boxes-tr,
+.boxesColor.gray .boxes-ml, .boxesColor.gray .boxes-mc, .boxesColor.gray .boxes-mr,
+.boxesColor.gray .boxes-bl, .boxesColor.gray .boxes-bc, .boxesColor.gray .boxes-br {
+  background-image: url('../../img_rtl/round/boxes/gray/sprite.png');
+}
+
+.boxesColor.gray .boxes-ml, .boxesColor.gray .boxes-mr, .boxesColor.gray .boxes-tc,
+.boxesColor.gray .boxes-bc, .boxesColor.gray .boxes-bc, .boxesColor.gray .boxes-mc {
+  background-image: none;
+  background-color: #e4e4e4;
+}
+
+.boxesColor.gray .boxes-tl {
+  background-position: 0 0;
+}
+
+.boxesColor.gray .boxes-tr {
+  background-position: -25px 0;
+}
+
+.boxesColor.gray .boxes-bl {
+  background-position: 0 -26px;
+}
+
+.boxesColor.gray .boxes-br {
+  background-position: -26px -26px;
+}
+
+.boxesColor.darkGray .boxes-container {
+  color: #F2F2F2;
+}
+
+.boxesColor.darkGray .boxes-tl, .boxesColor.darkGray .boxes-tc, .boxesColor.darkGray .boxes-tr,
+.boxesColor.darkGray .boxes-ml, .boxesColor.darkGray .boxes-mc, .boxesColor.darkGray .boxes-mr,
+.boxesColor.darkGray .boxes-bl, .boxesColor.darkGray .boxes-bc, .boxesColor.darkGray .boxes-br {
+  background-image: url('../../img_rtl/round/boxes/darkGray/sprite.png');
+}
+
+.boxesColor.darkGray .boxes-ml, .boxesColor.darkGray .boxes-mr, .boxesColor.darkGray .boxes-tc,
+.boxesColor.darkGray .boxes-bc, .boxesColor.darkGray .boxes-bc, .boxesColor.darkGray .boxes-mc {
+  background-image: none;
+  background-color: #666666;
+}
+
+.boxesColor.darkGray .boxes-tl {
+  background-position: 0 0;
+}
+
+.boxesColor.darkGray .boxes-tr {
+  background-position: -25px 0;
+}
+
+.boxesColor.darkGray .boxes-bl {
+  background-position: 0 -26px;
+}
+
+.boxesColor.darkGray .boxes-br {
+  background-position: -26px -26px;
+}
+
+.boxesColor.orange .boxes-container {
+  color: #F2F2F2;
+}
+
+.boxesColor.orange .boxes-tl, .boxesColor.orange .boxes-tc, .boxesColor.orange .boxes-tr,
+.boxesColor.orange .boxes-ml, .boxesColor.orange .boxes-mc, .boxesColor.orange .boxes-mr,
+.boxesColor.orange .boxes-bl, .boxesColor.orange .boxes-bc, .boxesColor.orange .boxes-br {
+  background-image: url('../../img_rtl/round/boxes/orange/sprite.png');
+}
+
+.boxesColor.orange .boxes-ml, .boxesColor.orange .boxes-mr, .boxesColor.orange .boxes-tc,
+.boxesColor.orange .boxes-bc, .boxesColor.orange .boxes-bc, .boxesColor.orange .boxes-mc {
+  background-image: none;
+  background-color: #f88c1f;
+}
+
+.boxesColor.orange .boxes-tl {
+  background-position: 0 0;
+}
+
+.boxesColor.orange .boxes-tr {
+  background-position: -25px 0;
+}
+
+.boxesColor.orange .boxes-bl {
+  background-position: 0 -26px;
+}
+
+.boxesColor.orange .boxes-br {
+  background-position: -26px -26px;
+}
+
+.boxesColor.green .boxes-container {
+  color: #F2F2F2;
+}
+
+.boxesColor.green .boxes-tl, .boxesColor.green .boxes-tc, .boxesColor.green .boxes-tr,
+.boxesColor.green .boxes-ml, .boxesColor.green .boxes-mc, .boxesColor.green .boxes-mr,
+.boxesColor.green .boxes-bl, .boxesColor.green .boxes-bc, .boxesColor.green .boxes-br {
+  background-image: url('../../img_rtl/round/boxes/green/sprite.png');
+}
+
+.boxesColor.green .boxes-ml, .boxesColor.green .boxes-mr, .boxesColor.green .boxes-tc,
+.boxesColor.green .boxes-bc, .boxesColor.green .boxes-bc, .boxesColor.green .boxes-mc {
+  background-image: none;
+  background-color: #498843;
+}
+
+.boxesColor.green .boxes-tl {
+  background-position: 0 0;
+}
+
+.boxesColor.green .boxes-tr {
+  background-position: -25px 0;
+}
+
+.boxesColor.green .boxes-bl {
+  background-position: 0 -26px;
+}
+
+.boxesColor.green .boxes-br {
+  background-position: -26px -26px;
+}
+
+.boxesColor.red .boxes-container {
+  color: #F2F2F2;
+}
+
+.boxesColor.red .boxes-tl, .boxesColor.red .boxes-tc, .boxesColor.red .boxes-tr,
+.boxesColor.red .boxes-ml, .boxesColor.red .boxes-mc, .boxesColor.red .boxes-mr,
+.boxesColor.red .boxes-bl, .boxesColor.red .boxes-bc, .boxesColor.red .boxes-br {
+  background-image: url('../../img_rtl/round/boxes/red/sprite.png');
+}
+
+.colorBlind .boxesColor.red .boxes-tl, .colorBlind .boxesColor.red .boxes-tc, .colorBlind .boxesColor.red .boxes-tr,
+.colorBlind .boxesColor.red .boxes-ml, .colorBlind .boxesColor.red .boxes-mc, .colorBlind .boxesColor.red .boxes-mr,
+.colorBlind .boxesColor.red .boxes-bl, .colorBlind .boxesColor.red .boxes-bc, .colorBlind .boxesColor.red .boxes-br {
+  background-image: url('../../img_rtl/round/boxes/red/spriteColorblind.png');
+}
+
+.boxesColor.red .boxes-ml, .boxesColor.red .boxes-mr, .boxesColor.red .boxes-tc,
+.boxesColor.red .boxes-bc, .boxesColor.red .boxes-bc, .boxesColor.red .boxes-mc {
+  background-image: none;
+  background-color: #D40000;
+}
+
+.colorBlind .boxesColor.red .boxes-ml, .colorBlind .boxesColor.red .boxes-mr, .colorBlind .boxesColor.red .boxes-tc,
+.colorBlind .boxesColor.red .boxes-bc, .colorBlind .boxesColor.red .boxes-bc, .colorBlind .boxesColor.red .boxes-mc {
+  background-image: none;
+  background-color: #001fbc;
+}
+
+.boxesColor.red .boxes-tl {
+  background-position: 0 0;
+}
+
+.boxesColor.red .boxes-tr {
+  background-position: -25px 0;
+}
+
+.boxesColor.red .boxes-bl {
+  background-position: 0 -26px;
+}
+
+.boxesColor.red .boxes-br {
+  background-position: -26px -26px;
+}
+
+.boxesColor.red-border .boxes-container {
+  color: #F2F2F2;
+}
+
+.boxesColor.red-border .boxes-tl, .boxesColor.red-border .boxes-tc, .boxesColor.red-border .boxes-tr,
+.boxesColor.red-border .boxes-ml, .boxesColor.red-border .boxes-mc, .boxesColor.red-border .boxes-mr,
+.boxesColor.red-border .boxes-bl, .boxesColor.red-border .boxes-bc, .boxesColor.red-border .boxes-br {
+  background-image: url('../../img_rtl/round/boxes/red-border/sprite.png');
+}
+
+.boxesColor.red-border .boxes-ml, .boxesColor.red-border .boxes-mr, .boxesColor.red-border .boxes-tc,
+.boxesColor.red-border .boxes-mc {
+  background-image: none;
+  background-color: #e4e4e4;
+}
+
+.boxesColor.red-border .boxes-tl {
+  background-position: 0 0;
+}
+
+.boxesColor.red-border .boxes-tr {
+  background-position: -25px 0;
+}
+
+.boxesColor.red-border .boxes-bl {
+  background-position: 0 -25px;
+}
+
+.boxesColor.red-border .boxes-br {
+  background-position: -25px -25px;
+}
+
+.boxesColor.red-border .boxes-tc,
+.boxesColor.red-border .boxes-bc {
+  background-image: url('../../img_rtl/round/boxes/red-border/top-bottom.png');
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.boxesColor.red-border .boxes-bc {
+  background-position: 0 -15px;
+}
+
+.boxesColor.red-border .boxes-ml,
+.boxesColor.red-border .boxes-mr {
+  background-image: url('../../img_rtl/round/boxes/red-border/left-right.png');
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.boxesColor.red-border .boxes-mr {
+  background-position: -15px 0;
+}
+
+.boxesColor.orange-border .boxes-tl, .boxesColor.orange-border .boxes-tc, .boxesColor.orange-border .boxes-tr,
+.boxesColor.orange-border .boxes-ml, .boxesColor.orange-border .boxes-mc, .boxesColor.orange-border .boxes-mr,
+.boxesColor.orange-border .boxes-bl, .boxesColor.orange-border .boxes-bc, .boxesColor.orange-border .boxes-br {
+  background-image: url('../../img_rtl/round/boxes/orange-border/sprite.png');
+}
+
+.boxesColor.orange-border .boxes-ml, .boxesColor.orange-border .boxes-mr, .boxesColor.orange-border .boxes-tc,
+.boxesColor.orange-border .boxes-mc {
+  background-image: none;
+  background-color: #e4e4e4;
+}
+
+.boxesColor.orange-border .boxes-tl {
+  background-position: 0 0;
+}
+
+.boxesColor.orange-border .boxes-tr {
+  background-position: -4px 0;
+}
+
+.boxesColor.orange-border .boxes-bl {
+  background-position: 0 -4px;
+}
+
+.boxesColor.orange-border .boxes-br {
+  background-position: -4px -4px;
+}
+
+.boxesColor.orange-border .boxes-tc,
+.boxesColor.orange-border .boxes-bc {
+  background-image: url('../../img_rtl/round/boxes/orange-border/top-bottom.png');
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.boxesColor.orange-border .boxes-bc {
+  background-position: 0 -4px;
+}
+
+.boxesColor.orange-border .boxes-ml,
+.boxesColor.orange-border .boxes-mr {
+  background-image: url('../../img_rtl/round/boxes/orange-border/left-right.png');
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.boxesColor.orange-border .boxes-mr {
+  background-position: -4px 0;
+}
+
+.boxesColor.lightGreen .boxes-container {
+  color: #F2F2F2;
+}
+
+.boxesColor.lightGreen .boxes-tl, .boxesColor.lightGreen .boxes-tc, .boxesColor.lightGreen .boxes-tr,
+.boxesColor.lightGreen .boxes-ml, .boxesColor.lightGreen .boxes-mc, .boxesColor.lightGreen .boxes-mr,
+.boxesColor.lightGreen .boxes-bl, .boxesColor.lightGreen .boxes-bc, .boxesColor.lightGreen .boxes-br {
+  background-image: url('../../img_rtl/round/boxes/lightGreen/sprite.png');
+}
+
+.boxesColor.lightGreen .boxes-ml, .boxesColor.lightGreen .boxes-mr, .boxesColor.lightGreen .boxes-tc,
+.boxesColor.lightGreen .boxes-bc, .boxesColor.lightGreen .boxes-bc, .boxesColor.lightGreen .boxes-mc {
+  background-image: none;
+  background-color: #99C01A;
+}
+
+.boxesColor.lightGreen .boxes-tl {
+  background-position: 0 0;
+}
+
+.boxesColor.lightGreen .boxes-tr {
+  background-position: -25px 0;
+}
+
+.boxesColor.lightGreen .boxes-bl {
+  background-position: 0 -26px;
+}
+
+.boxesColor.lightGreen .boxes-br {
+  background-position: -26px -26px;
+}
+
+/* ie6 */
+* html .boxes .boxes-tl,
+* html .boxes .boxes-tc,
+* html .boxes .boxes-tr,
+* html .boxes .boxes-ml,
+* html .boxes .boxes-mc,
+* html .boxes .boxes-mr,
+* html .boxes .boxes-bl,
+* html .boxes .boxes-bc,
+* html .boxes .boxes-br,
+* html .boxes .boxes-br,
+* html .boxes .boxes-contents {
+  background: none;
+}
+
+* html .boxes {
+  background-color: #F2F2F2;
+}
+
+* html .boxesColor.gray {
+  background-color: #E5E5E5;
+}
+
+* html .boxesColor.darkGray {
+  background-color: #666666;
+}
+
+* html .boxesColor.green {
+  background-color: #488842;
+}
+
+* html .boxesColor.lightGreen {
+  background-color: #99C11A;
+}
+
+* html .boxesColor.orange {
+  background-color: #F88C1F;
+}
+
+* html .boxesColor.red {
+  background-color: #D40000;
+}
+
+/* Rounded corners box */
+.roundedCornersBox {
+  width: 100%;
+  border: solid 1px #e0ebdf;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fcfdfc;
+  position: relative;
+}
+
+.roundedCornersBox.lightGreen {
+  background-color: #f1f6f1;
+}
+
+.roundedCornersBox.lightRed {
+  border-color: #D40000;
+  background-color: #fdf2f2;
+}
+
+.roundedCornersBox.white {
+  color: #333333;
+  border: none;
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+}
+
+.roundedCornersBox h4 {
+  width: 100%;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #e0ebdf;
+  background: linear-gradient(to left, #e0ebdf, #fcfdfc);
+  box-sizing: border-box;
+  margin-bottom: 26px;
+}
+
+.roundedCornersBackgroundBox {
+  width: 100%;
+  border: solid 1px #e0ebdf;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+.roundedCornersBackgroundBox.borderGreen {
+  border-color: #006900;
+}
+
+/* Big rounded corners box (used e.g. for building upgrade section) */
+.roundedCornersBox.big {
+  background-color: #F9FBF4;
+  border: solid 1px #A1BC79;
+  margin-bottom: 19px;
+}
+
+.roundedCornersBox.big h4 {
+  background: linear-gradient(to left, #cbe0ac, #F9FBF4);
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  padding-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 30px;
+  line-height: 30px;
+  margin-bottom: 14px;
+  text-align: right;
+}
+
+.roundedCornersBox.big.headlineOnly {
+  border: none;
+}
+
+.roundedCornersBox.big.headlineOnly h4 {
+  margin-bottom: 0;
+}
+
+.roundedCornersBox.big.headlineOnly h4 .none {
+  color: #333333;
+}
+
+.roundedCornersBox .stickyImage {
+  width: 184px;
+  height: 179px;
+  position: absolute;
+  margin-top: -149px;
+  left: 0;
+}
+
+.roundedCornersBox.big #contract {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.roundedCornersBox.big .contractCosts .errorMessage {
+  padding-top: 10px;
+  text-align: right;
+}

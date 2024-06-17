@@ -1,0 +1,75 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+div.reports #reportWrapper .combatStatistics {
+  border: 1px solid #DDC6A2;
+}
+div.reports #reportWrapper .combatStatistics .header {
+  height: 36px;
+  line-height: 36px;
+  background-color: #778243;
+  border-bottom: 1px solid #DDC6A2;
+}
+div.reports #reportWrapper .combatStatistics .header h2 {
+  color: #F2F2F2;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: 0 10px;
+}
+div.reports #reportWrapper .combatStatistics table {
+  border-collapse: collapse;
+}
+div.reports #reportWrapper .combatStatistics table th,
+div.reports #reportWrapper .combatStatistics table td {
+  line-height: 24px;
+  padding: 2px 5px;
+}
+div.reports #reportWrapper .combatStatistics table th:nth-child(2),
+div.reports #reportWrapper .combatStatistics table td:nth-child(2) {
+  border-left: 1px solid #DDC6A2;
+  border-right: 1px solid #DDC6A2;
+}
+div.reports #reportWrapper .combatStatistics table th {
+  text-align: right;
+}
+div.reports #reportWrapper .combatStatistics table thead th {
+  font-weight: bold;
+  background-color: #FCF2DA;
+}
+div.reports #reportWrapper .combatStatistics table tbody tr:nth-child(even) th,
+div.reports #reportWrapper .combatStatistics table tbody tr:nth-child(even) td {
+  background-color: #FCF2DA;
+}
+div.reports #reportWrapper .combatStatistics table tbody td {
+  width: 30%;
+}
+div.reports #reportWrapper .combatStatistics table .inlineIcon {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+div.reports #reportWrapper .combatStatistics table .inlineIcon i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-left: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+div.reports #reportWrapper .combatStatistics table .inlineIcon span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}

@@ -1,0 +1,181 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* Tooptip */
+.tip {
+  font-size: 11px;
+  position: relative;
+}
+.rtl .tip {
+  font-size: 12px;
+}
+
+/* aussehen des Title von einem Tooltip */
+.tip .title {
+  color: #F2F2F2;
+  font-weight: bold;
+  font-size: 12px;
+}
+.rtl .tip .title {
+  font-size: 13px;
+}
+
+/* aussehen des Text von einem Tooltip */
+.tip .text {
+  color: #D0D0D0;
+  display: table-cell;
+}
+
+.tip .text .red {
+  color: #FF0000;
+}
+
+.colorBlind .tip .text .red {
+  color: #91A2F7;
+}
+
+.tip .tip-container {
+  position: relative;
+  padding: 4px 9px 4px 9px;
+}
+
+.tip .tip-contents {
+  position: relative;
+  padding: 0;
+}
+
+.tip .tl, .tip .tc, .tip .tr,
+.tip .ml, .tip .mc, .tip .mr,
+.tip .bl, .tip .bc, .tip .br {
+  position: absolute;
+}
+
+.tip .tl,
+.tip .tr,
+.tip .bl,
+.tip .br {
+  background-repeat: no-repeat;
+}
+
+.tip .tc,
+.tip .bc {
+  background-repeat: repeat-x;
+}
+
+.tip .ml,
+.tip .mr {
+  background-repeat: repeat-y;
+}
+
+.tip .mc {
+  background-repeat: repeat;
+}
+
+.tip .tl {
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 4px;
+}
+
+.tip .tc {
+  left: 4px;
+  top: 0;
+  right: 4px;
+  height: 4px;
+}
+
+.tip .tr {
+  right: 0;
+  top: 0;
+  width: 4px;
+  height: 4px;
+}
+
+.tip .ml {
+  left: 0;
+  top: 4px;
+  width: 4px;
+  bottom: 4px;
+}
+
+.tip .mc {
+  left: 4px;
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+}
+
+.tip .mr {
+  right: 0;
+  top: 4px;
+  width: 4px;
+  bottom: 4px;
+}
+
+.tip .bl {
+  left: 0;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+}
+
+.tip .bc {
+  left: 4px;
+  bottom: 0;
+  right: 4px;
+  height: 4px;
+}
+
+.tip .br {
+  right: 0;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+}
+
+.tip .tl {
+  background-image: url('../../img_rtl/round/tips/tl.png');
+}
+
+.tip .tc {
+  background-image: url('../../img_rtl/round/tips/tc.png');
+}
+
+.tip .tr {
+  background-image: url('../../img_rtl/round/tips/tr.png');
+}
+
+.tip .ml {
+  background-image: url('../../img_rtl/round/tips/ml.png');
+}
+
+.tip .mc {
+  background-image: url('../../img_rtl/round/tips/mc.png');
+}
+
+.tip .mr {
+  background-image: url('../../img_rtl/round/tips/mr.png');
+}
+
+.tip .bl {
+  background-image: url('../../img_rtl/round/tips/bl.png');
+}
+
+.tip .bc {
+  background-image: url('../../img_rtl/round/tips/bc.png');
+}
+
+.tip .br {
+  background-image: url('../../img_rtl/round/tips/br.png');
+}

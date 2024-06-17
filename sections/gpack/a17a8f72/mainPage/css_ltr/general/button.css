@@ -1,0 +1,411 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* some browsers define color of the button in different states to make it look stylish (Safari). Here we explicitly ask it to inherit color of the button itself */
+button:active {
+  color: inherit;
+}
+
+/* allgemeine Icon Buttons */
+.iconButton {
+  background-color: transparent;
+  background-position: 0 top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  cursor: pointer;
+  float: left;
+  position: relative;
+  height: 16px;
+  width: 16px;
+}
+
+.iconButton.checked {
+  background-position: -16px top;
+}
+
+.iconButton:hover {
+  background-position: -32px top;
+}
+
+.iconButton.disabled {
+  background-position: -48px top;
+}
+
+.iconButton.disabled:hover {
+  background-position: -48px top;
+}
+
+.iconButton.viewFull:hover {
+  background-position: 0;
+}
+
+.iconButton.small {
+  height: 7px;
+  width: 7px;
+}
+
+.iconButton.small.checked {
+  background-position: -7px top;
+}
+
+.iconButton.small:hover {
+  background-position: -14px top;
+}
+
+.iconButton.small.disabled {
+  background-position: -21px top;
+}
+
+.iconButton.small.disabled:hover {
+  background-position: -28px top;
+}
+
+/* Button Images */
+.iconButton.zoomIn {
+  background-image: url('../../img_ltr/map/buttons/zoom-in.png');
+}
+
+.iconButton.zoomOut {
+  background-image: url('../../img_ltr/map/buttons/zoom-out.png');
+}
+
+.iconButton.viewFull,
+.iconButton.viewFullGold {
+  background-image: url('../../img_ltr/map/buttons/view-full-on.png');
+}
+
+.iconButton.viewNormal {
+  background-image: url('../../img_ltr/map/buttons/view-full-off.png');
+}
+
+.iconButton.filterMy {
+  background-image: url('../../img_ltr/map/buttons/filter-my.gif');
+}
+
+.iconButton.filterAlliance {
+  background-image: url('../../img_ltr/map/buttons/filter-ally.gif');
+}
+
+.iconButton.linkCropfinder {
+  background-image: url('../../img_ltr/map/buttons/cropfinder.gif');
+}
+
+.iconButton.expand {
+  background-image: url('../../img_ltr/map/buttons/expand.gif');
+}
+
+.iconButton.collapse {
+  background-image: url('../../img_ltr/map/buttons/collapse.gif');
+}
+
+.iconButton.delete {
+  background-image: url('../../img_ltr/map/buttons/delete.gif');
+}
+
+.iconButton.dropDownImage {
+  background-image: url('../../img_ltr/map/buttons/dropdownArrow.gif');
+}
+
+.iconButton.iconRequireGold {
+  background-image: url('../../img_ltr/map/buttons/goldMap.png');
+}
+
+.iconButton.iconRequireGold .iconButton.linkCropfinder {
+  background-position: -32px top;
+}
+
+.iconButton.dropDownImage {
+  width: 9px;
+  height: 8px;
+}
+
+.iconButton.dropDownImage.checked {
+  background-position: -9px top;
+}
+
+.iconButton.dropDownImage:hover {
+  background-position: -18px top;
+}
+
+.iconButton.dropDownImage.disabled {
+  background-position: -27px top;
+}
+
+.iconButton.dropDownImage.disabled:hover {
+  background-position: -36px top;
+}
+
+.iconButton.viewFullGold:hover {
+  background: url('../../img_ltr/map/buttons/view-full-on.png');
+}
+
+.iconButton.iconRequireGold:hover {
+  background-position: left -35px;
+}
+
+/* general button layout for standard (small) buttons */
+button,
+button:hover,
+button:focus {
+  height: 25px;
+  position: relative;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  font-size: 11px;
+  color: #F2F2F2;
+  font-weight: bold;
+  text-align: left;
+  line-height: 15px;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 0;
+  border-radius: 5px;
+  background-color: transparent;
+  border: none;
+  white-space: nowrap;
+}
+.fa-IR button, .fa-IR
+button:hover, .fa-IR
+button:focus {
+  font-family: IRANSans, Arial, Helvetica, Verdana, sans-serif;
+}
+.rtl button, .rtl
+button:hover, .rtl
+button:focus {
+  font-size: 12px;
+}
+
+button.disabled,
+button:disabled,
+button.disabled:hover,
+button.disabled:focus {
+  cursor: default;
+}
+
+/* green button */
+button.green {
+  padding: 4px 20px;
+}
+button.green:not(:hover):not(:active) {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+button.green:not(.disabled):not(:disabled) {
+  border: 1px solid #283308;
+  background-image: linear-gradient(to bottom, #7cb029, #587c1e);
+  box-shadow: inset 2px 0 1px -1px #4b6f19, inset -2px 0 1px -1px #4b6f19, inset 0 3px 1px -1px #b5e251, inset 0 -3px 1px -1px rgba(44, 75, 12, 0.6);
+}
+button.green:not(.disabled):not(:disabled):hover:not(:active), button.green:not(.disabled):not(:disabled):not(:active):focus {
+  background-color: #7cb029;
+  background-image: none;
+  border-color: #506030;
+  box-shadow: inset 0 20px 25px -10px rgba(255, 255, 255, 0.7);
+  color: #283308;
+  text-shadow: none;
+}
+button.green:not(.disabled):not(:disabled):active {
+  color: #506030;
+  text-shadow: none;
+  background-image: linear-gradient(to top, #7cb029, #587c1e);
+  box-shadow: inset 2px 0 1px -1px #4b6f19, inset -2px 0 1px -1px #4b6f19;
+}
+button.green.disabled, button.green:disabled {
+  color: #506030;
+  border: 1px solid #9fa38a;
+  background: #89917B;
+  text-shadow: none;
+}
+button.green.disabled:not(:hover):not(:active), button.green:disabled:not(:hover):not(:active) {
+  text-shadow: none;
+}
+
+/* orange button */
+button.orange {
+  color: #2c2c2c;
+  padding: 4px 20px;
+}
+button.orange:not(.disabled):not(:disabled) {
+  border: 1px solid #332805;
+  background-image: linear-gradient(to bottom, #F8C000, #F0A600);
+  box-shadow: inset 2px 0 1px -1px #6f561a, inset -2px 0 1px -1px #6f4f1b, inset 0 3px 1px -1px #e2bb2e, inset 0 -3px 1px -1px rgba(75, 58, 10, 0.6);
+}
+button.orange:not(.disabled):not(:disabled):hover:not(:active), button.orange:not(.disabled):not(:disabled):not(:active):focus {
+  background-color: #F8C000;
+  background-image: none;
+  border-color: #60542c;
+  box-shadow: inset 0 20px 25px -10px rgba(255, 255, 255, 0.5);
+  color: #332805;
+}
+button.orange:not(.disabled):not(:disabled):active {
+  color: #60542c;
+  background-image: linear-gradient(to top, #F8C000, #F0A600);
+  box-shadow: inset 2px 0 1px -1px #6f561a, inset -2px 0 1px -1px #6f4f1b;
+}
+button.orange.disabled, button.orange:disabled {
+  color: #60542c;
+  border: 1px solid #60542c;
+  background: #b39e86;
+  text-shadow: none;
+}
+
+/* golden button */
+button.gold {
+  color: #333333;
+  text-shadow: none;
+  padding: 4px 20px;
+}
+button.gold:not(.disabled):not(:disabled) {
+  border: 1px solid #82631d;
+  background-image: linear-gradient(to bottom, #fdf5cb, #f8eeb0 40%, #f0dc7c 45%, #e6ce64 85%, #caac50);
+  box-shadow: inset 0 0 1px 1px rgba(82, 67, 32, 0.5), inset 0 2px 2px 1px #faf8ec, inset 0 -2px 2px 0 #a08939;
+}
+button.gold:not(.disabled):not(:disabled):hover:not(:active), button.gold:not(.disabled):not(:disabled):not(:active):focus {
+  background-color: #f8eeb0;
+  background-image: none;
+  border-color: #665722;
+  box-shadow: inset 0 20px 10px -10px rgba(255, 255, 255, 0.7);
+}
+button.gold:not(.disabled):not(:disabled):active {
+  color: #333333;
+  background-image: linear-gradient(to top, #f0dc7c, #caac50);
+  box-shadow: inset 0 2px 2px 1px #77652c, inset 0 -2px 2px 0 #faf8ec;
+}
+button.gold.disabled, button.gold:disabled {
+  color: #8e7834;
+  border: 1px solid #b9b091;
+  background: #d8cfa7;
+}
+
+/* goldener Button - Content - Coins */
+button.gold .goldIcon {
+  background-image: url('../../img_ltr/round/button/content/goldInner-ltr.png');
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+button.gold.disabled .goldIcon {
+  opacity: 0.4;
+}
+
+/* grey button */
+button.grey {
+  padding: 4px 20px;
+}
+button.grey:not(:hover):not(:active) {
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
+  color: #333333;
+}
+button.grey:not(.disabled):not(:disabled) {
+  border: 1px solid #606060;
+  background-image: linear-gradient(to bottom, #f8f8f8, #b0b0b0);
+  box-shadow: inset 2px 0 1px -1px #b0b0b0, inset -2px 0 1px -1px #979797, inset 0 3px 1px -1px #f8f8f8, inset 0 -3px 1px -1px rgba(128, 128, 128, 0.6);
+}
+button.grey:not(.disabled):not(:disabled):hover:not(:active), button.grey:not(.disabled):not(:disabled):not(:active):focus {
+  background-color: #d0d0d0;
+  background-image: none;
+  border-color: #404040;
+  box-shadow: inset 0 20px 25px -10px rgba(255, 255, 255, 0.7);
+  color: #333333;
+  text-shadow: none;
+}
+button.grey:not(.disabled):not(:disabled):active {
+  background-image: linear-gradient(to top, #f8f8f8, #b0b0b0);
+  background-color: transparent;
+  box-shadow: inset 2px 0 1px -1px #808080, inset -2px 0 1px -1px #808080;
+  color: #333333;
+  text-shadow: none;
+}
+button.grey.disabled, button.grey:disabled {
+  border: 1px solid #838383;
+  background: #919191;
+  color: #777777;
+}
+button.grey.negativeAction:not(.disabled):not(:disabled) {
+  color: #D40000;
+}
+button.grey.negativeAction:not(.disabled):not(:disabled):hover:not(:active), button.grey.negativeAction:not(.disabled):not(:disabled):not(:active):focus {
+  color: #D40000;
+}
+.colorBlind button.grey.negativeAction:not(.disabled):not(:disabled):hover:not(:active), .colorBlind button.grey.negativeAction:not(.disabled):not(:disabled):not(:active):focus {
+  color: #0022AF;
+}
+button.grey.negativeAction:not(.disabled):not(:disabled):active {
+  color: #D40000;
+}
+.colorBlind button.grey.negativeAction:not(.disabled):not(:disabled):active {
+  color: #0022AF;
+}
+.colorBlind button.grey.negativeAction:not(.disabled):not(:disabled) {
+  color: #0022AF;
+}
+
+/* end of standard button definition */
+/* small buttons with leading icon */
+button.icon,
+a.button.icon {
+  width: 24px;
+  height: 24px;
+  background-image: url('../../img_ltr/round/button/buttonSmall-ltr.png');
+  padding: 0;
+  border: none;
+}
+
+button.icon:hover,
+a.button.icon:hover {
+  background-position: left -34px;
+}
+
+button.icon.disabled:hover,
+a.button.icon.disabled:hover {
+  background-position: left top;
+}
+
+button.icon.iconActive,
+button.icon.iconActive.disabled,
+a.button.icon.iconActive,
+a.button.icon.iconActive.disabled {
+  background-position: left -68px;
+}
+
+button.icon.gold,
+a.button.icon.gold {
+  background-position: left -140px;
+}
+
+button.icon img {
+  position: relative;
+}
+
+/* small filter buttons with leading icons */
+button.iconFilter {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 0;
+  padding: 0;
+}
+
+button.iconFilterActive {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  background-image: url('../../img_ltr/round/button/buttonFilter-ltr.png');
+  border-radius: 0;
+}
+
+button.iconFilter img {
+  position: relative;
+}

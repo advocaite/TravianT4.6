@@ -1,0 +1,293 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+button.layoutButton {
+  width: 34px;
+  height: 34px;
+  box-sizing: border-box;
+  padding: 0;
+  overflow: visible;
+  border-radius: 50%;
+  position: relative;
+  z-index: 0;
+}
+button.layoutButton:before {
+  content: "";
+  width: 36px;
+  height: 36px;
+  display: block;
+  background-image: linear-gradient(to bottom, rgba(72, 99, 116, 0.95), rgba(31, 51, 73, 0.95) 35%, rgba(22, 46, 59, 0.95));
+  border: 1px solid #283308;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgba(51, 51, 51, 0.7);
+  position: absolute;
+  z-index: 1;
+  top: -3px;
+  left: -3px;
+  box-sizing: border-box;
+}
+button.layoutButton:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  transition-duration: 150ms;
+}
+button.layoutButton i {
+  background-image: url('../img_ltr/layout/icons/buttonIcons-ltr.png');
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  z-index: 3;
+}
+button.layoutButton.disabled:before {
+  background-image: linear-gradient(to bottom, rgba(72, 99, 116, 0.6), rgba(31, 51, 73, 0.6) 35%, rgba(22, 46, 59, 0.6));
+  border: 1px solid rgba(40, 51, 8, 0.6);
+  opacity: 0.95;
+}
+button.layoutButton:active:not(.disabled) i {
+  top: 0;
+}
+button.layoutButton.green:not(.disabled):after {
+  background-image: linear-gradient(to bottom, #587c1e, #7cb029);
+  box-shadow: inset 0 0 1px 1px rgba(40, 51, 8, 0.5), inset 0 2px 2px 1px #b1dd4f, inset 0 -2px 2px 0 #2c4a0c;
+  background-color: #7cb029;
+}
+button.layoutButton.green:not(.disabled):hover:after, button.layoutButton.green:not(.disabled):focus:after {
+  box-shadow: inset 0 0 1px 1px rgba(40, 51, 8, 0.5), inset 0 2px 2px 1px #e8f4cd, inset 0 -2px 2px 0 #395a13;
+  background-color: #7cb029;
+  background-image: none;
+  border-color: #506030;
+}
+button.layoutButton.green:not(.disabled):active:after {
+  box-shadow: inset 0 0 1px 1px rgba(40, 51, 8, 0.5), inset 0 1px 2px 1px #2c4a0c, inset 0 -2px 2px 0 #b1dd4f;
+  background-image: linear-gradient(to bottom, #587c1e, #7cb029);
+}
+button.layoutButton.green.disabled:after {
+  background-image: linear-gradient(to bottom, #8d957f, #8fa172);
+}
+button.layoutButton.green.disabled img {
+  filter: alpha(opacity=70);
+  opacity: 0.6;
+}
+button.layoutButton.gold:not(.disabled):after {
+  background-image: linear-gradient(to bottom, #fdf5cb, #f8eeb0 40%, #f0dc7c 45%, #e6ce64 85%, #caac50);
+  box-shadow: inset 0 0 1px 1px rgba(82, 67, 32, 0.5), inset 0 2px 2px 1px #faf8ec, inset 0 -2px 2px 0 #524320;
+}
+button.layoutButton.gold:not(.disabled):hover:after, button.layoutButton.gold:not(.disabled):focus:after {
+  background-image: linear-gradient(to bottom, #fff7cd, #fbe786);
+  box-shadow: inset 0 0 1px 1px rgba(82, 67, 32, 0.5), inset 0 2px 2px 1px #ffffff, inset 0 -2px 2px 0 #b89745;
+}
+button.layoutButton.gold:not(.disabled):active:after {
+  background-image: linear-gradient(to bottom, #fdf5cb, #f8eeb0 40%, #f0dc7c 45%, #e6ce64 85%, #caac50);
+  box-shadow: inset 0 0 1px 1px rgba(82, 67, 32, 0.5), inset 0 1px 2px 1px #524320, inset 0 -2px 2px 0 #f8eeb0;
+}
+button.layoutButton.gold.disabled:after {
+  background-image: linear-gradient(to bottom, #e1d9b1, #aa9f79);
+}
+button.layoutButton.gold.disabled i {
+  opacity: 0.6;
+}
+
+button.layoutButton.overviewWhite i {
+  background-position: left top;
+}
+button.layoutButton.allianceForumWhite i {
+  background-position: left -42px;
+}
+button.layoutButton.embassyOverviewWhite i, button.layoutButton.editWhite i {
+  background-position: left -84px;
+}
+button.layoutButton.editBlack i {
+  background-position: left -126px;
+}
+button.layoutButton.marketWhite i {
+  background-position: left -168px;
+}
+button.layoutButton.marketBlack i {
+  background-position: left -210px;
+}
+button.layoutButton.barracksWhite i {
+  background-position: left -252px;
+}
+button.layoutButton.barracksBlack i {
+  background-position: left -294px;
+}
+button.layoutButton.stableWhite i {
+  background-position: left -336px;
+}
+button.layoutButton.stableBlack i {
+  background-position: left -378px;
+}
+button.layoutButton.workshopWhite i {
+  background-position: left -420px;
+}
+button.layoutButton.workshopBlack i {
+  background-position: left -462px;
+}
+button.layoutButton.toggleCoordsWhite i {
+  background-position: left -504px;
+}
+button.layoutButton.embassyWhite i {
+  background-position: left -546px;
+}
+button.layoutButton.bulbWhite i {
+  background-position: left -588px;
+}
+button.layoutButton.bulbWhite {
+  position: relative;
+}
+button.layoutButton.bulbWhite i {
+  animation: none;
+  overflow: visible;
+}
+button.layoutButton.bulbWhite i:after {
+  content: "";
+  position: absolute;
+  right: 9px;
+  pointer-events: none;
+  top: 6px;
+  width: 12px;
+  height: 11px;
+  border-radius: 50%;
+  animation-fill-mode: forwards;
+  border: dotted 1px transparent;
+  animation: none;
+  transition: none;
+}
+button.layoutButton.bulbWhite:hover i {
+  animation: bulbHang 4000ms forwards;
+  animation-delay: 4800ms;
+}
+button.layoutButton.bulbWhite:hover i:after {
+  animation: bulbExplode 4000ms forwards;
+  animation-delay: 5000ms;
+}
+button.layoutButton.adventureWhite i {
+  background-position: left -630px;
+}
+button.layoutButton.auctionWhite i {
+  background-position: left -672px;
+}
+button.layoutButton.bulbActive i {
+  background-position: left -714px;
+}
+button.layoutButton.regionWhite i {
+  background-position: left -756px;
+}
+
+@keyframes bulbExplode {
+  5% {
+    background-color: rgba(255, 255, 0, 0.5);
+  }
+  10% {
+    background-color: rgba(255, 255, 0, 0.9);
+  }
+  11% {
+    background-color: rgba(255, 255, 0, 0.2);
+  }
+  12% {
+    background-color: rgba(255, 255, 0, 0.9);
+  }
+  13% {
+    background-color: rgba(255, 255, 0, 0.2);
+  }
+  14% {
+    background-color: rgba(255, 255, 0, 0.9);
+  }
+  15% {
+    background-color: rgba(255, 255, 0, 0.2);
+  }
+  16% {
+    background-color: rgba(255, 255, 0, 0.9);
+  }
+  17% {
+    background-color: rgba(255, 255, 0, 0.2);
+  }
+  18% {
+    background-color: rgba(255, 255, 0, 0.9);
+  }
+  20% {
+    background-color: rgba(255, 199, 0, 0.9);
+    border-color: darkred;
+    box-shadow: 0 0 5px darkred;
+  }
+  21% {
+    background-color: rgba(255, 199, 0, 0.2);
+  }
+  22% {
+    background-color: rgba(255, 199, 0, 0.9);
+  }
+  23% {
+    background-color: rgba(255, 199, 0, 0.2);
+  }
+  24% {
+    background-color: rgba(255, 199, 0, 0.9);
+  }
+  24% {
+    background-color: rgba(255, 199, 0, 0.2);
+  }
+  26% {
+    background-color: rgba(255, 199, 0, 0.9);
+  }
+  27% {
+    background-color: rgba(255, 199, 0, 0.2);
+  }
+  28% {
+    background-color: rgba(255, 199, 0, 0.9);
+  }
+  29% {
+    background-color: rgba(255, 199, 0, 0.2);
+  }
+  30% {
+    background-color: rgba(255, 104, 3, 0.9);
+    box-shadow: 0 0 20px darkred;
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(7);
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 20px white;
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+    transform: scale(4);
+  }
+}
+@keyframes bulbHang {
+  40% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(190deg);
+  }
+  60% {
+    transform: rotate(170deg);
+  }
+  70% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}

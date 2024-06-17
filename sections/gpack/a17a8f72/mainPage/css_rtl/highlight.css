@@ -1,0 +1,89 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.highlighted.background {
+  box-shadow: none;
+  border: none;
+}
+
+/* Rectangle */
+.highlighted.rectangle {
+  background-color: #ff0000;
+}
+
+.colorBlind .highlighted.rectangle {
+  background-color: #0024d8;
+}
+
+.highlighted.rectangle.left,
+.highlighted.rectangle.right {
+  width: 3px;
+}
+
+.highlighted.rectangle.top,
+.highlighted.rectangle.bottom {
+  height: 3px;
+}
+
+.highlighted.rectangle.top.left {
+  border-top-left-radius: 4px;
+}
+
+.highlighted.rectangle.top.right {
+  border-top-right-radius: 4px;
+}
+
+.highlighted.rectangle.bottom.right {
+  border-bottom-right-radius: 4px;
+}
+
+.highlighted.rectangle.bottom.left {
+  border-bottom-left-radius: 4px;
+}
+
+.trident .highlighted.rectangle.top.left {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+}
+
+.trident .highlighted.rectangle.top.right {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 0;
+}
+
+.trident .highlighted.rectangle.bottom.right {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 0;
+}
+
+.trident .highlighted.rectangle.bottom.left {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+}
+
+/* Outlines */
+img.building.g8.highlighted.background {
+  background-image: url('../img_rtl/g/outline/g8-rtl.png');
+}
+
+.colorBlind img.building.g8.highlighted.background {
+  background-image: url('../img_rtl/g/outline/g8Colorblind-rtl.png');
+}
+
+img.building.g25.highlighted.background {
+  background-image: url('../img_rtl/g/outline/g25-rtl.png');
+}
+
+.colorBlind img.building.g25.highlighted.background {
+  background-image: url('../img_rtl/g/outline/g25Colorblind-rtl.png');
+}

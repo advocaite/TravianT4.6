@@ -1,0 +1,205 @@
+body.Turbotra div#header #logo {
+  background-image: url("../../../customImg/turbotra_black.svg");
+}
+.contentNavi .content .tabItem {
+  max-width: 100%;
+}
+#content.village3 table#troops tbody.noPadding td { 
+  padding-left: 0; 
+  padding-right: 0;
+}
+#content.village3  table.vil_troops tbody.noPadding td {
+  padding-left: 0; 
+  padding-right: 0;
+}
+
+@font-face {
+  font-family: 'IRYekan';
+  src: url(../fonts/iranyekanweblight.eot?#) format("eot"), url(../fonts/iranyekanweblight.woff2) format("woff2"), url(../fonts/iranyekanweblight.woff) format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'IRYekan';
+  src: url(../fonts/iranyekanwebregular.eot?#) format("eot"), url(../fonts/iranyekanwebregular.woff2) format("woff2"), url(../fonts/iranyekanwebregular.woff) format("woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'IRYekan';
+  src: url(../fonts/iranyekanwebbold.eot?#) format("eot"), url(../fonts/iranyekanwebbold.woff2) format("woff2"), url(../fonts/iranyekanwebbold.woff) format("woff");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/robotolight.eot?#) format("eot"), url(../fonts/robotolight.woff2) format("woff2"), url(../fonts/robotolight.woff) format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/robotoregular.eot?#) format("eot"), url(../fonts/robotoregular.woff2) format("woff2"), url(../fonts/robotoregular.woff) format("woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/robotobold.eot?#) format("eot"), url(../fonts/robotobold.woff2) format("woff2"), url(../fonts/robotobold.woff) format("woff");
+  font-weight: 900;
+}
+
+body.fa-IR {
+    font-family: Roboto, IRYekan, IRANSans, Arial, Helvetica, Verdana, sans-serif;
+}
+
+.subNavi .normal .content .tabItem {
+    padding: 8px 3px 0;
+}
+
+body.fa-IR div.sidebar div#sidebarBoxAllianceNoNews div.header div.boxTitle {
+  height: 21px;
+}
+
+.rtl h1 {
+  font-size: 18px;
+}
+
+.rtl h2 {
+  font-size: 15px;
+}
+
+.rtl h4 {
+  font-size: 14px;
+}
+
+.rtl h5 {
+  font-size: 13px;
+}
+
+.rtl table td, .rtl table th {
+  font-size: 13px;
+}
+
+.rtl div.fatal_error p.errorText {
+  font-size: 16px;
+}
+
+.rtl .paymentPopupDialogWrapper .featureBooking h3 {
+  font-size: 12px;
+}
+
+.rtl div#paymentWizard h4 {
+  font-size: 13px;
+}
+
+.rtl .paymentPopupDialogWrapper .featureBooking h3 {
+  font-size: 13px;
+}
+
+.rtl div#paymentWizard .header .tabButton .text {
+  font-size: 13px;
+}
+
+.rtl div#paymentWizard .accountBalance {
+  font-size: 13px;
+}
+
+.rtl .paymentPopupDialogWrapper .feature {
+  font-size: 12px;
+}
+
+.rtl div#paymentWizard.plusSupport, .rtl div#paymentWizard.earnGold {
+  font-size: 13px;
+}
+
+.rtl div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepContent {
+  font-size: 13px;
+}
+
+.rtl div.player table#villages td.name span.mainVillage {
+  font-size: 12px;
+}
+
+.rtl div#build .statusMessage, .rtl div#build .errorMessage {
+  font-size: 12px;
+}
+
+.rtl #sidebarBoxDailyquests .travianBirthdayRibbon div.headline {
+  font-size: 15px;
+}
+
+body.rtl #reportWrapper > .header .headline.withQuickNavigation .subject {
+  direction: rtl;
+}
+
+body.rtl #sidebarBoxActiveVillage .sidebarBoxInnerBox .header #villageNameField {
+  direction: rtl;
+}
+
+body.rtl #sidebarBoxVillagelist .content ul li a .name {
+  direction: rtl;
+}
+
+body.rtl div.player table#villages td.name {
+  direction: rtl;
+}
+
+body.rtl div.sidebar div#sidebarBoxHero .header .playerName {
+  direction: rtl;
+}
+
+body.rtl table.allianceMembers tbody td.player {
+  direction: rtl;
+}
+
+body.rtl div.statistics table#player td.pla {
+  direction: rtl;
+}
+
+/* body.rtl table tbody td {
+  padding: 6px 9px 6px;
+} */
+
+body.rtl div#build.gid16 table.troop_details thead td:last-of-type {
+  direction: rtl;
+}
+
+body.rtl div#build.gid16 table.troop_details thead a {
+  direction: rtl;
+}
+
+body.rtl div.build .gid16 #raidList .listTitle {
+  margin-top: 2px;
+}
+
+body.rtl div.build .gid16 #raidList div.addSlot button {
+  margin-right: 5px;
+}
+
+body.rtl div.speechBubbleContainer {
+  font-size: 10px;
+}
+
+.rtl .sidebar .sidebarBox .sidebarBoxInnerBox .header {
+  font-size: 14px;
+}
+
+#statisticsV2 .recharts-layer {
+  direction: ltr;
+}
+
+#statisticsV2 #populationRank, #statisticsV2 #resourceRank, #statisticsV2 #militaryStrengthRank, #statisticsV2 #culturePointsRank {
+  display: none;
+}
+
+div.village1 table#movements div.mov {
+  font-size: 12px;
+}
+.rtl div.village1 table#movements div.dur_r {
+  font-size: 11px;
+}
+
+div.player .description1, div.player .description2 {
+  overflow: hidden;
+}

@@ -1,0 +1,68 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ------------------- Cropfinder ------------------ */
+/* ------------------------------------------------- */
+/* search */
+div.cropfinder div.cropfinder_input {
+  margin: 15px 0;
+  padding: 5px;
+}
+
+/* show result */
+div.cropfinder table#croplist td {
+  text-align: center;
+}
+
+div.cropfinder table#croplist td.typ,
+div.cropfinder table#croplist td.oase,
+div.cropfinder table#croplist td.dist {
+  white-space: nowrap;
+}
+
+div.cropfinder table#croplist td.coords span.region {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+div.cropfinder table#croplist td.footer {
+  text-align: left;
+}
+
+div.cropfinder span.coordInputLabel,
+div.cropfinder div.coordinatesInput {
+  float: right;
+  line-height: 22px;
+}
+
+div.cropfinder div.coordinatesInput {
+  margin-right: 15px;
+}
+
+div.cropfinder .boxes {
+  width: auto;
+  margin-bottom: 10px;
+}
+
+div.cropfinder span.type {
+  margin-right: 15px;
+}
+
+div.cropfinder span.type input, div.cropfinder input#only_free {
+  margin-left: 5px;
+}
+
+div.cropfinder .paginator {
+  float: left;
+  margin-top: 10px;
+}

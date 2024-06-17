@@ -1,0 +1,87 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+div#center div.sidebar div#sidebarBoxInfobox .header {
+  padding-top: 30px;
+}
+div#center div.sidebar div#sidebarBoxInfobox .header .boxTitle {
+  position: relative;
+}
+div#center div.sidebar div#sidebarBoxInfobox .header .messageShortInfo {
+  font-weight: bold;
+  height: 18px;
+  position: absolute;
+  left: 35px;
+  top: 30px;
+}
+div#center div.sidebar div#sidebarBoxInfobox .header .messageShortInfo img.messages {
+  width: 18px;
+  height: 14px;
+  position: relative;
+  margin-right: 3px;
+  background-image: url('../../../img_rtl/layout/icons/infobox.png');
+  background-position: right top;
+  top: -1px;
+}
+div#center div.sidebar div#sidebarBoxInfobox .header .messageShortInfo img.messages.unreaded {
+  background-position: right -19px;
+}
+div#center div.sidebar div#sidebarBoxInfobox .content ul li {
+  padding: 5px 2px;
+  word-wrap: break-word;
+  background: none;
+  position: relative;
+}
+div#center div.sidebar div#sidebarBoxInfobox .content ul li p {
+  margin: 0;
+}
+div#center div.sidebar div#sidebarBoxInfobox .content a {
+  color: #99C01A;
+  font-weight: bold;
+  padding-right: 0;
+  margin-right: 0;
+  display: inline;
+}
+div#center div.sidebar div#sidebarBoxInfobox .content .infoboxDeleteButton {
+  position: absolute;
+  top: 3px;
+  left: -20px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+div#center div.sidebar div#sidebarBoxInfobox .content .infoboxDeleteButton img {
+  margin: 5px;
+}
+div#center div.sidebar div#sidebarBoxInfobox .content .infoboxDeleteButton:hover {
+  border-radius: 2px;
+  border: 1px solid #D40000;
+}
+.colorBlind div#center div.sidebar div#sidebarBoxInfobox .content .infoboxDeleteButton:hover {
+  border: 1px solid #0022AF;
+}
+div#center div.sidebar div#sidebarBoxInfobox .content button {
+  margin-top: 5px;
+}
+div#center div.sidebar div#sidebarBoxInfobox.collapsed div.sidebarBoxInnerBox div.content {
+  height: auto;
+  overflow: visible;
+}
+div#center div.sidebar div#sidebarBoxInfobox.collapsed div.sidebarBoxInnerBox div.content ul {
+  display: block;
+}
+div#center div.sidebar div#sidebarBoxInfobox.collapsed div.sidebarBoxInnerBox div.content ul li {
+  display: none;
+}
+div#center div.sidebar div#sidebarBoxInfobox.collapsed div.sidebarBoxInnerBox div.content ul li.firstElement {
+  display: block;
+}

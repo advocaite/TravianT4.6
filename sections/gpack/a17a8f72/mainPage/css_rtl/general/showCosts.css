@@ -1,0 +1,116 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.showCosts {
+  margin: 0 10px;
+  padding: 10px 0;
+}
+
+.resourceWrapper {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
+}
+.resourceWrapper .resources,
+.resourceWrapper .resource {
+  grid-column-start: auto;
+  margin-left: 25px;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+.resourceWrapper .resources:nth-child(1),
+.resourceWrapper .resource:nth-child(1) {
+  -ms-grid-column: 1;
+}
+.resourceWrapper .resources:nth-child(2),
+.resourceWrapper .resource:nth-child(2) {
+  -ms-grid-column: 2;
+}
+.resourceWrapper .resources:nth-child(3),
+.resourceWrapper .resource:nth-child(3) {
+  -ms-grid-column: 3;
+}
+.resourceWrapper .resources:nth-child(4),
+.resourceWrapper .resource:nth-child(4) {
+  -ms-grid-column: 4;
+}
+.resourceWrapper .resources:nth-child(5),
+.resourceWrapper .resource:nth-child(5) {
+  -ms-grid-column: 5;
+}
+.resourceWrapper .resources:first-child,
+.resourceWrapper .resource:first-child {
+  margin-right: 0;
+}
+.resourceWrapper .resources:last-child,
+.resourceWrapper .resource:last-child {
+  margin-left: 0;
+}
+.resourceWrapper .resources i, .resourceWrapper .resources a,
+.resourceWrapper .resource i,
+.resourceWrapper .resource a {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-left: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+.resourceWrapper .resources span,
+.resourceWrapper .resource span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+.trident .resourceWrapper button {
+  width: 151px;
+}
+
+.showCosts .clocks {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.showCosts .clocks i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-left: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+.showCosts .clocks span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+
+.showCosts .clocks img,
+.showCosts .remainingViews img,
+.showBuildCosts .clocks img,
+.showBuildCosts .remainingViews img,
+.upgradeButtonsContainer .clocks img,
+.upgradeButtonsContainer .remainingViews img {
+  margin-top: 2px;
+  margin-left: 6px;
+}

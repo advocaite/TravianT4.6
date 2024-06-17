@@ -1,0 +1,164 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ------------------- Logout ------------------- */
+/* ---------------------------------------------- */
+div.logout img.roman {
+  background-image: url('../img_rtl/misc/heroGoodbye-rtl.jpg');
+  height: 287px;
+  width: 551px;
+}
+
+div.logout .banner {
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+  margin-right: 125px;
+}
+
+div.logout div.relogin {
+  width: 531px;
+}
+
+div.logout #logoutContainer div.relogin {
+  width: 380px;
+}
+
+div.logout div.relogin > div {
+  width: auto;
+}
+
+div.logout div.relogin div.greenbox-content {
+  padding-right: 10px;
+  width: 521px;
+}
+
+div.logout #logoutContainer div.relogin {
+  width: 380px;
+}
+
+div.logout #logoutContainer div.relogin > div {
+  width: auto;
+  padding-right: 0;
+}
+
+div.logout div.relogin table.reloginTable th {
+  font-weight: bold;
+  font-size: 11px;
+  width: 20%;
+  white-space: nowrap;
+}
+.rtl div.logout div.relogin table.reloginTable th {
+  font-size: 12px;
+}
+
+body.logout div.relogin input.text {
+  width: 145px;
+  border-color: #99C01A;
+}
+
+div.logout div.relogin div.submitButton {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+div.logout div.bannerAdvertising,
+div.logout div.bannerMoreGames {
+  margin-top: 15px;
+}
+
+div.logout div.bannerAdvertising,
+div.logout div.bannerShop {
+  float: right;
+  width: 300px;
+}
+
+div.logout div.bannerMoreGames {
+  float: left;
+}
+
+div.logout #logoutContainer div.bannerMoreGames {
+  float: none;
+  text-align: center;
+}
+
+div.logout div.bannerAdvertising h5,
+div.logout div.bannerMoreGames h5 {
+  margin-bottom: 10px;
+}
+
+div.logout div.bannerShop {
+  margin-top: 30px;
+  height: 100px;
+  width: 300px;
+}
+
+div.logout #logoutContainer div.bannerShop {
+  margin-right: 64px;
+}
+
+div.logout div.bannerMoreGames div.moreGames {
+  width: 150px;
+  position: relative;
+}
+
+div.logout #logoutContainer div.bannerMoreGames div.moreGames {
+  width: 325px;
+  position: relative;
+  margin: 0 auto;
+}
+
+div.logout div.bannerMoreGames div.moreGames div.game1,
+div.logout div.bannerMoreGames div.moreGames div.game2 {
+  margin-top: 40px;
+}
+
+div.logout div.bannerMoreGames div.moreGames div.game {
+  height: 100px;
+  width: 150px;
+}
+
+div.logout #logoutContainer div.bannerMoreGames div.moreGames div.game {
+  height: 100px;
+  width: 150px;
+  float: right;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: solid 1px #808080;
+}
+
+div#center div#contentOuterContainer.size2 div#content.logout {
+  width: 728px;
+}
+
+body.logout div#sidebarAfterContent {
+  display: none;
+}
+
+div.logout div.bannerAdvertisingTop {
+  width: 728px;
+  height: 106px;
+  margin-bottom: 10px;
+}
+
+div.logout div.bannerAdvertisingRight {
+  width: 300px;
+  height: 616px;
+  float: left;
+}
+
+div.logout div#logoutContainer {
+  float: right;
+  width: 402px;
+}

@@ -1,0 +1,45 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* Positionierung des Logowrappers (a oder div) im eingeloggten Zustand */
+div#center .cooperationLogo {
+  width: 183px;
+  height: 48px;
+  float: left;
+  background-image: url('../img_ltr/layout/cooperationBoxIngame.png');
+}
+
+/* Positionierung des Logowrappers (a oder div) im ausgeloggten Zustand */
+body.loader div#center .cooperationLogo,
+body.login div#center .cooperationLogo,
+body.logout div#center .cooperationLogo,
+body.signup div#center .cooperationLogo,
+body.support div#center .cooperationLogo,
+body.activate div#center .cooperationLogo,
+body.fatal_error div#center .cooperationLogo,
+body.banned_cn div#center .cooperationLogo,
+body.support_form div#center .cooperationLogo {
+  position: absolute;
+  float: none;
+  left: 612px;
+  top: -20px;
+  background-image: url('../img_ltr/layout/cooperationBoxOutgame.png');
+}
+
+/* Positionierung des Logos innerhalb des Wrappers */
+div#center .cooperationLogo img {
+  margin: 9px auto 0;
+  display: block;
+  width: 150px;
+  height: 30px;
+}

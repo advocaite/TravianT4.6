@@ -1,0 +1,280 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+body.manual {
+  background-color: transparent;
+  background-image: none;
+  color: #333333;
+  min-width: 0;
+  width: 474px;
+  float: right;
+}
+body.manual table {
+  background-color: transparent;
+  border: 0;
+  color: #333333;
+  vertical-align: top;
+}
+body.manual table tr {
+  background-color: transparent;
+  border: 0;
+  color: #333333;
+  vertical-align: top;
+}
+body.manual table td {
+  background-color: transparent;
+  border: 0;
+  color: #333333;
+  vertical-align: top;
+}
+body.manual table th {
+  background-color: transparent;
+  border: 0;
+  color: #333333;
+  vertical-align: top;
+}
+body.manual .mainMenu {
+  width: 40%;
+  float: right;
+  color: black;
+}
+body.manual .mainMenu ul {
+  margin-top: 0;
+  list-style: none;
+}
+body.manual .mainMenu ul span {
+  color: #99C01A;
+  font-weight: bold;
+}
+body.manual a.manualBack {
+  font-weight: normal;
+}
+body.manual h1 {
+  color: #333333;
+  font-size: 13px;
+}
+.rtl body.manual h1 {
+  font-size: 14px;
+}
+body.manual h1 img {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+body.manual h3 {
+  color: #333333;
+  margin: 10px 0 5px 0;
+}
+body.manual .subMenu {
+  width: 40%;
+  float: right;
+  padding-top: 31px;
+}
+body.manual .subMenu ul {
+  margin-top: 0;
+  list-style: none;
+}
+body.manual #buildings {
+  width: 474px;
+  float: right;
+  margin-top: 30px;
+}
+body.manual #buildings H3 {
+  margin: 0 0 10px 0;
+}
+body.manual #buildings H3 img {
+  vertical-align: middle;
+}
+body.manual #troops {
+  width: 474px;
+  float: right;
+}
+body.manual #troops H3 {
+  margin: 0 0 10px 0;
+}
+body.manual #troops H3 img {
+  vertical-align: middle;
+}
+body.manual .boxes {
+  float: right;
+  margin-top: 6px;
+}
+body.manual p {
+  margin-top: 0;
+}
+body.manual ul {
+  margin: 0;
+  padding: 0;
+  padding-right: 12px;
+  float: right;
+}
+body.manual ul li {
+  list-style-type: none;
+  line-height: 23px;
+  width: 221px;
+  float: right;
+  margin-left: 10px;
+}
+body.manual ul li img {
+  vertical-align: middle;
+}
+body.manual ul li a {
+  margin-right: 13px;
+}
+body.manual p.description {
+  float: right;
+  width: 278px;
+  min-height: 130px;
+}
+body.manual img.building {
+  float: left;
+  margin-top: -50px;
+}
+body.manual p.costsHeader {
+  clear: both;
+  margin-bottom: 5px;
+}
+body.manual .duration {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+  margin-top: 5px;
+}
+body.manual .duration i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-left: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+body.manual .duration span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+body.manual .clocks {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+body.manual .clocks i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-left: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+body.manual .clocks span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+body.manual div.bigUnitSection {
+  float: left;
+  margin-top: 6px;
+}
+body.manual div.bigUnitSection img {
+  height: 205px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+body.manual table#troop_info {
+  float: right;
+  margin: 10px 25px 10px 7px;
+  width: 288px;
+}
+body.manual table#troop_info td {
+  width: 25%;
+  text-align: right;
+  padding-left: 3px;
+  padding-right: 0;
+  white-space: nowrap;
+}
+body.manual table#troop_info td img {
+  width: 18px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+body.manual table#troop_details {
+  width: 60%;
+  background-color: #FFFFFF;
+}
+body.manual table.troopData {
+  float: right;
+  margin: 10px 25px 10px 7px;
+  width: 288px;
+}
+body.manual table.troopData th {
+  width: 50%;
+  text-align: right;
+  padding-left: 18px;
+  padding-right: 0;
+}
+body.manual table.troopData td {
+  width: 50%;
+  text-align: right;
+  padding-left: 18px;
+  padding-right: 0;
+}
+body.manual table.troopData td img {
+  width: 18px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+body.manual div#t_desc {
+  margin-top: 15px;
+  float: right;
+  width: 100%;
+  clear: both;
+}
+body.manual img#big_unit {
+  float: left;
+  width: 150px;
+  height: 120px;
+  margin: -30px 2px 0 0;
+}
+body.manual div#prereqs {
+  margin-top: 25px;
+  width: 100%;
+  line-height: 20px;
+  clear: both;
+}
+body.manual .answers {
+  margin-top: 15px;
+}
+
+/* ie6, ie7 */
+* html body.manual .boxes {
+  width: 320px;
+}
+* html body.manual ul {
+  width: 462px;
+}
+* html body.manual ul li {
+  height: 23px;
+}
+* html body.manual table#troop_info {
+  display: inline;
+}
+* html body.manual table.troopData {
+  display: inline;
+}
+
++ html body.manual .boxes {
+  width: 320px;
+}

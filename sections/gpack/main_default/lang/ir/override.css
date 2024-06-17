@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'yekan';
+	src: url(./fonts/Yekan.eot);
+	src: url(./fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(./fonts/Yekan.woff) format("woff"), url(./fonts/Yekan.ttf) format("truetype"), url(./fonts/Yekan.svg#BYekan) format("svg");
+	font-weight: normal;
+	font-style: normal;
+    unicode-range: U+0600-06FF;
+}
+
+body, button, button:hover, button:focus, #cookieConsent {
+  font-family: "yekan", Arial,Helvetica,Verdana,sans-serif !important;
+}
+.news-items div {
+    font-size: 10px;
+    margin-top: 5px;
+}
+.playnow-button h1.play {
+    margin-top: -4px;
+}
+#ss-head{
+    padding-top: -3px;
+}
+ul#top-navigation li a {
+    padding: 9px 10px 19px 10px;
+
+}
+.btn-green-c {
+    
+    padding: 1px 5px 5px;
+}

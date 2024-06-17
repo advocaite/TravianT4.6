@@ -1,0 +1,292 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* --- Navigation --- */
+ul#navigation {
+  position: absolute;
+  right: 207px;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 528px;
+  height: 75px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+ul#navigation li {
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+ul#navigation li.map {
+  margin-right: 20px;
+}
+ul#navigation li.gold {
+  margin-right: 20px;
+}
+ul#navigation li:not(.gold) a {
+  display: block;
+  position: relative;
+  width: 61px;
+  height: 61px;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, #969ea5, #8a9096, #aab0b6);
+  box-sizing: border-box;
+  box-shadow: inset 0 0 2px 3px #b6bec8, 1px 2px 3px rgba(51, 51, 51, 0.75);
+}
+ul#navigation li:not(.gold) a:not(.background):before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  opacity: 0.9;
+  border-radius: 50%;
+  box-shadow: inset 0 2px 2px 1px #f1f3f4, inset 0 -2px 2px 0 #484e55;
+}
+ul#navigation li:not(.gold) a:not(.background):after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  bottom: 5px;
+  right: 5px;
+  z-index: 3;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background-image: url('../../img_rtl/layout/mainNavigation-rtl.png');
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5) inset;
+}
+ul#navigation li:not(.gold) a.active {
+  width: 71px;
+  height: 71px;
+  z-index: 2;
+  background-image: linear-gradient(to bottom, #3e6a10, #3e6a10, #9ecc47);
+  box-shadow: inset 0 0 2px 3px #94b959, 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+ul#navigation li:not(.gold) a.active:before {
+  box-shadow: inset 0 2px 2px 1px #bfe184, inset 0 -2px 2px 0 #234510;
+}
+ul#navigation li:not(.gold) a.inactive {
+  z-index: 5;
+}
+ul#navigation li:not(.gold) a:hover:not(.active):not(.background) {
+  box-shadow: inset 0 0 12px 3px white, 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+ul#navigation li:not(.gold) a:active:not(.active) {
+  background-image: linear-gradient(to top, #969ea5, #8a9096, #aab0b6);
+}
+ul#navigation li:not(.gold) a:active:not(.active):before {
+  box-shadow: inset 0 2px 2px 1px #484e55, inset 0 -2px 2px 0 #f1f3f4;
+}
+ul#navigation li:not(.gold) a:active:not(.active).active {
+  background-image: linear-gradient(to top, #3e6a10, #3e6a10, #9ecc47);
+}
+ul#navigation li:not(.gold) a:active:not(.active).active:before {
+  box-shadow: inset 0 2px 2px 1px #234510, inset 0 -2px 2px 0 #bfe184;
+}
+ul#navigation li.villageResources a:after {
+  background-position: -1px -1784px;
+}
+ul#navigation li.villageResources a:hover:after {
+  background-position: -1px -1704px;
+}
+ul#navigation li.villageResources a:active:after {
+  background-position: 0 -1628px;
+}
+ul#navigation li.villageResources a.active:after {
+  background-position: -2px -1540px;
+}
+.rtl ul#navigation li.villageResources a:after {
+  background-position: -28px -1784px;
+}
+.rtl ul#navigation li.villageResources a:hover:after {
+  background-position: -28px -1704px;
+}
+.rtl ul#navigation li.villageResources a:active:after {
+  background-position: -28px -1628px;
+}
+.rtl ul#navigation li.villageResources a.active:after {
+  background-position: -19px -1540px;
+}
+ul#navigation li.villageBuildings {
+  margin-right: -20px;
+}
+ul#navigation li.villageBuildings a:after {
+  background-position: -2px -1461px;
+}
+ul#navigation li.villageBuildings a:hover:after {
+  background-position: -2px -1381px;
+}
+ul#navigation li.villageBuildings a:active:after {
+  background-position: -1px -1305px;
+}
+ul#navigation li.villageBuildings a.active:after {
+  background-position: -1px -1216px;
+}
+.rtl ul#navigation li.villageBuildings a:after {
+  background-position: -28px -1461px;
+}
+.rtl ul#navigation li.villageBuildings a:hover:after {
+  background-position: -28px -1381px;
+}
+.rtl ul#navigation li.villageBuildings a:active:after {
+  background-position: -28px -1305px;
+}
+.rtl ul#navigation li.villageBuildings a.active:after {
+  background-position: -19px -1216px;
+}
+ul#navigation li.map a:after {
+  background-position: -1px -428px;
+}
+ul#navigation li.map a:hover:after {
+  background-position: -1px -348px;
+}
+ul#navigation li.map a:active:after {
+  background-position: 0 -272px;
+}
+.rtl ul#navigation li.map a:after {
+  background-position: -28px -428px;
+}
+.rtl ul#navigation li.map a:hover:after {
+  background-position: -28px -348px;
+}
+.rtl ul#navigation li.map a:active:after {
+  background-position: -28px -272px;
+}
+ul#navigation li.statistics a:after {
+  background-position: -1px -1136px;
+}
+ul#navigation li.statistics a:hover:after {
+  background-position: -1px -1056px;
+}
+ul#navigation li.statistics a:active:after {
+  background-position: 0 -980px;
+}
+.rtl ul#navigation li.statistics a:after {
+  background-position: -28px -1136px;
+}
+.rtl ul#navigation li.statistics a:hover:after {
+  background-position: -28px -1056px;
+}
+.rtl ul#navigation li.statistics a:active:after {
+  background-position: -28px -980px;
+}
+ul#navigation li.reports a:after {
+  background-position: -1px -900px;
+}
+ul#navigation li.reports a:hover:after {
+  background-position: -1px -820px;
+}
+ul#navigation li.reports a:active:after {
+  background-position: 0 -744px;
+}
+.rtl ul#navigation li.reports a:after {
+  background-position: -28px -900px;
+}
+.rtl ul#navigation li.reports a:hover:after {
+  background-position: -28px -820px;
+}
+.rtl ul#navigation li.reports a:active:after {
+  background-position: -28px -744px;
+}
+ul#navigation li.messages a:after {
+  background-position: -1px -664px;
+}
+ul#navigation li.messages a:hover:after {
+  background-position: -1px -584px;
+}
+ul#navigation li.messages a:active:after {
+  background-position: 0 -508px;
+}
+.rtl ul#navigation li.messages a:after {
+  background-position: -28px -664px;
+}
+.rtl ul#navigation li.messages a:hover:after {
+  background-position: -28px -584px;
+}
+.rtl ul#navigation li.messages a:active:after {
+  background-position: -28px -508px;
+}
+ul#navigation li .speechBubbleContainer {
+  right: 50px;
+  top: -4px;
+  z-index: 2;
+}
+
+ul#navigation li.gold a {
+  display: block;
+  position: relative;
+  background-image: url('../../img_rtl/layout/goldButton.png');
+  width: 74px;
+  height: 72px;
+  top: 1px;
+}
+ul#navigation li.gold a:hover {
+  background-position: right -82px;
+}
+ul#navigation li.gold a:active {
+  background-position: right -164px;
+}
+ul#navigation li.gold a:after {
+  display: none;
+}
+ul#navigation li.gold.shining a {
+  animation: goldButtonAnimation 31s infinite step-end;
+}
+@keyframes goldButtonAnimation {
+  97.6% {
+    background-position: 0 -246px;
+  }
+  97.8% {
+    background-position: 0 -328px;
+  }
+  98% {
+    background-position: 0 -410px;
+  }
+  98.2% {
+    background-position: 0 -492px;
+  }
+  98.4% {
+    background-position: 0 -574px;
+  }
+  98.6% {
+    background-position: 0 -656px;
+  }
+  98.8% {
+    background-position: 0 -738px;
+  }
+  99% {
+    background-position: 0 -820px;
+  }
+  99.2% {
+    background-position: 0 -902px;
+  }
+  99.4% {
+    background-position: 0 -984px;
+  }
+  99.6% {
+    background-position: 0 -1066px;
+  }
+  99.8% {
+    background-position: 0 -1148px;
+  }
+  100% {
+    background-position: 0 0px;
+  }
+}

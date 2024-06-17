@@ -1,0 +1,191 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  direction: rtl;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: right;
+  direction: rtl;
+  background-color: #83913a;
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+  color: #333333;
+  font-size: 13px;
+  font-family: Tahoma, Helvetica, Arial, Verdana, sans-serif;
+  font-weight: normal;
+  line-height: 16px;
+  min-width: 1290px;
+  overflow-y: scroll;
+}
+body.rtl body {
+  font-size: 14px;
+}
+body.fa-IR {
+  font-family: IRANSans, Arial, Helvetica, Verdana, sans-serif;
+}
+body:before, body:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-repeat: repeat-x;
+}
+body:before {
+  right: 0;
+  background-position: right top;
+}
+body:after {
+  left: 0;
+  background-position: left top;
+}
+body div#background {
+  background-position: center top;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-height: 100%;
+}
+body.perspectiveResources {
+  background-color: #7b9534;
+}
+body.perspectiveResources:before {
+  background-image: url('../../img_rtl/layout/bgResourcesBefore-rtl.jpg');
+}
+body.perspectiveResources:after {
+  background-image: url('../../img_rtl/layout/bgResourcesAfter-rtl.jpg');
+}
+body.perspectiveResources div#background {
+  background-image: url('../../img_rtl/layout/bgResources-rtl.jpg');
+}
+body.perspectiveResources.season-winter {
+  background-color: #badcf5;
+}
+body.perspectiveResources.season-winter:before {
+  background-image: url('../../img_rtl/layout/bgResources_winter_Before-rtl.jpg');
+}
+body.perspectiveResources.season-winter:after {
+  background-image: url('../../img_rtl/layout/bgResources_winter_After-rtl.jpg');
+}
+body.perspectiveResources.season-winter div#background {
+  background-image: url('../../img_rtl/layout/bgResources_winter-rtl.jpg');
+}
+body.perspectiveBuildings:before {
+  background-image: url('../../img_rtl/layout/bgBuildingsBefore-rtl.jpg');
+}
+body.perspectiveBuildings:after {
+  background-image: url('../../img_rtl/layout/bgBuildingsAfter-rtl.jpg');
+}
+body.perspectiveBuildings div#background {
+  background-image: url('../../img_rtl/layout/bgBuildings-rtl.jpg');
+  background-position: calc(50% - 84px) top;
+  min-height: 1090px;
+}
+body.perspectiveBuildings div#background:before {
+  content: "";
+  position: absolute;
+  top: 1090px;
+  bottom: 0;
+  width: 100%;
+  min-height: calc(100vh - 1090px);
+  background-image: url('../../img_rtl/layout/bgBuildingsPattern-rtl.jpg');
+  background-position: calc(50% - 84px) top;
+  background-repeat: no-repeat repeat;
+}
+body.perspectiveBuildings.season-winter {
+  background-color: #badcf5;
+}
+body.perspectiveBuildings.season-winter.perspectiveBuildings {
+  background-color: #e1fcff;
+}
+body.perspectiveBuildings.season-winter:before {
+  background-image: url('../../img_rtl/layout/bgBuildings_winter_Before-rtl.jpg');
+}
+body.perspectiveBuildings.season-winter:after {
+  background-image: url('../../img_rtl/layout/bgBuildings_winter_After-rtl.jpg');
+}
+body.perspectiveBuildings.season-winter div#background {
+  background-image: url('../../img_rtl/layout/bgBuildings_winter-rtl.jpg');
+}
+body.perspectiveBuildings.season-winter div#background:before {
+  background-image: url('../../img_rtl/layout/bgBuildingsPattern_winter-rtl.jpg');
+}
+body div#background div#headerBar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 67px;
+  width: 100%;
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+  background-image: url('../../img_rtl/layout/headerBar.png');
+}
+body div#background div#bodyWrapper {
+  margin: 0 auto;
+  padding: 0 5px;
+  position: relative;
+  width: 80vw;
+  min-width: 1280px;
+  max-width: 1440px;
+}
+body.fullScreen div#background div#bodyWrapper, body.fullScreen div#background div#headerBar {
+  display: none;
+}
+
+#msfilter {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  z-index: 99;
+}
+
+body #backgroundOverlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99999999999;
+  box-sizing: border-box;
+  opacity: 0;
+  transition-duration: 500ms;
+}
+body #backgroundOverlay.visible {
+  opacity: 1;
+}
+
+body #snowAnimation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+  pointer-events: none;
+}
+body #snowAnimation.movedToBackground {
+  z-index: 25;
+}
+
+/* RTL fixes */
+body.rtl.perspectiveBuildings div#background {
+  background-position: calc(50% + 84px) top;
+}

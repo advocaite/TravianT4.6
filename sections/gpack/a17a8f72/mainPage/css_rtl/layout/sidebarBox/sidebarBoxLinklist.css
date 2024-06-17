@@ -1,0 +1,31 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#center #sidebarBoxLinklist .header {
+  z-index: 4;
+}
+#center #sidebarBoxLinklist .content {
+  z-index: 3;
+}
+#center #sidebarBoxLinklist ul li a {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#center #sidebarBoxLinklist ul li.newTab a img {
+  width: 11px;
+  height: 10px;
+  position: absolute;
+  right: 5px;
+  top: 4px;
+  background-image: url('../../../img_rtl/layout/icons/external-rtl.png');
+}

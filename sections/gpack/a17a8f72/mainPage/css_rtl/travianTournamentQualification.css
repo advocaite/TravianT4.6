@@ -1,0 +1,72 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+body.qualificationServerLoader,
+body.qualificationServerLogin,
+body.qualificationServerLogout,
+body.qualificationServerSignup,
+body.qualificationServerSupport,
+body.qualificationServerActivate,
+body.qualificationServerError_site,
+body.qualificationServerFatal_error,
+body.qualificationServerBanned_cn {
+  background-image: url('../img_rtl/layout/bgQ.jpg');
+}
+
+body.qualificationServerLoader #background,
+body.qualificationServerLogin #background,
+body.qualificationServerLogout #background,
+body.qualificationServerSignup #background,
+body.qualificationServerSupport #background,
+body.qualificationServerActivate #background,
+body.qualificationServerError_site #background,
+body.qualificationServerFatal_error #background,
+body.qualificationServerBanned_cn #background {
+  background-image: url('../img_rtl/layout/bgQualification-rtl.jpg');
+}
+
+body.qualificationServerLoader div#header a#logo,
+body.qualificationServerLogin div#header a#logo,
+body.qualificationServerLogout div#header a#logo,
+body.qualificationServerSignup div#header a#logo,
+body.qualificationServerSupport div#header a#logo,
+body.qualificationServerActivate div#header a#logo,
+body.qualificationServerError_site div#header a#logo,
+body.qualificationServerFatal_error div#header a#logo,
+body.qualificationServerBanned_cn div#header a#logo {
+  position: absolute;
+  right: 195px;
+  top: 30px;
+  margin: 0;
+  width: 241px;
+  height: 83px;
+  background-image: url('../img_rtl/layout/travianLogoQualification.png');
+}
+
+body.qualificationServerLoader #tournamentLogo,
+body.qualificationServerLogin #tournamentLogo,
+body.qualificationServerLogout #tournamentLogo,
+body.qualificationServerSignup #tournamentLogo,
+body.qualificationServerSupport #tournamentLogo,
+body.qualificationServerActivate #tournamentLogo,
+body.qualificationServerError_site #tournamentLogo,
+body.qualificationServerFatal_error #tournamentLogo,
+body.qualificationServerBanned_cn #tournamentLogo {
+  position: absolute;
+  left: 200px;
+  top: 0;
+  margin: 0;
+  width: 237px;
+  height: 116px;
+  background-image: url('../img_rtl/layout/tournamentLogoQualification.png');
+}

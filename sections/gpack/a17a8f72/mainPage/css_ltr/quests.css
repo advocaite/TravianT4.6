@@ -1,0 +1,1368 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* general */
+.questWrapper {
+  font-size: 12px;
+  width: 566px;
+  padding-top: 10px;
+  min-height: 375px;
+}
+.rtl .questWrapper {
+  font-size: 13px;
+}
+
+.questWrapper.achievements {
+  width: 566px;
+  display: block;
+  padding-top: 0;
+}
+
+div.dialog div.content hr.achievementLine {
+  border-style: none none solid;
+  border-color: #DDD9CE;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.questWrapper .questImage {
+  float: right;
+  width: 130px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.questWrapper .questImage img {
+  margin-bottom: 10px;
+  width: 130px;
+  height: 130px;
+}
+
+.questWrapper .questImage .tipsWrapper {
+  position: relative;
+}
+
+.questWrapper .questImage .tipsWrapper .questTipsToggleDescription {
+  position: absolute;
+  top: 9px;
+  left: 45px;
+}
+
+.questWrapper .questText {
+  float: left;
+  width: 400px;
+  margin-bottom: -10px;
+}
+
+.questWrapper .questDescription,
+.questWrapper .questTasks,
+.questWrapper .questRewards {
+  margin: 15px 0 25px 10px;
+}
+
+.questWrapper.achievements .questDescription,
+.questWrapper.achievements .questTasks,
+.questWrapper.achievements .questRewards,
+.questWrapper.achievements .questTextHighlight,
+.questWrapper.achievements .questAchievementPoints,
+.questWrapper.achievements .questDifficulty {
+  margin: 0px 0 10px 10px;
+}
+
+.questWrapper .questTasks ul#questTodolist {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.questWrapper .questTasks ul#questTodolist li {
+  margin-bottom: 5px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.questWrapper .questTasks ul#questTodolist li img {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  left: 4px;
+  top: 6px;
+  background-image: url('../img_ltr/activate/dot.png');
+}
+
+.questWrapper .questTasks ul#questTodolist li.finished,
+.questWrapper .questTasks ul#questTodolist li.reward {
+  color: #777777;
+}
+
+.questWrapper .questTasks ul#questTodolist li.finished img,
+.questWrapper .questTasks ul#questTodolist li.reward img {
+  left: 0;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  background-image: url('../img_ltr/a/check.png');
+}
+
+.questWrapper h4 {
+  margin-bottom: 0;
+}
+
+.questWrapper .questRewards {
+  margin-top: 10px;
+}
+
+.questWrapper .questRewards ul.questRewardsList {
+  width: 470px;
+}
+
+.questWrapper .questRewards ul.questRewardsList li {
+  float: left;
+  margin-right: 20px;
+}
+
+.questWrapper .questRewards img {
+  height: 16px;
+  width: 16px;
+}
+
+.questWrapper .questRewards img.questRewardTypeGold {
+  background: url('../img_ltr/round/button/content/goldInner-ltr.png');
+  height: 14px;
+  width: 14px;
+}
+
+.questWrapper .questRewards img.questRewardTypeSilver {
+  background: url('../img_ltr/a/silver-ltr.gif');
+  height: 10px;
+  width: 10px;
+}
+
+.questWrapper .questRewards img.questRewardTypeItem {
+  background: url('../img_ltr/hero/item.gif');
+}
+
+.questWrapper .questRewards img.questRewardTypeItem.item112 {
+  background-position: 0 224px;
+}
+
+.questWrapper .questRewards img.questRewardTypeItem.item106 {
+  background-position: 0 120px;
+}
+
+/* Cage */
+.questWrapper .questRewards img.questRewardTypeItem.item114 {
+  background-position: 0 172px;
+}
+
+.questWrapper .questRewards .resourceWrapper .resources {
+  margin-right: 10px;
+}
+
+.questWrapper .questRewards span.questRewardValue.stockFull {
+  color: #CC0000;
+}
+
+.questWrapper .questRewards.colorBlind span.questRewardValue.stockFull {
+  color: #0022AF;
+}
+
+.questWrapper .questButtons {
+  position: relative;
+  margin-top: 10px;
+  height: 25px;
+}
+
+.questWrapper .questButtons button {
+  position: absolute;
+}
+
+.questWrapper button.questButtonNext,
+.questWrapper button.questButtonSkipTutorial,
+.questWrapper button.questButtonClose {
+  right: 0;
+}
+
+.questWrapper button.questButtonOverview {
+  left: 0;
+}
+
+.questWrapper button.questButtonGainReward {
+  right: 0;
+}
+
+.questWrapper button.questButtonSkipTutorial {
+  top: 50px;
+}
+
+.questWrapper .questTodoList {
+  padding: 0;
+}
+
+.questWrapper .questTodoList li {
+  list-style: none;
+}
+
+.questWrapper .questTodoList .questCategoryHeadline {
+  background: lime;
+  font-weight: bold;
+}
+
+.questWrapper .questTodoList .questCategoryHeadline .questCategoryName {
+  float: left;
+}
+
+.questWrapper .questTodoList .questCategoryHeadline .questCategoryStats {
+  float: right;
+}
+
+.questWrapper .questTodoList .questName {
+  margin-left: 20px;
+}
+
+.questWrapper .categoryProgress {
+  float: right;
+}
+
+/* --- description images --- */
+.questWrapper .questImage .tutorial_01_task_image_vid1 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_01_task_image_vid1-ltr.png');
+}
+.questWrapper .questImage .tutorial_01_task_image_vid2 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_01_task_image_vid2-ltr.png');
+}
+.questWrapper .questImage .tutorial_01_task_image_vid3 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_01_task_image_vid3-ltr.png');
+}
+.questWrapper .questImage .tutorial_01_task_image_vid6 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_01_task_image_vid6-ltr.png');
+}
+.questWrapper .questImage .tutorial_01_task_image_vid7 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_01_task_image_vid7-ltr.png');
+}
+.questWrapper .questImage .tutorial_02_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_02_reward_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_02_task_image_vid1 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_02_task_image_vid1-ltr.png');
+}
+.questWrapper .questImage .tutorial_02_task_image_vid2 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_02_task_image_vid2-ltr.png');
+}
+.questWrapper .questImage .tutorial_02_task_image_vid3 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_02_task_image_vid3-ltr.png');
+}
+.questWrapper .questImage .tutorial_02_task_image_vid6 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_02_task_image_vid6-ltr.png');
+}
+.questWrapper .questImage .tutorial_02_task_image_vid7 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_02_task_image_vid7-ltr.png');
+}
+.questWrapper .questImage .tutorial_03_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_03_reward_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_03_task_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_03_task_image-ltr.png');
+}
+.questWrapper .questImage .tutorial_04_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_04_reward_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_04_task_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_04_task_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_04_task_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_04_task_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_05_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_05_reward_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_05_task_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_05_task_image-ltr.png');
+}
+.questWrapper .questImage .tutorial_06_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_06_reward_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_06_task_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_06_task_image-ltr.png');
+}
+.questWrapper .questImage .tutorial_07_task_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_07_task_image-ltr.png');
+}
+.questWrapper .questImage .tutorial_08_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_08_reward_image-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .tutorial_08_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_08_reward_image_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .tutorial_08_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_08_reward_image_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .tutorial_08_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_08_reward_image_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .tutorial_08_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_08_reward_image_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .tutorial_08_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_08_reward_image_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_08_task_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_08_task_image-ltr.png');
+}
+.questWrapper .questImage .tutorial_09_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_09_reward_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_09_task_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_09_task_image-ltr.png');
+}
+.questWrapper .questImage .tutorial_10_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_10_reward_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_10_task_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_10_task_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_11_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_11_reward_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_11_task_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_11_task_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_12_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_12_reward_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_12_task_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_12_task_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_13_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_13_reward_image-ltr.png');
+}
+.questWrapper .questImage .tutorial_13_task_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_13_task_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_14_reward_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_14_reward_image-ltr-ignore.png');
+}
+.questWrapper .questImage .tutorial_14_task_image_vid1 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_14_task_image_vid1-ltr.png');
+}
+.questWrapper .questImage .tutorial_14_task_image_vid2 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_14_task_image_vid2-ltr.png');
+}
+.questWrapper .questImage .tutorial_14_task_image_vid3 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_14_task_image_vid3-ltr.png');
+}
+.questWrapper .questImage .tutorial_14_task_image_vid6 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_14_task_image_vid6-ltr.png');
+}
+.questWrapper .questImage .tutorial_14_task_image_vid7 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_14_task_image_vid7-ltr.png');
+}
+.questWrapper .questImage .tutorial_15_reward_image_vid1 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_15_reward_image_vid1-ltr.png');
+}
+.questWrapper .questImage .tutorial_15_reward_image_vid2 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_15_reward_image_vid2-ltr.png');
+}
+.questWrapper .questImage .tutorial_15_reward_image_vid3 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_15_reward_image_vid3-ltr.png');
+}
+.questWrapper .questImage .tutorial_15_reward_image_vid6 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_15_reward_image_vid6-ltr.png');
+}
+.questWrapper .questImage .tutorial_15_reward_image_vid7 {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_15_reward_image_vid7-ltr.png');
+}
+.questWrapper .questImage .tutorial_15_task_image {
+  background-image: url('../img_ltr/quests/descriptionImage/tutorial_15_task_image-ltr.png');
+}
+.questWrapper .questImage .economy_01 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_01-ltr-ignore.png');
+}
+.questWrapper .questImage .economy_02 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_02-ltr-ignore.png');
+}
+.questWrapper .questImage .economy_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_03-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .economy_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_03_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .economy_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_03_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .economy_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_03_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .economy_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_03_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .economy_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_03_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .economy_04 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_04-ltr.png');
+}
+.questWrapper .questImage .economy_05 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_05-ltr-ignore.png');
+}
+.questWrapper .questImage .economy_06 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_06-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .economy_06 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_06_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .economy_06 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_06_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .economy_06 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_06_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .economy_06 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_06_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .economy_06 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_06_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .economy_07 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_07-ltr.png');
+}
+.questWrapper .questImage .economy_08 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_08-ltr.png');
+}
+.questWrapper .questImage .economy_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_09-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .economy_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_09_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .economy_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_09_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .economy_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_09_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .economy_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_09_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .economy_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_09_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .economy_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_10-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .economy_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_10_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .economy_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_10_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .economy_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_10_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .economy_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_10_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .economy_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_10_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .economy_11 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_11-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .economy_11 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_11_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .economy_11 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_11_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .economy_11 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_11_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .economy_11 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_11_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .economy_11 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_11_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .economy_12 {
+  background-image: url('../img_ltr/quests/descriptionImage/economy_12-ltr.png');
+}
+.questWrapper .questImage .battle_01 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_01-ltr-ignore.png');
+}
+.questWrapper .questImage .battle_02 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_02-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .battle_02 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_02_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .battle_02 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_02_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .battle_02 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_02_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .battle_02 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_02_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .battle_02 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_02_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .battle_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_03-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .battle_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_03_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .battle_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_03_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .battle_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_03_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .battle_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_03_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .battle_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_03_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .battle_04 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_04-ltr.png');
+}
+.questWrapper .questImage .battle_05_vid1 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_05_vid1-ltr.png');
+}
+.questWrapper .questImage .battle_05_vid2 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_05_vid2-ltr.png');
+}
+.questWrapper .questImage .battle_05_vid3 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_05_vid3-ltr.png');
+}
+.questWrapper .questImage .battle_05_vid6 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_05_vid6-ltr.png');
+}
+.questWrapper .questImage .battle_05_vid7 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_05_vid7-ltr.png');
+}
+.questWrapper .questImage .battle_06_vid1 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_06_vid1-ltr.png');
+}
+.questWrapper .questImage .battle_06_vid2 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_06_vid2-ltr.png');
+}
+.questWrapper .questImage .battle_06_vid3 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_06_vid3-ltr.png');
+}
+.questWrapper .questImage .battle_06_vid6 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_06_vid6-ltr.png');
+}
+.questWrapper .questImage .battle_06_vid7 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_06_vid7-ltr.png');
+}
+.questWrapper .questImage .battle_07 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_07-ltr.png');
+}
+.questWrapper .questImage .battle_08 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_08-ltr.png');
+}
+.questWrapper .questImage .battle_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_09-ltr.png');
+}
+.questWrapper .questImage .battle_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_10-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .battle_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_10_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .battle_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_10_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .battle_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_10_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .battle_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_10_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .battle_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_10_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .battle_11 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_11-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .battle_11 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_11_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .battle_11 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_11_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .battle_11 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_11_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .battle_11 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_11_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .battle_11 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_11_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .battle_12_vid1 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_12_vid1-ltr.png');
+}
+.questWrapper .questImage .battle_12_vid2 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_12_vid2-ltr.png');
+}
+.questWrapper .questImage .battle_12_vid3 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_12_vid3-ltr.png');
+}
+.questWrapper .questImage .battle_12_vid6 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_12_vid6-ltr.png');
+}
+.questWrapper .questImage .battle_12_vid7 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_12_vid7-ltr.png');
+}
+.questWrapper .questImage .battle_13 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_13-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .battle_13 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_13_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .battle_13 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_13_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .battle_13 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_13_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .battle_13 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_13_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .battle_13 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_13_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .battle_14 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_14-ltr.png');
+}
+.tribe1.questWrapper .questImage .battle_14 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_14_vid1-ltr.png');
+}
+.tribe2.questWrapper .questImage .battle_14 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_14_vid2-ltr.png');
+}
+.tribe3.questWrapper .questImage .battle_14 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_14_vid3-ltr.png');
+}
+.tribe6.questWrapper .questImage .battle_14 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_14_vid6-ltr.png');
+}
+.tribe7.questWrapper .questImage .battle_14 {
+  background-image: url('../img_ltr/quests/descriptionImage/battle_14_vid7-ltr.png');
+}
+.questWrapper .questImage .world_01 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_01-ltr.png');
+}
+.questWrapper .questImage .world_02 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_02-ltr.png');
+}
+.questWrapper .questImage .world_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_03-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .world_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_03_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .world_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_03_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .world_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_03_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .world_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_03_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .world_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_03_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .world_04 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_04-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .world_04 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_04_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .world_04 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_04_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .world_04 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_04_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .world_04 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_04_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .world_04 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_04_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .world_05 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_05-ltr.png');
+}
+.questWrapper .questImage .world_06 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_06-ltr-ignore.png');
+}
+.questWrapper .questImage .world_07 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_07-ltr-ignore.png');
+}
+.questWrapper .questImage .world_08 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_08-ltr.png');
+}
+.tribe1.questWrapper .questImage .world_08 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_08_vid1-ltr.png');
+}
+.tribe2.questWrapper .questImage .world_08 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_08_vid2-ltr.png');
+}
+.tribe3.questWrapper .questImage .world_08 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_08_vid3-ltr.png');
+}
+.tribe6.questWrapper .questImage .world_08 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_08_vid6-ltr.png');
+}
+.tribe7.questWrapper .questImage .world_08 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_08_vid7-ltr.png');
+}
+.questWrapper .questImage .world_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_09-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .world_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_09_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .world_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_09_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .world_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_09_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .world_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_09_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .world_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_09_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .world_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_10-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .world_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_10_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .world_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_10_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .world_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_10_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .world_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_10_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .world_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_10_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .world_11 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_11-ltr.png');
+}
+.questWrapper .questImage .world_12 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_12-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .world_12 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_12_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .world_12 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_12_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .world_12 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_12_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .world_12 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_12_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .world_12 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_12_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .world_13 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_13-ltr.png');
+}
+.questWrapper .questImage .world_14 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_14-ltr-ignore.png');
+}
+.tribe1.questWrapper .questImage .world_14 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_14_vid1-ltr-ignore.png');
+}
+.tribe2.questWrapper .questImage .world_14 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_14_vid2-ltr-ignore.png');
+}
+.tribe3.questWrapper .questImage .world_14 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_14_vid3-ltr-ignore.png');
+}
+.tribe6.questWrapper .questImage .world_14 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_14_vid6-ltr-ignore.png');
+}
+.tribe7.questWrapper .questImage .world_14 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_14_vid7-ltr-ignore.png');
+}
+.questWrapper .questImage .world_15_vid1 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_15_vid1-ltr.png');
+}
+.questWrapper .questImage .world_15_vid2 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_15_vid2-ltr.png');
+}
+.questWrapper .questImage .world_15_vid3 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_15_vid3-ltr.png');
+}
+.questWrapper .questImage .world_15_vid6 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_15_vid6-ltr.png');
+}
+.questWrapper .questImage .world_15_vid7 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_15_vid7-ltr.png');
+}
+.questWrapper .questImage .world_16 {
+  background-image: url('../img_ltr/quests/descriptionImage/world_16-ltr.png');
+}
+.questWrapper .questImage .achievementQuest_01 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_01-ltr-ignore.png');
+}
+.questWrapper .questImage .achievementQuest_02 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_02-ltr.png');
+}
+.questWrapper .questImage .achievementQuest_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_03-ltr.png');
+}
+.questWrapper .questImage .achievementQuest_04 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_04-ltr.png');
+}
+.questWrapper .questImage .achievementQuest_05 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_05-ltr-ignore.png');
+}
+.questWrapper .questImage .achievementQuest_06 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_06-ltr.png');
+}
+.tribe1.questWrapper .questImage .achievementQuest_06 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_06_vid1-ltr.png');
+}
+.tribe2.questWrapper .questImage .achievementQuest_06 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_06_vid2-ltr.png');
+}
+.tribe3.questWrapper .questImage .achievementQuest_06 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_06_vid3-ltr.png');
+}
+.tribe6.questWrapper .questImage .achievementQuest_06 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_06_vid6-ltr.png');
+}
+.tribe7.questWrapper .questImage .achievementQuest_06 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_06_vid7-ltr.png');
+}
+.questWrapper .questImage .achievementQuest_07 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_07-ltr.png');
+}
+.questWrapper .questImage .achievementQuest_08 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_08-ltr.png');
+}
+.tribe1.questWrapper .questImage .achievementQuest_08 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_08_vid1-ltr.png');
+}
+.tribe2.questWrapper .questImage .achievementQuest_08 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_08_vid2-ltr.png');
+}
+.tribe3.questWrapper .questImage .achievementQuest_08 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_08_vid3-ltr.png');
+}
+.tribe6.questWrapper .questImage .achievementQuest_08 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_08_vid6-ltr.png');
+}
+.tribe7.questWrapper .questImage .achievementQuest_08 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_08_vid7-ltr.png');
+}
+.questWrapper .questImage .achievementQuest_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_09-ltr.png');
+}
+.tribe1.questWrapper .questImage .achievementQuest_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_09_vid1-ltr.png');
+}
+.tribe2.questWrapper .questImage .achievementQuest_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_09_vid2-ltr.png');
+}
+.tribe3.questWrapper .questImage .achievementQuest_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_09_vid3-ltr.png');
+}
+.tribe6.questWrapper .questImage .achievementQuest_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_09_vid6-ltr.png');
+}
+.tribe7.questWrapper .questImage .achievementQuest_09 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_09_vid7-ltr.png');
+}
+.questWrapper .questImage .achievementQuest_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_10-ltr.png');
+}
+.tribe1.questWrapper .questImage .achievementQuest_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_10_vid1-ltr.png');
+}
+.tribe2.questWrapper .questImage .achievementQuest_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_10_vid2-ltr.png');
+}
+.tribe3.questWrapper .questImage .achievementQuest_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_10_vid3-ltr.png');
+}
+.tribe6.questWrapper .questImage .achievementQuest_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_10_vid6-ltr.png');
+}
+.tribe7.questWrapper .questImage .achievementQuest_10 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_10_vid7-ltr.png');
+}
+.questWrapper .questImage .achievementQuest_11 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementQuest_11-ltr.png');
+}
+.questWrapper .questImage .DailyQuestsReward_01 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementReward_01-ltr-ignore.png');
+}
+.questWrapper .questImage .DailyQuestsReward_02 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementReward_02-ltr-ignore.png');
+}
+.questWrapper .questImage .DailyQuestsReward_03 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementReward_03-ltr-ignore.png');
+}
+.questWrapper .questImage .DailyQuestsReward_04 {
+  background-image: url('../img_ltr/quests/descriptionImage/achievementReward_04-ltr-ignore.png');
+}
+
+/* --- highlights --- */
+/* layoutButton in der sidebar */
+.sidebarBox .layoutButton.highlighted.background {
+  background-image: url('../img_ltr/quests/highlight/layoutButtonHighlight.png');
+  background-position: left top;
+  margin-left: 5px;
+  box-shadow: none;
+  border: none;
+}
+.sidebarBox .layoutButton.highlighted.background:before, .sidebarBox .layoutButton.highlighted.background:after {
+  display: none;
+}
+
+.colorBlind .sidebarBox .layoutButton.highlighted.background {
+  background-image: url('../img_ltr/quests/highlight/layoutButtonHighlightColorblind.png');
+}
+
+/* close button im content title */
+div#center #closeContentButton.highlighted.background {
+  background-image: url('../img_ltr/quests/highlight/contentTitleButtonHighlight.png');
+  background-position: left top;
+  margin-top: 4px;
+  box-shadow: none;
+}
+
+.colorBlind div#center #closeContentButton.highlighted.background {
+  background-image: url('../img_ltr/quests/highlight/contentTitleButtonHighlightColorblind.png');
+}
+
+div#center #closeContentButton.highlighted.background:hover {
+  background-position: left top;
+}
+
+/* inactive part of the switch for the resources view */
+#navigation .inactive.highlighted.background {
+  background-image: url('../img_ltr/quests/highlight/navigationButtonHighlight.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.colorBlind #navigation .inactive.highlighted.background {
+  background-image: url('../img_ltr/quests/highlight/navigationButtonHighlightColorblind.png');
+}
+
+#navigation .inactive.highlighted.background:hover,
+#navigation .inactive.highlighted.background:active,
+#navigation .inactive.highlighted.background.active {
+  background-position: left top;
+}
+
+/* buttons in der navigation */
+#navigation li a.highlighted.background {
+  background-image: url('../img_ltr/quests/highlight/navigationButtonHighlight.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  margin-left: 0;
+  box-shadow: none;
+  border: none;
+}
+
+.colorBlind #navigation li a.highlighted.background {
+  background-image: url('../img_ltr/quests/highlight/navigationButtonHighlightColorblind.png');
+}
+
+/* rohstoffeld in der rohstoffansicht */
+.perspectiveResources #village_map .level.highlighted.background {
+  background-image: url('../img_ltr/quests/highlight/resourceFieldHighlight.png');
+  background-position: left top;
+  margin-left: 1px;
+}
+
+.perspectiveResources #village_map .level.highlighted.background:not(.colorLayer) {
+  transform: scale(0.86);
+  width: 36px !important;
+  height: 36px !important;
+  margin-left: -1px;
+  margin-top: -2px;
+}
+
+.colorBlind.perspectiveResources #village_map .level.highlighted.background {
+  background-image: url('../img_ltr/quests/highlight/resourceFieldHighlightColorblind.png');
+}
+
+/* freies baufeld */
+.perspectiveBuildings #village_map .iso.highlighted.background {
+  background-image: url('../img_ltr/quests/highlight/buildingPlaceHighlight-ltr.png');
+  background-position: left top;
+}
+
+.colorBlind.perspectiveBuildings #village_map .iso.highlighted.background {
+  background-image: url('../img_ltr/quests/highlight/buildingPlaceHighlightColorblind-ltr.png');
+}
+
+/* freies versammlungsplatz baufeld */
+.perspectiveBuildings #village_map .g16e.highlighted + svg .hoverShape path {
+  stroke: red;
+  stroke-width: 4px;
+}
+
+.colorBlind.perspectiveBuildings #village_map .g16e.highlighted + svg .hoverShape path {
+  stroke: blue;
+  stroke-width: 4px;
+}
+
+/* heldenbutton */
+div.sidebar div#sidebarBoxHero .heroImageButton.highlighted.background {
+  background-image: url('../img_ltr/quests/highlight/heroButtonHighlight.png');
+  background-position: left top;
+  margin-left: 4px;
+  margin-top: 3px;
+}
+
+.colorBlind div.sidebar div#sidebarBoxHero .heroImageButton.highlighted.background {
+  background-image: url('../img_ltr/quests/highlight/heroButtonHighlightColorblind.png');
+}
+
+/* RTL fixes */
+body.rtl div.sidebar div#sidebarBoxHero .heroImageButton.highlighted.background {
+  background-position: 4px top;
+}
+
+/* --- Quest overview --- */
+#questTodoListDialog ul li.questName img.reward {
+  background-image: url('../img_ltr/a/check.png');
+  width: 12px;
+  height: 12px;
+}
+
+#questTodoListDialog ul {
+  list-style: none;
+}
+
+/* --- achievements --- */
+div.dialog div.content h1.questList {
+  color: #7B624C;
+  text-align: center;
+}
+
+div.dialog div.questWrapper div.achievement div.nextReset {
+  color: #7B624C;
+  text-align: center;
+  margin-bottom: 3px;
+  font-size: 10px;
+}
+.rtl div.dialog div.questWrapper div.achievement div.nextReset {
+  font-size: 11px;
+}
+
+/* Ribbon */
+div.dialog div.content div.birthdayRibbonContainer div.headline {
+  color: #911d1d;
+  font-family: ArialBlack, Arial, Helvetica, Verdana, sans-serif;
+  text-shadow: 1px 0 1px rgba(251, 236, 201, 0.4), 1px 1px 1px rgba(251, 236, 201, 0.4), 0 1px 1px rgba(251, 236, 201, 0.4), -1px 1px 1px rgba(251, 236, 201, 0.4), -1px 0 1px rgba(251, 236, 201, 0.4), -1px -1px 1px rgba(251, 236, 201, 0.4), 0 -1px 1px rgba(251, 236, 201, 0.4), 1px -1px 1px rgba(251, 236, 201, 0.4);
+  font-size: 22px;
+  line-height: 3em;
+  letter-spacing: 0.2em;
+  display: none;
+}
+.fa-IR div.dialog div.content div.birthdayRibbonContainer div.headline {
+  font-family: IRANSans, Arial, Helvetica, Verdana, sans-serif;
+}
+.rtl div.dialog div.content div.birthdayRibbonContainer div.headline {
+  font-size: 23px;
+}
+
+/* Point */
+div.dialog div.content div.pointsAndAchievements {
+  margin-top: 10px;
+}
+
+div.dialog div.content div.achievementPoints {
+  background-image: url('../img_ltr/quests/achievement/kranz.png');
+  height: 109px;
+  padding: 1px;
+  text-align: center;
+  width: 122px;
+  float: left;
+}
+
+div.dialog div.content div.achievementPoints div.points {
+  font-size: 25px;
+  margin-top: 42px;
+  padding-right: 5px;
+}
+.rtl div.dialog div.content div.achievementPoints div.points {
+  font-size: 26px;
+}
+
+div.dialog div.content div.achievementPoints div.pointstext {
+  font-size: 14px;
+  padding-right: 5px;
+  padding-top: 16px;
+}
+.rtl div.dialog div.content div.achievementPoints div.pointstext {
+  font-size: 15px;
+}
+
+/* achievementRewardList Buttons */
+div.dialog div.content #achievementRewardList div.achievement {
+  float: left;
+  position: relative;
+}
+
+div.dialog div.content #achievementRewardList div.achievement div.hook img {
+  height: 30px;
+  width: 30px;
+  background-image: url('../img_ltr/quests/achievement/haken_gruen.png');
+  position: absolute;
+}
+
+/* hook positions */
+div.dialog div.content #achievementRewardList div.achievement div.hook.points_25 img {
+  left: 57px;
+  top: -2px;
+}
+
+div.dialog div.content #achievementRewardList div.achievement div.hook.points_50 img {
+  left: 49px;
+  top: -2px;
+}
+
+div.dialog div.content #achievementRewardList div.achievement div.hook.points_75 img {
+  left: 45px;
+  top: -2px;
+}
+
+div.dialog div.content #achievementRewardList div.achievement div.hook.points_100 img {
+  left: 45px;
+  top: -2px;
+}
+
+div#achievementRewardList div.achievement div.pointAmount {
+  color: black;
+  font-weight: normal;
+}
+
+div#achievementRewardList div.achievement div.pointAmount.points_25 {
+  font-size: 21px;
+  left: 42px;
+  position: absolute;
+  top: 20px;
+}
+.rtl div#achievementRewardList div.achievement div.pointAmount.points_25 {
+  font-size: 22px;
+}
+
+div#achievementRewardList div.achievement div.pointAmount.points_50 {
+  font-size: 21px;
+  left: 32px;
+  position: absolute;
+  top: 20px;
+}
+.rtl div#achievementRewardList div.achievement div.pointAmount.points_50 {
+  font-size: 22px;
+}
+
+div#achievementRewardList div.achievement div.pointAmount.points_75 {
+  font-size: 21px;
+  left: 30px;
+  position: absolute;
+  top: 20px;
+}
+.rtl div#achievementRewardList div.achievement div.pointAmount.points_75 {
+  font-size: 22px;
+}
+
+div#achievementRewardList div.achievement div.pointAmount.points_100 {
+  font-size: 21px;
+  left: 24px;
+  position: absolute;
+  top: 20px;
+}
+.rtl div#achievementRewardList div.achievement div.pointAmount.points_100 {
+  font-size: 22px;
+}
+
+/* speech bubble */
+div.dialog div.content #achievementRewardList div.achievement .bigSpeechBubble.rewardReady img {
+  background-image: url('../img_ltr/layout/icons/exclamationMark-ltr.png');
+}
+
+div.dialog div.content #achievementRewardList div.achievement .bigSpeechBubble {
+  position: absolute;
+  left: -12px;
+  top: 76px;
+}
+
+div.dialog div.content #achievementRewardList div.achievementArrow {
+  background: url('../img_ltr/quests/achievement/pfeil-ltr.png') no-repeat center center;
+  float: left;
+  width: 9px;
+  height: 112px;
+  margin-left: 5px;
+  margin-right: 3px;
+}
+
+div.dialog div.content #achievementRewardList div.verticalLine {
+  background-color: #DDD9CE;
+  float: left;
+  width: 1px;
+  height: 112px;
+  margin-left: 10px;
+  margin-right: 3px;
+}
+
+/* deactivated */
+div.dialog div.content #achievementRewardList img.points_25 {
+  width: 89px;
+  height: 112px;
+  background: url('../img_ltr/quests/achievement/btn_brown_5F25.png') -18px center;
+}
+
+div.dialog div.content #achievementRewardList img.points_50 {
+  width: 89px;
+  height: 112px;
+  background: url('../img_ltr/quests/achievement/btn_brown_50.png') -25px center;
+}
+
+div.dialog div.content #achievementRewardList img.points_75 {
+  width: 89px;
+  height: 112px;
+  background: url('../img_ltr/quests/achievement/btn_brown_75.png') -28px center;
+}
+
+div.dialog div.content #achievementRewardList img.points_100 {
+  width: 89px;
+  height: 112px;
+  background: url('../img_ltr/quests/achievement/btn_brown_100.png') -28px center;
+}
+
+/* activated */
+div.dialog div.content #achievementRewardList img.points_25.active {
+  background: url('../img_ltr/quests/achievement/btn_green_5F25.png') -4px center;
+}
+
+div.dialog div.content #achievementRewardList img.points_50.active {
+  background: url('../img_ltr/quests/achievement/btn_green_50.png') -25px center;
+}
+
+div.dialog div.content #achievementRewardList img.points_75.active {
+  background: url('../img_ltr/quests/achievement/btn_green_75.png') -28px center;
+}
+
+div.dialog div.content #achievementRewardList img.points_100.active {
+  background: url('../img_ltr/quests/achievement/btn_green_100.png') -28px center;
+}
+
+/* QuestList */
+div.dialog div.content #achievementQuestList {
+  border-top: 2px solid #DDD9CE;
+  background-color: #F2F2F2;
+  border-collapse: collapse;
+}
+
+div.dialog div.content #achievementQuestList tr {
+  height: 32px;
+}
+
+div.dialog div.content #achievementQuestList td {
+  background-color: transparent;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+div.dialog div.content #achievementQuestList tr.zebra td {
+  background-color: #EFECDB;
+}
+
+div.dialog div.content #achievementQuestList img.hook {
+  height: 30px;
+  width: 30px;
+}
+
+div.dialog div.content #achievementQuestList img.hook.working {
+  background-image: url('../img_ltr/quests/achievement/haken_weiss.png');
+}
+
+div.dialog div.content #achievementQuestList img.hook.done {
+  background-image: url('../img_ltr/quests/achievement/haken_gruen.png');
+}
+
+/* Quest List table columns */
+div.dialog div.content #achievementQuestList tr {
+  height: 41px;
+}
+
+div.dialog div.content #achievementQuestList tr:nth-child(even) {
+  background-color: #EFECDB;
+}
+
+div.dialog div.content #achievementQuestList tr:nth-child(odd) {
+  background-color: #F2F2F2;
+}
+
+div.dialog div.content #achievementQuestList td.hook {
+  width: 35px;
+}
+
+div.dialog div.content #achievementQuestList td.steps {
+  width: 35px;
+}
+
+div.dialog div.content #achievementQuestList td.points {
+  width: 70px;
+  color: #99C01A;
+  font-weight: bold;
+}
+
+/* QuestStep Dialog */
+.questWrapper.achievements h2.questTitle {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.questWrapper.achievements .difficulty.moderate {
+  color: #006400;
+}
+
+.questWrapper.achievements .difficulty.challenging {
+  color: #FF8C00;
+}
+
+.questWrapper.achievements .difficulty.hard {
+  color: #8b0000;
+}
+
+.gecko #questTutorialLightBulb.layoutButton {
+  left: 0;
+}

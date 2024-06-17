@@ -1,0 +1,19 @@
+/**
+ * lessc src/TGP/PaymentShopBundle/Resources/public/less/thumbnail.less src/TGP/PaymentShopBundle/Resources/public/css/thumbnail.css
+ * Payment Shop v2.0.0
+**/
+.thumbnail {
+  padding: 20px 0px;
+}
+.thumbnail img {
+  height: 40px;
+  max-height: 40px;
+}
+.thumbnail span {
+  font-size: 20px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  width: 100%;
+}

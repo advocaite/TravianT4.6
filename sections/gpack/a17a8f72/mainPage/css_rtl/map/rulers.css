@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* für das X und Y Lineal die Styles */
+#mapContainer .ruler {
+  font-size: 8px;
+  text-align: center;
+  z-index: 1998;
+}
+.rtl #mapContainer .ruler {
+  font-size: 9px;
+}
+
+/* für das X Lineal die Styles */
+#mapContainer .ruler.x {
+  border-top: 1px solid #777777;
+  height: 16px;
+  margin-top: -1px;
+}
+
+/* für das Y Lineal die Styles */
+#mapContainer .ruler.y {
+  width: 25px;
+  border-left: 1px solid #777777;
+  background: #FFFFFF;
+}
+
+/* für das X und Y Lineal die Styles für alle Koordinatenstelle */
+#mapContainer .ruler .coordinate {
+  direction: ltr;
+}
+
+/* für das Y Lineal die Styles für alle Zoomstufen einer Koordinatenstelle */
+#mapContainer .ruler.y .coordinate.zoom1 {
+  padding-top: 26px;
+}
+
+#mapContainer .ruler.y .coordinate.zoom2 {
+  padding-top: 11px;
+}
+
+#mapContainer .ruler.y .coordinate.zoom3 {
+  padding-top: 21px;
+}
+
+#mapContainer .ruler.y .coordinate.zoom4 {
+  padding-top: 16px;
+}

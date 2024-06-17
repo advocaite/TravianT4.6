@@ -1,0 +1,964 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#build.tribeSpecific .upgradeHeader {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/background1.jpg');
+  width: 560px;
+  height: 160px;
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: -5px;
+}
+#build.tribeSpecific .upgradeHeader.levelSpecificInfo {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/background2.jpg');
+  width: 560px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g5.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g5.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g5.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g5.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g5.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g5.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g5.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g5.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g5.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g5.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g6.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g6.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g6.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g6.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g6.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g6.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g6.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g6.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g6.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g6.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g7.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g7.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g7.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g7.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g7.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g7.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g7.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g7.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g7.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g7.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g8.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g8.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g8.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g8.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g8.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g8.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g8.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g8.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g8.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g8.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g9.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g9.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g9.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g9.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g9.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g9.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g9.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g9.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g9.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g9.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g10.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g10.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g10.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g10.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g10.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g10.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g10.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g10.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g10.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g10.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g11.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g11.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g11.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g11.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g11.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g11.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g11.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g11.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g11.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g11.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g13.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g13.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g13.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g13.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g13.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g13.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g13.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g13.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g13.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g13.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g14.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g14.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g14.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g14.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g14.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g14.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g14.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g14.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g14.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g14.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g15.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g15.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g15.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g15.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g15.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g15.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g15.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g15.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g15.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g15.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g16.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g16.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g16.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g16.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g16.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g16.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g16.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g16.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g16.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g16.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g17.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g17.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g17.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g17.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g17.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g17.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g17.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g17.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g17.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g17.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g18.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g18.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g18.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g18.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g18.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g18.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g18.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g18.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g18.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g18.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g19.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g19.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g19.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g19.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g19.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g19.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g19.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g19.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g19.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g19.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g20.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g20.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g20.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g20.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g20.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g20.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g20.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g20.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g20.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g20.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g21.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g21.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g21.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g21.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g21.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g21.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g21.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g21.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g21.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g21.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g22.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g22.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g22.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g22.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g22.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g22.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g22.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g22.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g22.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g22.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g23.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g23.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g23.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g23.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g23.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g23.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g23.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g23.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g23.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g23.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g24.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g24.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g24.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g24.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g24.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g24.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g24.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g24.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g24.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g24.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g25.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g25.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g25.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g25.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g25.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g25.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g25.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g25.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g25.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g25.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g26.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g26.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g26.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g26.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g26.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g26.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g26.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g26.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g26.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g26.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g27.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g27.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g27.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g27.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g27.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g27.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g27.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g27.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g27.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g27.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g28.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g28.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g28.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g28.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g28.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g28.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g28.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g28.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g28.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g28.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g29.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g29.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g29.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g29.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g29.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g29.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g29.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g29.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g29.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g29.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g30.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g30.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g30.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g30.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g30.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g30.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g30.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g30.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g30.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g30.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g34.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g34.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g34.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g34.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g34.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g34.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g34.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g34.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g34.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g34.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g37.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g37.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g37.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g37.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g37.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g37.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g37.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g37.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g37.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g37.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g38.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g38.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g38.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g38.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g38.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g38.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g38.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g38.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g38.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g38.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g39.roman {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g39.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g39.teuton {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g39.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g39.gaul {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g39.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g39.egyptian {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g39.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g39.hun {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g39.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g41 {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g41.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g35 {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g35.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g36 {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g36.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g45 {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g45.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g44 {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g44.png');
+  width: 290px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g31 {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/roman/g31.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g32 {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/teuton/g32.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g33 {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/gaul/g33.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g42 {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/egyptian/g42.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g43 {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/hun/g43.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g1 {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/g1.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g2 {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/g2.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g3 {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/g3.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader .buildingIllustration.g4 {
+  background-image: url('../../img_rtl/g/upgradeView/buildingIllustrations/g4.png');
+  width: 241px;
+  height: 160px;
+}
+#build.tribeSpecific .upgradeHeader #build_value {
+  width: 62%;
+  position: relative;
+  color: #F2F2F2;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+#build.tribeSpecific .buildingDescription {
+  position: relative;
+  z-index: 2;
+}
+#build.tribeSpecific .buildingDescription .headline {
+  background-color: #F9FBF4;
+  border: solid 1px #A1BC79;
+  background: linear-gradient(to left, #cbe0ac, #F9FBF4);
+  min-height: 25px;
+  line-height: 25px;
+  text-align: right;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 28px auto;
+  grid-template-columns: 28px auto;
+}
+#build.tribeSpecific .buildingDescription .headline h4 {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  margin-bottom: 0;
+  padding: 0;
+}
+#build.tribeSpecific .buildingDescription .headline .openedClosedSwitch {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  width: 17px;
+  height: 17px;
+  padding: 0;
+  display: inline-block;
+}
+#build.tribeSpecific .buildingDescription .description {
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+}
+#build.tribeSpecific .buildingDescription.collapsed .headline {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+#build.tribeSpecific .buildingDescription.collapsed .description {
+  display: none;
+}
+#build.tribeSpecific .buildingDescription.collapsed ~ .upgradeBuilding {
+  border-top: none;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  margin-top: -2px;
+}
+#build.tribeSpecific .upgradeBuilding {
+  background-color: #F9FBF4;
+  border: solid 1px #A1BC79;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+#build.tribeSpecific .upgradeBuilding .contractWrapper {
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 10px;
+  border-bottom: dotted 1px #C0C0C0;
+}
+#build.tribeSpecific .upgradeBuilding .contractWrapper .upgradeBlocked {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+#build.tribeSpecific .upgradeBuilding .contractWrapper .upgradeBlocked .errorMessage {
+  color: #777777;
+  font-weight: bold;
+  padding: 0;
+  margin: 10px 0 0;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-align: start;
+  justify-self: start;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+#build.tribeSpecific .upgradeBuilding .contractWrapper .upgradeBlocked button {
+  margin: 10px 0 0;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-align: end;
+  justify-self: end;
+}
+#build.tribeSpecific .upgradeBuilding .upgradeButtonsContainer button {
+  display: block;
+  margin: 0 auto 8px;
+}
+#build.tribeSpecific .upgradeBuilding.completed {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+#build.tribeSpecific .upgradeBuilding.completed .completedMessage {
+  font-weight: bold;
+  -ms-grid-row-align: center;
+  align-self: center;
+  padding-right: 10px;
+}
+#build.tribeSpecific .upgradeBuilding.completed .completedMessage span {
+  color: #000000;
+}
+#build.tribeSpecific .upgradeBuilding.completed .errorMessage {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin: 0;
+  padding-right: 10px;
+}
+#build.tribeSpecific .upgradeBuilding.completed .errorMessage span {
+  color: #000000;
+}
+#build.tribeSpecific .upgradeBuilding.completed .culturePointsAndPopulation {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  text-align: left;
+  border-bottom: none;
+}

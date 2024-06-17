@@ -1,0 +1,99 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* new icons building upgrades */
+i.lumberBonus_small {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/lumberBonus_small.png');
+  width: 26px;
+  height: 20px;
+}
+i.clayBonus_small {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/clayBonus_small.png');
+  width: 26px;
+  height: 19px;
+}
+i.cropBonus_medium {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/cropBonus_medium.png');
+  width: 26px;
+  height: 24px;
+}
+i.ironBonus_small {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/ironBonus_small.png');
+  width: 26px;
+  height: 21px;
+}
+i.merchantCap_small {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/merchantCap_small.png');
+  width: 25px;
+  height: 20px;
+}
+i.warehouseCap_medium {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/warehouseCap_medium.png');
+  width: 26px;
+  height: 22px;
+}
+i.granaryCap_medium {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/granaryCap_medium.png');
+  width: 19px;
+  height: 24px;
+}
+i.crannyCap_small {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/crannyCap_small.png');
+  width: 26px;
+  height: 21px;
+}
+i.constructionTime_medium {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/constructionTime_medium.png');
+  width: 24px;
+  height: 26px;
+}
+i.cavalryBonusTime_medium {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/cavalryBonusTime_medium.png');
+  width: 26px;
+  height: 26px;
+}
+i.infantryBonusTime_medium {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/infantryBonusTime_medium.png');
+  width: 23px;
+  height: 25px;
+}
+i.siegeTime_small {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/siegeTime_small.png');
+  width: 22px;
+  height: 20px;
+}
+i.troopSpeed_medium {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/troopSpeed_medium.png');
+  width: 24px;
+  height: 26px;
+}
+i.maxTraps_medium {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/maxTraps_medium.png');
+  width: 26px;
+  height: 24px;
+}
+i.oasisBonus_medium {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/oasisBonus_medium.png');
+  width: 25px;
+  height: 26px;
+}
+i.stabilityBonus_small {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/stabilityBonus_small.png');
+  width: 26px;
+  height: 18px;
+}
+i.play_medium {
+  background-image: url('../../img_rtl/views/buildings/upgradeBuilding/play_medium.png');
+  width: 22px;
+  height: 22px;
+}

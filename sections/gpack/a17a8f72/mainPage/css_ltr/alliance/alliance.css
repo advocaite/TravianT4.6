@@ -1,0 +1,2832 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ------------------- Alliance ------------------- */
+/* ------------------------------------------------ */
+/* general */
+div.alliance .error {
+  font-weight: bold;
+}
+
+div.alliance .error2 {
+  font-size: 9px;
+}
+.rtl div.alliance .error2 {
+  font-size: 10px;
+}
+
+div.alliance .error2,
+div.alliance .error3,
+div.alliance .note {
+  color: #FF8000;
+}
+
+div.alliance tbody th {
+  text-align: left;
+}
+
+div.alliance .none {
+  text-align: center;
+}
+
+div.alliance td.abo {
+  width: 5%;
+}
+
+/* submenu attacks */
+div.alliance div#submenu {
+  position: absolute;
+  right: 29px;
+  top: 104px;
+}
+
+div.alliance div#submenu img {
+  float: right;
+  margin-left: 5px;
+}
+
+/* intern info */
+div.alliance textarea.internInfo {
+  width: 272px;
+  padding: 2px 0;
+  height: 400px;
+}
+
+div.alliance div.internInfo {
+  width: 49%;
+  padding: 2px 0;
+  word-wrap: break-word;
+}
+
+div.alliance .chartHeadline {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+.rtl div.alliance .chartHeadline {
+  font-size: 14px;
+}
+
+div.alliance textarea {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+div.alliance div#internInfo1,
+div.alliance textarea#internInfo1 {
+  float: left;
+}
+
+div.alliance div#internInfo2,
+div.alliance textarea#internInfo2 {
+  float: right;
+}
+
+/* barCharts */
+div.alliance table.barChart {
+  width: auto;
+}
+
+div.alliance table.barChart tbody td {
+  padding: 2px;
+  font-size: 10px;
+}
+
+div.alliance table.barChart td.bar {
+  position: relative;
+  padding: 0 2px;
+}
+
+div.alliance table.oneDir td.bar {
+  height: 100px;
+}
+
+div.alliance table.twoDirs td.bar {
+  height: 50px;
+}
+
+div.alliance table.barChart td.bar div.wrapper {
+  position: relative;
+  width: 33px;
+  height: 100%;
+}
+
+div.alliance table.barChart td.bar div.wrapper div.bar {
+  width: 15px;
+  position: absolute;
+}
+
+div.alliance table.barChart td.bar div.wrapper div.stackedWrapper {
+  position: absolute;
+  bottom: 0;
+  width: 15px;
+}
+
+div.alliance table.barChart td.positive div.wrapper div.bar {
+  bottom: -1px;
+}
+
+div.alliance table.barChart td.negative div.wrapper div.bar {
+  top: -1px;
+}
+
+div.alliance table.barChart td.bar div.wrapper div.left {
+  left: 0;
+}
+
+div.alliance table.barChart td.bar div.wrapper div.right {
+  right: 0;
+}
+
+div.alliance table.barChart td.bar div.stackedWrapper div.top {
+  top: -1px;
+}
+
+div.alliance table.barChart div.red {
+  background-color: #D40000;
+}
+
+.colorBlind div.alliance table.barChart div.red {
+  background-color: #0022AF;
+}
+
+div.alliance table.barChart div.blue {
+  background-color: #498843;
+}
+
+div.alliance table.barChart div.cornflowerblue {
+  background-color: #85AF81;
+}
+
+div.alliance table.barChart div.tomato {
+  background-color: #EC6D6D;
+}
+
+div.alliance table.barChart td.legend {
+  text-align: left;
+}
+
+div.alliance table.barChart td.legend div.legend {
+  width: 15px;
+  height: 15px;
+  float: left;
+  clear: left;
+  margin-bottom: 2px;
+}
+
+/* last forum posts */
+div.alliance div#allyInfoForum ul {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 12px;
+  overflow: hidden;
+}
+.rtl div.alliance div#allyInfoForum ul {
+  font-size: 13px;
+}
+
+/* show profile / internInfo */
+div.alliance div#details,
+div.alliance div#memberTitles {
+  width: 48%;
+  margin-bottom: 20px;
+}
+div.alliance div#details th,
+div.alliance div#memberTitles th {
+  width: 35%;
+  overflow: hidden;
+}
+div.alliance div#details {
+  float: left;
+}
+div.alliance div#details .name {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+div.alliance div#memberTitles {
+  float: right;
+}
+div.alliance div#memberTitles .player {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+
+div.alliance .description {
+  width: 252px;
+  margin-bottom: 20px;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+div.alliance .description1 {
+  float: left;
+  margin-left: 12px;
+}
+
+div.alliance .description2 {
+  float: right;
+  margin-right: 12px;
+}
+
+div.alliance .btn {
+  text-align: center;
+}
+
+/* members */
+div.alliance table#member img.online {
+  margin-right: 5px;
+}
+
+div.alliance table#member img.attack {
+  background-image: url('../../img_ltr/layout/icons/attacks.gif');
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.colorBlind div.alliance table#member img.attack {
+  background-image: url('../../img_ltr/layout/icons/attacksColorblind.gif');
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+div.alliance table#regionalTop5 {
+  margin-bottom: 20px;
+}
+
+div.alliance table#member td.pla {
+  text-align: left;
+}
+
+div.alliance table#member td.hab, div.alliance table#regionalTop5 td.hab {
+  width: 25%;
+  text-align: center;
+}
+
+div.alliance table#member td.vil {
+  width: 15%;
+  text-align: center;
+}
+
+/* chat */
+div.alliance table#chat_input {
+  background-color: white;
+}
+
+div.alliance div#rooms img.del {
+  position: relative;
+  top: 3px;
+}
+
+div.alliance span.roomselector {
+  float: left;
+  width: 140px;
+  height: 17px;
+  padding: 3px;
+  border: 1px solid #C0C0C0;
+  background-color: #FFF;
+}
+
+div.alliance span.roomselectorActive {
+  float: left;
+  width: 140px;
+  height: 17px;
+  padding: 3px;
+  border: 1px solid #99C01A;
+  background-color: #F0FFF0;
+}
+
+div.alliance div.chatHeader {
+  display: none;
+}
+
+div.alliance #message {
+  width: 543px;
+  margin: 0;
+  padding: 3px;
+}
+
+div.alliance #chatContainer {
+  width: 550px;
+}
+
+div.alliance #chat_input td {
+  padding: 0;
+}
+
+div.alliance span.chatTime {
+  font-weight: normal;
+  font-size: 10px;
+  float: left;
+}
+.rtl div.alliance span.chatTime {
+  font-size: 11px;
+}
+
+div.alliance div.userName {
+  float: left;
+}
+
+/* offs */
+div.alliance .reportFilter {
+  margin-bottom: 15px;
+}
+
+div.alliance .reportFilter.offDef {
+  float: left;
+}
+
+div.alliance .reportFilter.unimportant {
+  float: right;
+}
+
+div.alliance .reportFilter .boxes-contents {
+  padding: 8px 15px;
+}
+
+div.alliance img.filterNews {
+  background-image: url('../../img_ltr/report/hideUnimportant.png');
+  width: 16px;
+  height: 16px;
+}
+
+div.alliance table#offs td {
+  text-align: center;
+}
+
+div.alliance table#offs td.sub {
+  text-align: left;
+}
+
+div.alliance table#offs td.sub a {
+  float: left;
+}
+
+div.alliance table#offs td.sub div {
+  padding-left: 24px;
+}
+
+div.alliance table#offs td.al {
+  width: 20%;
+  white-space: nowrap;
+}
+
+div.alliance table#offs td.dat {
+  width: 23%;
+  white-space: nowrap;
+}
+
+/*-------------------------- options---------------------------- */
+/*-------------------------------------------------------------- */
+/* general */
+div.alliance table.option th,
+div.alliance table.option td {
+  text-align: left;
+}
+
+div.alliance table.option.name th,
+div.alliance table.option.forum_link th,
+div.alliance table.option.invite th,
+div.alliance table.option.quit th,
+div.alliance table.option.kick th,
+div.alliance .option.offerDiplomacy th {
+  width: 20%;
+}
+
+div.alliance table.option.name input,
+div.alliance table.option.forum_link input,
+div.alliance table.option.invite input,
+div.alliance table.option.quit input,
+div.alliance table.option.kick select {
+  width: 50%;
+}
+
+/* overview */
+div.alliance ul.options {
+  margin: 0 0 20px;
+  padding: 0 15px;
+  list-style-type: none;
+}
+
+div.alliance ul.options li {
+  margin-bottom: 5px;
+}
+
+div.alliance p.option {
+  margin-left: 9px;
+}
+
+/* offerDiplomacy */
+div.alliance .option.offerDiplomacy input.text {
+  width: 100%;
+}
+
+div.alliance .option.offerDiplomacy,
+div.alliance table.option.existing {
+  float: left;
+  width: 49%;
+  margin-bottom: 10px;
+}
+
+div.alliance table.option.foreign td.abo {
+  width: 13%;
+}
+
+div.alliance .infos {
+  float: right;
+  width: 250px;
+}
+
+div.alliance table.option.own,
+div.alliance table.option.foreign,
+div.alliance table.option.existing {
+  margin-bottom: 20px;
+}
+
+div.alliance .infos .boxes-contents {
+  padding: 10px;
+}
+
+div.alliance .infos .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+div.alliance table.option.foreign button {
+  float: left;
+}
+
+div.alliance table.option.foreign button.del {
+  margin-right: 3px;
+}
+
+div.alliance .submitContainer {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* edit profile */
+div.alliance textarea.editDescription {
+  width: 272px;
+  height: 250px;
+  text-align: center;
+  margin-bottom: 20px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 0;
+  font-size: 13px;
+}
+.rtl div.alliance textarea.editDescription {
+  font-size: 14px;
+}
+
+div.alliance textarea.editDescription1 {
+  float: left;
+}
+
+div.alliance textarea.editDescription2 {
+  float: right;
+}
+
+div.alliance div.switchWrap div#switchBBCodes {
+  float: right;
+}
+
+div.alliance div#switchBBCodes {
+  float: right;
+}
+
+div.alliance table#bBCodes {
+  margin-top: 10px;
+}
+
+div.alliance table#bBCodes td.desc {
+  width: 20%;
+}
+
+/* member $readingDirectionTos */
+div.alliance table#memberAdministration img.allyRight {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/misc/allyRights.gif');
+}
+
+div.alliance table#memberAdministration img.allyRightPosition {
+  background-position: 0 0;
+}
+
+div.alliance table#memberAdministration img.allyRightDisband {
+  background-position: 0 -26px;
+}
+
+div.alliance table#memberAdministration img.allyRightDescription {
+  background-position: 0 -52px;
+}
+
+div.alliance table#memberAdministration img.allyRightDiplomacy {
+  background-position: 0 -78px;
+}
+
+div.alliance table#memberAdministration img.allyRightMessage {
+  background-position: 0 -104px;
+}
+
+div.alliance table#memberAdministration img.allyRightInvite {
+  background-position: 0 -130px;
+}
+
+div.alliance table#memberAdministration img.allyRightForum {
+  background-position: 0 -156px;
+}
+
+div.alliance table#memberAdministration img.allyRightFlags {
+  background-position: 0 -182px;
+}
+
+div.alliance table#memberAdministration img.allyRightSpecialization {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/misc/allyRightsSpecialization.png');
+}
+
+div.alliance table#memberAdministration td.name {
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+div.alliance table#memberAdministration td.member,
+div.alliance table#memberAdministration td.title {
+  padding: 6px 6px 3px;
+  text-align: center;
+  width: 1%;
+  white-space: nowrap;
+}
+div.alliance table#memberAdministration td.chooseMember {
+  text-align: left;
+}
+
+div.alliance div.internInfo span.deletedUser {
+  color: #999;
+}
+
+/*------------------ intern info -------------------------- */
+/*----------------------------------------------------------- */
+/* news */
+div.alliance .events td {
+  font-size: 12px;
+}
+.rtl div.alliance .events td {
+  font-size: 13px;
+}
+
+div.alliance .events td.dat {
+  text-align: center;
+}
+
+div.alliance .paginator {
+  float: right;
+  margin-top: 5px;
+}
+
+div.alliance table#events td.dat {
+  width: 25%;
+  white-space: nowrap;
+}
+
+table.allianceMembers tbody td {
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+  vertical-align: middle;
+  line-height: 21px;
+  height: 21px;
+}
+
+table.allianceMembers tbody td.tribe {
+  width: 22px;
+}
+
+table.allianceMembers tbody td.player {
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+table.allianceMembers tbody td.player > img {
+  position: relative;
+  top: 2px;
+}
+table.allianceMembers tbody td.player .memberSpecialization {
+  float: right;
+}
+
+table.allianceMembers tbody td.population,
+table.allianceMembers tbody td.villages {
+  width: 15%;
+}
+
+table.allianceMembers tbody td.buttons {
+  padding: 2px 2px 2px 0;
+  text-align: right;
+  white-space: nowrap;
+  width: 1%;
+}
+
+table.allianceMembers button {
+  margin: 0 0 0 2px;
+  text-align: center;
+}
+
+table.allianceMembers button.editNote img {
+  width: 14px;
+  height: 14px;
+  background-image: url('../../img_ltr/a/playerNote-ltr.png');
+}
+
+table.allianceMembers button.sendMessage img {
+  width: 14px;
+  height: 14px;
+  background-image: url('../../img_ltr/a/sendMessage-ltr.png');
+}
+
+table.allianceMembers button.specialization img {
+  width: 12px;
+  background-image: url('../../img_ltr/a/editPencil-ltr.png');
+}
+
+table.allianceMembers img.attack {
+  background-image: url('../../img_ltr/layout/icons/attacks.gif');
+  width: 10px;
+  height: 10px;
+}
+
+table tbody td.counter {
+  text-align: right;
+  width: 30px;
+  padding: 6px 9px 3px;
+}
+
+.alliance .memberSpecialization.type1,
+#playerNoteForm .memberSpecialization.type1 {
+  background-image: url('../../img_ltr/misc/player_role_defense.png');
+  width: 25px;
+  height: 21px;
+}
+.alliance .memberSpecialization.type2,
+#playerNoteForm .memberSpecialization.type2 {
+  background-image: url('../../img_ltr/misc/player_role_offense.png');
+  width: 25px;
+  height: 21px;
+}
+
+#playerNoteForm .specializationWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 70px 70px 70px 1fr;
+  grid-template-columns: 1fr 70px 70px 70px 1fr;
+}
+#playerNoteForm .specializationWrapper .specializationItem {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-rows: 50px auto;
+  grid-template-rows: 50px auto;
+  -ms-grid-columns: 70px;
+  grid-template-columns: 70px;
+}
+#playerNoteForm .specializationWrapper .specializationItem:nth-child(1) {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+}
+#playerNoteForm .specializationWrapper .specializationItem:nth-child(2) {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+}
+#playerNoteForm .specializationWrapper .specializationItem:nth-child(3) {
+  -ms-grid-column: 4;
+  grid-column-start: 4;
+}
+#playerNoteForm .specializationWrapper .specializationItem label,
+#playerNoteForm .specializationWrapper .specializationItem input {
+  display: inline-block;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+#playerNoteForm .specializationWrapper .specializationItem label {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+#playerNoteForm .specializationWrapper .specializationItem input {
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+}
+
+#allianceLeaveForm button.confirmPassword {
+  float: right;
+}
+
+#allianceLeaveForm input {
+  float: right;
+  width: 300px;
+}
+
+#allianceLeaveForm table td,
+#allianceLeaveForm table th {
+  padding: 0;
+  font-size: 11px;
+}
+.rtl #allianceLeaveForm table td, .rtl
+#allianceLeaveForm table th {
+  font-size: 12px;
+}
+
+#allianceLeaveForm div.option {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+/* Alliance bonuses */
+.alliance_bonus_locked {
+  color: #D40000;
+  margin-bottom: 10px;
+  font-weight: bold;
+  position: relative;
+  height: 38px;
+}
+
+.alliance_bonus_locked div {
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.alliance_bonus_locked div.alliance_bonus_locked_details {
+  position: absolute;
+  top: 0;
+  left: 43px;
+}
+
+.colorBlind .alliance_bonus_locked {
+  color: #0000ff;
+}
+
+.alliance_bonus_locked img.lock_big {
+  background-image: url('../../img_ltr/alliance/bonuses/lock_red_big.png');
+  width: 38px;
+  height: 38px;
+}
+
+.colorBlind .alliance_bonus_locked img.lock_big {
+  background-image: url('../../img_ltr/alliance/bonuses/lock_blue_big.png');
+}
+
+.alliance_bonus_description {
+  margin-bottom: 10px;
+}
+
+.alliance-bonuses-overview {
+  border-radius: 6px;
+  border: 1px solid #E0EBDF;
+  padding: 0 10px 0 10px;
+  width: 531px;
+}
+
+.alliance-bonuses-overview h4.round {
+  height: 24px;
+  line-height: 24px;
+  padding: 0 10px 0 10px;
+  vertical-align: middle;
+  margin-bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.alliance-bonuses-overview .overview-collapse {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: -5px;
+}
+
+.alliance-bonuses-overview .overview-collapse img {
+  height: 18px;
+  width: 18px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 0;
+}
+
+.alliance-bonuses-overview .overview-title {
+  position: relative;
+  top: -4px;
+  left: 15px;
+}
+
+.alliance-bonuses-overview-content {
+  margin-top: 15px;
+}
+
+.alliance-bonuses-overview .bonus {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.alliance-bonuses-overview .bonus-name {
+  height: 22px;
+  line-height: 22px;
+  margin-bottom: 2px;
+  clear: both;
+  z-index: 10;
+  position: relative;
+}
+
+.alliance-bonuses-overview .bonus-name .body {
+  background: transparent url('../../img_ltr/alliance/bonuses/bonusNameTab-ltr.png') no-repeat left top;
+  min-width: 150px;
+  width: auto;
+  float: left;
+  clear: left;
+  padding-left: 6px;
+  vertical-align: middle;
+}
+
+.alliance-bonuses-overview .bonus-name .head {
+  background: transparent url('../../img_ltr/alliance/bonuses/bonusNameTab-ltr.png') no-repeat right top;
+  float: left;
+  clear: right;
+  width: 5px;
+  height: 22px;
+}
+
+.alliance-bonuses-overview .bonus-name.locked .body {
+  background-position: left bottom;
+}
+
+.alliance-bonuses-overview .bonus-name.locked .head {
+  background-position: right bottom;
+}
+
+.alliance-bonuses-overview .bonus-name .body span.name-text {
+  float: left;
+  margin-right: 22px;
+}
+
+.alliance-bonuses-overview .bonus-name .head span.name-lock {
+  float: right;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 22px;
+  display: none;
+  z-index: 99;
+  position: relative;
+}
+
+.alliance-bonuses-overview .bonus-name .head span.name-lock img.lock {
+  background-image: url('../../img_ltr/alliance/bonuses/lock_red.png');
+  width: 13px;
+  height: 16px;
+  margin-top: 2px;
+}
+
+.alliance-bonuses-overview .bonus-name.locked .head span.name-lock {
+  display: inline;
+}
+
+.colorBlind .alliance-bonuses-overview .bonus-name .body span.name-lock img.lock {
+  background-image: url('../../img_ltr/alliance/bonuses/lock_blue.png');
+}
+
+.alliance-bonuses-overview .bonus-level,
+.alliance-bonuses-details .bonus-level {
+  background: transparent url('../../img_ltr/alliance/bonuses/bonusProgressTab-ltr.png') no-repeat left top;
+  height: 22px;
+  line-height: 22px;
+  width: 62px;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  clear: left;
+}
+
+.alliance-bonuses-overview .bonus-progress,
+.alliance-bonuses-details .bonus-progress {
+  height: 22px;
+  line-height: 22px;
+  float: left;
+  clear: right;
+  width: 469px;
+  position: relative;
+}
+
+.alliance-bonuses-details .bonus-progress,
+.alliance-bonuses-details .bonus-donation,
+.alliance-bonuses-details .bonus-donation-buttons,
+.bonus-scaleDown {
+  width: 532px;
+}
+
+.alliance-bonuses-overview .bonus-progress .body,
+.alliance-bonuses-details .bonus-progress .body {
+  background: transparent url('../../img_ltr/alliance/bonuses/bonusProgressTab-ltr.png') no-repeat left top;
+  vertical-align: middle;
+  width: 463px;
+  position: absolute;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.alliance-bonuses-details .bonus-progress .body {
+  width: 526px;
+}
+
+.alliance-bonuses-overview .bonus-progress .head,
+.alliance-bonuses-details .bonus-progress .head {
+  background: transparent url('../../img_ltr/alliance/bonuses/bonusProgressTab-ltr.png') no-repeat right top;
+  right: 0;
+  width: 6px;
+  position: absolute;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.alliance-bonuses-details .bonus-levels .bonus-progress .head {
+  background: transparent url('../../img_ltr/alliance/bonuses/bonusProgressDetailsTab-ltr.png') no-repeat right top;
+  width: 10px;
+}
+
+.alliance-bonuses-details .bonus-daily-donations .bonus-progress .head {
+  background-position: right bottom;
+}
+
+.alliance-bonuses-overview .bonus-progress.completed .body,
+.alliance-bonuses-details .bonus-progress.completed .body {
+  background-position: left bottom;
+}
+
+.alliance-bonuses-overview .bonus-progress.completed .head,
+.alliance-bonuses-details .bonus-progress.completed.bonus5 .head {
+  background-position: right bottom;
+}
+
+.alliance-bonuses-details .bonus-progress.completed .head {
+  background-position: right top;
+}
+
+.alliance-bonuses-details .bonus-daily-donations .bonus-progress.completed .head {
+  background-position: right bottom;
+}
+
+.alliance-bonuses-overview .bonus-progress .greenArrow,
+.alliance-bonuses-details .bonus-progress .greenArrow {
+  background: transparent url('../../img_ltr/alliance/bonuses/arrow-ltr.png') no-repeat right 0;
+  overflow: hidden;
+  height: 18px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 18px;
+  min-width: 5px;
+  color: #F2F2F2;
+}
+
+.alliance-bonuses-details .bonus-progress .bonus-text,
+.alliance-bonuses-details .bonus-progress .donation-text {
+  color: #333333;
+  position: absolute;
+  width: 528px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+}
+
+.alliance-bonuses-details .bonus-progress .bonus-text {
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.alliance-bonuses-details .bonus-progress .bonus-text.maxed,
+.alliance-bonuses-details .bonus-progress.completed .bonus-text,
+.alliance-bonuses-details .bonus-progress.upgrading .bonus-text,
+.alliance-bonuses-details .bonus-progress.completed .donation-text {
+  font-weight: bold;
+  color: #F2F2F2;
+}
+
+.alliance-bonuses-overview .bonus-progress.upgrading .greenArrow,
+.alliance-bonuses-details .bonus-progress.upgrading .greenArrow {
+  background: transparent url('../../img_ltr/alliance/bonuses/arrowUpgrading-ltr.gif') no-repeat right 0;
+  font-weight: normal;
+}
+
+.alliance-bonuses-details .bonus-progress:last-of-type.upgrading .greenArrow {
+  background-position: center 0;
+}
+
+.alliance-bonuses-overview .bonus-progress.completed .greenArrow,
+.alliance-bonuses-details .bonus-progress.completed.bonus5 .greenArrow {
+  background-position: right -36px;
+}
+
+.alliance-bonuses-details .bonus-progress.completed .greenArrow {
+  background-position: right -54px;
+}
+
+.alliance-bonuses-details .bonus-daily-donations .bonus-progress.completed .greenArrow {
+  background-position: right -36px;
+}
+
+.alliance-bonuses-overview .bonus-progress.completed .greenArrow img.lvl-star,
+.alliance-bonuses-details .bonus-progress.completed .greenArrow img.lvl-star {
+  background: transparent url('../../img_ltr/alliance/bonuses/star_white.png') no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 1px 1px 1px 1px;
+  display: inline-block;
+  float: left;
+}
+
+.alliance-bonuses-overview .bonus-progress.completed .greenArrow span.maxLevel,
+.alliance-bonuses-details .bonus-progress.completed .greenArrow span.maxLevel {
+  float: left;
+}
+
+.alliance-bonuses-details {
+  margin-top: 20px;
+}
+
+.alliance-bonuses-details .contentNavi {
+  width: 554px;
+  margin-bottom: 0;
+}
+
+.alliance-bonuses-details .bonus-details .bonus-description,
+.alliance-bonuses-details .bonus-details .bonus-levels,
+.alliance-bonuses-details .bonus-details .bonus-daily-donations {
+  margin-top: 10px;
+}
+
+.alliance-bonuses-details .bonus-details .bonus-levels,
+.alliance-bonuses-details .bonus-details .bonus-daily-donations {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #E0EBDF;
+}
+
+.alliance-bonuses-details .bonus-details .bonus-levels .title,
+.alliance-bonuses-details .bonus-details .bonus-daily-donations .title {
+  font-weight: bold;
+  color: #333333;
+  text-align: left;
+}
+
+.alliance-bonuses-details .bonus-details .bonus-levels .progress-details {
+  width: 560px;
+  position: relative;
+}
+
+.alliance-bonuses-details .bonus-details .bonus-levels .bonus-progress {
+  margin-top: 10px;
+}
+
+.alliance-bonuses-details .bonus-details .bonus-levels .bonus-progress.bonus2,
+.alliance-bonuses-details .bonus-details .bonus-levels .bonus-progress.bonus3,
+.alliance-bonuses-details .bonus-details .bonus-levels .bonus-progress.bonus4,
+.alliance-bonuses-details .bonus-details .bonus-levels .bonus-progress.bonus5 {
+  position: relative;
+}
+
+.alliance-bonuses-details .bonus-details .bonus-levels .bonus-progress.bonus2 .body,
+.alliance-bonuses-details .bonus-details .bonus-levels .bonus-progress.bonus3 .body,
+.alliance-bonuses-details .bonus-details .bonus-levels .bonus-progress.bonus4 .body,
+.alliance-bonuses-details .bonus-details .bonus-levels .bonus-progress.bonus5 .body {
+  background-position: -2px 0;
+}
+
+.alliance-bonuses-details .bonus-details .bonus-levels .bonus-progress.bonus5 .head {
+  background-position: right bottom;
+}
+
+.alliance-bonuses-details .bonus-details .bonus-levels .bonus-progress .body {
+  width: inherit;
+}
+
+.alliance-bonuses-details .bonus-details .bonus-daily-donations .bonus-reset {
+  color: #333333;
+  text-align: right;
+  height: 7px;
+  line-height: 12px;
+  font-size: 12px;
+  margin-bottom: 3px;
+  position: relative;
+}
+.rtl .alliance-bonuses-details .bonus-details .bonus-daily-donations .bonus-reset {
+  font-size: 13px;
+}
+
+.alliance-bonuses-details .bonus-details .bonus-daily-donations .bonus-reset-content {
+  position: absolute;
+  top: -4px;
+  right: 0;
+}
+
+.bonus-donation table, .bonus-donation tr, .bonus-donation td {
+  line-height: 25px;
+  margin-bottom: 4px;
+  width: 100%;
+  border: 1px solid #C0C0C0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.bonus-donation td {
+  text-align: center;
+  padding: 2px 7px;
+  width: 18%;
+}
+
+.bonus-donation thead td {
+  background-color: #E7E7E7;
+}
+
+.bonus-donation td.deco {
+  padding: 0;
+  width: 1px;
+}
+
+.bonus-donation td.no_borders {
+  border: 1px inset #fff;
+}
+
+.bonus-donation td.sum {
+  text-align: left;
+  padding-left: 20px;
+  width: auto;
+}
+
+.bonus-donation td.sum span {
+  float: right;
+  min-width: 65%;
+}
+
+.bonus-donation td.sum.multiplied {
+  background-color: #fff5b9;
+  border: 1px solid #D40000;
+}
+
+.bonus-donation td.sum.multiplied span {
+  font-weight: bold;
+  color: #D40000;
+}
+
+.bonus-scaleDown.scaled .bonus-donation td.sum.multiplied {
+  border: 1px solid #f9983d;
+}
+
+.bonus-scaleDown.scaled .bonus-donation td.sum.multiplied span {
+  color: #f88d2a;
+}
+
+.normal .bonus-donation td.sum span#scaleSum {
+  color: #D40000;
+  font-weight: bold;
+}
+
+.normal.scaled .bonus-donation td.sum span#scaleSum {
+  color: #f88d2a;
+}
+
+.bonus-donation td.don input.text {
+  width: 90%;
+}
+
+.bonus-donation td.don input.disabled {
+  background-color: #E7E7E7;
+}
+
+.bonus-donation-buttons-popup,
+.bonus-donation-buttons {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.bonus-donation-buttons-popup .hidden {
+  display: none;
+}
+
+.bonus-donation-buttons {
+  margin-bottom: 10px;
+}
+
+.bonus-donation-response {
+  margin-top: 15px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  text-align: center;
+  transition-duration: 500ms;
+  color: #F2F2F2;
+  min-height: 16px;
+}
+
+.bonus-donation-response.visible {
+  color: #0C680C;
+}
+
+.bonus-donation-response.visible.white {
+  color: #F2F2F2;
+}
+
+.bonus-donation-response.visible.complete {
+  color: #237590;
+}
+
+.bonus-donation-response .error {
+  color: #8B0000;
+}
+
+.bonus-scaleDown {
+  font-size: 13px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+.rtl .bonus-scaleDown {
+  font-size: 14px;
+}
+
+.bonus-scaleDown-subtitle {
+  font-size: 13px;
+  margin-bottom: 20px !important;
+}
+.rtl .bonus-scaleDown-subtitle {
+  font-size: 14px;
+}
+
+.bonus-scaleDown-text {
+  margin: 0 0 30px;
+}
+
+.scaled .bonus-scaleDown-text {
+  margin: 26px 0 30px;
+}
+
+.bonus-scaleDown-text-error {
+  font-weight: bold;
+  color: #D40000;
+  margin-bottom: 10px;
+  display: block !important;
+}
+
+.scaled .bonus-scaleDown-text-error {
+  display: none !important;
+}
+
+.bonus-scaleDown-text {
+  position: relative;
+  left: 92px;
+}
+
+.bonus-scaleDown img.res_small {
+  background-image: url('../../img_ltr/alliance/bonuses/3xresource_icon_small.png');
+  width: 120px;
+  height: 99px;
+  position: absolute;
+  left: -38px;
+  top: -22px;
+}
+
+.bonus-donation-gold img.res_big {
+  background-image: url('../../img_ltr/alliance/bonuses/3xresource_icon_large.png');
+  width: 265px;
+  height: 219px;
+  position: absolute;
+  left: -12px;
+  top: -38px;
+}
+
+.bonus-donation-gold {
+  min-height: 165px;
+}
+
+.bonus-donation-gold-container {
+  width: 250px;
+  margin-left: 253px;
+  text-align: center;
+  position: relative;
+}
+
+.bonus-donation-gold-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.rtl .bonus-donation-gold-title {
+  font-size: 17px;
+}
+
+.bonus-donation-gold-start-value {
+  border: solid 1px #99c01a;
+  background-color: #dff0a8;
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+}
+.rtl .bonus-donation-gold-start-value {
+  font-size: 14px;
+}
+
+.bonus-donation-gold-start-value .bonus-donation-gold-arrowMultiply {
+  width: 72px;
+  height: 35px;
+  background-image: url('../../img_ltr/alliance/bonuses/arrowMultiply.png');
+  position: absolute;
+  margin-top: 6px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+.bonus-donation-gold-outcome-value {
+  border: solid 1px #f9983d;
+  background-color: #fff5b9;
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 26px;
+  display: inline-block;
+}
+.rtl .bonus-donation-gold-outcome-value {
+  font-size: 14px;
+}
+
+.scaleDown .bonus-donation-gold-outcome-value {
+  border: solid 1px #D40000;
+}
+
+.scaleDown .bonus-donation-gold-outcome-value strong {
+  color: #D40000;
+}
+
+.bonus-donation-gold-outcome-value strong {
+  color: #f88d2a;
+}
+
+.bonus-donation-gold .bonus-donation-buttons-popup {
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.alliance-bonuses-details .bonus-levels .bonus-progress .body.grey {
+  background: transparent url('../../img_ltr/alliance/bonuses/bonusProgressTabGrey-ltr.png') no-repeat left top;
+}
+
+.alliance-bonuses-details .bonus-levels .bonus-progress .head.grey {
+  background: transparent url('../../img_ltr/alliance/bonuses/bonusProgressDetailsTabGrey-ltr.png') no-repeat right top;
+}
+
+.alliance-bonuses-details .bonus-levels .bonus-progress .bonus-text.grey {
+  background-color: #f6f6f6;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus1 {
+  width: 47px;
+  z-index: 40;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus2 {
+  width: 67px;
+  left: -5px;
+  z-index: 30;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus3 {
+  width: 96px;
+  left: -10px;
+  z-index: 20;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus4 {
+  width: 141px;
+  left: -15px;
+  z-index: 10;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus5 {
+  width: 201px;
+  left: -20px;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress .greenArrowWrapper {
+  padding: 2px 2px 2px 0;
+  position: absolute;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus1 .greenArrowWrapper {
+  padding: 2px 2px 2px 2px;
+  width: 40px;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus2 .greenArrowWrapper {
+  width: 62px;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus3 .greenArrowWrapper {
+  width: 91px;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus4 .greenArrowWrapper {
+  width: 136px;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus5 .greenArrowWrapper {
+  width: 199px;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus1 .grayArrowBody {
+  width: 42px;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus2 .grayArrowBody {
+  width: 62px;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus3 .grayArrowBody {
+  width: 91px;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus4 .grayArrowBody {
+  width: 136px;
+}
+
+.alliance-bonuses-details .bonus-levels .progress-details .bonus-progress.bonus5 .grayArrowBody {
+  width: 196px;
+}
+
+table#findAlliance td:nth-child(2),
+table#findAlliance td:nth-child(3) {
+  text-align: center;
+}
+
+/* Alliance bonuses reworked UI */
+#allianceBonusWrapper {
+  width: 100%;
+}
+
+#allianceBonusWrapper div {
+  box-sizing: border-box;
+}
+
+.alliance_bonus_locked {
+  margin-bottom: 20px;
+}
+
+#allianceBonusWrapper .header {
+  width: 100%;
+}
+
+#allianceBonusWrapper .header .description {
+  width: 70%;
+  text-align: left;
+}
+
+#allianceBonusWrapper #contributionBox {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection {
+  width: 46%;
+  float: left;
+  height: 197px;
+  margin-left: 15px;
+  border-right: dotted 1px #D3D3D3;
+  box-sizing: border-box;
+}
+
+#allianceBonusWrapper #contributionBox #resourceSelection {
+  width: 48%;
+  float: right;
+  min-height: 200px;
+  margin-right: 15px;
+  text-align: center;
+  padding-left: 10px;
+}
+
+#allianceBonusWrapper #contributionBox #resourceSelection table.resourceSelection td.resourceInput {
+  text-align: left;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection input {
+  display: none;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection label {
+  width: 177px;
+  height: 26px;
+  background: url('../../img_ltr/alliance/bonuses/bonusSelectorMiddle.png') repeat-x 0 0;
+  display: inline-block;
+  box-sizing: border-box;
+  font-weight: bold;
+  padding-left: 6px;
+  padding-top: 5px;
+  float: right;
+  margin-top: 27px;
+  margin-right: 25px;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 4px;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection label:first-of-type {
+  margin-top: 0;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection label:hover {
+  background-position: 0 -26px;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection label:active {
+  background-position: 0 -52px;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection input:checked + label {
+  background-position: 0 -78px;
+  height: 30px;
+  cursor: default;
+  padding-top: 7px;
+  margin-bottom: 0;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection label.upgrading {
+  background-position: 0 -108px;
+  cursor: default;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection label.maxLevel {
+  background-position: 0 -134px;
+  cursor: default;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection label:before {
+  width: 12px;
+  height: 26px;
+  display: inline-block;
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 0;
+  background: url('../../img_ltr/alliance/bonuses/bonusSelectorFront-ltr.png') no-repeat 0 0;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection label:after {
+  width: 12px;
+  height: 26px;
+  display: inline-block;
+  content: "";
+  position: absolute;
+  right: -12px;
+  top: 0;
+  background: url('../../img_ltr/alliance/bonuses/bonusSelectorEnd-ltr.png') no-repeat right 0;
+  transition: right 250ms, width 250ms !important;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection label:hover:before {
+  background-position: 0 -26px;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection label:hover:after {
+  background-position: right -26px;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection label:active:before {
+  background-position: 0 -52px;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection label:active:after {
+  background-position: right -52px;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection input:checked + label:before {
+  background-position: 0 -78px;
+  width: 12px;
+  left: -12px;
+  height: 30px;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection input:checked + label:after {
+  background-position: right -78px;
+  width: 37px;
+  right: -37px;
+  height: 30px;
+  transition: right 250ms;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection label.upgrading:before,
+#allianceBonusWrapper #contributionBox #bonusSelection label.upgrading:after {
+  background-position: 0 -108px;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection label.maxLevel:before,
+#allianceBonusWrapper #contributionBox #bonusSelection label.maxLevel:after {
+  background-position: 0 -134px;
+  cursor: default;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection .bonusButtonRound {
+  width: 30px;
+  height: 30px;
+  display: block;
+  float: left;
+  background: url('../../img_ltr/alliance/bonuses/bonusButtonRound.png') no-repeat 0 0;
+  margin-top: 25px;
+  text-align: center;
+  padding-top: 6px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection .bonusButtonRound:first-of-type {
+  margin-top: -2px;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection .bonusButtonRound:hover {
+  background-position: 0 -30px;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection .bonusButtonRound:active {
+  background-position: 0 -60px;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection .bonusButtonRound.maxLevel {
+  background-position: 0 -90px;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection .bonusButtonRound img {
+  background-position: center;
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection .bonusButtonRound img.bonusIconUpgrading {
+  width: 18px;
+  height: 18px;
+  background-image: url('../../img_ltr/alliance/bonuses/cog.png');
+}
+
+#allianceBonusWrapper #contributionBox #bonusSelection .bonusButtonRound .crown {
+  width: 30px;
+  height: 22px;
+  background-image: url('../../img_ltr/alliance/bonuses/crown.png');
+  position: absolute;
+  top: -13px;
+}
+
+#allianceBonusWrapper #contributionBox #contributeButtons {
+  float: right;
+  margin-right: 15px;
+  margin-top: 16px;
+  width: auto;
+  padding-left: 13px;
+}
+
+#allianceBonusWrapper #contributionBox #contributeButtons button {
+  min-width: 122px;
+  text-align: center;
+}
+
+/* Removed the internal padding for buttons in Firefox (it made our buttons ~6px smaller than other browsers */
+#allianceBonusWrapper #contributionBox #contributeButtons button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+#allianceBonusWrapper #contributionBox #contributeButtons button.gold {
+  float: left;
+  margin-right: 10px;
+}
+
+#allianceBonusWrapper #contributionBox #contributeButtons button.green {
+  float: right;
+}
+
+.bonusIconPhilosophy {
+  width: 18px;
+  height: 18px;
+  background-image: url('../../img_ltr/alliance/bonuses/bonusIconPhilosophy-ltr.png');
+}
+
+.bonusIconRecruitment {
+  width: 18px;
+  height: 18px;
+  background-image: url('../../img_ltr/alliance/bonuses/bonusIconRecruitment-ltr.png');
+}
+
+.bonusIconCommerce {
+  width: 18px;
+  height: 18px;
+  background-image: url('../../img_ltr/alliance/bonuses/bonusIconCommerce-ltr.png');
+}
+
+.bonusIconMetallurgy {
+  width: 18px;
+  height: 18px;
+  background-image: url('../../img_ltr/alliance/bonuses/bonusIconMetallurgy-ltr.png');
+}
+
+.lockIcon {
+  width: 13px;
+  height: 16px;
+  background-image: url('../../img_ltr/alliance/bonuses/lock_red.png');
+}
+
+.colorBlind .lockIcon {
+  background-image: url('../../img_ltr/alliance/bonuses/lock_blue.png');
+}
+
+#contributionBox #resourceSelection hr {
+  height: 1px;
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px dotted #D3D3D3;
+}
+
+#contributionBox #resourceSelection .resourceSum {
+  width: 100%;
+  background-color: #f1f6f1;
+  text-align: left;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#contributionBox #resourceSelection img.resAllBigIcon {
+  width: 25px;
+  height: 21px;
+  background-image: url('../../img_ltr/a/resAllBig-ltr.png');
+  vertical-align: middle;
+}
+
+#contributionBox #resourceSelection .resourceSum .sumText {
+  vertical-align: middle;
+  padding-top: 5px;
+}
+
+#contributionBox #resourceSelection .resourceSum .sumValue {
+  float: right;
+  padding-right: 20%;
+  padding-top: 5px;
+}
+
+#contributionBox #resourceSelection table.resourceSelection td.resourceMaximum {
+  white-space: nowrap;
+}
+
+.contributionIconLarge {
+  width: 172px;
+  height: 132px;
+  background-image: url('../../img_ltr/alliance/bonuses/contribution-ltr.png');
+  position: absolute;
+  right: 5px;
+  margin-top: -100px;
+}
+
+#contributionBox #bonusNotSelectedMessage {
+  float: left;
+  margin-left: 15px;
+  margin-top: 12px;
+  line-height: 25px;
+  vertical-align: middle;
+  width: 254px;
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+.alliance-bonuses-overview {
+  border: none;
+  padding: 0;
+}
+
+#allianceBonusWrapper #myDailyContributionLimit {
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.alliance-bonuses-details {
+  margin-top: 0;
+}
+
+#allianceBonusWrapper #myDailyContributionLimit #dailyContributionTitle {
+  color: #999999;
+  font-size: 12px;
+  padding-bottom: 3px;
+}
+.rtl #allianceBonusWrapper #myDailyContributionLimit #dailyContributionTitle {
+  font-size: 13px;
+}
+
+#allianceBonusWrapper #myDailyContributionLimit .progressBarDailyLimit {
+  width: 522px;
+  height: 20px;
+  border: solid 1px #d3d3d3;
+  display: inline-block;
+  position: relative;
+}
+
+#allianceBonusWrapper #myDailyContributionLimit .progressBarDailyLimit .greenArrow {
+  height: 18px;
+  background: url('../../img_ltr/alliance/bonuses/arrow-ltr.png') right -37px;
+  position: absolute;
+  border: solid 1px #F2F2F2;
+  transition: width 500ms, opacity 500ms;
+}
+
+#allianceBonusWrapper #myDailyContributionLimit .progressBarDailyLimit .greenArrow.lightGreen {
+  background-position: right 89px;
+}
+
+#allianceBonusWrapper #myDailyContributionLimit .progressBarDailyLimit .greenArrow.gold {
+  background-position: right -1px;
+}
+
+#allianceBonusWrapper #myDailyContributionLimit .progressBarDailyLimit .greenArrow[style="width: 100%"] {
+  background: url('../../img_ltr/alliance/bonuses/arrow-ltr.png') right 53px;
+}
+
+#allianceBonusWrapper #myDailyContributionLimit .progressBarDailyLimit .greenArrow.complete {
+  background: url('../../img_ltr/alliance/bonuses/arrow-ltr.png') right 18px;
+  transition: width 500ms, opacity 500ms, background-position 1500ms;
+}
+
+#allianceBonusWrapper #myDailyContributionLimit .progressBarDailyLimit .contributionText {
+  padding-top: 2px;
+  position: relative;
+}
+
+#allianceBonusWrapper #myDailyContributionLimit .progressBarDailyLimit .contributionText .donationValueNumber:before,
+#allianceBonusWrapper #myDailyContributionLimit .progressBarDailyLimit .contributionText .donationMaxNumber:before,
+#allianceBonusWrapper #myDailyContributionLimit .progressBarDailyLimit .contributionText .donationValueNumber:after,
+#allianceBonusWrapper #myDailyContributionLimit .progressBarDailyLimit .contributionText .donationMaxNumber:after {
+  content: " ";
+}
+
+#allianceBonusWrapper #myDailyContributionLimit .progressBarDailyLimit .contributionText.complete {
+  color: #F2F2F2;
+}
+
+#allianceBonusWrapper #myDailyContributionLimit.hidden {
+  opacity: 0;
+  transition-duration: 500ms;
+}
+
+#allianceBonusWrapper .bonusBox {
+  margin-top: 10px;
+}
+
+#allianceBonusWrapper .bonusBox:first-of-type {
+  margin-top: 15px;
+}
+
+#allianceBonusWrapper .bonusBox h4 {
+  font-weight: normal;
+  margin-bottom: 0;
+  font-size: 12px;
+  padding-left: 7px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.rtl #allianceBonusWrapper .bonusBox h4 {
+  font-size: 13px;
+}
+
+#allianceBonusWrapper .bonusBox h4 button {
+  width: 18px;
+  height: 18px;
+  background: none;
+  margin-right: 5px;
+}
+
+#allianceBonusWrapper .bonusBox h4 img {
+  vertical-align: middle;
+  width: 18px;
+  padding: 0;
+}
+
+#allianceBonusWrapper .bonusBox h4 img:focus {
+  outline: none !important;
+}
+
+#allianceBonusWrapper .bonusBar {
+  min-height: 38px;
+  margin-top: 15px;
+  width: 550px;
+}
+
+#allianceBonusWrapper .bonusBar img {
+  float: left;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+
+#allianceBonusWrapper .bonusBar img.lockIcon {
+  margin: 9px 2px 4px 10px;
+}
+
+#allianceBonusOverview .progressBar {
+  width: 519px;
+  float: left;
+  margin-left: 5px;
+}
+
+#allianceBonusOverview .progressBar .front {
+  width: 496px;
+  height: 12px;
+  border: solid 1px #d3d3d3;
+  margin-top: 13px;
+}
+
+#allianceBonusOverview .progressBar .back {
+  width: 80%;
+  max-width: 100%;
+  height: 10px;
+  border: solid 1px #ffffff;
+  border-right: none;
+  background-color: #99C01A;
+  transition-duration: 500ms;
+}
+
+#allianceBonusOverview .progressBar.complete .back {
+  width: 100% !important;
+  background-color: #237590;
+}
+
+#allianceBonusOverview .progressBar.inactive .back {
+  background-color: #C0C0C0;
+}
+
+#allianceBonusOverview .progressBar .levels {
+  width: 494px;
+  height: 36px;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+#allianceBonusOverview .progressBar .levels > div {
+  margin-top: 10px;
+  width: 26px;
+  height: 18px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelIcons.png');
+  position: absolute;
+}
+
+#allianceBonusOverview .progressBar .levels > div.notreached {
+  margin-top: 11px;
+  width: 24px;
+  height: 16px;
+  background-position: -1px 0;
+}
+
+#allianceBonusOverview .progressBar .levels > div.reached {
+  background-position: 0 -18px;
+}
+
+#allianceBonusOverview .progressBar.complete .levels > div {
+  background-position: 0 -38px;
+}
+
+#allianceBonusOverview .progressBar .levels > div.notreached.upgrading {
+  background: url('../../img_ltr/alliance/bonuses/levelIconUpgrading-ltr.gif');
+  width: 24px;
+  height: 16px;
+}
+
+#allianceBonusOverview .progressBar.inactive .levels > div.notreached.upgrading {
+  background-position: 0 -19px;
+}
+
+#allianceBonusOverview .progressBar.inactive .levels > div.reached,
+#allianceBonusOverview .progressBar.inactive.complete .levels > div {
+  width: 26px;
+  height: 18px;
+  margin-top: 10px;
+  background-position: 0 -58px;
+}
+
+#allianceBonusOverview .progressBar .levels .level1 {
+  margin-left: 26px;
+}
+
+#allianceBonusOverview .progressBar .levels .level2 {
+  margin-left: 81px;
+}
+
+#allianceBonusOverview .progressBar .levels .level3 {
+  margin-left: 167px;
+}
+
+#allianceBonusOverview .progressBar .levels .level4 {
+  margin-left: 298px;
+}
+
+#allianceBonusOverview .progressBar .levels .level5 {
+  margin-left: 493px;
+  width: 20px !important;
+}
+
+#allianceBonusOverview .progressBar .levels > span {
+  position: absolute;
+  width: 24px;
+  height: 12px;
+  top: 13px;
+}
+
+#allianceBonusOverview .progressBar .levels .levelTooltip1 {
+  margin-left: 2px;
+}
+
+#allianceBonusOverview .progressBar .levels .levelTooltip2 {
+  margin-left: 52px;
+  width: 35px;
+}
+
+#allianceBonusOverview .progressBar .levels .levelTooltip3 {
+  margin-left: 111px;
+  width: 67px;
+}
+
+#allianceBonusOverview .progressBar .levels .levelTooltip4 {
+  margin-left: 202px;
+  width: 113px;
+}
+
+#allianceBonusOverview .progressBar .levels .levelTooltip5 {
+  margin-left: 339px;
+  width: 153px;
+}
+
+#allianceBonusOverview .progressBar.complete .levelPercentages {
+  display: none;
+}
+
+#allianceBonusOverview .progressBar .levelPercentages div {
+  width: 40px;
+  font-size: 12px;
+  float: left;
+  color: #777777;
+  margin-top: -3px;
+  text-align: center;
+}
+.rtl #allianceBonusOverview .progressBar .levelPercentages div {
+  font-size: 13px;
+}
+
+#allianceBonusOverview .progressBar .levelPercentages .level1 {
+  margin-left: 20px;
+}
+
+#allianceBonusOverview .progressBar .levelPercentages .level2 {
+  margin-left: 14px;
+}
+
+#allianceBonusOverview .progressBar .levelPercentages .level3 {
+  margin-left: 47px;
+}
+
+#allianceBonusOverview .progressBar .levelPercentages .level4 {
+  margin-left: 90px;
+}
+
+#allianceBonusOverview .progressBar .levelPercentages .level5 {
+  margin-left: 147px;
+}
+
+#allianceBonusOverview .progressBar .levelPercentages .level1.reached,
+#allianceBonusOverview .progressBar .levelPercentages .level2.reached,
+#allianceBonusOverview .progressBar .levelPercentages .level3.reached,
+#allianceBonusOverview .progressBar .levelPercentages .level4.reached,
+#allianceBonusOverview .progressBar .levelPercentages .level5.reached {
+  visibility: hidden;
+}
+
+#allianceBonusOverview .levelIndicator {
+  width: 100px;
+  left: 0;
+  text-align: center;
+  position: absolute;
+}
+
+#allianceBonusOverview .levelIndicator .indicator {
+  width: auto;
+  height: 17px;
+  background: url('../../img_ltr/alliance/bonuses/levelIndicatorMiddle.png') repeat-x;
+  color: #F2F2F2;
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  z-index: 3;
+  margin-top: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#allianceBonusOverview .levelIndicator .indicator:before {
+  background: url('../../img_ltr/alliance/bonuses/levelIndicatorFront.png');
+  content: "";
+  width: 3px;
+  height: 17px;
+  display: inline-block;
+  left: -3px;
+  top: 0;
+  position: absolute;
+}
+
+#allianceBonusOverview .levelIndicator .indicator:after {
+  background: url('../../img_ltr/alliance/bonuses/levelIndicatorEnd.png');
+  content: "";
+  width: 3px;
+  height: 17px;
+  display: inline-block;
+  right: -3px;
+  top: 0;
+  position: absolute;
+}
+
+#allianceBonusOverview .levelIndicator .arrow {
+  width: 12px;
+  height: 9px;
+  background: url('../../img_ltr/alliance/bonuses/levelIndicatorArrow.png');
+  margin: -2px auto;
+}
+
+#allianceBonusOverview .complete .levelIndicator .indicator {
+  background-position: 0 -17px;
+}
+
+#allianceBonusOverview .complete .levelIndicator .indicator:before,
+#allianceBonusOverview .complete .levelIndicator .indicator:after {
+  background-position: 0 -17px;
+}
+
+#allianceBonusOverview .complete .levelIndicator .indicator:after {
+  width: 3px;
+}
+
+#allianceBonusOverview .complete .levelIndicator .arrow {
+  background-position: 0 -9px;
+}
+
+#allianceBonusOverview .inactive .levelIndicator .indicator {
+  background-position: 0 -34px;
+}
+
+#allianceBonusOverview .inactive .levelIndicator .indicator:before,
+#allianceBonusOverview .inactive .levelIndicator .indicator:after {
+  background-position: 0 -34px;
+}
+
+#allianceBonusOverview .inactive .levelIndicator .arrow {
+  background-position: 0 -18px;
+}
+
+#allianceBonusOverview .levelIndicator.level0 {
+  display: none;
+}
+
+#allianceBonusOverview .levelIndicator.level1 {
+  margin-left: 19px;
+}
+
+#allianceBonusOverview .levelIndicator.level2 {
+  margin-left: 74px;
+}
+
+#allianceBonusOverview .levelIndicator.level3 {
+  margin-left: 160px;
+}
+
+#allianceBonusOverview .levelIndicator.level4 {
+  margin-left: 291px;
+}
+
+#allianceBonusOverview .levelIndicator.level5 {
+  margin-left: 486px;
+}
+
+#allianceBonusOverview .levelIndicator .crown {
+  width: 30px;
+  height: 22px;
+  background: url('../../img_ltr/alliance/bonuses/crown.png') no-repeat 0 0;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  right: 50%;
+  margin-left: -15px;
+  display: none;
+}
+
+#allianceBonusOverview .inactive .levelIndicator .crown {
+  background-position: 0 -22px;
+}
+
+#allianceBonusOverview .levelIndicator.level5 .crown {
+  display: block;
+}
+
+#allianceBonusOverview .bonusActivationMessage {
+  color: #D40000;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-bottom: 6px;
+}
+
+#allianceBonusOverview .colorBlind .bonusActivationMessage {
+  color: #0000ff;
+}
+
+#allianceBonusWrapper .limitReachedMessage,
+#allianceBonusWrapper .sitterErrorMessage {
+  padding: 0 17px;
+  font-weight: bold;
+}
+
+#allianceBonusWrapper .sitterErrorMessage {
+  color: #f88c1f;
+}
+
+#allianceBonusWrapper .limitReachedMessage {
+  color: #237590;
+}
+
+#allianceBonusWrapper .bonusInfo {
+  padding: 10px 10px 12px;
+}
+
+#allianceBonusWrapper .descriptionWrapper {
+  width: auto;
+  padding: 12px 5px 0 7px;
+  border-top: 1px lightgrey dotted;
+}
+
+#allianceBonusWrapper .bonusExtendedDescription {
+  float: left;
+  height: 110px;
+  width: 100%;
+  padding-right: 135px;
+  background: transparent url('../../img_ltr/alliance/bonuses/bonusRecruitment-ltr.png') no-repeat center right;
+  display: table;
+}
+
+#allianceBonusWrapper .bonusExtendedDescription.bonusImage0 {
+  background-image: url('../../img_ltr/alliance/bonuses/bonusRecruitment-ltr.png');
+}
+
+#allianceBonusWrapper .bonusExtendedDescription.bonusImage1 {
+  background-image: url('../../img_ltr/alliance/bonuses/bonusPhilosophy-ltr.png');
+}
+
+#allianceBonusWrapper .bonusExtendedDescription.bonusImage2 {
+  background-image: url('../../img_ltr/alliance/bonuses/bonusMetallurgy-ltr.png');
+}
+
+#allianceBonusWrapper .bonusExtendedDescription.bonusImage3 {
+  background-image: url('../../img_ltr/alliance/bonuses/bonusCommerce-ltr.png');
+}
+
+#allianceBonusWrapper .descriptionWrapper .bonusExtendedDescription .textContent {
+  display: table-cell;
+  vertical-align: middle;
+  padding-bottom: 17px;
+}
+
+#allianceBonusWrapper .bonusStatistics {
+  width: auto;
+  padding-top: 12px;
+}
+
+#allianceBonusWrapper .bonusStatistics table td,
+#allianceBonusWrapper .bonusStatistics table th {
+  text-align: center;
+}
+
+#allianceBonusWrapper .bonusStatistics td.ra, #allianceBonusWrapper .bonusStatistics td.val {
+  width: 1%;
+  white-space: nowrap;
+}
+#allianceBonusWrapper .bonusStatistics td.pop, #allianceBonusWrapper .bonusStatistics td.po {
+  width: 20%;
+}
+#allianceBonusWrapper .bonusStatistics td.al {
+  text-align: left;
+}
+#allianceBonusWrapper .bonusStatistics td.vil {
+  width: 10%;
+}
+#allianceBonusWrapper .bonusStatistics td.re {
+  width: 20%;
+  white-space: nowrap;
+}
+#allianceBonusWrapper .bonusStatistics td.av {
+  width: 18%;
+}
+
+#allianceBonusWrapper .bonusStatistics p.error {
+  font-size: 9px;
+}
+.rtl #allianceBonusWrapper .bonusStatistics p.error {
+  font-size: 10px;
+}
+
+/* top5 */
+#allianceBonusWrapper .bonusStatistics table.top5 {
+  margin: 10px auto 0 auto;
+}
+#allianceBonusWrapper .bonusStatistics table.top5 tbody .ra {
+  text-align: right;
+}
+#allianceBonusWrapper .bonusStatistics table.top5 tbody .pla {
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  max-width: 1px;
+}
+#allianceBonusWrapper .bonusStatistics table.top5 tbody .pla .archived {
+  font-weight: bold;
+  color: #777777;
+}
+
+#allianceBonusWrapper .bonusStatistics table.top5 tr.none td {
+  background-color: #EFEFEF;
+}
+
+#allianceBonusWrapper .bonusStatistics div.top5Wrapper {
+  width: 261px;
+  position: relative;
+}
+
+#allianceBonusWrapper .bonusStatistics div.top5Wrapper h4 {
+  left: 0;
+  width: 100%;
+}
+
+#allianceBonusWrapper .bonusStatistics div.top5Wrapper h4.round.small {
+  background: #e0ebdf;
+}
+
+#allianceBonusWrapper .bonusStatistics div#statLeft {
+  float: left;
+}
+
+#allianceBonusWrapper .bonusStatistics div#statRight {
+  float: right;
+}
+
+#contributionForm.faded .resourceMaximum,
+#contributionForm.faded .sumValue {
+  opacity: 0;
+  transition-duration: 500ms;
+}
+
+/** Alliance Bonus Reward Animations */
+.bonusLevelUpReward {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  top: 50%;
+  margin-top: -270px;
+  transition-duration: 500ms;
+  transition-delay: 500ms;
+}
+
+.bonusLevelUpReward.faded {
+  opacity: 0;
+}
+
+.bonusLevelUpReward .banner {
+  width: 436px;
+  height: 100px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/banner-ltr.png');
+  position: absolute;
+  left: 50%;
+  margin-left: -218px;
+  top: 20px;
+  opacity: 0;
+  transition-duration: 1500ms;
+  transition-delay: 500ms;
+  padding-left: 53px;
+  padding-right: 53px;
+  padding-top: 0;
+  font-size: 45px;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-align: center;
+  color: transparent;
+  line-height: 1.2;
+  text-shadow: none;
+  transition: height 1500ms ease, padding-top 1500ms ease, color 1500ms ease, text-shadow 1500ms ease;
+}
+.rtl .bonusLevelUpReward .banner {
+  font-size: 46px;
+}
+
+.bonusLevelUpReward .banner:before {
+  content: "";
+  width: 335px;
+  height: 46px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/banner-footer-ltr.png');
+  position: absolute;
+  bottom: -20px;
+  left: 51px;
+}
+
+.bonusLevelUpReward .banner .description {
+  max-height: 280px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bonusLevelUpReward .banner.visible {
+  top: 218px;
+  opacity: 1;
+}
+
+.bonusLevelUpReward .banner.enlarged {
+  height: 280px;
+  padding-top: 100px;
+  color: #e79102;
+  text-shadow: 0 -1px 3px rgba(23, 39, 9, 0.75);
+}
+
+.bonusLevelUpReward .stoneDisplay {
+  width: 264px;
+  height: 270px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/stone-display-ltr.png');
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  margin-left: -132px;
+  top: 100px;
+  opacity: 0;
+  transition-duration: 250ms;
+}
+
+.bonusLevelUpReward .stoneDisplay.visible {
+  top: 48px;
+  opacity: 1;
+}
+
+.bonusLevelUpReward .stoneDisplayHeader {
+  width: 269px;
+  height: 319px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/stone-display-header-ltr.png');
+  position: absolute;
+  left: 50%;
+  margin-left: -135px;
+  margin-top: 48px;
+  opacity: 0;
+  transition-duration: 250ms;
+  transition-delay: 200ms;
+}
+
+.bonusLevelUpReward .stoneDisplayHeader.visible {
+  margin-top: 0;
+  opacity: 1;
+}
+
+.bonusLevelUpReward .stoneDisplayHeader > div {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+}
+
+.bonusLevelUpReward .stoneDisplayHeader .level1 {
+  margin-left: 3px;
+  margin-top: 20px;
+}
+
+.bonusLevelUpReward .stoneDisplayHeader .level3 {
+  margin-left: 39px;
+  margin-top: -3px;
+}
+
+.bonusLevelUpReward .stoneDisplayHeader .level4 {
+  margin-left: 147px;
+  margin-top: -4px;
+}
+
+.bonusLevelUpReward .stoneDisplayHeader .level2 {
+  margin-left: 183px;
+  margin-top: 20px;
+}
+
+.bonusLevelUpReward .stoneDisplayHeader .level5 {
+  width: 85px;
+  height: 85px;
+  margin-left: 89px;
+  margin-top: -21px;
+}
+
+.bonusLevelUpReward .stoneDisplayHeader > div .star {
+  width: 29px;
+  height: 30px;
+  background: url('../../img_ltr/alliance/bonuses/levelUpAnimation/star-small-ltr.png') no-repeat;
+  position: absolute;
+  margin-left: 24px;
+  margin-top: 23px;
+  opacity: 0;
+  transition-duration: 250ms;
+  transition-delay: 100ms;
+}
+
+.bonusLevelUpReward .stoneDisplayHeader > div .star.visible {
+  opacity: 1;
+}
+
+.bonusLevelUpReward .stoneDisplayHeader > div.level5 .star {
+  width: 38px;
+  height: 39px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/star-big-ltr.png');
+}
+
+.bonusLevelUpReward .stoneDisplayHeader > div .glow {
+  width: 75px;
+  height: 75px;
+  background: url('../../img_ltr/alliance/bonuses/levelUpAnimation/star-small-glow-ltr.png') no-repeat;
+  position: absolute;
+  transition-duration: 250ms;
+  opacity: 0;
+}
+
+.bonusLevelUpReward .stoneDisplayHeader > div .glow.visible {
+  opacity: 1;
+}
+
+.bonusLevelUpReward .stoneDisplayHeader > div.level5 .glow {
+  width: 85px;
+  height: 85px;
+  background: url('../../img_ltr/alliance/bonuses/levelUpAnimation/star-big-glow-ltr.png') no-repeat;
+  position: absolute;
+}
+
+.bonusLevelUpReward .swords {
+  width: 200%;
+  height: 200%;
+  margin-top: -50%;
+  margin-left: -50%;
+  position: absolute;
+  opacity: 0;
+  transition-duration: 300ms;
+  transition-delay: 750ms;
+}
+
+.bonusLevelUpReward .swords.visible {
+  opacity: 1;
+}
+
+.bonusLevelUpReward .swords > div {
+  width: 453px;
+  height: 218px;
+  position: absolute;
+  transition-duration: 1000ms;
+  transition-delay: 750ms;
+  transition-timing-function: ease-in;
+  margin-top: 208px;
+}
+
+.bonusLevelUpReward .swords .sword1 {
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/sword1-ltr.png');
+}
+
+.bonusLevelUpReward .swords .sword2 {
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/sword2-ltr.png');
+  margin-left: 740px;
+}
+
+.bonusLevelUpReward .swords.locked .sword1 {
+  margin-left: 344px;
+  margin-top: 364px;
+}
+
+.bonusLevelUpReward .swords.locked .sword2 {
+  margin-left: 398px;
+  margin-top: 364px;
+}
+
+.bonusLevelUpReward .bonusRepresentation .stage1 {
+  position: absolute;
+  opacity: 0;
+  transition-duration: 500ms;
+}
+
+.bonusLevelUpReward .bonusRepresentation .stage1.visible {
+  opacity: 1;
+}
+
+.bonusLevelUpReward .bonusRepresentation .glow {
+  position: absolute;
+  opacity: 0;
+  transition-duration: 250ms;
+}
+
+.bonusLevelUpReward .bonusRepresentation .glow.visible {
+  opacity: 1;
+}
+
+.bonusLevelUpReward .bonusRepresentation .glow.step2 {
+  transition-duration: 750ms;
+}
+
+.bonusLevelUpReward .bonusRepresentation .stage2 {
+  position: absolute;
+  opacity: 0;
+  transition-duration: 500ms;
+}
+
+.bonusLevelUpReward .bonusRepresentation .stage2.visible {
+  opacity: 1;
+}
+
+.bonusLevelUpReward .bonusRepresentation .CPProduction .stage1 {
+  width: 162px;
+  height: 227px;
+  margin-left: 46px;
+  margin-top: -2px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/philosophy-stage-1-ltr.png');
+}
+
+.bonusLevelUpReward .bonusRepresentation .CPProduction .glow {
+  width: 199px;
+  height: 266px;
+  margin-left: 27px;
+  margin-top: -20px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/philosophy-glow-ltr.png');
+}
+
+.bonusLevelUpReward .bonusRepresentation .CPProduction .stage2 {
+  width: 162px;
+  height: 227px;
+  margin-left: 46px;
+  margin-top: -2px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/philosophy-stage-2-ltr.png');
+}
+
+.bonusLevelUpReward .bonusRepresentation .TroopProductionSpeed .stage1 {
+  width: 242px;
+  height: 229px;
+  margin-top: -3px;
+  margin-left: 8px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/recruitment-stage-1-ltr.png');
+}
+
+.bonusLevelUpReward .bonusRepresentation .TroopProductionSpeed .glow {
+  width: 277px;
+  height: 265px;
+  margin-left: -9px;
+  margin-top: -20px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/recruitment-glow-ltr.png');
+}
+
+.bonusLevelUpReward .bonusRepresentation .TroopProductionSpeed .stage2 {
+  width: 242px;
+  height: 229px;
+  margin-top: -1px;
+  margin-left: 9px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/recruitment-stage-2-ltr.png');
+}
+
+.bonusLevelUpReward .bonusRepresentation .SmithyPower .stage1 {
+  width: 238px;
+  height: 238px;
+  margin-top: -12px;
+  margin-left: 10px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/metallurgy-stage-1-ltr.png');
+}
+
+.bonusLevelUpReward .bonusRepresentation .SmithyPower .glow {
+  width: 263px;
+  height: 275px;
+  margin-left: -10px;
+  margin-top: -32px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/metallurgy-glow-ltr.png');
+}
+
+.bonusLevelUpReward .bonusRepresentation .SmithyPower .stage2 {
+  width: 237px;
+  height: 238px;
+  margin-top: -11px;
+  margin-left: 12px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/metallurgy-stage-2-ltr.png');
+}
+
+.bonusLevelUpReward .bonusRepresentation .MerchantCapacity .stage1 {
+  width: 232px;
+  height: 211px;
+  margin-top: 30px;
+  margin-left: -4px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/commerce-stage-1-ltr.png');
+}
+
+.bonusLevelUpReward .bonusRepresentation .MerchantCapacity .glow {
+  width: 262px;
+  height: 238px;
+  margin-left: -23px;
+  margin-top: 10px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/commerce-glow-ltr.png');
+}
+
+.bonusLevelUpReward .bonusRepresentation .MerchantCapacity .stage2 {
+  width: 232px;
+  height: 211px;
+  margin-top: 30px;
+  margin-left: -4px;
+  background-image: url('../../img_ltr/alliance/bonuses/levelUpAnimation/commerce-stage-2-ltr.png');
+}
+
+/** RTL fixes */
+.rtl #allianceBonusOverview .progressBar .levels .level5 {
+  background-position: -3px 0;
+}
+
+.rtl #allianceBonusOverview .progressBar.complete .levels .level5 {
+  background-position: -3px -38px;
+}
+
+.rtl #allianceBonusOverview .progressBar .levels .level5.notreached.upgrading {
+  background-position: -3px 0;
+}
+
+.rtl #allianceBonusOverview .progressBar.inactive .levels .level5.notreached.upgrading {
+  background-position: -3px -19px;
+}
+
+.rtl #allianceBonusOverview .progressBar.inactive .levels > div.reached:last-of-type, .rtl .progressBar.inactive.complete .levels > div:last-of-type {
+  background-position: -3px -58px;
+}
+
+.rtl #allianceBonusOverview .levelIndicator .indicator {
+  transform: translateX(50%);
+}
+
+.rtl #allianceBonusWrapper #contributionBox #bonusSelection label:before {
+  width: 12px;
+}
+
+.rtl #allianceBonusWrapper #myDailyContributionLimit .progressBarDailyLimit .contributionText {
+  padding-top: 1px;
+}
+
+.rtl div.alliance .description {
+  overflow: hidden;
+}
+
+.rtl #allianceBonusOverview .levelIndicator.level5 {
+  margin-right: 484px;
+}
+
+/** no alliance page */
+.noAllianceBackground {
+  min-height: 163px;
+  padding: 20px !important;
+  background: url('../../img_ltr/alliance/noAllianceBackground.png') no-repeat right;
+  background-size: contain;
+}
+
+.noAllianceBackground > div {
+  width: 50%;
+}

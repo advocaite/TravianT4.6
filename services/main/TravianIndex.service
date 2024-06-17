@@ -1,0 +1,13 @@
+[Unit]
+Description=Travian index launcher
+After=network.target
+After=mysqld.service
+
+[Service]
+Type=simple
+WorkingDirectory=/travian/angularIndex
+ExecStart=/usr/bin/node server.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

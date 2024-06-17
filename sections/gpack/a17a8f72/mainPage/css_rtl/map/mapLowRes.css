@@ -1,0 +1,619 @@
+@charset "UTF-8";
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.map2.lowRes {
+  height: auto;
+  width: auto;
+  padding-right: 0;
+}
+
+#mapContainer.lowRes {
+  height: auto;
+  width: auto;
+  margin-right: 27px;
+}
+
+#mapContainer.lowRes .mapContainerData {
+  position: relative;
+}
+
+/* Coord Enter */
+#mapContainer.lowRes #mapCoordEnter {
+  display: block;
+  bottom: 17px;
+  width: 242px;
+  height: 28px;
+}
+
+#mapContainer.lowRes #mapCoordEnter button {
+  top: 2px;
+  left: 10px;
+}
+
+.gecko #mapContainer.lowRes #mapCoordEnter button {
+  top: 1px;
+}
+
+body.fullScreen #mapContainer.lowRes #mapCoordEnter {
+  bottom: 0;
+}
+
+#mapContainer.lowRes #mapCoordEnter .contents {
+  padding: 8px 0 4px;
+  width: 242px;
+}
+
+#mapContainer.lowRes #mapCoordEnter label {
+  margin-right: 0 !important;
+}
+
+#mapContainer.lowRes #mapCoordEnter div.xCoord,
+#mapContainer.lowRes #mapCoordEnter div.yCoord {
+  margin-right: 5px !important;
+}
+
+/* Ruler X */
+#mapContainer.lowRes .ruler.x {
+  position: relative;
+  right: 0;
+  /* width: 540px */
+  overflow: hidden;
+  height: 16px;
+}
+
+#mapContainer.lowRes .ruler.x .rulerContainer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  /*width: 540px */
+  height: 100%;
+  background-position: right top;
+  background-color: transparent;
+  background-repeat: repeat-x;
+  background-image: url('../../img_rtl/map/lowRes/rulers/x-1.gif');
+}
+
+#mapContainer.lowRes .ruler.x .coordinate {
+  width: 60px;
+  float: left;
+}
+
+/* Ruler Y */
+#mapContainer.lowRes .ruler.y {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  right: -27px;
+  width: 27px;
+  z-index: 2;
+}
+
+#mapContainer.lowRes .ruler.y .rulerContainer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  /*height: 420px */
+  background-position: right -1px;
+  background-color: transparent;
+  background-repeat: repeat-y;
+  background-image: url('../../img_rtl/map/lowRes/rulers/y-1.gif');
+}
+
+#mapContainer.lowRes .ruler.y .coordinate {
+  height: 34px;
+}
+
+#mapContainer.lowRes > a {
+  position: absolute;
+  z-index: 2000;
+}
+
+#mapContainer.lowRes > a img {
+  background-image: url('../../img_rtl/map/lowRes/mapArrow.png');
+  background-repeat: no-repeat;
+}
+
+#mapContainer.lowRes > a.moveLeft {
+  left: -20px;
+  top: 50%;
+  margin: auto;
+  margin-top: -38px;
+}
+
+#mapContainer.lowRes > a.moveLeft img {
+  background-position: -10px -240px;
+  width: 40px;
+  height: 60px;
+}
+
+#mapContainer.lowRes > a.moveRight {
+  right: 25px;
+  top: 50%;
+  margin: auto;
+  margin-top: -38px;
+}
+
+#mapContainer.lowRes > a.moveRight img {
+  background-position: -10px -80px;
+  width: 40px;
+  height: 60px;
+}
+
+#mapContainer.lowRes > a.moveUp {
+  right: 50%;
+  top: -20px;
+  margin: auto;
+  margin-right: -52px;
+}
+
+#mapContainer.lowRes > a.moveUp img {
+  background-position: 0 -10px;
+  width: 60px;
+  height: 40px;
+}
+
+body.fullScreen #mapContainer.lowRes > a.moveUp {
+  top: 15px;
+}
+
+/* RTL fixes */
+body.rtl.fullScreen #mapContainer.lowRes > a.moveLeft {
+  left: 25px;
+}
+
+#mapContainer.lowRes > a.moveDown {
+  right: 50%;
+  bottom: 6px;
+  margin: auto;
+  margin-right: -52px;
+}
+
+#mapContainer.lowRes > a.moveDown img {
+  background-position: 0 -170px;
+  width: 60px;
+  height: 40px;
+}
+
+#mapContainer.lowRes > a.viewFullScreen {
+  right: 55px;
+  top: 10px;
+}
+
+body.fullScreen #mapContainer.lowRes > a.viewFullScreen {
+  right: 10px;
+}
+
+#mapContainer > a.viewFullScreen img {
+  background-image: url('../../img_rtl/map/lowRes/mapFullScreen.png');
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+#mapContainer.lowRes > a.viewFullScreen.full img {
+  background-position: 0 0;
+}
+
+#mapContainer.lowRes > a.viewFullScreen.normal img {
+  background-position: -60px 0;
+}
+
+#mapContainer.lowRes .tileRow {
+  white-space: nowrap;
+  height: 60px;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* ein Tile */
+#mapContainer.lowRes .tile {
+  background-image: url('../../img_rtl/map/lowRes/tiles.png');
+  background-repeat: no-repeat;
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
+/* flaches grassland */
+#mapContainer.lowRes .tile.grassland {
+  background-position: 0px 0px;
+}
+
+/* desert */
+#mapContainer.lowRes .tile.desert {
+  background-position: -480px -480px;
+}
+
+#mapContainer.lowRes .tile.desert-wild {
+  background-position: 0px -540px;
+}
+
+/* sea */
+#mapContainer.lowRes .tile.sea {
+  background-position: -480px -540px;
+}
+
+/* flacher Ascheboden */
+#mapContainer.lowRes .tile.ash {
+  background-position: -60px 0px;
+}
+
+/* Asche Vulkan 1. Zeile */
+#mapContainer.lowRes .tile.ash-vulcano-11 {
+  background-position: -480px -360px;
+}
+
+#mapContainer.lowRes .tile.ash-vulcano01 {
+  background-position: 0px -420px;
+}
+
+#mapContainer.lowRes .tile.ash-vulcano11 {
+  background-position: -60px -420px;
+}
+
+/* Asche Vulkan 2. Zeile */
+#mapContainer.lowRes .tile.ash-vulcano-20 {
+  background-position: -120px -420px;
+}
+
+#mapContainer.lowRes .tile.ash-vulcano-10 {
+  background-position: -180px -420px;
+}
+
+#mapContainer.lowRes .tile.ash-vulcano00 {
+  background-position: -240px -420px;
+}
+
+#mapContainer.lowRes .tile.ash-vulcano10 {
+  background-position: -300px -420px;
+}
+
+#mapContainer.lowRes .tile.ash-vulcano20 {
+  background-position: -360px -420px;
+}
+
+/* Asche Vulkan 3. Zeile */
+#mapContainer.lowRes .tile.ash-vulcano-2-1 {
+  background-position: -420px -420px;
+}
+
+#mapContainer.lowRes .tile.ash-vulcano-1-1 {
+  background-position: -480px -420px;
+}
+
+#mapContainer.lowRes .tile.ash-vulcano0-1 {
+  background-position: 0px -480px;
+}
+
+#mapContainer.lowRes .tile.ash-vulcano1-1 {
+  background-position: -60px -480px;
+}
+
+#mapContainer.lowRes .tile.ash-vulcano2-1 {
+  background-position: -120px -480px;
+}
+
+/* Asche Vulkan 4. Zeile */
+#mapContainer.lowRes .tile.ash-vulcano-2-2 {
+  background-position: -180px -480px;
+}
+
+#mapContainer.lowRes .tile.ash-vulcano-1-2 {
+  background-position: -240px -480px;
+}
+
+#mapContainer.lowRes .tile.ash-vulcano0-2 {
+  background-position: -300px -480px;
+}
+
+#mapContainer.lowRes .tile.ash-vulcano1-2 {
+  background-position: -360px -480px;
+}
+
+#mapContainer.lowRes .tile.ash-vulcano2-2 {
+  background-position: -420px -480px;
+}
+
+/* grassland Hügel */
+#mapContainer.lowRes .tile.grassland-hill {
+  background-position: -120px 0px;
+}
+
+#mapContainer.lowRes .tile.grassland-hill-oasis-oasis10-free {
+  background-position: -180px 0px;
+}
+
+#mapContainer.lowRes .tile.grassland-hill-oasis-oasis10-occupied {
+  background-position: -240px 0px;
+}
+
+#mapContainer.lowRes .tile.grassland-hill-oasis-oasis11-free {
+  background-position: -300px 0px;
+}
+
+#mapContainer.lowRes .tile.grassland-hill-oasis-oasis11-occupied {
+  background-position: -360px 0px;
+}
+
+#mapContainer.lowRes .tile.grassland-hill-oasis-oasis12-free {
+  background-position: -420px 0px;
+}
+
+#mapContainer.lowRes .tile.grassland-hill-oasis-oasis12-occupied {
+  background-position: -480px 0px;
+}
+
+/* Ascheboden Hügel */
+#mapContainer.lowRes .tile.ash-hill {
+  background-position: 0px -60px;
+}
+
+#mapContainer.lowRes .tile.ash-hill-oasis-oasis10-free {
+  background-position: -60px -60px;
+}
+
+#mapContainer.lowRes .tile.ash-hill-oasis-oasis10-occupied {
+  background-position: -120px -60px;
+}
+
+#mapContainer.lowRes .tile.ash-hill-oasis-oasis11-free {
+  background-position: -180px -60px;
+}
+
+#mapContainer.lowRes .tile.ash-hill-oasis-oasis11-occupied {
+  background-position: -240px -60px;
+}
+
+#mapContainer.lowRes .tile.ash-hill-oasis-oasis12-free {
+  background-position: -300px -60px;
+}
+
+#mapContainer.lowRes .tile.ash-hill-oasis-oasis12-occupied {
+  background-position: -360px -60px;
+}
+
+/* grassland See */
+#mapContainer.lowRes .tile.grassland-lake {
+  background-position: -420px -60px;
+}
+
+#mapContainer.lowRes .tile.grassland-lake-oasis-oasis14-free {
+  background-position: -480px -60px;
+}
+
+#mapContainer.lowRes .tile.grassland-lake-oasis-oasis14-occupied {
+  background-position: 0px -120px;
+}
+
+#mapContainer.lowRes .tile.grassland-lake-oasis-oasis15-free {
+  background-position: -60px -120px;
+}
+
+#mapContainer.lowRes .tile.grassland-lake-oasis-oasis15-occupied {
+  background-position: -120px -120px;
+}
+
+/* Ascheboden See */
+#mapContainer.lowRes .tile.ash-lake {
+  background-position: -180px -120px;
+}
+
+#mapContainer.lowRes .tile.ash-lake-oasis-oasis14-free {
+  background-position: -240px -120px;
+}
+
+#mapContainer.lowRes .tile.ash-lake-oasis-oasis14-occupied {
+  background-position: -300px -120px;
+}
+
+#mapContainer.lowRes .tile.ash-lake-oasis-oasis15-free {
+  background-position: -360px -120px;
+}
+
+#mapContainer.lowRes .tile.ash-lake-oasis-oasis15-occupied {
+  background-position: -420px -120px;
+}
+
+/* grassland Lehm */
+#mapContainer.lowRes .tile.grassland-clay {
+  background-position: -480px -120px;
+}
+
+#mapContainer.lowRes .tile.grassland-clay-oasis-oasis6-free {
+  background-position: 0px -180px;
+}
+
+#mapContainer.lowRes .tile.grassland-clay-oasis-oasis6-occupied {
+  background-position: -60px -180px;
+}
+
+#mapContainer.lowRes .tile.grassland-clay-oasis-oasis7-free {
+  background-position: -120px -180px;
+}
+
+#mapContainer.lowRes .tile.grassland-clay-oasis-oasis7-occupied {
+  background-position: -180px -180px;
+}
+
+#mapContainer.lowRes .tile.grassland-clay-oasis-oasis8-free {
+  background-position: -240px -180px;
+}
+
+#mapContainer.lowRes .tile.grassland-clay-oasis-oasis8-occupied {
+  background-position: -300px -180px;
+}
+
+/* Ascheboden Lehm */
+#mapContainer.lowRes .tile.ash-clay {
+  background-position: -360px -180px;
+}
+
+#mapContainer.lowRes .tile.ash-clay-oasis-oasis6-free {
+  background-position: -420px -180px;
+}
+
+#mapContainer.lowRes .tile.ash-clay-oasis-oasis6-occupied {
+  background-position: -480px -180px;
+}
+
+#mapContainer.lowRes .tile.ash-clay-oasis-oasis7-free {
+  background-position: 0px -240px;
+}
+
+#mapContainer.lowRes .tile.ash-clay-oasis-oasis7-occupied {
+  background-position: -60px -240px;
+}
+
+#mapContainer.lowRes .tile.ash-clay-oasis-oasis8-free {
+  background-position: -120px -240px;
+}
+
+#mapContainer.lowRes .tile.ash-clay-oasis-oasis8-occupied {
+  background-position: -180px -240px;
+}
+
+/* grassland Wald */
+#mapContainer.lowRes .tile.grassland-forest {
+  background-position: -240px -240px;
+}
+
+#mapContainer.lowRes .tile.grassland-forest-oasis-oasis2-free {
+  background-position: -300px -240px;
+}
+
+#mapContainer.lowRes .tile.grassland-forest-oasis-oasis2-occupied {
+  background-position: -360px -240px;
+}
+
+#mapContainer.lowRes .tile.grassland-forest-oasis-oasis3-free {
+  background-position: -420px -240px;
+}
+
+#mapContainer.lowRes .tile.grassland-forest-oasis-oasis3-occupied {
+  background-position: -480px -240px;
+}
+
+#mapContainer.lowRes .tile.grassland-forest-oasis-oasis4-free {
+  background-position: 0px -300px;
+}
+
+#mapContainer.lowRes .tile.grassland-forest-oasis-oasis4-occupied {
+  background-position: -60px -300px;
+}
+
+/* Ascheboden Wald */
+#mapContainer.lowRes .tile.ash-forest {
+  background-position: -120px -300px;
+}
+
+#mapContainer.lowRes .tile.ash-forest-oasis-oasis2-free {
+  background-position: -180px -300px;
+}
+
+#mapContainer.lowRes .tile.ash-forest-oasis-oasis2-occupied {
+  background-position: -240px -300px;
+}
+
+#mapContainer.lowRes .tile.ash-forest-oasis-oasis3-free {
+  background-position: -300px -300px;
+}
+
+#mapContainer.lowRes .tile.ash-forest-oasis-oasis3-occupied {
+  background-position: -360px -300px;
+}
+
+#mapContainer.lowRes .tile.ash-forest-oasis-oasis4-free {
+  background-position: -420px -300px;
+}
+
+#mapContainer.lowRes .tile.ash-forest-oasis-oasis4-occupied {
+  background-position: -480px -300px;
+}
+
+/* grassland Dorf */
+#mapContainer.lowRes .tile.grassland-village-village1 {
+  background-position: 0px -360px;
+}
+
+#mapContainer.lowRes .tile.grassland-village-village2 {
+  background-position: -60px -360px;
+}
+
+#mapContainer.lowRes .tile.grassland-village-village3 {
+  background-position: -120px -360px;
+}
+
+#mapContainer.lowRes .tile.grassland-village-village5 {
+  background-position: -180px -360px;
+}
+
+#mapContainer.lowRes .tile.grassland-village-village6 {
+  background-position: -60px -540px;
+}
+
+#mapContainer.lowRes .tile.grassland-village-village7 {
+  background-position: -180px -540px;
+}
+
+/* Asche Dorf */
+#mapContainer.lowRes .tile.ash-village-village1 {
+  background-position: -240px -360px;
+}
+
+#mapContainer.lowRes .tile.ash-village-village2 {
+  background-position: -300px -360px;
+}
+
+#mapContainer.lowRes .tile.ash-village-village3 {
+  background-position: -360px -360px;
+}
+
+#mapContainer.lowRes .tile.ash-village-village5 {
+  background-position: -420px -360px;
+}
+
+#mapContainer.lowRes .tile.ash-village-village6 {
+  background-position: -120px -540px;
+}
+
+#mapContainer.lowRes .tile.ash-village-village7 {
+  background-position: -240px -540px;
+}
+
+/* Desert Village */
+#mapContainer.lowRes .tile.desert-village-village1 {
+  background-position: -300px -540px;
+}
+
+#mapContainer.lowRes .tile.desert-village-village2 {
+  background-position: -360px -540px;
+}
+
+#mapContainer.lowRes .tile.desert-village-village3 {
+  background-position: -420px -540px;
+}
+
+#mapContainer.lowRes .tile.desert-village-village5 {
+  background-position: 0 -600px;
+}
+
+#mapContainer.lowRes .tile.desert-village-village6 {
+  background-position: -60px -600px;
+}
+
+#mapContainer.lowRes .tile.desert-village-village7 {
+  background-position: -120px -600px;
+}

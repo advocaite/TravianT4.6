@@ -1,0 +1,52 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.stime {
+  color: #F2F2F2;
+  font-size: 10px;
+  height: 15px;
+  line-height: 15px;
+  position: absolute;
+  right: 2px;
+  z-index: 100;
+  width: 183px;
+  text-align: center;
+  background-image: url('../../img_rtl/layout/stime.png');
+}
+.rtl .stime {
+  font-size: 11px;
+}
+.stime.debug {
+  position: absolute;
+  right: 7px;
+  left: auto;
+}
+.stime.debug.runtime {
+  top: 2px;
+}
+.stime.debug.memoryRealUsage {
+  top: 24px;
+}
+.stime.debug.memoryPeakUsage {
+  top: 46px;
+}
+
+#servertime {
+  top: 0;
+  right: 75px;
+  background-image: none;
+  background-color: #3b1f10;
+  border-left: solid 1px #53311a;
+  border-right: solid 1px #53311a;
+  border-bottom: solid 1px #764829;
+}

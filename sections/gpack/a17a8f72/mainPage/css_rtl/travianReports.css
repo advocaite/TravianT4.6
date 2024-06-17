@@ -1,0 +1,943 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#reportWrapper {
+  width: 100%;
+  box-sizing: border-box;
+  border-top-style: none;
+  z-index: 2;
+  position: relative;
+  /* icon buttons */
+  /* Report header image */
+  /* Report content */
+}
+#reportWrapper * {
+  box-sizing: border-box;
+}
+#reportWrapper .toolList .iconButton,
+#reportWrapper .toolList button.icon {
+  margin-right: 10px;
+}
+#reportWrapper .reportImage {
+  background-image: url('../img_rtl/report/report1-rtl.jpg');
+  width: 493px;
+  height: 190px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #DDC6A2;
+  border-top: none;
+  border-bottom: none;
+}
+#reportWrapper .victory {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+#reportWrapper .victory .reportImage.outcome {
+  background-image: url('../img_rtl/report/reportHeader.jpg');
+  width: 552px;
+  height: 136px;
+  background-size: cover;
+  width: 100%;
+}
+#reportWrapper .victory .reportImage.outcome.lostWon {
+  transform: scaleX(-1);
+}
+#reportWrapper .victory .tribe {
+  position: absolute;
+  z-index: 2;
+  bottom: 1px;
+}
+#reportWrapper .victory .tribe.attacker {
+  right: 1px;
+}
+#reportWrapper .victory .tribe.defender {
+  left: 1px;
+  transform: scaleX(-1);
+}
+#reportWrapper .victory .tribe.tribe1.won {
+  background-image: url('../img_rtl/report/outcome/romanWon.png');
+  width: 118px;
+  height: 136px;
+}
+#reportWrapper .victory .tribe.tribe1.lost {
+  background-image: url('../img_rtl/report/outcome/romanLost.png');
+  width: 147px;
+  height: 136px;
+}
+#reportWrapper .victory .tribe.tribe2.won {
+  background-image: url('../img_rtl/report/outcome/teutonWon.png');
+  width: 152px;
+  height: 136px;
+}
+#reportWrapper .victory .tribe.tribe2.lost {
+  background-image: url('../img_rtl/report/outcome/teutonLost.png');
+  width: 160px;
+  height: 136px;
+}
+#reportWrapper .victory .tribe.tribe3.won {
+  background-image: url('../img_rtl/report/outcome/gaulWon.png');
+  width: 137px;
+  height: 136px;
+}
+#reportWrapper .victory .tribe.tribe3.lost {
+  background-image: url('../img_rtl/report/outcome/gaulLost.png');
+  width: 156px;
+  height: 136px;
+}
+#reportWrapper .victory .tribe.tribe6.won {
+  background-image: url('../img_rtl/report/outcome/egyptianWon.png');
+  width: 154px;
+  height: 136px;
+}
+#reportWrapper .victory .tribe.tribe6.lost {
+  background-image: url('../img_rtl/report/outcome/egyptianLost.png');
+  width: 166px;
+  height: 136px;
+}
+#reportWrapper .victory .tribe.tribe7.won {
+  background-image: url('../img_rtl/report/outcome/hunWon.png');
+  width: 117px;
+  height: 136px;
+}
+#reportWrapper .victory .tribe.tribe7.lost {
+  background-image: url('../img_rtl/report/outcome/hunLost.png');
+  width: 127px;
+  height: 136px;
+}
+#reportWrapper .victory + .role {
+  margin-top: -1px;
+}
+#reportWrapper > .header {
+  background-color: #FCF2DA;
+  border: solid 1px #DDC6A2;
+  margin-top: -4px;
+  position: relative;
+}
+#reportWrapper > .header.noImages {
+  padding-bottom: 20px;
+  border-bottom: none;
+}
+#reportWrapper > .header.noImages ~ .body .reportImage {
+  display: none;
+}
+#reportWrapper > .header .headline {
+  height: 30px;
+  border-bottom: solid 1px #DDC6A2;
+}
+#reportWrapper > .header .headline.withQuickNavigation {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30px 1fr 30px;
+  grid-template-columns: 30px 1fr 30px;
+}
+#reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  transition-duration: 150ms;
+}
+#reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:first-of-type {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+}
+#reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:last-of-type {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+}
+#reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation svg {
+  width: 12px;
+  height: 17px;
+  margin-top: 7px;
+  transform: translateX(0);
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+}
+.rtl #reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation svg {
+  transform: scale(-1, 1);
+}
+#reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation svg path {
+  fill: transparent;
+  stroke: #DDC6A2;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition-duration: 150ms;
+}
+#reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:not(.disabled):hover, #reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:not(.disabled):focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:not(.disabled):hover svg.chevronBack, #reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:not(.disabled):focus svg.chevronBack {
+  margin-left: 10px;
+}
+#reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:not(.disabled):hover svg.chevronForward, #reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:not(.disabled):focus svg.chevronForward {
+  margin-right: 10px;
+}
+.rtl #reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:not(.disabled):hover svg.chevronBack, .rtl #reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:not(.disabled):focus svg.chevronBack {
+  transform: scale(-1, 1);
+}
+.rtl #reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:not(.disabled):hover svg.chevronForward, .rtl #reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:not(.disabled):focus svg.chevronForward {
+  transform: scale(-1, 1);
+}
+#reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:not(.disabled):hover svg path, #reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:not(.disabled):focus svg path {
+  stroke: #998D73;
+}
+#reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation:not(.disabled):active {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+#reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation.disabled {
+  pointer-events: none;
+}
+#reportWrapper > .header .headline.withQuickNavigation .reportQuickNavigation.disabled svg path {
+  stroke: transparent;
+}
+#reportWrapper > .header .headline.withQuickNavigation .subject {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+}
+#reportWrapper > .header .headline .subject {
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  line-height: 30px;
+  padding: 0 5px;
+  border-left: solid 1px #DDC6A2;
+  border-right: solid 1px #DDC6A2;
+}
+#reportWrapper > .header .headline:not(.withQuickNavigation) .subject {
+  width: 100%;
+  border: none;
+  padding: 0 10px;
+}
+#reportWrapper > .header .time {
+  padding-right: 10px;
+  height: 36px;
+  line-height: 38px;
+}
+#reportWrapper > .header .toolList {
+  position: absolute;
+  left: 10px;
+  top: 35px;
+}
+#reportWrapper .body h4 {
+  margin-bottom: 35px;
+}
+#reportWrapper .body table {
+  background-color: #FFF9EB;
+  padding: 3px 5px 5px;
+}
+#reportWrapper .body table th,
+#reportWrapper .body table td {
+  padding: 5px 3px;
+}
+#reportWrapper .body table th.unit,
+#reportWrapper .body table td.unit {
+  width: 48px;
+}
+#reportWrapper .body table th {
+  width: 36px;
+  text-align: center;
+  background-color: #FFF9EB;
+}
+#reportWrapper .body table th i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+#reportWrapper .body table th i.troopCount {
+  background-image: url('../img_rtl/scenes/General/troops/troopCount-rtl.png');
+}
+#reportWrapper .body table th i.troopDead {
+  background-image: url('../img_rtl/scenes/General/troops/troopDead-rtl.png');
+}
+#reportWrapper .body table th i.trap {
+  background-image: url('../img_rtl/scenes/General/troops/trap-rtl.png');
+}
+#reportWrapper .body table td {
+  background-color: transparent;
+}
+#reportWrapper .body table td.role {
+  border: none;
+  background: none;
+}
+#reportWrapper .body table .goods th {
+  text-align: right;
+  padding-left: 10px;
+  width: 20%;
+}
+#reportWrapper .body table .goods th,
+#reportWrapper .body table .goods td,
+#reportWrapper .body table .infos th,
+#reportWrapper .body table .infos td {
+  vertical-align: top;
+}
+#reportWrapper .body table .goods th span, #reportWrapper .body table .goods th i,
+#reportWrapper .body table .goods td span,
+#reportWrapper .body table .goods td i,
+#reportWrapper .body table .infos th span,
+#reportWrapper .body table .infos th i,
+#reportWrapper .body table .infos td span,
+#reportWrapper .body table .infos td i {
+  display: inline-block;
+}
+#reportWrapper .body table .units th {
+  width: 1%;
+}
+#reportWrapper .body table .units th,
+#reportWrapper .body table .units td {
+  text-align: left;
+}
+#reportWrapper .body .role {
+  position: relative;
+  background-color: #FFF9EB;
+  border: 1px solid #DDC6A2;
+  margin-bottom: 7px;
+  padding-bottom: 10px;
+}
+#reportWrapper .body .role .avatar {
+  -ms-grid-column-align: start;
+  justify-self: start;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+}
+#reportWrapper .body .role .avatar img {
+  width: 40px;
+  height: 46px;
+  z-index: 1;
+  bottom: -4px;
+  right: 45px;
+  position: absolute;
+}
+.rtl #reportWrapper .body .role .avatar img {
+  transform: scale(-1, 1);
+}
+#reportWrapper .body .role .header {
+  position: relative;
+  z-index: 3;
+  display: -ms-grid;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+#reportWrapper .body .role .header h2,
+#reportWrapper .body .role .header h3 {
+  color: #F2F2F2;
+}
+#reportWrapper .body .role .header h2 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+#reportWrapper .body .role .header .outcome {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-row-align: end;
+  align-self: end;
+  margin-left: -5px;
+}
+#reportWrapper .body .role .header .outcome > img {
+  position: absolute;
+}
+#reportWrapper .body .role .header .outcome > img.losses {
+  left: 15px;
+  bottom: -3px;
+  width: 48px;
+  height: 60px;
+}
+#reportWrapper .body .role .header .outcome > img.skull, #reportWrapper .body .role .header .outcome > img.loot {
+  left: 2px;
+  bottom: 2px;
+  width: 26px;
+  height: 32px;
+}
+.rtl #reportWrapper .body .role .header .outcome > img {
+  transform: scale(-1, 1);
+}
+#reportWrapper .body .role .header .outcome .arrowWrapper {
+  position: relative;
+  width: 39px;
+  height: 36px;
+  overflow: hidden;
+}
+#reportWrapper .body .role .header .outcome .arrowWrapper .outcomeArrow {
+  width: 40px;
+  height: 38px;
+  position: relative;
+  top: -1px;
+  left: -2px;
+  stroke: rgba(0, 0, 0, 0.2);
+  stroke-width: 0.75;
+}
+.rtl #reportWrapper .body .role .header .outcome .arrowWrapper {
+  transform: scale(-1, 1);
+}
+#reportWrapper .body .role .troopHeadline {
+  height: 38px;
+  padding: 0 10px;
+  background-color: #FCF2DA;
+  border-top: 1px solid #DDC6A2;
+  border-bottom: 1px solid #DDC6A2;
+  position: relative;
+  line-height: 38px;
+  font-size: 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+.rtl #reportWrapper .body .role .troopHeadline {
+  font-size: 16px;
+}
+.ie #reportWrapper .body .role .troopHeadline.withToolList {
+  -ms-grid-columns: 1fr 110px;
+  grid-template-columns: 1fr 110px;
+}
+.ie #reportWrapper .body .role .troopHeadline:not(.withToolList) {
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+}
+#reportWrapper .body .role .troopHeadline div:first-of-type {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+}
+#reportWrapper .body .role .troopHeadline .toolList {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  left: 10px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+#reportWrapper .body .role.attacker {
+  border-top: none;
+}
+#reportWrapper .body .role.attacker .header, #reportWrapper .body .role.defender .header, #reportWrapper .body .role.reinforcement .header {
+  -ms-grid-rows: 36px;
+  grid-template-rows: 36px;
+  -ms-grid-columns: 100px 1fr 150px;
+  grid-template-columns: 100px 1fr 150px;
+}
+#reportWrapper .body .role.attacker .header {
+  background-color: #A33F41;
+}
+#reportWrapper .body .role.attacker .header .outcome {
+  background-color: #7e3132;
+}
+#reportWrapper .body .role.attacker .header .outcome svg {
+  fill: #A33F41;
+}
+#reportWrapper .body .role.defender .header, #reportWrapper .body .role.reinforcement .header {
+  background-color: #8CB1C8;
+}
+#reportWrapper .body .role.defender .header .outcome, #reportWrapper .body .role.reinforcement .header .outcome {
+  background-color: #6a9ab8;
+}
+#reportWrapper .body .role.defender .header .outcome svg, #reportWrapper .body .role.reinforcement .header .outcome svg {
+  fill: #8CB1C8;
+}
+#reportWrapper .body .role.reinforcement .outcome {
+  display: none;
+}
+#reportWrapper .body .additionalInformation th {
+  text-align: right;
+  padding-left: 10px;
+  width: 20%;
+}
+#reportWrapper .body .additionalInformation .combatReportLine .negative {
+  color: #D40000;
+}
+#reportWrapper .body tbody.infos td div {
+  margin-bottom: 6px;
+  line-height: 16px;
+}
+#reportWrapper .body tbody.infos td.dropItems div {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 15px;
+  float: right;
+}
+#reportWrapper .body tbody.infos td.dropItems div:first-of-type {
+  margin-right: 0;
+}
+#reportWrapper .body table tbody.infos td img {
+  margin-left: 5px;
+}
+.webkit #reportWrapper .body table tbody.infos td img {
+  vertical-align: top;
+}
+#reportWrapper .body table tbody.infos td img.clock {
+  margin-left: 10px;
+}
+#reportWrapper .body table#attacker tbody.goods div.res {
+  width: 100%;
+}
+#reportWrapper .body table#attacker tbody.goods div.carry {
+  width: 100%;
+}
+#reportWrapper .body table#attacker tbody.goods div.carry img {
+  margin-left: 5px;
+}
+#reportWrapper .body table#attacker tbody.goods div.cranny {
+  float: left;
+  margin-right: 20px;
+}
+#reportWrapper .body img.easter {
+  width: 44px;
+  height: 18px;
+  background-image: url('../img_rtl/r/easter.gif');
+}
+#reportWrapper .body img.xmas {
+  width: 21px;
+  height: 24px;
+  background-image: url('../img_rtl/r/xmas.gif');
+}
+#reportWrapper .body img.newy {
+  width: 28px;
+  height: 24px;
+  background-image: url('../img_rtl/r/newy.gif');
+}
+#reportWrapper .body img.adventureReportImage {
+  width: 100%;
+  height: 190px;
+  background-position: center;
+  margin-bottom: 20px;
+}
+#reportWrapper .body img.adventureLose {
+  background-image: url('../img_rtl/report/reports_adventure-lost.jpg');
+  width: 554px;
+  height: 190px;
+}
+#reportWrapper .body img.adventureVictory {
+  background-image: url('../img_rtl/report/reports_adventure-won.jpg');
+  width: 554px;
+  height: 190px;
+}
+#reportWrapper .body img.villageSettled {
+  background-image: url('../img_rtl/report/reports_settle.jpg');
+  width: 554px;
+  height: 190px;
+}
+#reportWrapper .body img.usedCages {
+  background-image: url('../img_rtl/report/reports_used-cages.jpg');
+  width: 554px;
+  height: 190px;
+}
+#reportWrapper .body img.trade {
+  background-image: url('../img_rtl/report/reports_resources.jpg');
+  width: 554px;
+  height: 190px;
+}
+#reportWrapper .body img.reinforcement {
+  background-image: url('../img_rtl/report/reports_reinforcement.jpg');
+  width: 554px;
+  height: 190px;
+}
+#reportWrapper .body .iExperience {
+  width: 16px;
+  height: 16px;
+  background-image: url('../img_rtl/report/experience-rtl.png');
+  margin-right: 0;
+  float: none !important;
+}
+#reportWrapper .body .injury {
+  width: 16px;
+  height: 16px;
+  background-image: url('../img_rtl/report/injury-rtl.png');
+  float: none !important;
+}
+#reportWrapper .body .item, #reportWrapper .body div.reports .item {
+  width: 18px;
+  height: 12px;
+}
+#reportWrapper .body .item1, #reportWrapper .body .item2, #reportWrapper .body .item3, #reportWrapper .body .item4, #reportWrapper .body .item5, #reportWrapper .body .item6, #reportWrapper .body .item7, #reportWrapper .body .item8, #reportWrapper .body .item9, #reportWrapper .body .item10, #reportWrapper .body .item11, #reportWrapper .body .item12, #reportWrapper .body .item13, #reportWrapper .body .item14, #reportWrapper .body .item15, #reportWrapper .body .item16, #reportWrapper .body .item17, #reportWrapper .body .item18, #reportWrapper .body .item19, #reportWrapper .body .item20, #reportWrapper .body .item21, #reportWrapper .body .item22, #reportWrapper .body .item23, #reportWrapper .body .item24, #reportWrapper .body .item25, #reportWrapper .body .item26, #reportWrapper .body .item27, #reportWrapper .body .item28, #reportWrapper .body .item29, #reportWrapper .body .item30, #reportWrapper .body .item31, #reportWrapper .body .item32, #reportWrapper .body .item33, #reportWrapper .body .item34, #reportWrapper .body .item35, #reportWrapper .body .item36, #reportWrapper .body .item37, #reportWrapper .body .item38, #reportWrapper .body .item39, #reportWrapper .body .item40, #reportWrapper .body .item41, #reportWrapper .body .item42, #reportWrapper .body .item43, #reportWrapper .body .item44, #reportWrapper .body .item45, #reportWrapper .body .item46, #reportWrapper .body .item47, #reportWrapper .body .item48, #reportWrapper .body .item49, #reportWrapper .body .item50, #reportWrapper .body .item51, #reportWrapper .body .item52, #reportWrapper .body .item53, #reportWrapper .body .item54, #reportWrapper .body .item55, #reportWrapper .body .item56, #reportWrapper .body .item57, #reportWrapper .body .item58, #reportWrapper .body .item59, #reportWrapper .body .item60, #reportWrapper .body .item61, #reportWrapper .body .item62, #reportWrapper .body .item63, #reportWrapper .body .item64, #reportWrapper .body .item65, #reportWrapper .body .item66, #reportWrapper .body .item67, #reportWrapper .body .item68, #reportWrapper .body .item69, #reportWrapper .body .item70, #reportWrapper .body .item71, #reportWrapper .body .item72, #reportWrapper .body .item73, #reportWrapper .body .item74, #reportWrapper .body .item75, #reportWrapper .body .item76, #reportWrapper .body .item77, #reportWrapper .body .item78, #reportWrapper .body .item79, #reportWrapper .body .item80, #reportWrapper .body .item81, #reportWrapper .body .item82, #reportWrapper .body .item83, #reportWrapper .body .item84, #reportWrapper .body .item85, #reportWrapper .body .item86, #reportWrapper .body .item87, #reportWrapper .body .item88, #reportWrapper .body .item89, #reportWrapper .body .item90, #reportWrapper .body .item91, #reportWrapper .body .item92, #reportWrapper .body .item93, #reportWrapper .body .item94, #reportWrapper .body .item95, #reportWrapper .body .item96, #reportWrapper .body .item97, #reportWrapper .body .item98, #reportWrapper .body .item99, #reportWrapper .body .item100, #reportWrapper .body .item101, #reportWrapper .body .item102, #reportWrapper .body .item103, #reportWrapper .body .item104, #reportWrapper .body .item105, #reportWrapper .body .item106, #reportWrapper .body .item107, #reportWrapper .body .item108, #reportWrapper .body .item109, #reportWrapper .body .item110, #reportWrapper .body .item111, #reportWrapper .body .item112, #reportWrapper .body .item113, #reportWrapper .body .item114 {
+  background-image: url('../img_rtl/a/carry.gif');
+}
+#reportWrapper .body .itemLarge {
+  width: 68px;
+  height: 68px;
+  background-position: center;
+}
+#reportWrapper .body i.tribeIcon {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+}
+#reportWrapper .body i.tribeIcon.bigTribe1:not(.inactive) {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/roman.png');
+  width: 55px;
+  height: 63px;
+}
+#reportWrapper .body i.tribeIcon.bigTribe2:not(.inactive) {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/teuton.png');
+  width: 57px;
+  height: 59px;
+}
+#reportWrapper .body i.tribeIcon.bigTribe3:not(.inactive) {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/gaul.png');
+  width: 57px;
+  height: 62px;
+}
+#reportWrapper .body i.tribeIcon.bigTribe4:not(.inactive) {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/nature.png');
+  width: 57px;
+  height: 52px;
+}
+#reportWrapper .body i.tribeIcon.bigTribe5:not(.inactive) {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/natar.png');
+  width: 57px;
+  height: 51px;
+}
+#reportWrapper .body i.tribeIcon.bigTribe6:not(.inactive) {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/egyptian.png');
+  width: 57px;
+  height: 58px;
+}
+#reportWrapper .body i.tribeIcon.bigTribe7:not(.inactive) {
+  background-image: url('../img_rtl/scenes/CombatSimulator/tribes/hun.png');
+  width: 57px;
+  height: 60px;
+}
+#reportWrapper .iconButton,
+#reportWrapper button.icon {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  border-radius: 3px;
+  border: 1px solid #cfcfcf;
+  border-bottom-color: #b6b6b6;
+  float: left;
+  background-image: none;
+  text-align: center;
+  display: inline-block;
+}
+#reportWrapper .iconButton:not(.disabled),
+#reportWrapper button.icon:not(.disabled) {
+  background-color: #fafafa;
+}
+#reportWrapper .iconButton:not(.disabled):before,
+#reportWrapper button.icon:not(.disabled):before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  right: 1px;
+  border: 1px solid #e2e2e2;
+  background-color: #fafafa;
+}
+#reportWrapper .iconButton:not(.disabled):after,
+#reportWrapper button.icon:not(.disabled):after {
+  opacity: 0.5;
+  transform: rotate(-10deg);
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  bottom: -5px;
+  right: -5px;
+  background-image: linear-gradient(to bottom, rgba(223, 223, 223, 0) 45%, #dfdfdf 55%, #e6e6e6);
+}
+#reportWrapper .iconButton:hover:not(.disabled),
+#reportWrapper button.icon:hover:not(.disabled) {
+  background-color: #7cb029;
+}
+#reportWrapper .iconButton.disabled,
+#reportWrapper button.icon.disabled {
+  background: #919191;
+  cursor: not-allowed;
+}
+#reportWrapper .iconButton.gold,
+#reportWrapper button.icon.gold {
+  background-color: #e6ce64;
+}
+#reportWrapper .iconButton.gold:after,
+#reportWrapper button.icon.gold:after {
+  background-image: linear-gradient(to bottom, #fdf5cb, #f8eeb0 30%, #f0dc7c 35%, #e6ce64 75%, #caac50);
+}
+#reportWrapper .iconButton.gold:hover:not(.disabled),
+#reportWrapper button.icon.gold:hover:not(.disabled) {
+  background-color: #A08939;
+}
+#reportWrapper .iconButton i,
+#reportWrapper button.icon i {
+  z-index: 2;
+  position: relative;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+#reportWrapper .iconButton i.delete,
+#reportWrapper button.icon i.delete {
+  background-image: url('../img_rtl/report/delete_tiny.png');
+  width: 14px;
+  height: 15px;
+}
+#reportWrapper .iconButton i.access,
+#reportWrapper button.icon i.access {
+  background-image: url('../img_rtl/report/access_small.png');
+  width: 20px;
+  height: 18px;
+  right: 1px;
+}
+#reportWrapper .iconButton i.archive,
+#reportWrapper button.icon i.archive {
+  background-image: url('../img_rtl/report/archive_tiny.png');
+  width: 17px;
+  height: 15px;
+  top: 1px;
+}
+#reportWrapper .iconButton i.markRead,
+#reportWrapper button.icon i.markRead {
+  background-image: url('../img_rtl/report/markRead_small.png');
+  width: 16px;
+  height: 18px;
+  top: 1px;
+}
+#reportWrapper .iconButton i.repeatAttack,
+#reportWrapper button.icon i.repeatAttack {
+  background-image: url('../img_rtl/report/repeatAttack_small.png');
+  width: 18px;
+  height: 21px;
+  top: 3px;
+}
+#reportWrapper .iconButton i.simulate,
+#reportWrapper button.icon i.simulate {
+  background-image: url('../img_rtl/report/simulate_small.png');
+  width: 19px;
+  height: 17px;
+  top: 4px;
+}
+#reportWrapper .iconButton i.raidList,
+#reportWrapper button.icon i.raidList {
+  background-image: url('../img_rtl/report/raidList_small.png');
+  width: 20px;
+  height: 18px;
+}
+#reportWrapper .goods .res {
+  width: 100%;
+}
+#reportWrapper .goods .rArea {
+  float: right;
+  margin-right: 15px;
+}
+#reportWrapper .goods .rArea:first-of-type {
+  margin-right: 0;
+}
+#reportWrapper .goods .rArea i {
+  margin-left: 5px;
+}
+#reportWrapper .goods .carry {
+  margin-top: 3px;
+}
+#reportWrapper .goods .carry img {
+  margin-left: 5px;
+}
+#reportWrapper .goods .cranny {
+  float: left;
+  margin-right: 20px;
+}
+#reportWrapper .goods .cranny img {
+  float: right;
+}
+#reportWrapper .footer {
+  margin-top: 25px;
+}
+#reportWrapper td.empty {
+  display: none;
+}
+
+table#inbox-size-table {
+  margin-top: 10px;
+  border-spacing: 0;
+}
+table#inbox-size-table tr td {
+  padding: 0;
+}
+table#inbox-size-table thead tr td {
+  text-align: right;
+}
+table#inbox-size-table tbody tr:first-child td:first-child {
+  color: #808080;
+}
+table#inbox-size-table tbody tr:first-child td:last-child {
+  text-align: left;
+  width: 90px;
+}
+table#inbox-size-table #inbox-size-bar {
+  height: 4px;
+  border: 1px solid #A6A6A6;
+  padding: 1px;
+  margin-top: 4px;
+  position: relative;
+}
+table#inbox-size-table #inbox-size-bar div {
+  background-color: #006900;
+  height: 4px;
+}
+
+div.reportFilter {
+  padding: 10px 16px 10px 16px;
+}
+div.reportFilter button.iconFilter {
+  margin-left: 10px;
+}
+
+div.reports table#overview td.sub div.reportIcon {
+  padding: 0;
+}
+div.reports table#overview td.sub div.reportText {
+  padding: 0 22px 0 0;
+}
+div.reports table.reportSurround .reportIcon {
+  background-image: url('../img_rtl/report/surroundingReports-rtl.png');
+  width: 16px;
+  height: 16px;
+  float: right;
+  padding: 0;
+  margin: 0 0 0 5px;
+}
+div.reports table.reportSurround .reportIcon.alliance {
+  background-position: 0 0px;
+  width: 16px;
+  height: 16px;
+}
+div.reports table.reportSurround .reportIcon.fight {
+  background-position: 0 -26px;
+  width: 16px;
+  height: 16px;
+}
+div.reports table.reportSurround .reportIcon.oasisAbandon {
+  background-position: 0 -52px;
+  width: 16px;
+  height: 16px;
+}
+div.reports table.reportSurround .reportIcon.oasisOccupy {
+  background-position: 0 -78px;
+  width: 16px;
+  height: 16px;
+}
+div.reports table.reportSurround .reportIcon.villageConquer {
+  background-position: 0 -104px;
+  width: 16px;
+  height: 16px;
+}
+div.reports table.reportSurround .reportIcon.villageFound {
+  background-position: 0 -130px;
+  width: 16px;
+  height: 16px;
+}
+div.reports table.reportSurround .reportIcon.villageLost {
+  background-position: 0 -156px;
+  width: 16px;
+  height: 16px;
+}
+div.reports table.reportSurround .reportIcon.villageRename {
+  background-position: 0 -182px;
+  width: 16px;
+  height: 16px;
+}
+
+div.reports .footer {
+  margin: 10px 0;
+}
+div.reports .footer .paginator {
+  float: left;
+}
+div.reports #markAll {
+  margin-right: 7px;
+  float: right;
+}
+div.reports #markAll span {
+  margin-right: 8px;
+}
+div.reports table#overview td.sub a.reportInfo, div.reports table#overview td.sub span.reportInfo {
+  float: left;
+}
+div.reports table#overview td.sub img.reportInfo.carry {
+  top: 2px;
+}
+
+div.reports table#overview thead th.sent a {
+  color: black;
+  font-weight: normal;
+}
+div.reports table#overview tbody td {
+  vertical-align: top;
+}
+div.reports table#overview td.sel {
+  width: 5%;
+  padding: 7px 5px 5px;
+  text-align: center;
+}
+div.reports table#overview td.sub .messageStatus {
+  float: right;
+}
+div.reports table#overview td.sub .iReport {
+  float: right;
+  margin-right: 10px;
+}
+div.reports table#overview td.sub .iReport.iReportArchive {
+  margin-right: 0;
+}
+div.reports table#overview td.sub .reportInfoIcon {
+  float: left;
+}
+div.reports table#overview td.sub div {
+  padding-right: 52px;
+  padding-left: 25px;
+}
+div.reports table#overview td.sub div a {
+  overflow: visible;
+  white-space: pre-wrap;
+}
+div.reports table#overview td.sub div.titleReportArchive {
+  padding-right: 25px;
+}
+div.reports table#overview td.dist {
+  text-align: left;
+}
+div.reports table#overview td.dat {
+  width: 23%;
+  text-align: center;
+  white-space: nowrap;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+div.reports table#overview tfoot th.buttons {
+  text-align: right;
+}
+div.reports table#overview tfoot th.buttons input {
+  vertical-align: middle;
+}
+div.reports table#overview tfoot th.navi {
+  text-align: left;
+  color: #C0C0C0;
+  font-weight: bold;
+}

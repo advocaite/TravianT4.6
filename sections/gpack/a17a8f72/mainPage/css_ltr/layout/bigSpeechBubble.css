@@ -1,0 +1,26 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+div.bigSpeechBubble {
+  background: url('../../img_ltr/round/speechBubble/speechBalloonLarge-ltr.png');
+  width: 55px;
+  height: 44px;
+}
+
+.bigSpeechBubble img {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 6px;
+  top: 6px;
+}

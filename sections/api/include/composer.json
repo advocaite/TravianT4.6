@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "require": {
+    "nikic/fast-route": "^1.2",
+    "phpmailer/phpmailer": "^6.0",
+    "google/recaptcha": "~1.1",
+    "twig/twig": "~1.0"
+  }
+}

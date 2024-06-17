@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#mapContainer #minimapContainer,
+#mapContainer #minimapContainer a {
+  font-size: 11px;
+  white-space: nowrap;
+  color: #F2F2F2;
+  font-weight: normal;
+}
+.rtl #mapContainer #minimapContainer, .rtl
+#mapContainer #minimapContainer a {
+  font-size: 12px;
+}
+
+/* die outline welche in der Map mit enthalten ist */
+#mapContainer #minimapContainer {
+  top: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 193px;
+  z-index: 1997;
+}
+
+/* der Hintergrund */
+#mapContainer #minimapContainer .background {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 4px;
+  background-image: url('../../img_rtl/round/dialog/mc.png');
+  background-repeat: repeat;
+}
+
+/* Allgemeines aussehen mit runden ecken und co */
+#mapContainer #minimapContainer .bl, #mapContainer #minimapContainer .bc, #mapContainer #minimapContainer .br {
+  background-color: transparent;
+  background-position: left top;
+}
+
+#mapContainer #minimapContainer .bc {
+  margin-left: 4px;
+  margin-right: 4px;
+  width: auto;
+}
+
+#mapContainer #minimapContainer .bl, #mapContainer #minimapContainer .bc, #mapContainer #minimapContainer .br {
+  height: 4px;
+}
+
+#mapContainer #minimapContainer .bl {
+  background-repeat: no-repeat;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+#mapContainer #minimapContainer .bc {
+  background-repeat: repeat-x;
+}
+
+#mapContainer #minimapContainer .br {
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+/* Dialog images getrennt wegem IE */
+#mapContainer #minimapContainer .bl {
+  background-image: url('../../img_rtl/round/dialog/bl.png');
+}
+
+#mapContainer #minimapContainer .bc {
+  background-image: url('../../img_rtl/round/dialog/bc.png');
+}
+
+#mapContainer #minimapContainer .br {
+  background-image: url('../../img_rtl/round/dialog/br.png');
+}
+
+/* die überschrift wo man ein und ausklappen kann */
+#mapContainer #minimapContainer .headline {
+  height: 16px;
+  position: relative;
+  margin: 0 5px 2px 5px;
+  cursor: pointer;
+}
+
+/* Überschrifttitel */
+#mapContainer #minimapContainer .headline .title {
+  float: right;
+}
+
+#mapContainer #minimapContainer .headline .iconButton {
+  margin-top: 4px;
+  float: left;
+}
+
+/* Positionierung der MiniMap */
+/* der MiniMap Container mit Image und allem drum und dran */
+#mapContainer #miniMap {
+  cursor: crosshair;
+  margin: 0 5px 5px 5px;
+  position: relative;
+}
+
+/* das Image element */
+#mapContainer #miniMap .map {
+  left: 0;
+  position: relative;
+  top: 0;
+  /* Höhe und Breite wird in /game/application/views/scripts/map/index.phtml gesetzt
+   * und definiert in main.php Map Config Array $travian['map']['miniMap']['size']['width'] ... ['height']
+   * width: 185px
+   * height:  109px
+   */
+}
+
+/* Das kleine Viereck, welches den aktuellen Sichtbereich anzeigt */
+#mapContainer #miniMap .view {
+  border: 1px solid #0000FF;
+}
+
+#mapContainer #miniMap .view .inner {
+  background-color: #A0A0FF;
+}

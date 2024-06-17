@@ -1,0 +1,58 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+div.loader #progress {
+  padding: 20px 25px;
+}
+
+div.loader #progressText {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+div.loader #progressPercent {
+  width: 50px;
+  float: left;
+  line-height: 22px;
+  height: 22px;
+}
+
+div.loader #progress #progressBarContainer {
+  width: 255px;
+  height: 6px;
+  border: 1px solid #ccc;
+  margin: 6px 35px 6px 2px;
+  padding: 2px;
+  float: left;
+  text-align: left;
+  background-color: white;
+}
+
+div.loader #progress #progressBarProgress {
+  width: 0%;
+  height: 100%;
+  background-color: #99C01A;
+  left: 0;
+}
+
+div.loader #progressLink {
+  color: #333333;
+  font-weight: normal;
+  display: inline-block;
+  background-image: url('../img_ltr/a/loader_abort-ltr.png');
+  background-position: left 1px;
+  padding-left: 30px;
+  white-space: nowrap;
+  height: 22px;
+  line-height: 22px;
+}

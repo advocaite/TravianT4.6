@@ -1,0 +1,233 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* --- StockBar --- */
+ul#stockBar {
+  font-size: 11px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 600px;
+  height: 49px;
+  background-image: linear-gradient(to top, #f1ddb6, #fdefcc, #f3e0ba);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: none;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 7px;
+  z-index: 26;
+}
+.rtl ul#stockBar {
+  font-size: 12px;
+}
+ul#stockBar:before, ul#stockBar:after {
+  content: "";
+  position: absolute;
+  height: 32px;
+  bottom: 4px;
+  border-radius: 6px;
+  background-color: #fef7e7;
+  border: 1px solid #c0a268;
+}
+ul#stockBar:before {
+  width: 340px;
+  right: 4px;
+}
+ul#stockBar:after {
+  width: 171px;
+  right: 350px;
+}
+
+ul#stockBar li {
+  float: right;
+  width: 85px;
+  height: 26px;
+  margin-top: 15px;
+  line-height: 15px;
+  position: relative;
+  z-index: 2;
+}
+ul#stockBar li:first-of-type {
+  width: 87px;
+}
+ul#stockBar .stockBarButton {
+  width: 80px;
+  height: 26px;
+  box-sizing: border-box;
+  margin: 15px 0 0 4px;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(37, 37, 37, 0.7);
+}
+ul#stockBar .stockBarButton:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background-image: linear-gradient(to bottom, #79715d, #3a372f);
+  border-radius: 5px;
+}
+ul#stockBar .stockBarButton .middle {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  background-image: linear-gradient(to bottom, #fefdf7, #fefdf7 2px, #f3f3f3 2px, #f3f3f3, #d2d2d2, #d2d2d2 calc(100% - 2px), #a49f94 calc(100% - 2px), #a49f94);
+}
+ul#stockBar .stockBarButton .middle a:after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 0;
+  bottom: -1px;
+  right: 0;
+  z-index: 3;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px 1px #c6c2b9;
+}
+ul#stockBar .stockBarButton:hover:not(:active) {
+  cursor: pointer;
+}
+ul#stockBar .stockBarButton:hover:not(:active) .middle {
+  box-shadow: inset 0 0 15px 10px rgba(255, 255, 255, 0.8);
+}
+ul#stockBar .stockBarButton:active .middle {
+  background-image: linear-gradient(to top, #f3f3f3, #d2d2d2, #a49f94);
+}
+ul#stockBar .stockBarButton .r5 {
+  width: 66px;
+}
+ul#stockBar .stockBarButton .begin, ul#stockBar .stockBarButton .end {
+  display: none;
+}
+ul#stockBar li.stock {
+  margin-right: 6px;
+  margin-top: 14px;
+}
+ul#stockBar li.stock#stockBarWarehouseWrapper .value {
+  margin-right: 2px;
+}
+ul#stockBar li.stock#stockBarGranaryWrapper {
+  margin-right: 8px;
+}
+ul#stockBar .stock.overlayUIAffected {
+  color: #F2F2F2;
+}
+
+/* Positionierungen des Hintergrundbildes */
+ul#stockBar li.r5 {
+  width: 66px;
+  margin-right: 6px;
+}
+ul#stockBar .stockBarButton .middle a {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+ul#stockBar .stockBarButton .middle a img {
+  width: 100%;
+  height: 100%;
+}
+ul#stockBar li i {
+  position: absolute;
+  right: 3px;
+  top: 8px;
+}
+ul#stockBar li i.r4, ul#stockBar li i.r5 {
+  top: 4px;
+}
+ul#stockBar li img.productionBoost {
+  position: absolute;
+  right: 3px;
+  top: 4px;
+}
+ul#stockBar li.stock i.granary {
+  background-image: url('../../img_rtl/hud/stockBar/granary.png');
+  width: 18px;
+  height: 22px;
+  position: absolute;
+  bottom: 0;
+  top: 4px;
+}
+ul#stockBar li.stock i.warehouse {
+  background-image: url('../../img_rtl/hud/stockBar/warehouse.png');
+  width: 21px;
+  height: 18px;
+  position: absolute;
+  bottom: 0;
+}
+ul#stockBar li .value {
+  position: absolute;
+  top: 3px;
+  font-weight: bold;
+  direction: ltr;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  right: 23px;
+}
+ul#stockBar .stockBarButton .value {
+  position: absolute;
+  top: 3px;
+  font-weight: bold;
+  direction: ltr;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  right: 23px;
+}
+
+.colorBlind li#stockBarResource4 .value.alert {
+  color: #0022AF;
+}
+
+ul#stockBar li.stock .value {
+  top: 8px;
+  right: 25px;
+}
+ul#stockBar li.r5 .value {
+  top: 6px;
+}
+ul#stockBar .barBox {
+  border-top: 1px solid #747474;
+  border-left: 1px solid #888888;
+  background-color: #F6F6F6;
+  width: 52px;
+  height: 2px;
+  position: absolute;
+  right: 22px;
+  bottom: 5px;
+}
+ul#stockBar .barBox .bar {
+  background-color: #006900;
+  height: 3px;
+  font-size: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+ul#stockBar .barBox .stockFull {
+  background-color: #CC0000;
+}
+
+.colorBlind ul#stockBar .barBox .stockFull {
+  background-color: #0022AF;
+}

@@ -1,0 +1,1672 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.buildingsV2 {
+  /* buildings */
+  /* resource fields in upgrade view */
+  /* walls */
+  /* building icons */
+}
+.buildingsV2 img {
+  /* standard buildings shared by all tribes */
+  /* special buildings for each tribe */
+  /* rally points */
+}
+.buildingsV2 img.building:not(.big) {
+  width: 120px;
+  height: 120px;
+}
+.buildingsV2 img.building.big {
+  width: 184px;
+  height: 179px;
+}
+.buildingsV2 img.g5.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g5-ltr.png');
+}
+.buildingsV2 img.g5.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g5-ltr.png');
+}
+.buildingsV2 img.g5.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g5-ltr.png');
+}
+.buildingsV2 img.g5.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g5-ltr.png');
+}
+.buildingsV2 img.g5.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g5-ltr.png');
+}
+.buildingsV2 img.g5.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g5-ltr.png');
+}
+.buildingsV2 img.g5.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g5-ltr.png');
+}
+.buildingsV2 img.g5.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g5-ltr.png');
+}
+.buildingsV2 img.g5.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g5-ltr.png');
+}
+.buildingsV2 img.g5.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g5-ltr.png');
+}
+.buildingsV2 img.g6.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g6-ltr.png');
+}
+.buildingsV2 img.g6.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g6-ltr.png');
+}
+.buildingsV2 img.g6.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g6-ltr.png');
+}
+.buildingsV2 img.g6.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g6-ltr.png');
+}
+.buildingsV2 img.g6.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g6-ltr.png');
+}
+.buildingsV2 img.g6.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g6-ltr.png');
+}
+.buildingsV2 img.g6.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g6-ltr.png');
+}
+.buildingsV2 img.g6.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g6-ltr.png');
+}
+.buildingsV2 img.g6.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g6-ltr.png');
+}
+.buildingsV2 img.g6.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g6-ltr.png');
+}
+.buildingsV2 img.g7.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g7-ltr.png');
+}
+.buildingsV2 img.g7.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g7-ltr.png');
+}
+.buildingsV2 img.g7.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g7-ltr.png');
+}
+.buildingsV2 img.g7.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g7-ltr.png');
+}
+.buildingsV2 img.g7.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g7-ltr.png');
+}
+.buildingsV2 img.g7.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g7-ltr.png');
+}
+.buildingsV2 img.g7.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g7-ltr.png');
+}
+.buildingsV2 img.g7.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g7-ltr.png');
+}
+.buildingsV2 img.g7.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g7-ltr.png');
+}
+.buildingsV2 img.g7.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g7-ltr.png');
+}
+.buildingsV2 img.g8.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g8-ltr.png');
+}
+.buildingsV2 img.g8.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g8-ltr.png');
+}
+.buildingsV2 img.g8.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g8-ltr.png');
+}
+.buildingsV2 img.g8.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g8-ltr.png');
+}
+.buildingsV2 img.g8.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g8-ltr.png');
+}
+.buildingsV2 img.g8.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g8-ltr.png');
+}
+.buildingsV2 img.g8.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g8-ltr.png');
+}
+.buildingsV2 img.g8.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g8-ltr.png');
+}
+.buildingsV2 img.g8.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g8-ltr.png');
+}
+.buildingsV2 img.g8.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g8-ltr.png');
+}
+.buildingsV2 img.g9.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g9-ltr.png');
+}
+.buildingsV2 img.g9.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g9-ltr.png');
+}
+.buildingsV2 img.g9.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g9-ltr.png');
+}
+.buildingsV2 img.g9.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g9-ltr.png');
+}
+.buildingsV2 img.g9.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g9-ltr.png');
+}
+.buildingsV2 img.g9.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g9-ltr.png');
+}
+.buildingsV2 img.g9.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g9-ltr.png');
+}
+.buildingsV2 img.g9.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g9-ltr.png');
+}
+.buildingsV2 img.g9.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g9-ltr.png');
+}
+.buildingsV2 img.g9.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g9-ltr.png');
+}
+.buildingsV2 img.g10.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g10-ltr.png');
+}
+.buildingsV2 img.g10.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g10-ltr.png');
+}
+.buildingsV2 img.g10.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g10-ltr.png');
+}
+.buildingsV2 img.g10.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g10-ltr.png');
+}
+.buildingsV2 img.g10.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g10-ltr.png');
+}
+.buildingsV2 img.g10.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g10-ltr.png');
+}
+.buildingsV2 img.g10.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g10-ltr.png');
+}
+.buildingsV2 img.g10.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g10-ltr.png');
+}
+.buildingsV2 img.g10.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g10-ltr.png');
+}
+.buildingsV2 img.g10.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g10-ltr.png');
+}
+.buildingsV2 img.g11.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g11-ltr.png');
+}
+.buildingsV2 img.g11.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g11-ltr.png');
+}
+.buildingsV2 img.g11.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g11-ltr.png');
+}
+.buildingsV2 img.g11.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g11-ltr.png');
+}
+.buildingsV2 img.g11.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g11-ltr.png');
+}
+.buildingsV2 img.g11.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g11-ltr.png');
+}
+.buildingsV2 img.g11.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g11-ltr.png');
+}
+.buildingsV2 img.g11.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g11-ltr.png');
+}
+.buildingsV2 img.g11.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g11-ltr.png');
+}
+.buildingsV2 img.g11.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g11-ltr.png');
+}
+.buildingsV2 img.g13.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g13-ltr.png');
+}
+.buildingsV2 img.g13.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g13-ltr.png');
+}
+.buildingsV2 img.g13.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g13-ltr.png');
+}
+.buildingsV2 img.g13.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g13-ltr.png');
+}
+.buildingsV2 img.g13.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g13-ltr.png');
+}
+.buildingsV2 img.g13.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g13-ltr.png');
+}
+.buildingsV2 img.g13.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g13-ltr.png');
+}
+.buildingsV2 img.g13.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g13-ltr.png');
+}
+.buildingsV2 img.g13.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g13-ltr.png');
+}
+.buildingsV2 img.g13.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g13-ltr.png');
+}
+.buildingsV2 img.g14.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g14-ltr.png');
+}
+.buildingsV2 img.g14.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g14-ltr.png');
+}
+.buildingsV2 img.g14.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g14-ltr.png');
+}
+.buildingsV2 img.g14.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g14-ltr.png');
+}
+.buildingsV2 img.g14.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g14-ltr.png');
+}
+.buildingsV2 img.g14.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g14-ltr.png');
+}
+.buildingsV2 img.g14.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g14-ltr.png');
+}
+.buildingsV2 img.g14.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g14-ltr.png');
+}
+.buildingsV2 img.g14.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g14-ltr.png');
+}
+.buildingsV2 img.g14.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g14-ltr.png');
+}
+.buildingsV2 img.g15.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g15-ltr.png');
+}
+.buildingsV2 img.g15.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g15-ltr.png');
+}
+.buildingsV2 img.g15.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g15-ltr.png');
+}
+.buildingsV2 img.g15.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g15-ltr.png');
+}
+.buildingsV2 img.g15.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g15-ltr.png');
+}
+.buildingsV2 img.g15.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g15-ltr.png');
+}
+.buildingsV2 img.g15.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g15-ltr.png');
+}
+.buildingsV2 img.g15.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g15-ltr.png');
+}
+.buildingsV2 img.g15.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g15-ltr.png');
+}
+.buildingsV2 img.g15.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g15-ltr.png');
+}
+.buildingsV2 img.g16.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g16-ltr.png');
+}
+.buildingsV2 img.g16.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g16-ltr.png');
+}
+.buildingsV2 img.g16.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g16-ltr.png');
+}
+.buildingsV2 img.g16.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g16-ltr.png');
+}
+.buildingsV2 img.g16.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g16-ltr.png');
+}
+.buildingsV2 img.g16.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g16-ltr.png');
+}
+.buildingsV2 img.g16.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g16-ltr.png');
+}
+.buildingsV2 img.g16.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g16-ltr.png');
+}
+.buildingsV2 img.g16.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g16-ltr.png');
+}
+.buildingsV2 img.g16.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g16-ltr.png');
+}
+.buildingsV2 img.g17.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g17-ltr.png');
+}
+.buildingsV2 img.g17.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g17-ltr.png');
+}
+.buildingsV2 img.g17.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g17-ltr.png');
+}
+.buildingsV2 img.g17.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g17-ltr.png');
+}
+.buildingsV2 img.g17.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g17-ltr.png');
+}
+.buildingsV2 img.g17.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g17-ltr.png');
+}
+.buildingsV2 img.g17.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g17-ltr.png');
+}
+.buildingsV2 img.g17.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g17-ltr.png');
+}
+.buildingsV2 img.g17.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g17-ltr.png');
+}
+.buildingsV2 img.g17.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g17-ltr.png');
+}
+.buildingsV2 img.g18.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g18-ltr.png');
+}
+.buildingsV2 img.g18.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g18-ltr.png');
+}
+.buildingsV2 img.g18.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g18-ltr.png');
+}
+.buildingsV2 img.g18.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g18-ltr.png');
+}
+.buildingsV2 img.g18.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g18-ltr.png');
+}
+.buildingsV2 img.g18.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g18-ltr.png');
+}
+.buildingsV2 img.g18.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g18-ltr.png');
+}
+.buildingsV2 img.g18.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g18-ltr.png');
+}
+.buildingsV2 img.g18.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g18-ltr.png');
+}
+.buildingsV2 img.g18.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g18-ltr.png');
+}
+.buildingsV2 img.g19.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g19-ltr.png');
+}
+.buildingsV2 img.g19.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g19-ltr.png');
+}
+.buildingsV2 img.g19.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g19-ltr.png');
+}
+.buildingsV2 img.g19.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g19-ltr.png');
+}
+.buildingsV2 img.g19.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g19-ltr.png');
+}
+.buildingsV2 img.g19.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g19-ltr.png');
+}
+.buildingsV2 img.g19.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g19-ltr.png');
+}
+.buildingsV2 img.g19.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g19-ltr.png');
+}
+.buildingsV2 img.g19.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g19-ltr.png');
+}
+.buildingsV2 img.g19.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g19-ltr.png');
+}
+.buildingsV2 img.g20.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g20-ltr.png');
+}
+.buildingsV2 img.g20.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g20-ltr.png');
+}
+.buildingsV2 img.g20.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g20-ltr.png');
+}
+.buildingsV2 img.g20.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g20-ltr.png');
+}
+.buildingsV2 img.g20.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g20-ltr.png');
+}
+.buildingsV2 img.g20.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g20-ltr.png');
+}
+.buildingsV2 img.g20.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g20-ltr.png');
+}
+.buildingsV2 img.g20.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g20-ltr.png');
+}
+.buildingsV2 img.g20.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g20-ltr.png');
+}
+.buildingsV2 img.g20.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g20-ltr.png');
+}
+.buildingsV2 img.g21.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g21-ltr.png');
+}
+.buildingsV2 img.g21.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g21-ltr.png');
+}
+.buildingsV2 img.g21.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g21-ltr.png');
+}
+.buildingsV2 img.g21.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g21-ltr.png');
+}
+.buildingsV2 img.g21.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g21-ltr.png');
+}
+.buildingsV2 img.g21.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g21-ltr.png');
+}
+.buildingsV2 img.g21.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g21-ltr.png');
+}
+.buildingsV2 img.g21.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g21-ltr.png');
+}
+.buildingsV2 img.g21.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g21-ltr.png');
+}
+.buildingsV2 img.g21.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g21-ltr.png');
+}
+.buildingsV2 img.g22.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g22-ltr.png');
+}
+.buildingsV2 img.g22.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g22-ltr.png');
+}
+.buildingsV2 img.g22.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g22-ltr.png');
+}
+.buildingsV2 img.g22.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g22-ltr.png');
+}
+.buildingsV2 img.g22.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g22-ltr.png');
+}
+.buildingsV2 img.g22.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g22-ltr.png');
+}
+.buildingsV2 img.g22.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g22-ltr.png');
+}
+.buildingsV2 img.g22.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g22-ltr.png');
+}
+.buildingsV2 img.g22.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g22-ltr.png');
+}
+.buildingsV2 img.g22.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g22-ltr.png');
+}
+.buildingsV2 img.g23.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g23-ltr.png');
+}
+.buildingsV2 img.g23.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g23-ltr.png');
+}
+.buildingsV2 img.g23.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g23-ltr.png');
+}
+.buildingsV2 img.g23.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g23-ltr.png');
+}
+.buildingsV2 img.g23.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g23-ltr.png');
+}
+.buildingsV2 img.g23.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g23-ltr.png');
+}
+.buildingsV2 img.g23.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g23-ltr.png');
+}
+.buildingsV2 img.g23.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g23-ltr.png');
+}
+.buildingsV2 img.g23.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g23-ltr.png');
+}
+.buildingsV2 img.g23.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g23-ltr.png');
+}
+.buildingsV2 img.g24.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g24-ltr.png');
+}
+.buildingsV2 img.g24.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g24-ltr.png');
+}
+.buildingsV2 img.g24.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g24-ltr.png');
+}
+.buildingsV2 img.g24.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g24-ltr.png');
+}
+.buildingsV2 img.g24.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g24-ltr.png');
+}
+.buildingsV2 img.g24.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g24-ltr.png');
+}
+.buildingsV2 img.g24.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g24-ltr.png');
+}
+.buildingsV2 img.g24.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g24-ltr.png');
+}
+.buildingsV2 img.g24.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g24-ltr.png');
+}
+.buildingsV2 img.g24.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g24-ltr.png');
+}
+.buildingsV2 img.g25.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g25-ltr.png');
+}
+.buildingsV2 img.g25.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g25-ltr.png');
+}
+.buildingsV2 img.g25.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g25-ltr.png');
+}
+.buildingsV2 img.g25.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g25-ltr.png');
+}
+.buildingsV2 img.g25.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g25-ltr.png');
+}
+.buildingsV2 img.g25.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g25-ltr.png');
+}
+.buildingsV2 img.g25.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g25-ltr.png');
+}
+.buildingsV2 img.g25.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g25-ltr.png');
+}
+.buildingsV2 img.g25.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g25-ltr.png');
+}
+.buildingsV2 img.g25.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g25-ltr.png');
+}
+.buildingsV2 img.g26.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g26-ltr.png');
+}
+.buildingsV2 img.g26.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g26-ltr.png');
+}
+.buildingsV2 img.g26.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g26-ltr.png');
+}
+.buildingsV2 img.g26.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g26-ltr.png');
+}
+.buildingsV2 img.g26.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g26-ltr.png');
+}
+.buildingsV2 img.g26.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g26-ltr.png');
+}
+.buildingsV2 img.g26.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g26-ltr.png');
+}
+.buildingsV2 img.g26.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g26-ltr.png');
+}
+.buildingsV2 img.g26.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g26-ltr.png');
+}
+.buildingsV2 img.g26.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g26-ltr.png');
+}
+.buildingsV2 img.g27.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g27-ltr.png');
+}
+.buildingsV2 img.g27.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g27-ltr.png');
+}
+.buildingsV2 img.g27.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g27-ltr.png');
+}
+.buildingsV2 img.g27.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g27-ltr.png');
+}
+.buildingsV2 img.g27.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g27-ltr.png');
+}
+.buildingsV2 img.g27.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g27-ltr.png');
+}
+.buildingsV2 img.g27.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g27-ltr.png');
+}
+.buildingsV2 img.g27.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g27-ltr.png');
+}
+.buildingsV2 img.g27.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g27-ltr.png');
+}
+.buildingsV2 img.g27.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g27-ltr.png');
+}
+.buildingsV2 img.g28.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g28-ltr.png');
+}
+.buildingsV2 img.g28.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g28-ltr.png');
+}
+.buildingsV2 img.g28.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g28-ltr.png');
+}
+.buildingsV2 img.g28.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g28-ltr.png');
+}
+.buildingsV2 img.g28.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g28-ltr.png');
+}
+.buildingsV2 img.g28.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g28-ltr.png');
+}
+.buildingsV2 img.g28.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g28-ltr.png');
+}
+.buildingsV2 img.g28.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g28-ltr.png');
+}
+.buildingsV2 img.g28.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g28-ltr.png');
+}
+.buildingsV2 img.g28.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g28-ltr.png');
+}
+.buildingsV2 img.g29.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g29-ltr.png');
+}
+.buildingsV2 img.g29.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g29-ltr.png');
+}
+.buildingsV2 img.g29.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g29-ltr.png');
+}
+.buildingsV2 img.g29.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g29-ltr.png');
+}
+.buildingsV2 img.g29.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g29-ltr.png');
+}
+.buildingsV2 img.g29.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g29-ltr.png');
+}
+.buildingsV2 img.g29.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g29-ltr.png');
+}
+.buildingsV2 img.g29.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g29-ltr.png');
+}
+.buildingsV2 img.g29.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g29-ltr.png');
+}
+.buildingsV2 img.g29.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g29-ltr.png');
+}
+.buildingsV2 img.g30.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g30-ltr.png');
+}
+.buildingsV2 img.g30.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g30-ltr.png');
+}
+.buildingsV2 img.g30.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g30-ltr.png');
+}
+.buildingsV2 img.g30.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g30-ltr.png');
+}
+.buildingsV2 img.g30.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g30-ltr.png');
+}
+.buildingsV2 img.g30.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g30-ltr.png');
+}
+.buildingsV2 img.g30.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g30-ltr.png');
+}
+.buildingsV2 img.g30.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g30-ltr.png');
+}
+.buildingsV2 img.g30.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g30-ltr.png');
+}
+.buildingsV2 img.g30.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g30-ltr.png');
+}
+.buildingsV2 img.g34.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g34-ltr.png');
+}
+.buildingsV2 img.g34.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g34-ltr.png');
+}
+.buildingsV2 img.g34.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g34-ltr.png');
+}
+.buildingsV2 img.g34.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g34-ltr.png');
+}
+.buildingsV2 img.g34.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g34-ltr.png');
+}
+.buildingsV2 img.g34.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g34-ltr.png');
+}
+.buildingsV2 img.g34.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g34-ltr.png');
+}
+.buildingsV2 img.g34.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g34-ltr.png');
+}
+.buildingsV2 img.g34.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g34-ltr.png');
+}
+.buildingsV2 img.g34.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g34-ltr.png');
+}
+.buildingsV2 img.g37.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g37-ltr.png');
+}
+.buildingsV2 img.g37.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g37-ltr.png');
+}
+.buildingsV2 img.g37.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g37-ltr.png');
+}
+.buildingsV2 img.g37.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g37-ltr.png');
+}
+.buildingsV2 img.g37.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g37-ltr.png');
+}
+.buildingsV2 img.g37.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g37-ltr.png');
+}
+.buildingsV2 img.g37.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g37-ltr.png');
+}
+.buildingsV2 img.g37.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g37-ltr.png');
+}
+.buildingsV2 img.g37.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g37-ltr.png');
+}
+.buildingsV2 img.g37.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g37-ltr.png');
+}
+.buildingsV2 img.g38.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g38-ltr.png');
+}
+.buildingsV2 img.g38.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g38-ltr.png');
+}
+.buildingsV2 img.g38.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g38-ltr.png');
+}
+.buildingsV2 img.g38.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g38-ltr.png');
+}
+.buildingsV2 img.g38.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g38-ltr.png');
+}
+.buildingsV2 img.g38.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g38-ltr.png');
+}
+.buildingsV2 img.g38.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g38-ltr.png');
+}
+.buildingsV2 img.g38.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g38-ltr.png');
+}
+.buildingsV2 img.g38.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g38-ltr.png');
+}
+.buildingsV2 img.g38.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g38-ltr.png');
+}
+.buildingsV2 img.g39.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g39-ltr.png');
+}
+.buildingsV2 img.g39.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g39-ltr.png');
+}
+.buildingsV2 img.g39.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g39-ltr.png');
+}
+.buildingsV2 img.g39.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g39-ltr.png');
+}
+.buildingsV2 img.g39.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g39-ltr.png');
+}
+.buildingsV2 img.g39.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g39-ltr.png');
+}
+.buildingsV2 img.g39.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g39-ltr.png');
+}
+.buildingsV2 img.g39.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g39-ltr.png');
+}
+.buildingsV2 img.g39.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g39-ltr.png');
+}
+.buildingsV2 img.g39.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g39-ltr.png');
+}
+.buildingsV2 img.g41.roman:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g41-ltr.png');
+}
+.buildingsV2 img.g41.roman.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g41-ltr.png');
+}
+.buildingsV2 img.g35.teuton:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g35-ltr.png');
+}
+.buildingsV2 img.g35.teuton.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g35-ltr.png');
+}
+.buildingsV2 img.g36.gaul:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g36-ltr.png');
+}
+.buildingsV2 img.g36.gaul.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g36-ltr.png');
+}
+.buildingsV2 img.g45.egyptian:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g45-ltr.png');
+}
+.buildingsV2 img.g45.egyptian.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g45-ltr.png');
+}
+.buildingsV2 img.g44.hun:not(.big) {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g44-ltr.png');
+}
+.buildingsV2 img.g44.hun.big {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g44-ltr.png');
+}
+.buildingsV2 img.g16.roman:not(.big) {
+  width: 120px;
+  height: 180px;
+}
+.buildingsV2 img.g16.teuton:not(.big) {
+  width: 120px;
+  height: 180px;
+}
+.buildingsV2 img.g16.gaul:not(.big) {
+  width: 120px;
+  height: 180px;
+}
+.buildingsV2 img.g16.egyptian:not(.big) {
+  width: 120px;
+  height: 180px;
+}
+.buildingsV2 img.g16.hun:not(.big) {
+  width: 120px;
+  height: 180px;
+}
+.buildingsV2 .g1.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g1-ltr.png');
+  width: 184px;
+  height: 179px;
+}
+.buildingsV2 .g2.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g2-ltr.png');
+  width: 184px;
+  height: 179px;
+}
+.buildingsV2 .g3.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g3-ltr.png');
+  width: 184px;
+  height: 179px;
+}
+.buildingsV2 .g4.big {
+  background-image: url('../../img_ltr/g/defaultBuildings/big/g4-ltr.png');
+  width: 184px;
+  height: 179px;
+}
+.buildingsV2 .wall {
+  background-size: 100% 100%;
+}
+.buildingsV2 .wall.g31Bottom, .buildingsV2 .wall.g31Top {
+  left: -9px;
+  top: -2px;
+  width: 695px;
+  height: 523px;
+}
+.buildingsV2 .wall.g32Top, .buildingsV2 .wall.g32Bottom {
+  left: -7px;
+  top: -5px;
+  width: 685px;
+  height: 534px;
+}
+.buildingsV2 .wall.g33Bottom, .buildingsV2 .wall.g33Top {
+  left: -8px;
+  top: -2px;
+  width: 698px;
+  height: 523px;
+}
+.buildingsV2 .wall.g42Bottom, .buildingsV2 .wall.g42Top {
+  left: -10px;
+  top: -5px;
+  width: 700px;
+  height: 523px;
+}
+.buildingsV2 .wall.g43Top, .buildingsV2 .wall.g43Bottom {
+  left: -10px;
+  top: 0;
+  width: 690px;
+  height: 524px;
+}
+.buildingsV2 .wall.roman.g31Top {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g31Top-ltr.png');
+  width: 675px;
+  height: 534px;
+}
+.buildingsV2 .wall.roman.g31Bottom {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/g31Bottom-ltr.png');
+  width: 675px;
+  height: 534px;
+}
+.buildingsV2 .g31.big.roman {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/roman/big/g31-ltr.png');
+}
+.buildingsV2 .wall {
+  background-size: 100% 100%;
+}
+.buildingsV2 .wall.g31Bottom, .buildingsV2 .wall.g31Top {
+  left: -9px;
+  top: -2px;
+  width: 695px;
+  height: 523px;
+}
+.buildingsV2 .wall.g32Top, .buildingsV2 .wall.g32Bottom {
+  left: -7px;
+  top: -5px;
+  width: 685px;
+  height: 534px;
+}
+.buildingsV2 .wall.g33Bottom, .buildingsV2 .wall.g33Top {
+  left: -8px;
+  top: -2px;
+  width: 698px;
+  height: 523px;
+}
+.buildingsV2 .wall.g42Bottom, .buildingsV2 .wall.g42Top {
+  left: -10px;
+  top: -5px;
+  width: 700px;
+  height: 523px;
+}
+.buildingsV2 .wall.g43Top, .buildingsV2 .wall.g43Bottom {
+  left: -10px;
+  top: 0;
+  width: 690px;
+  height: 524px;
+}
+.buildingsV2 .wall.teuton.g32Top {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g32Top-ltr.png');
+  width: 675px;
+  height: 534px;
+}
+.buildingsV2 .wall.teuton.g32Bottom {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/g32Bottom-ltr.png');
+  width: 675px;
+  height: 534px;
+}
+.buildingsV2 .g32.big.teuton {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/teuton/big/g32-ltr.png');
+}
+.buildingsV2 .wall {
+  background-size: 100% 100%;
+}
+.buildingsV2 .wall.g31Bottom, .buildingsV2 .wall.g31Top {
+  left: -9px;
+  top: -2px;
+  width: 695px;
+  height: 523px;
+}
+.buildingsV2 .wall.g32Top, .buildingsV2 .wall.g32Bottom {
+  left: -7px;
+  top: -5px;
+  width: 685px;
+  height: 534px;
+}
+.buildingsV2 .wall.g33Bottom, .buildingsV2 .wall.g33Top {
+  left: -8px;
+  top: -2px;
+  width: 698px;
+  height: 523px;
+}
+.buildingsV2 .wall.g42Bottom, .buildingsV2 .wall.g42Top {
+  left: -10px;
+  top: -5px;
+  width: 700px;
+  height: 523px;
+}
+.buildingsV2 .wall.g43Top, .buildingsV2 .wall.g43Bottom {
+  left: -10px;
+  top: 0;
+  width: 690px;
+  height: 524px;
+}
+.buildingsV2 .wall.gaul.g33Top {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g33Top-ltr.png');
+  width: 675px;
+  height: 534px;
+}
+.buildingsV2 .wall.gaul.g33Bottom {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/g33Bottom-ltr.png');
+  width: 675px;
+  height: 534px;
+}
+.buildingsV2 .g33.big.gaul {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/gaul/big/g33-ltr.png');
+}
+.buildingsV2 .wall {
+  background-size: 100% 100%;
+}
+.buildingsV2 .wall.g31Bottom, .buildingsV2 .wall.g31Top {
+  left: -9px;
+  top: -2px;
+  width: 695px;
+  height: 523px;
+}
+.buildingsV2 .wall.g32Top, .buildingsV2 .wall.g32Bottom {
+  left: -7px;
+  top: -5px;
+  width: 685px;
+  height: 534px;
+}
+.buildingsV2 .wall.g33Bottom, .buildingsV2 .wall.g33Top {
+  left: -8px;
+  top: -2px;
+  width: 698px;
+  height: 523px;
+}
+.buildingsV2 .wall.g42Bottom, .buildingsV2 .wall.g42Top {
+  left: -10px;
+  top: -5px;
+  width: 700px;
+  height: 523px;
+}
+.buildingsV2 .wall.g43Top, .buildingsV2 .wall.g43Bottom {
+  left: -10px;
+  top: 0;
+  width: 690px;
+  height: 524px;
+}
+.buildingsV2 .wall.egyptian.g42Top {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g42Top-ltr.png');
+  width: 675px;
+  height: 534px;
+}
+.buildingsV2 .wall.egyptian.g42Bottom {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/g42Bottom-ltr.png');
+  width: 675px;
+  height: 534px;
+}
+.buildingsV2 .g42.big.egyptian {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/egyptian/big/g42-ltr.png');
+}
+.buildingsV2 .wall {
+  background-size: 100% 100%;
+}
+.buildingsV2 .wall.g31Bottom, .buildingsV2 .wall.g31Top {
+  left: -9px;
+  top: -2px;
+  width: 695px;
+  height: 523px;
+}
+.buildingsV2 .wall.g32Top, .buildingsV2 .wall.g32Bottom {
+  left: -7px;
+  top: -5px;
+  width: 685px;
+  height: 534px;
+}
+.buildingsV2 .wall.g33Bottom, .buildingsV2 .wall.g33Top {
+  left: -8px;
+  top: -2px;
+  width: 698px;
+  height: 523px;
+}
+.buildingsV2 .wall.g42Bottom, .buildingsV2 .wall.g42Top {
+  left: -10px;
+  top: -5px;
+  width: 700px;
+  height: 523px;
+}
+.buildingsV2 .wall.g43Top, .buildingsV2 .wall.g43Bottom {
+  left: -10px;
+  top: 0;
+  width: 690px;
+  height: 524px;
+}
+.buildingsV2 .wall.hun.g43Top {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g43Top-ltr.png');
+  width: 675px;
+  height: 534px;
+}
+.buildingsV2 .wall.hun.g43Bottom {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/g43Bottom-ltr.png');
+  width: 675px;
+  height: 534px;
+}
+.buildingsV2 .g43.big.hun {
+  background-image: url('../../img_ltr/g/tribeSpecificBuildings/hun/big/g43-ltr.png');
+}
+.buildingsV2 .gebIcon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/gebIcon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g1Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g1Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g2Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g2Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g3Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g3Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g4Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g4Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g5Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g5Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g6Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g6Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g7Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g7Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g8Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g8Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g9Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g9Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g10Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g10Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g11Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g11Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g13Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g13Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g14Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g14Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g15Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g15Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g16Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g16Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g17Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g17Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g18Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g18Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g19Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g19Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g20Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g20Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g21Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g21Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g22Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g22Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g23Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g23Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g24Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g24Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g25Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g25Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g26Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g26Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g27Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g27Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g28Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g28Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g29Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g29Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g30Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g30Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g31Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g31Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g32Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g32Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g33Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g33Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g34Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g34Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g35Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g35Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g36Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g36Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g37Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g37Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g38Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g38Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g39Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g39Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g40Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g40Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g41Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g41Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g42Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g42Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g43Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g43Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g44Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g44Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .gebIcon.g45Icon {
+  background-image: url('../../img_ltr/g/defaultBuildings/icon/g45Icon.gif');
+  width: 16px;
+  height: 16px;
+}
+.buildingsV2 .buildingSlot {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  user-select: none;
+  /* building image */
+  /* level indicator */
+  /* building shapes */
+}
+.buildingsV2 .buildingSlot.a19 {
+  left: 81px;
+  top: 57px;
+  z-index: 19;
+}
+.buildingsV2 .buildingSlot.a20 {
+  left: 174px;
+  top: 15px;
+  z-index: 17;
+}
+.buildingsV2 .buildingSlot.a21 {
+  left: 261px;
+  top: -3px;
+  z-index: 15;
+}
+.buildingsV2 .buildingSlot.a22 {
+  left: 354px;
+  top: 26px;
+  z-index: 17;
+}
+.buildingsV2 .buildingSlot.a23 {
+  left: 428px;
+  top: 69px;
+  z-index: 20;
+}
+.buildingsV2 .buildingSlot.a24 {
+  left: 42px;
+  top: 107px;
+  z-index: 23;
+}
+.buildingsV2 .buildingSlot.a25 {
+  left: 485px;
+  top: 119px;
+  z-index: 24;
+}
+.buildingsV2 .buildingSlot.a26 {
+  left: 272px;
+  top: 73px;
+  z-index: 20;
+}
+.buildingsV2 .buildingSlot.a26.g40 {
+  width: 298px;
+  height: 318px;
+  top: 14px;
+  left: 153px;
+}
+.buildingsV2 .buildingSlot.a27 {
+  left: 68px;
+  top: 241px;
+  z-index: 32;
+}
+.buildingsV2 .buildingSlot.a28 {
+  left: 31px;
+  top: 167px;
+  z-index: 27;
+}
+.buildingsV2 .buildingSlot.a29 {
+  left: 448px;
+  top: 170px;
+  z-index: 29;
+}
+.buildingsV2 .buildingSlot.a30 {
+  left: 153px;
+  top: 183px;
+  z-index: 28;
+}
+.buildingsV2 .buildingSlot.a31 {
+  left: 155px;
+  top: 110px;
+  z-index: 23;
+}
+.buildingsV2 .buildingSlot.a32 {
+  left: 227px;
+  top: 230px;
+  z-index: 32;
+}
+.buildingsV2 .buildingSlot.a33 {
+  left: 476px;
+  top: 238px;
+  z-index: 32;
+}
+.buildingsV2 .buildingSlot.a34 {
+  left: 153px;
+  top: 300px;
+  z-index: 36;
+}
+.buildingsV2 .buildingSlot.a35 {
+  left: 295px;
+  top: 291px;
+  z-index: 36;
+}
+.buildingsV2 .buildingSlot.a36 {
+  left: 404px;
+  top: 254px;
+  z-index: 33;
+}
+.buildingsV2 .buildingSlot.a37 {
+  left: 241px;
+  top: 333px;
+  z-index: 39;
+}
+.buildingsV2 .buildingSlot.a38 {
+  left: 365px;
+  top: 318px;
+  z-index: 38;
+}
+.buildingsV2 .buildingSlot.a39 {
+  width: 120px;
+  height: 180px;
+  top: 156px;
+  left: 354px;
+  z-index: 28;
+}
+.buildingsV2 .buildingSlot.a39.g0 {
+  top: 156px;
+  left: 354px;
+}
+.buildingsV2 .buildingSlot.a40 {
+  width: 100%;
+  height: 100%;
+  z-index: 39;
+  /* empty wall building slot */
+}
+.buildingsV2 .buildingSlot.a40.g0 {
+  width: 628px;
+  height: 464px;
+  top: 46px;
+  left: 12px;
+  z-index: 0;
+}
+.buildingsV2 .buildingSlot.a40 .level {
+  pointer-events: none;
+}
+.buildingsV2 .buildingSlot.a40.top {
+  z-index: 0;
+}
+.buildingsV2 .buildingSlot img {
+  z-index: 0;
+  position: absolute;
+}
+.buildingsV2 .buildingSlot .level {
+  z-index: 2;
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 11px);
+  pointer-events: auto;
+  line-height: 25px;
+  cursor: pointer;
+}
+.buildingsV2 .buildingSlot .level:hover ~ svg .hoverShape path {
+  fill: rgba(255, 255, 255, 0.2);
+}
+.buildingsV2 .buildingSlot .level:active ~ svg .hoverShape path {
+  fill: rgba(255, 255, 255, 0.35);
+}
+.buildingsV2 .buildingSlot .level.aid40 {
+  top: auto;
+  bottom: 11%;
+}
+.buildingsV2 .buildingSlot svg.buildingShape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+.buildingsV2 .buildingSlot svg.buildingShape path {
+  fill: transparent;
+  outline: none;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.buildingsV2 .buildingSlot svg.buildingShape .clickShape:hover + .hoverShape path {
+  fill: rgba(255, 255, 255, 0.2);
+}
+.buildingsV2 .buildingSlot svg.buildingShape .clickShape:active + .hoverShape path {
+  fill: rgba(255, 255, 255, 0.35);
+  -webkit-tap-highlight-color: transparent;
+}
+.buildingsV2 .buildingSlot svg.buildingShape .hoverShape path {
+  transition-duration: 150ms;
+  transition-timing-function: ease-in;
+}
+.buildingsV2 .buildingSlot svg.buildingShape .hoverShape:hover path {
+  fill: rgba(255, 255, 255, 0.2);
+}
+.buildingsV2 .buildingSlot svg.buildingShape .hoverShape:active path {
+  fill: rgba(255, 255, 255, 0.35);
+  -webkit-tap-highlight-color: transparent;
+}
+.rtl.buildingsV2 .buildingSlot svg.buildingShape:not(.iso) {
+  transform: scale(-1, 1);
+}
+.buildingsV2 .buildingSlot svg.buildingShape.g31Top, .buildingsV2 .buildingSlot svg.buildingShape.g31Bottom {
+  left: -5px;
+  top: -2px;
+}
+.buildingsV2 .buildingSlot svg.buildingShape.g32Top, .buildingsV2 .buildingSlot svg.buildingShape.g32Bottom {
+  left: -17px;
+  top: -5px;
+  width: 700px;
+}
+.buildingsV2 .buildingSlot svg.buildingShape.g33Top {
+  left: -2px;
+  top: -2px;
+}
+.buildingsV2 .buildingSlot svg.buildingShape.g33Bottom {
+  left: -5px;
+  top: -2px;
+}
+.buildingsV2 .buildingSlot svg.buildingShape.g42Top, .buildingsV2 .buildingSlot svg.buildingShape.g42Bottom {
+  left: -5px;
+  top: -5px;
+}
+.buildingsV2 .buildingSlot svg.buildingShape.g43Top {
+  left: -13px;
+  top: -9px;
+  height: 520px;
+  width: 700px;
+}
+.buildingsV2 .buildingSlot svg.buildingShape.g43Bottom {
+  left: -12px;
+  top: -9px;
+  height: 524px;
+  width: 700px;
+}
+.buildingsV2 .buildingSlot svg.buildingShape.hover > .hoverShape path {
+  fill: rgba(255, 255, 255, 0.2);
+}
+.buildingsV2 .buildingSlot svg.buildingShape.active > .hoverShape path {
+  fill: rgba(255, 255, 255, 0.35);
+  -webkit-tap-highlight-color: transparent;
+}

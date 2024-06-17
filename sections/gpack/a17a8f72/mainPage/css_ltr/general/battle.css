@@ -1,0 +1,103 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* battle icons */
+img.att_all {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/att_all.gif');
+}
+
+img.att1 {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/att1.gif');
+}
+
+.colorBlind img.att1 {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/att1Colorblind.gif');
+}
+
+img.hero_on_adventure {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/adventure-ltr.png');
+}
+
+.colorBlind img.hero_on_adventure {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/adventureColorblind-ltr.png');
+}
+
+img.settlersOnTheWay {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/settle-ltr.png');
+}
+
+.colorBlind img.settlersOnTheWay {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/settleColorblind-ltr.png');
+}
+
+img.att2 {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/att2.gif');
+}
+
+img.att3 {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/att3.gif');
+}
+
+img.def_all {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/def_all.gif');
+}
+
+img.def1 {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/def1.gif');
+}
+
+img.def2 {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/def2.gif');
+}
+
+img.def3 {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/def3.gif');
+}
+
+img.def_c {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/def_c.gif');
+}
+
+img.def_i {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_ltr/a/def_i.gif');
+}

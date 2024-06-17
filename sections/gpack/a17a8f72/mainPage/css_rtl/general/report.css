@@ -1,0 +1,119 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* report icons */
+img.iReport {
+  background-image: url('../../img_rtl/a/report_icons.gif');
+  width: 19px;
+  height: 17px;
+}
+
+/* color blind report icons */
+.colorBlind img.iReport {
+  background-image: url('../../img_rtl/a/report_icons_colorblind.gif');
+}
+
+img.iReport0 {
+  background-position: 0 -3px;
+}
+
+img.iReport1 {
+  background-position: 0 -53px;
+}
+
+img.iReport2 {
+  background-position: 0 -103px;
+}
+
+img.iReport3 {
+  background-position: 0 -153px;
+}
+
+img.iReport4 {
+  background-position: 0 -203px;
+}
+
+img.iReport5 {
+  background-position: 0 -253px;
+}
+
+img.iReport6 {
+  background-position: 0 -303px;
+}
+
+img.iReport7 {
+  background-position: 0 -353px;
+}
+
+img.iReport8 {
+  background-position: 0 -403px;
+}
+
+img.iReport11 {
+  background-position: 0 -553px;
+}
+
+img.iReport12 {
+  background-position: 0 -603px;
+}
+
+img.iReport13 {
+  background-position: 0 -653px;
+}
+
+img.iReport14 {
+  background-position: 0 -703px;
+}
+
+img.iReport15 {
+  background-position: 0 -753px;
+}
+
+img.iReport16 {
+  background-position: 0 -803px;
+}
+
+img.iReport17 {
+  background-position: 0 -853px;
+}
+
+img.iReport18 {
+  background-position: 0 -903px;
+}
+
+img.iReport19 {
+  background-position: 0 -953px;
+}
+
+img.iReport20 {
+  background-position: 0 -1003px;
+}
+
+img.iReport21 {
+  background-position: 0 -1053px;
+}
+
+img.iReport22,
+.colorBlind img.iReport22 {
+  background-image: url('../../img_rtl/report/mini_house-rtl.png');
+}
+
+img.iReport23,
+.colorBlind img.iReport23 {
+  background-image: url('../../img_rtl/report/mini_houseFailed-rtl.gif');
+}
+
+img.iReport33,
+.colorBlind img.iReport33 {
+  background-image: url('../../img_rtl/report/mini_house-rtl.png');
+}

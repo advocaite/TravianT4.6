@@ -1,0 +1,2435 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+@import url("hero/propertyAttributes.css");
+@import url("hero/statusMessage.css");
+div.itemNotMoveable, span.itemNotMoveable {
+  color: #F88C1F;
+}
+
+span.heroAttributeInformation {
+  color: #5DCBFB;
+}
+
+div.hero_inventory .statusWrapper {
+  margin-right: 10px;
+  margin-left: 10px;
+  max-width: 100%;
+  padding: 0;
+  width: auto;
+}
+
+div.hero_inventory #hero_level p {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+}
+
+div.hero_inventory .bar-bg {
+  background-color: #ffffff;
+  height: 8px;
+  border: 1px solid #C6C6C6;
+  padding: 1px;
+  margin: 1px;
+}
+
+div.hero_inventory .bar {
+  background-color: #006900;
+  height: 100%;
+  float: right;
+}
+
+div.hero_inventory h4 {
+  width: 100%;
+  right: 0;
+  margin-bottom: 10px;
+}
+
+div.hero_inventory h4 img {
+  margin-left: 8px;
+}
+
+div.hero_inventory #itemsToSale {
+  margin: 0px 4px 0 2px;
+}
+
+div.hero_inventory .market .buy, div.hero_inventory .market .sell {
+  margin-right: 15px;
+}
+
+div.hero_inventory #hero_body_container {
+  position: relative;
+  width: 300px;
+  height: 422px;
+}
+
+div.hero_inventory #hero_body, div.hero_inventory #hero_body_content {
+  position: absolute;
+  right: 1px;
+  top: 0;
+  width: 300px;
+  height: 422px;
+}
+
+div.hero_inventory #hero_body {
+  overflow: hidden;
+}
+
+div.hero_inventory #hero_body .heroBodyImage {
+  width: 330px;
+  position: relative;
+}
+
+div.hero_inventory #hero_body .heroBodyImage-LTR {
+  left: -30px;
+}
+
+div.hero_inventory #hero_body .heroBodyImage-RTL {
+  right: 0;
+}
+
+div.hero_inventory #hero_body_content .content .draggable {
+  background-image: url('../img_rtl/hero/heroBodyItem.png');
+}
+
+div.hero_inventory #hero_body_content .content #bag.draggable {
+  background-image: url('../img_rtl/hero/heroBodyItemBag.png');
+  width: 81px;
+  height: 81px;
+}
+
+div.hero_inventory #hero_body_content .content .item {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  z-index: 50;
+}
+
+div.hero_inventory #hero_body_content #shoes .item.onHero, div.hero_inventory #hero_body_content #horse .item.onHero, div.hero_inventory #hero_body_content #rightHand .item.onHero, div.hero_inventory #hero_body_content #leftHand .item.onHero, div.hero_inventory #hero_body_content #helmet .item.onHero, div.hero_inventory #hero_body_content #body .item.onHero {
+  background-image: none;
+}
+
+div.hero_inventory #hero_body_content #shoes .item.onHero .amount, div.hero_inventory #hero_body_content #horse .item.onHero .amount, div.hero_inventory #hero_body_content #rightHand .item.onHero .amount, div.hero_inventory #hero_body_content #leftHand .item.onHero .amount, div.hero_inventory #hero_body_content #helmet .item.onHero .amount, div.hero_inventory #hero_body_content #body .item.onHero .amount {
+  display: none;
+}
+
+div.hero_inventory #hero_body_content .content #bag .item {
+  width: 81px;
+  height: 81px;
+  display: none;
+}
+div.hero_inventory #hero_body_content .content #bag .item.onHero, div.hero_inventory #hero_body_content .content #bag .item.whileDragging {
+  display: block;
+}
+
+div.hero_inventory #hero_body_content .content #bag .amount {
+  display: block;
+}
+
+div.hero_inventory .heroHidden {
+  float: right;
+  margin-top: 15px;
+  margin-right: 23px;
+}
+
+div.hero_inventory .heroHidden input.check {
+  position: relative;
+  top: 1px;
+}
+
+div.hero_inventory .market {
+  background-color: #ffffff;
+  margin: 5px 2px 2px 4px;
+  padding: 7px 5px;
+  width: 246px;
+  float: right;
+}
+
+div.hero_inventory div.attribute.regenerate .element.resourceDemandCaption {
+  margin-top: 0;
+}
+
+div.hero_inventory .regenerateCosts .showCosts {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+div.hero_inventory .regenerateCosts .showCosts .resourceWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto 1fr;
+  grid-template-columns: auto auto auto auto auto 1fr;
+  margin-bottom: 10px;
+}
+div.hero_inventory .regenerateCosts .showCosts .resourceWrapper .clocks {
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: end;
+  justify-self: end;
+  display: inline-block;
+  -ms-grid-column: 6;
+  grid-column-start: 6;
+  min-width: 70px;
+}
+
+div.hero_inventory #bodyOptions {
+  float: right;
+  width: 300px;
+  margin-right: -23px;
+}
+
+div.hero_inventory #hero_body_content .content .draggable:hover, div.hero_inventory #hero_body_content .content .draggable.heroMarked {
+  background-position: right bottom;
+}
+
+div.hero_inventory #hero_body_content .content .draggable.disabled:hover, div.hero_inventory #hero_body_content .content .draggable.disabled.heroMarked {
+  background-position: right top;
+}
+
+div.hero_inventory #hero_body_content .content .draggable.disabled .item, div.hero_inventory #hero_body_content .content .item.disabled {
+  cursor: not-allowed;
+}
+
+/* Held wird in RTL nicht gespiegelt */
+div.hero_inventory #hero_body_content #helmet {
+  position: absolute;
+  left: 133px;
+  top: 39px;
+}
+
+div.hero_inventory #hero_body_content .gender_female #helmet {
+  position: absolute;
+  left: 133px;
+  top: 50px;
+}
+
+div.hero_inventory #hero_body_content #leftHand {
+  position: absolute;
+  left: 182px;
+  top: 189px;
+}
+
+div.hero_inventory #hero_body_content #rightHand {
+  position: absolute;
+  left: 84px;
+  top: 189px;
+}
+
+div.hero_inventory #hero_body_content #body {
+  position: absolute;
+  left: 133px;
+  top: 116px;
+}
+
+div.hero_inventory #hero_body_content #horse {
+  position: absolute;
+  left: 30px;
+  top: 300px;
+}
+
+div.hero_inventory #hero_body_content #shoes {
+  position: absolute;
+  left: 133px;
+  top: 350px;
+}
+
+div.hero_inventory #hero_body_content #bag {
+  position: absolute;
+  left: 215px;
+  top: 310px;
+}
+
+div.hero_inventory #hero_inventory {
+  width: 269px;
+  float: left;
+}
+
+div.hero_inventory #hero_inventory .boxes-contents {
+  padding: 4px 0;
+}
+
+div.hero_inventory .pointsHeadline {
+  float: left;
+  font-weight: bold;
+  width: 70px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+div.hero_inventory .changeResourcesHeadline {
+  margin-bottom: 6px;
+  margin-top: 2ex;
+  font-weight: bold;
+}
+
+div.hero_inventory .experience {
+  margin-bottom: 2px;
+}
+
+div.hero_inventory .boxes .headline {
+  padding-bottom: 3px;
+  padding-top: 2ex;
+}
+
+div.hero_inventory #hero_body_content .content div.draggable {
+  width: 60px;
+  height: 60px;
+}
+
+div.hero_inventory #attributes .boxes {
+  margin-bottom: 10px;
+  padding: 1px;
+}
+
+div.hero_inventory #attributes .boxes .boxes-contents {
+  padding-top: 10px;
+}
+
+div.hero_inventory #attributes {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+div.hero_inventory #attributes .roundedCornersBox:first-of-type {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.hero_inventory #attributes .roundedCornersBox h4 {
+  margin-bottom: 0;
+  height: 24px;
+  box-sizing: border-box;
+}
+
+div.hero_inventory #attributes .roundedCornersBox:last-of-type {
+  margin-bottom: 10px;
+}
+
+div.hero_inventory #attributes .header {
+  margin-bottom: 1px;
+  font-weight: bold;
+}
+
+div.hero_inventory #attributes .resourcePick {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+.ie div.hero_inventory #attributes .resourcePick {
+  display: flex;
+}
+div.hero_inventory #attributes .resourcePick .resource {
+  grid-column-start: auto;
+}
+div.hero_inventory #attributes .resourcePick .resource:nth-child(1) {
+  -ms-grid-column: 1;
+}
+div.hero_inventory #attributes .resourcePick .resource:nth-child(2) {
+  -ms-grid-column: 2;
+}
+div.hero_inventory #attributes .resourcePick .resource:nth-child(3) {
+  -ms-grid-column: 3;
+}
+div.hero_inventory #attributes .resourcePick .resource:nth-child(4) {
+  -ms-grid-column: 4;
+}
+div.hero_inventory #attributes .resourcePick .resource:nth-child(5) {
+  -ms-grid-column: 5;
+}
+div.hero_inventory #attributes .resourcePick .resource:nth-child(6) {
+  -ms-grid-column: 6;
+}
+div.hero_inventory #attributes .resourcePick .resource label {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto 1fr;
+  grid-template-columns: auto auto 1fr;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+div.hero_inventory #attributes .resourcePick .resource label input, div.hero_inventory #attributes .resourcePick .resource label span, div.hero_inventory #attributes .resourcePick .resource label i {
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+div.hero_inventory #attributes .resourcePick .resource label input, div.hero_inventory #attributes .resourcePick .resource label i {
+  margin-left: 5px;
+}
+div.hero_inventory #attributes .resourcePick .resource label input {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+div.hero_inventory #attributes .resourcePick .resource label i {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+div.hero_inventory #attributes .resourcePick .resource label span {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  display: inline-block;
+}
+.ie div.hero_inventory #attributes .resourcePick .resource {
+  width: 16.66%;
+}
+
+div.hero_inventory #attributes #setResource,
+div.hero_inventory #attributes .attackBehaviour {
+  margin-right: 15px;
+}
+
+div.hero_inventory #attributes .resource.last {
+  margin-left: 0;
+  width: auto;
+}
+
+.gecko div.hero_inventory #attributes .resource .baseCrop {
+  margin-top: 2px;
+}
+
+div.hero_inventory .heroPropertiesContent .roundedCornersBox {
+  max-width: 100%;
+  width: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 0;
+}
+
+div.hero_inventory #itemsToSale .inventory {
+  width: 81px;
+  height: 81px;
+  text-align: center;
+  margin: 2px;
+  background-color: #FFFFFF;
+  float: right;
+  border: 1px solid #b9b9b9;
+}
+
+div.hero_inventory #itemsToSale .inventory .item {
+  width: 81px;
+  height: 81px;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+}
+
+div.hero_inventory #itemsToSale .inventory .item.highlight {
+  z-index: 2;
+  background-color: #fce6c4;
+  width: 81px;
+  height: 81px;
+}
+
+div.hero_inventory #itemsToSale .inventory .item:hover {
+  background-color: #eee;
+}
+
+div.hero_inventory #itemsToSale .inventory .item.disabled:hover, div.hero_auction .hero_inventory .disabled:hover {
+  cursor: not-allowed;
+  background-color: transparent;
+}
+
+div.hero_inventory #itemsToSale .inventory .item.whileDragging, div.hero_inventory #hero_body_content .content .item.whileDragging {
+  background-color: #fce6c4;
+  z-index: 51;
+  width: 81px;
+  height: 81px;
+  border: 1px solid #b9b9b9;
+}
+
+/* Auktionen Wechselstube */
+div.hero_auction .silverExchange {
+  margin-bottom: 20px;
+}
+
+/* Auktionen	 */
+div.hero_auction .footer {
+  margin: 10px 0;
+}
+
+div.hero_auction .footer .paginator {
+  float: left;
+}
+
+div.hero_auction #markAll {
+  margin-right: 7px;
+  float: right;
+}
+
+div.hero_auction #markAll span {
+  margin-right: 8px;
+}
+
+div.hero_auction .error {
+  margin-top: 15px;
+}
+
+div.hero_auction div#auction div.boxes-contents {
+  padding: 2px 0;
+}
+
+div.hero_auction div#auction .currentBid {
+  margin-bottom: 17px;
+}
+
+div.hero_auction div#auction td.outbid, div.hero_auction div#auction td.late {
+  color: #AA0000;
+}
+
+div.hero_auction div#auction td.name {
+  padding: 6px 8px 4px;
+}
+
+div.hero_auction div#auction td.selected {
+  background-color: #E4E4E4;
+}
+
+div.hero_auction div#auction td.name.selected:not(.detail) {
+  font-weight: bold;
+}
+
+div.hero_auction div#auction div.submitBid {
+  float: left;
+  position: relative;
+}
+
+div.hero_auction div#auction td.finished, div.hero_auction div#auction td.notEnoughSilver {
+  color: #707070;
+  white-space: nowrap;
+}
+
+div.hero_auction div#auction td.win, div.hero_auction div#auction input.bid {
+  color: #228B22;
+}
+
+div.hero_auction div#auction #itemsToSale .itemInInventory {
+  width: 81px;
+  height: 81px;
+  border: 1px solid #B9B9B9;
+  margin: 5px 2px 3px 5px;
+  background-color: #FFFFFF;
+  float: right;
+  position: relative;
+}
+
+div.hero_auction #itemsToSale {
+  margin: 2px 6px 2px 2px;
+}
+
+div.hero_auction div#auction #itemsToSale .itemInInventory:hover {
+  background-color: #E4E4E4;
+}
+
+div.hero_auction div#auction #itemsToSale div.icon {
+  position: absolute;
+  padding: 0 2px;
+}
+
+div.hero_auction div#auction #itemsToSale .amount, div.hero_inventory .amount {
+  position: absolute;
+  left: 0;
+  min-width: 30px;
+  height: 18px;
+  background-color: #B9B9B9;
+  text-align: center;
+  color: #F2F2F2;
+}
+
+div.hero_auction div#auction .bidHeadline {
+  font-weight: bold;
+  padding: 3px 0;
+}
+
+div.hero_auction div#auction td.detail {
+  padding: 10px;
+}
+
+div.hero_auction div#auction .auctionDetails {
+  line-height: 20px;
+}
+
+div.hero_auction div#filter .boxes-contents {
+  padding: 2px 0;
+}
+
+div.hero_auction div#filter .wrapper {
+  margin: 3px;
+  width: 100%;
+}
+
+div.hero_auction div#filter {
+  width: 100%;
+}
+
+div.hero_auction div#auction div.filter {
+  display: inline;
+  float: right;
+  padding: 2px;
+  margin: 2px;
+  background-color: #FFFFFF;
+  width: 16px;
+  height: 16px;
+}
+
+div.hero_auction div#auction div#filter {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+div.hero_auction div#auction div.silver {
+  text-align: center;
+  width: 106px;
+  float: right;
+  /*height: 16px */
+  padding: 2px;
+  margin: 2px;
+}
+
+div.hero_auction div#auction table.sellings {
+  margin-bottom: 14px;
+}
+
+div.hero_auction div#auction div.filter.filterActive {
+  background-color: #EEFFAA;
+}
+
+div.hero_auction div#auction div.filter a {
+  color: #000;
+  font-weight: normal;
+}
+
+div.hero_auction div#auction td.bids, div.hero_auction div#auction td.bid, div.hero_auction div#auction td.time, div.hero_auction div#auction td.silver, div.hero_auction div#auction td.icon, div.hero_auction div#auction td.delete {
+  text-align: center;
+}
+
+div.hero_auction div#auction td.time, div.hero_auction div#auction th.time {
+  width: 13%;
+  white-space: nowrap;
+}
+
+div.hero_auction div#auction td.silver, div.hero_auction div#auction th.silver {
+  width: 8.5%;
+}
+
+div.hero_auction div#auction td.bid, div.hero_auction div#auction th.bid {
+  width: 18%;
+}
+
+div.hero_auction div#auction td.bids, div.hero_auction div#auction th.bids {
+  width: 5%;
+}
+
+div.hero_auction div#auction td.icon, div.hero_auction div#auction th.icon {
+  width: 5%;
+}
+
+div.hero_auction div#auction td.delete, div.hero_auction div#auction th.delete {
+  width: 5%;
+}
+
+div.hero_auction div#auction div.silverAmount {
+  width: 20%;
+}
+
+div.hero_auction div#auction input.maxBid {
+  width: 52px;
+  text-align: left;
+}
+
+img.itemCategory {
+  background-image: url('../img_rtl/hero/item.gif');
+  width: 16px;
+  height: 16px;
+}
+
+img.itemCategory_helmet {
+  background-position: 0 0px;
+}
+
+img.itemCategory_body {
+  background-position: 0 -26px;
+}
+
+img.itemCategory_leftHand {
+  background-position: 0 -52px;
+}
+
+img.itemCategory_rightHand {
+  background-position: 0 -78px;
+}
+
+img.itemCategory_shoes {
+  background-position: 0 -104px;
+}
+
+img.itemCategory_horse {
+  background-position: 0 -130px;
+}
+
+img.itemCategory_bandage25 {
+  background-position: 0 -156px;
+}
+
+img.itemCategory_bandage33 {
+  background-position: 0 -182px;
+}
+
+img.itemCategory_cage {
+  background-position: 0 -208px;
+}
+
+img.itemCategory_scroll {
+  background-position: 0 -234px;
+}
+
+img.itemCategory_ointment {
+  background-position: 0 -260px;
+}
+
+img.itemCategory_bucketOfWater {
+  background-position: 0 -286px;
+}
+
+img.itemCategory_bookOfWisdom {
+  background-position: 0 -312px;
+}
+
+img.itemCategory_lawTables {
+  background-position: 0 -338px;
+}
+
+img.itemCategory_artWork {
+  background-position: 0 -364px;
+}
+
+/* Heldeneditor */
+#heroEditor .image {
+  position: relative;
+  height: 330px;
+  width: 254px;
+  right: 4px;
+  top: 6px;
+  z-index: 1;
+}
+
+#heroEditor .head {
+  position: relative;
+  height: 340px;
+  width: 261px;
+  float: right;
+}
+
+#heroEditor .attributes {
+  float: left;
+  width: 269px;
+}
+
+#heroEditor .attributes .boxes-contents {
+  padding: 4px 0;
+}
+
+#heroEditor .attributes .boxes.gender {
+  margin-bottom: 10px;
+}
+
+#heroEditor .attributes .container,
+#heroEditor .attributes .gender-container {
+  background-color: #FFFFFF;
+  margin: 2px 6px;
+  border-bottom: 1px solid #C0C0C0;
+}
+
+#heroEditor .attributes .container .info,
+#heroEditor .attributes .gender-container .info {
+  border: 1px solid #C0C0C0;
+  border-bottom: 0;
+  width: 255px;
+  /*height: 24px */
+  float: right;
+}
+
+#heroEditor .attributes .container .infoOpen {
+  background-color: #ececec;
+}
+
+#heroEditor.genderSwitch.female .attributes .container #beard {
+  display: none;
+}
+
+#heroEditor .attributes #random {
+  float: right;
+}
+
+#heroEditor .attributes #save {
+  float: left;
+}
+
+#heroEditor .attributes .container .info .headline {
+  background-position: left 4px;
+  width: 246px;
+  height: 24px;
+  line-height: 24px;
+}
+
+#heroEditor .attributes .gender-container .info .headline {
+  margin-top: 2px;
+  line-height: 24px;
+}
+
+#heroEditor .attributes .container .info .title,
+#heroEditor .attributes .gender-container .info .title {
+  padding-right: 9px;
+  display: block;
+  color: #333333;
+  font-weight: normal;
+}
+
+#heroEditor .attributes .container .info .title {
+  cursor: pointer;
+}
+
+#heroEditor .attributes .boxes.gender .gender-container .info .title {
+  width: 50%;
+  float: right;
+}
+
+#heroEditor .attributes .boxes.gender .gender-container .info #genderButtons {
+  float: left;
+  margin-left: 10px;
+  height: 26px;
+}
+
+#heroEditor .attributes .boxes.gender .gender-container .info #genderButtons img {
+  position: absolute;
+  background: url('../img_rtl/hero/gender.png') transparent no-repeat;
+  width: 18px;
+  height: 18px;
+  left: 4px;
+  top: 3px;
+}
+
+#heroEditor .attributes .boxes.gender .gender-container .info #genderButtons img.heroEditorActivateFemale {
+  background-position: right -28px;
+}
+
+#heroEditor .attributes .container .info .title:hover {
+  color: #333333;
+}
+
+#heroEditor .attributes .container .info .headline .expander {
+  position: absolute;
+  right: 230px;
+}
+
+#heroEditor .attributes .container .info .details {
+  border-top: 1px solid #C0C0C0;
+  background: #ececec;
+  padding: 2px 7px;
+  /* height: 152px */
+  width: 241px;
+  display: none;
+}
+
+#heroEditor .attributes .container .info .details .attribute {
+  background-color: #ffffff;
+  border: 1px solid #C0C0C0;
+  float: right;
+  width: 50px;
+  height: 50px;
+  padding: 9px 11px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+#heroEditor .attributes .container .info .details .attribute:hover {
+  background-color: #C0C0C0;
+}
+
+#heroEditor .attributes .options {
+  margin-top: 8px;
+}
+
+#heroEditor .head div.tl, div.hero_inventory div.tl {
+  position: absolute;
+  background-image: url('../img_rtl/round/roundCorner/tl.png');
+  background-position: top left;
+  height: 33px;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#heroEditor .head div.tr, div.hero_inventory div.tr {
+  background-image: url('../img_rtl/round/roundCorner/tr.png');
+  background-position: top right;
+  right: 0;
+  top: 0;
+  height: 33px;
+}
+
+#heroEditor .head div.bl, div.hero_inventory div.bl {
+  position: absolute;
+  background-image: url('../img_rtl/round/roundCorner/bl.png');
+  background-position: top left;
+  height: 33px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#heroEditor .head div.br, div.hero_inventory div.br {
+  background-image: url('../img_rtl/round/roundCorner/br.png');
+  background-position: top right;
+  right: 0;
+  height: 33px;
+}
+
+#heroEditor .head div.bl,
+#heroEditor .head div.br {
+  z-index: 2;
+}
+
+div.hero_inventory div.tl,
+div.hero_inventory div.tr,
+div.hero_inventory div.bl,
+div.hero_inventory div.br {
+  display: none;
+}
+
+/* Abenteuer */
+div.hero_adventure table tbody td {
+  text-align: center;
+}
+
+div.hero_adventure table tbody .location {
+  text-align: right;
+}
+
+div.hero_adventure table tbody td.coords {
+  padding-right: 2px;
+  padding-left: 2px;
+  width: 5%;
+}
+
+div.hero_adventure table .moveTime, div.hero_adventure table .timeLeft {
+  width: 13%;
+  white-space: nowrap;
+}
+
+div.hero_adventure table .difficulty {
+  width: 10%;
+}
+
+div.hero_adventure table .goTo {
+  width: 25%;
+}
+
+div.hero_adventure table a.gotoAdventure, div.hero_inventory .market a {
+  white-space: nowrap;
+}
+
+/* heroitems */
+.item {
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+}
+
+.male_item_1 {
+  background-image: url('../img_rtl/hero/male/items/item1.png');
+}
+
+.male_item_2 {
+  background-image: url('../img_rtl/hero/male/items/item2.png');
+}
+
+.male_item_3 {
+  background-image: url('../img_rtl/hero/male/items/item3.png');
+}
+
+.male_item_4 {
+  background-image: url('../img_rtl/hero/male/items/item4.png');
+}
+
+.male_item_5 {
+  background-image: url('../img_rtl/hero/male/items/item5.png');
+}
+
+.male_item_6 {
+  background-image: url('../img_rtl/hero/male/items/item6.png');
+}
+
+.male_item_7 {
+  background-image: url('../img_rtl/hero/male/items/item7.png');
+}
+
+.male_item_8 {
+  background-image: url('../img_rtl/hero/male/items/item8.png');
+}
+
+.male_item_9 {
+  background-image: url('../img_rtl/hero/male/items/item9.png');
+}
+
+.male_item_10 {
+  background-image: url('../img_rtl/hero/male/items/item10.png');
+}
+
+.male_item_11 {
+  background-image: url('../img_rtl/hero/male/items/item11.png');
+}
+
+.male_item_12 {
+  background-image: url('../img_rtl/hero/male/items/item12.png');
+}
+
+.male_item_13 {
+  background-image: url('../img_rtl/hero/male/items/item13.png');
+}
+
+.male_item_14 {
+  background-image: url('../img_rtl/hero/male/items/item14.png');
+}
+
+.male_item_15 {
+  background-image: url('../img_rtl/hero/male/items/item15.png');
+}
+
+.male_item_16 {
+  background-image: url('../img_rtl/hero/male/items/item16.png');
+}
+
+.male_item_17 {
+  background-image: url('../img_rtl/hero/male/items/item17.png');
+}
+
+.male_item_18 {
+  background-image: url('../img_rtl/hero/male/items/item18.png');
+}
+
+.male_item_19 {
+  background-image: url('../img_rtl/hero/male/items/item19.png');
+}
+
+.male_item_20 {
+  background-image: url('../img_rtl/hero/male/items/item20.png');
+}
+
+.male_item_21 {
+  background-image: url('../img_rtl/hero/male/items/item21.png');
+}
+
+.male_item_22 {
+  background-image: url('../img_rtl/hero/male/items/item22.png');
+}
+
+.male_item_23 {
+  background-image: url('../img_rtl/hero/male/items/item23.png');
+}
+
+.male_item_24 {
+  background-image: url('../img_rtl/hero/male/items/item24.png');
+}
+
+.male_item_25 {
+  background-image: url('../img_rtl/hero/male/items/item25.png');
+}
+
+.male_item_26 {
+  background-image: url('../img_rtl/hero/male/items/item26.png');
+}
+
+.male_item_27 {
+  background-image: url('../img_rtl/hero/male/items/item27.png');
+}
+
+.male_item_28 {
+  background-image: url('../img_rtl/hero/male/items/item28.png');
+}
+
+.male_item_29 {
+  background-image: url('../img_rtl/hero/male/items/item29.png');
+}
+
+.male_item_30 {
+  background-image: url('../img_rtl/hero/male/items/item30.png');
+}
+
+.male_item_31 {
+  background-image: url('../img_rtl/hero/male/items/item31.png');
+}
+
+.male_item_32 {
+  background-image: url('../img_rtl/hero/male/items/item32.png');
+}
+
+.male_item_33 {
+  background-image: url('../img_rtl/hero/male/items/item33.png');
+}
+
+.male_item_34 {
+  background-image: url('../img_rtl/hero/male/items/item34.png');
+}
+
+.male_item_35 {
+  background-image: url('../img_rtl/hero/male/items/item35.png');
+}
+
+.male_item_36 {
+  background-image: url('../img_rtl/hero/male/items/item36.png');
+}
+
+.male_item_37 {
+  background-image: url('../img_rtl/hero/male/items/item37.png');
+}
+
+.male_item_38 {
+  background-image: url('../img_rtl/hero/male/items/item38.png');
+}
+
+.male_item_39 {
+  background-image: url('../img_rtl/hero/male/items/item39.png');
+}
+
+.male_item_40 {
+  background-image: url('../img_rtl/hero/male/items/item40.png');
+}
+
+.male_item_41 {
+  background-image: url('../img_rtl/hero/male/items/item41.png');
+}
+
+.male_item_42 {
+  background-image: url('../img_rtl/hero/male/items/item42.png');
+}
+
+.male_item_43 {
+  background-image: url('../img_rtl/hero/male/items/item43.png');
+}
+
+.male_item_44 {
+  background-image: url('../img_rtl/hero/male/items/item44.png');
+}
+
+.male_item_45 {
+  background-image: url('../img_rtl/hero/male/items/item45.png');
+}
+
+.male_item_46 {
+  background-image: url('../img_rtl/hero/male/items/item46.png');
+}
+
+.male_item_47 {
+  background-image: url('../img_rtl/hero/male/items/item47.png');
+}
+
+.male_item_48 {
+  background-image: url('../img_rtl/hero/male/items/item48.png');
+}
+
+.male_item_49 {
+  background-image: url('../img_rtl/hero/male/items/item49.png');
+}
+
+.male_item_50 {
+  background-image: url('../img_rtl/hero/male/items/item50.png');
+}
+
+.male_item_51 {
+  background-image: url('../img_rtl/hero/male/items/item51.png');
+}
+
+.male_item_52 {
+  background-image: url('../img_rtl/hero/male/items/item52.png');
+}
+
+.male_item_53 {
+  background-image: url('../img_rtl/hero/male/items/item53.png');
+}
+
+.male_item_54 {
+  background-image: url('../img_rtl/hero/male/items/item54.png');
+}
+
+.male_item_55 {
+  background-image: url('../img_rtl/hero/male/items/item55.png');
+}
+
+.male_item_56 {
+  background-image: url('../img_rtl/hero/male/items/item56.png');
+}
+
+.male_item_57 {
+  background-image: url('../img_rtl/hero/male/items/item57.png');
+}
+
+.male_item_58 {
+  background-image: url('../img_rtl/hero/male/items/item58.png');
+}
+
+.male_item_59 {
+  background-image: url('../img_rtl/hero/male/items/item59.png');
+}
+
+.male_item_60 {
+  background-image: url('../img_rtl/hero/male/items/item60.png');
+}
+
+.male_item_61 {
+  background-image: url('../img_rtl/hero/male/items/item61.png');
+}
+
+.male_item_62 {
+  background-image: url('../img_rtl/hero/male/items/item62.png');
+}
+
+.male_item_63 {
+  background-image: url('../img_rtl/hero/male/items/item63.png');
+}
+
+.male_item_64 {
+  background-image: url('../img_rtl/hero/male/items/item64.png');
+}
+
+.male_item_65 {
+  background-image: url('../img_rtl/hero/male/items/item65.png');
+}
+
+.male_item_66 {
+  background-image: url('../img_rtl/hero/male/items/item66.png');
+}
+
+.male_item_67 {
+  background-image: url('../img_rtl/hero/male/items/item67.png');
+}
+
+.male_item_68 {
+  background-image: url('../img_rtl/hero/male/items/item68.png');
+}
+
+.male_item_69 {
+  background-image: url('../img_rtl/hero/male/items/item69.png');
+}
+
+.male_item_73 {
+  background-image: url('../img_rtl/hero/male/items/item73.png');
+}
+
+.male_item_74 {
+  background-image: url('../img_rtl/hero/male/items/item74.png');
+}
+
+.male_item_75 {
+  background-image: url('../img_rtl/hero/male/items/item75.png');
+}
+
+.male_item_76 {
+  background-image: url('../img_rtl/hero/male/items/item76.png');
+}
+
+.male_item_77 {
+  background-image: url('../img_rtl/hero/male/items/item77.png');
+}
+
+.male_item_78 {
+  background-image: url('../img_rtl/hero/male/items/item78.png');
+}
+
+.male_item_79 {
+  background-image: url('../img_rtl/hero/male/items/item79.png');
+}
+
+.male_item_80 {
+  background-image: url('../img_rtl/hero/male/items/item80.png');
+}
+
+.male_item_81 {
+  background-image: url('../img_rtl/hero/male/items/item81.png');
+}
+
+.male_item_82 {
+  background-image: url('../img_rtl/hero/male/items/item82.png');
+}
+
+.male_item_83 {
+  background-image: url('../img_rtl/hero/male/items/item83.png');
+}
+
+.male_item_84 {
+  background-image: url('../img_rtl/hero/male/items/item84.png');
+}
+
+.male_item_85 {
+  background-image: url('../img_rtl/hero/male/items/item85.png');
+}
+
+.male_item_86 {
+  background-image: url('../img_rtl/hero/male/items/item86.png');
+}
+
+.male_item_87 {
+  background-image: url('../img_rtl/hero/male/items/item87.png');
+}
+
+.male_item_88 {
+  background-image: url('../img_rtl/hero/male/items/item88.png');
+}
+
+.male_item_89 {
+  background-image: url('../img_rtl/hero/male/items/item89.png');
+}
+
+.male_item_90 {
+  background-image: url('../img_rtl/hero/male/items/item90.png');
+}
+
+.male_item_91 {
+  background-image: url('../img_rtl/hero/male/items/item91.png');
+}
+
+.male_item_92 {
+  background-image: url('../img_rtl/hero/male/items/item92.png');
+}
+
+.male_item_93 {
+  background-image: url('../img_rtl/hero/male/items/item93.png');
+}
+
+.male_item_94 {
+  background-image: url('../img_rtl/hero/male/items/item94.png');
+}
+
+.male_item_95 {
+  background-image: url('../img_rtl/hero/male/items/item95.png');
+}
+
+.male_item_96 {
+  background-image: url('../img_rtl/hero/male/items/item96.png');
+}
+
+.male_item_97 {
+  background-image: url('../img_rtl/hero/male/items/item97.png');
+}
+
+.male_item_98 {
+  background-image: url('../img_rtl/hero/male/items/item98.png');
+}
+
+.male_item_99 {
+  background-image: url('../img_rtl/hero/male/items/item99.png');
+}
+
+.male_item_100 {
+  background-image: url('../img_rtl/hero/male/items/item100.png');
+}
+
+.male_item_101 {
+  background-image: url('../img_rtl/hero/male/items/item101.png');
+}
+
+.male_item_102 {
+  background-image: url('../img_rtl/hero/male/items/item102.png');
+}
+
+.male_item_103 {
+  background-image: url('../img_rtl/hero/male/items/item103.png');
+}
+
+.male_item_104 {
+  background-image: url('../img_rtl/hero/male/items/item104.png');
+}
+
+.male_item_105 {
+  background-image: url('../img_rtl/hero/male/items/item105.png');
+}
+
+.male_item_106 {
+  background-image: url('../img_rtl/hero/male/items/item106.png');
+}
+
+.male_item_107 {
+  background-image: url('../img_rtl/hero/male/items/item107.png');
+}
+
+.male_item_108 {
+  background-image: url('../img_rtl/hero/male/items/item108.png');
+}
+
+.male_item_109 {
+  background-image: url('../img_rtl/hero/male/items/item109.png');
+}
+
+.male_item_110 {
+  background-image: url('../img_rtl/hero/male/items/item110.png');
+}
+
+.male_item_111 {
+  background-image: url('../img_rtl/hero/male/items/item111.png');
+}
+
+.male_item_112 {
+  background-image: url('../img_rtl/hero/male/items/item112.png');
+}
+
+.male_item_113 {
+  background-image: url('../img_rtl/hero/male/items/item113.png');
+}
+
+.male_item_114 {
+  background-image: url('../img_rtl/hero/male/items/item114.png');
+}
+
+.male_item_115 {
+  background-image: url('../img_rtl/hero/male/items/item115.png');
+}
+
+.male_item_116 {
+  background-image: url('../img_rtl/hero/male/items/item116.png');
+}
+
+.male_item_117 {
+  background-image: url('../img_rtl/hero/male/items/item117.png');
+}
+
+.male_item_118 {
+  background-image: url('../img_rtl/hero/male/items/item118.png');
+}
+
+.male_item_119 {
+  background-image: url('../img_rtl/hero/male/items/item119.png');
+}
+
+.male_item_120 {
+  background-image: url('../img_rtl/hero/male/items/item120.png');
+}
+
+.male_item_121 {
+  background-image: url('../img_rtl/hero/male/items/item121.png');
+}
+
+.male_item_122 {
+  background-image: url('../img_rtl/hero/male/items/item122.png');
+}
+
+.male_item_123 {
+  background-image: url('../img_rtl/hero/male/items/item123.png');
+}
+
+.male_item_124 {
+  background-image: url('../img_rtl/hero/male/items/item124.png');
+}
+
+.male_item_125 {
+  background-image: url('../img_rtl/hero/male/items/item125.png');
+}
+
+.male_item_126 {
+  background-image: url('../img_rtl/hero/male/items/item126.png');
+}
+
+.male_item_127 {
+  background-image: url('../img_rtl/hero/male/items/item127.png');
+}
+
+.male_item_128 {
+  background-image: url('../img_rtl/hero/male/items/item128.png');
+}
+
+.male_item_129 {
+  background-image: url('../img_rtl/hero/male/items/item129.png');
+}
+
+.male_item_130 {
+  background-image: url('../img_rtl/hero/male/items/item130.png');
+}
+
+.male_item_131 {
+  background-image: url('../img_rtl/hero/male/items/item131.png');
+}
+
+.male_item_132 {
+  background-image: url('../img_rtl/hero/male/items/item132.png');
+}
+
+.male_item_133 {
+  background-image: url('../img_rtl/hero/male/items/item133.png');
+}
+
+.male_item_134 {
+  background-image: url('../img_rtl/hero/male/items/item134.png');
+}
+
+.male_item_135 {
+  background-image: url('../img_rtl/hero/male/items/item135.png');
+}
+
+.male_item_136 {
+  background-image: url('../img_rtl/hero/male/items/item136.png');
+}
+
+.male_item_137 {
+  background-image: url('../img_rtl/hero/male/items/item137.png');
+}
+
+.male_item_138 {
+  background-image: url('../img_rtl/hero/male/items/item138.png');
+}
+
+.male_item_139 {
+  background-image: url('../img_rtl/hero/male/items/item139.png');
+}
+
+.male_item_140 {
+  background-image: url('../img_rtl/hero/male/items/item140.png');
+}
+
+.male_item_141 {
+  background-image: url('../img_rtl/hero/male/items/item141.png');
+}
+
+.male_item_142 {
+  background-image: url('../img_rtl/hero/male/items/item142.png');
+}
+
+.male_item_143 {
+  background-image: url('../img_rtl/hero/male/items/item143.png');
+}
+
+.male_item_144 {
+  background-image: url('../img_rtl/hero/male/items/item144.png');
+}
+
+.female_item_1 {
+  background-image: url('../img_rtl/hero/female/items/item1.png');
+}
+
+.female_item_2 {
+  background-image: url('../img_rtl/hero/female/items/item2.png');
+}
+
+.female_item_3 {
+  background-image: url('../img_rtl/hero/female/items/item3.png');
+}
+
+.female_item_4 {
+  background-image: url('../img_rtl/hero/female/items/item4.png');
+}
+
+.female_item_5 {
+  background-image: url('../img_rtl/hero/female/items/item5.png');
+}
+
+.female_item_6 {
+  background-image: url('../img_rtl/hero/female/items/item6.png');
+}
+
+.female_item_7 {
+  background-image: url('../img_rtl/hero/female/items/item7.png');
+}
+
+.female_item_8 {
+  background-image: url('../img_rtl/hero/female/items/item8.png');
+}
+
+.female_item_9 {
+  background-image: url('../img_rtl/hero/female/items/item9.png');
+}
+
+.female_item_10 {
+  background-image: url('../img_rtl/hero/female/items/item10.png');
+}
+
+.female_item_11 {
+  background-image: url('../img_rtl/hero/female/items/item11.png');
+}
+
+.female_item_12 {
+  background-image: url('../img_rtl/hero/female/items/item12.png');
+}
+
+.female_item_13 {
+  background-image: url('../img_rtl/hero/female/items/item13.png');
+}
+
+.female_item_14 {
+  background-image: url('../img_rtl/hero/female/items/item14.png');
+}
+
+.female_item_15 {
+  background-image: url('../img_rtl/hero/female/items/item15.png');
+}
+
+.female_item_16 {
+  background-image: url('../img_rtl/hero/female/items/item16.png');
+}
+
+.female_item_17 {
+  background-image: url('../img_rtl/hero/female/items/item17.png');
+}
+
+.female_item_18 {
+  background-image: url('../img_rtl/hero/female/items/item18.png');
+}
+
+.female_item_19 {
+  background-image: url('../img_rtl/hero/female/items/item19.png');
+}
+
+.female_item_20 {
+  background-image: url('../img_rtl/hero/female/items/item20.png');
+}
+
+.female_item_21 {
+  background-image: url('../img_rtl/hero/female/items/item21.png');
+}
+
+.female_item_22 {
+  background-image: url('../img_rtl/hero/female/items/item22.png');
+}
+
+.female_item_23 {
+  background-image: url('../img_rtl/hero/female/items/item23.png');
+}
+
+.female_item_24 {
+  background-image: url('../img_rtl/hero/female/items/item24.png');
+}
+
+.female_item_25 {
+  background-image: url('../img_rtl/hero/female/items/item25.png');
+}
+
+.female_item_26 {
+  background-image: url('../img_rtl/hero/female/items/item26.png');
+}
+
+.female_item_27 {
+  background-image: url('../img_rtl/hero/female/items/item27.png');
+}
+
+.female_item_28 {
+  background-image: url('../img_rtl/hero/female/items/item28.png');
+}
+
+.female_item_29 {
+  background-image: url('../img_rtl/hero/female/items/item29.png');
+}
+
+.female_item_30 {
+  background-image: url('../img_rtl/hero/female/items/item30.png');
+}
+
+.female_item_31 {
+  background-image: url('../img_rtl/hero/female/items/item31.png');
+}
+
+.female_item_32 {
+  background-image: url('../img_rtl/hero/female/items/item32.png');
+}
+
+.female_item_33 {
+  background-image: url('../img_rtl/hero/female/items/item33.png');
+}
+
+.female_item_34 {
+  background-image: url('../img_rtl/hero/female/items/item34.png');
+}
+
+.female_item_35 {
+  background-image: url('../img_rtl/hero/female/items/item35.png');
+}
+
+.female_item_36 {
+  background-image: url('../img_rtl/hero/female/items/item36.png');
+}
+
+.female_item_37 {
+  background-image: url('../img_rtl/hero/female/items/item37.png');
+}
+
+.female_item_38 {
+  background-image: url('../img_rtl/hero/female/items/item38.png');
+}
+
+.female_item_39 {
+  background-image: url('../img_rtl/hero/female/items/item39.png');
+}
+
+.female_item_40 {
+  background-image: url('../img_rtl/hero/female/items/item40.png');
+}
+
+.female_item_41 {
+  background-image: url('../img_rtl/hero/female/items/item41.png');
+}
+
+.female_item_42 {
+  background-image: url('../img_rtl/hero/female/items/item42.png');
+}
+
+.female_item_43 {
+  background-image: url('../img_rtl/hero/female/items/item43.png');
+}
+
+.female_item_44 {
+  background-image: url('../img_rtl/hero/female/items/item44.png');
+}
+
+.female_item_45 {
+  background-image: url('../img_rtl/hero/female/items/item45.png');
+}
+
+.female_item_46 {
+  background-image: url('../img_rtl/hero/female/items/item46.png');
+}
+
+.female_item_47 {
+  background-image: url('../img_rtl/hero/female/items/item47.png');
+}
+
+.female_item_48 {
+  background-image: url('../img_rtl/hero/female/items/item48.png');
+}
+
+.female_item_49 {
+  background-image: url('../img_rtl/hero/female/items/item49.png');
+}
+
+.female_item_50 {
+  background-image: url('../img_rtl/hero/female/items/item50.png');
+}
+
+.female_item_51 {
+  background-image: url('../img_rtl/hero/female/items/item51.png');
+}
+
+.female_item_52 {
+  background-image: url('../img_rtl/hero/female/items/item52.png');
+}
+
+.female_item_53 {
+  background-image: url('../img_rtl/hero/female/items/item53.png');
+}
+
+.female_item_54 {
+  background-image: url('../img_rtl/hero/female/items/item54.png');
+}
+
+.female_item_55 {
+  background-image: url('../img_rtl/hero/female/items/item55.png');
+}
+
+.female_item_56 {
+  background-image: url('../img_rtl/hero/female/items/item56.png');
+}
+
+.female_item_57 {
+  background-image: url('../img_rtl/hero/female/items/item57.png');
+}
+
+.female_item_58 {
+  background-image: url('../img_rtl/hero/female/items/item58.png');
+}
+
+.female_item_59 {
+  background-image: url('../img_rtl/hero/female/items/item59.png');
+}
+
+.female_item_60 {
+  background-image: url('../img_rtl/hero/female/items/item60.png');
+}
+
+.female_item_61 {
+  background-image: url('../img_rtl/hero/female/items/item61.png');
+}
+
+.female_item_62 {
+  background-image: url('../img_rtl/hero/female/items/item62.png');
+}
+
+.female_item_63 {
+  background-image: url('../img_rtl/hero/female/items/item63.png');
+}
+
+.female_item_64 {
+  background-image: url('../img_rtl/hero/female/items/item64.png');
+}
+
+.female_item_65 {
+  background-image: url('../img_rtl/hero/female/items/item65.png');
+}
+
+.female_item_66 {
+  background-image: url('../img_rtl/hero/female/items/item66.png');
+}
+
+.female_item_67 {
+  background-image: url('../img_rtl/hero/female/items/item67.png');
+}
+
+.female_item_68 {
+  background-image: url('../img_rtl/hero/female/items/item68.png');
+}
+
+.female_item_69 {
+  background-image: url('../img_rtl/hero/female/items/item69.png');
+}
+
+.female_item_73 {
+  background-image: url('../img_rtl/hero/female/items/item73.png');
+}
+
+.female_item_74 {
+  background-image: url('../img_rtl/hero/female/items/item74.png');
+}
+
+.female_item_75 {
+  background-image: url('../img_rtl/hero/female/items/item75.png');
+}
+
+.female_item_76 {
+  background-image: url('../img_rtl/hero/female/items/item76.png');
+}
+
+.female_item_77 {
+  background-image: url('../img_rtl/hero/female/items/item77.png');
+}
+
+.female_item_78 {
+  background-image: url('../img_rtl/hero/female/items/item78.png');
+}
+
+.female_item_79 {
+  background-image: url('../img_rtl/hero/female/items/item79.png');
+}
+
+.female_item_80 {
+  background-image: url('../img_rtl/hero/female/items/item80.png');
+}
+
+.female_item_81 {
+  background-image: url('../img_rtl/hero/female/items/item81.png');
+}
+
+.female_item_82 {
+  background-image: url('../img_rtl/hero/female/items/item82.png');
+}
+
+.female_item_83 {
+  background-image: url('../img_rtl/hero/female/items/item83.png');
+}
+
+.female_item_84 {
+  background-image: url('../img_rtl/hero/female/items/item84.png');
+}
+
+.female_item_85 {
+  background-image: url('../img_rtl/hero/female/items/item85.png');
+}
+
+.female_item_86 {
+  background-image: url('../img_rtl/hero/female/items/item86.png');
+}
+
+.female_item_87 {
+  background-image: url('../img_rtl/hero/female/items/item87.png');
+}
+
+.female_item_88 {
+  background-image: url('../img_rtl/hero/female/items/item88.png');
+}
+
+.female_item_89 {
+  background-image: url('../img_rtl/hero/female/items/item89.png');
+}
+
+.female_item_90 {
+  background-image: url('../img_rtl/hero/female/items/item90.png');
+}
+
+.female_item_91 {
+  background-image: url('../img_rtl/hero/female/items/item91.png');
+}
+
+.female_item_92 {
+  background-image: url('../img_rtl/hero/female/items/item92.png');
+}
+
+.female_item_93 {
+  background-image: url('../img_rtl/hero/female/items/item93.png');
+}
+
+.female_item_94 {
+  background-image: url('../img_rtl/hero/female/items/item94.png');
+}
+
+.female_item_95 {
+  background-image: url('../img_rtl/hero/female/items/item95.png');
+}
+
+.female_item_96 {
+  background-image: url('../img_rtl/hero/female/items/item96.png');
+}
+
+.female_item_97 {
+  background-image: url('../img_rtl/hero/female/items/item97.png');
+}
+
+.female_item_98 {
+  background-image: url('../img_rtl/hero/female/items/item98.png');
+}
+
+.female_item_99 {
+  background-image: url('../img_rtl/hero/female/items/item99.png');
+}
+
+.female_item_100 {
+  background-image: url('../img_rtl/hero/female/items/item100.png');
+}
+
+.female_item_101 {
+  background-image: url('../img_rtl/hero/female/items/item101.png');
+}
+
+.female_item_102 {
+  background-image: url('../img_rtl/hero/female/items/item102.png');
+}
+
+.female_item_103 {
+  background-image: url('../img_rtl/hero/male/items/item103.png');
+}
+
+.female_item_104 {
+  background-image: url('../img_rtl/hero/male/items/item104.png');
+}
+
+.female_item_105 {
+  background-image: url('../img_rtl/hero/male/items/item105.png');
+}
+
+.female_item_106 {
+  background-image: url('../img_rtl/hero/male/items/item106.png');
+}
+
+.female_item_107 {
+  background-image: url('../img_rtl/hero/male/items/item107.png');
+}
+
+.female_item_108 {
+  background-image: url('../img_rtl/hero/male/items/item108.png');
+}
+
+.female_item_109 {
+  background-image: url('../img_rtl/hero/male/items/item109.png');
+}
+
+.female_item_110 {
+  background-image: url('../img_rtl/hero/male/items/item110.png');
+}
+
+.female_item_111 {
+  background-image: url('../img_rtl/hero/male/items/item111.png');
+}
+
+.female_item_112 {
+  background-image: url('../img_rtl/hero/male/items/item112.png');
+}
+
+.female_item_113 {
+  background-image: url('../img_rtl/hero/male/items/item113.png');
+}
+
+.female_item_114 {
+  background-image: url('../img_rtl/hero/male/items/item114.png');
+}
+
+.female_item_115 {
+  background-image: url('../img_rtl/hero/female/items/item115.png');
+}
+
+.female_item_116 {
+  background-image: url('../img_rtl/hero/female/items/item116.png');
+}
+
+.female_item_117 {
+  background-image: url('../img_rtl/hero/female/items/item117.png');
+}
+
+.female_item_118 {
+  background-image: url('../img_rtl/hero/female/items/item118.png');
+}
+
+.female_item_119 {
+  background-image: url('../img_rtl/hero/female/items/item119.png');
+}
+
+.female_item_120 {
+  background-image: url('../img_rtl/hero/female/items/item120.png');
+}
+
+.female_item_121 {
+  background-image: url('../img_rtl/hero/female/items/item121.png');
+}
+
+.female_item_122 {
+  background-image: url('../img_rtl/hero/female/items/item122.png');
+}
+
+.female_item_123 {
+  background-image: url('../img_rtl/hero/female/items/item123.png');
+}
+
+.female_item_124 {
+  background-image: url('../img_rtl/hero/female/items/item124.png');
+}
+
+.female_item_125 {
+  background-image: url('../img_rtl/hero/female/items/item125.png');
+}
+
+.female_item_126 {
+  background-image: url('../img_rtl/hero/female/items/item126.png');
+}
+
+.female_item_127 {
+  background-image: url('../img_rtl/hero/female/items/item127.png');
+}
+
+.female_item_128 {
+  background-image: url('../img_rtl/hero/female/items/item128.png');
+}
+
+.female_item_129 {
+  background-image: url('../img_rtl/hero/female/items/item129.png');
+}
+
+.female_item_130 {
+  background-image: url('../img_rtl/hero/female/items/item130.png');
+}
+
+.female_item_131 {
+  background-image: url('../img_rtl/hero/female/items/item131.png');
+}
+
+.female_item_132 {
+  background-image: url('../img_rtl/hero/female/items/item132.png');
+}
+
+.female_item_133 {
+  background-image: url('../img_rtl/hero/female/items/item133.png');
+}
+
+.female_item_134 {
+  background-image: url('../img_rtl/hero/female/items/item134.png');
+}
+
+.female_item_135 {
+  background-image: url('../img_rtl/hero/female/items/item135.png');
+}
+
+.female_item_136 {
+  background-image: url('../img_rtl/hero/female/items/item136.png');
+}
+
+.female_item_137 {
+  background-image: url('../img_rtl/hero/female/items/item137.png');
+}
+
+.female_item_138 {
+  background-image: url('../img_rtl/hero/female/items/item138.png');
+}
+
+.female_item_139 {
+  background-image: url('../img_rtl/hero/female/items/item139.png');
+}
+
+.female_item_140 {
+  background-image: url('../img_rtl/hero/female/items/item140.png');
+}
+
+.female_item_141 {
+  background-image: url('../img_rtl/hero/female/items/item141.png');
+}
+
+.female_item_142 {
+  background-image: url('../img_rtl/hero/female/items/item142.png');
+}
+
+.female_item_143 {
+  background-image: url('../img_rtl/hero/female/items/item143.png');
+}
+
+.female_item_144 {
+  background-image: url('../img_rtl/hero/female/items/item144.png');
+}
+
+table#heroInventoryDataDialog {
+  margin-top: 5px;
+}
+
+table#heroInventoryDataDialog td, table#heroInventoryDataDialog th {
+  font-size: 11px;
+  padding: 6px 0 3px;
+}
+.rtl table#heroInventoryDataDialog td, .rtl table#heroInventoryDataDialog th {
+  font-size: 12px;
+}
+
+table#heroInventoryDataDialog td {
+  text-align: left;
+}
+
+table#heroInventoryDataDialog tr.rowAfterUse th, table#heroInventoryDataDialog tr.rowAfterUse td {
+  font-weight: bold;
+  color: #F88C1F;
+}
+
+/*---------- Hero - Silveraccounting ---------- */
+/*--------------------------------------------- */
+div.hero_auction table#silverAccounting img.openedClosedSwitch {
+  width: 18px;
+  height: 18px;
+  float: right;
+  padding: 0;
+  margin-left: 5px;
+}
+
+div.hero_auction table#silverAccounting tbody.blockedSilver tr#showHideBlockedSilverDetails {
+  cursor: pointer;
+}
+
+div.hero_auction table#silverAccounting tbody.blockedSilver tr#showHideBlockedSilverDetails td, div.hero_auction table#silverAccounting tbody.noBlockedSilver td, div.hero_auction table#silverAccounting tbody tr.oldBalance td {
+  background-color: #EFEFEF;
+}
+
+div.hero_auction table#silverAccounting tbody.noBlockedSilver td.cause, div.hero_auction table#silverAccounting tbody.noBookings td {
+  color: #777777;
+}
+
+div.hero_auction table#silverAccounting tbody.currentBids td.cause {
+  padding-right: 33px;
+}
+
+div.hero_auction table#silverAccounting tbody.currentBids td.cause img.itemCategory, div.hero_auction table#silverAccounting tbody.latestBookings td.cause img.itemCategory {
+  position: relative;
+  top: 2px;
+  margin-left: 3px;
+}
+
+div.hero_auction table#silverAccounting .date, div.hero_auction table#silverAccounting .accounting, div.hero_auction table#silverAccounting .balance {
+  width: 15%;
+}
+
+div.hero_auction table#silverAccounting td.accounting, div.hero_auction table#silverAccounting td.balance {
+  text-align: left;
+}
+
+div.hero_auction span.balanceSince {
+  font-size: 10px;
+  color: #777777;
+  font-style: italic;
+  padding: 3px 3px 0 0;
+}
+.rtl div.hero_auction span.balanceSince {
+  font-size: 11px;
+}
+
+#auction .auctionAdventureBar {
+  background-color: #ffffff;
+  height: 8px;
+  border: 1px solid #C6C6C6;
+  padding: 1px;
+  margin: 1px;
+}
+
+#auction .auctionAdventureBar .bar {
+  background-color: #006900;
+  height: 100%;
+  float: right;
+}
+
+#auction .auctionAdventureBarText {
+  position: relative;
+  float: right;
+  padding-bottom: 5px;
+}
+
+#auction .auctionAdventureBarNumbers {
+  position: relative;
+  float: left;
+}
+
+#auction .auctionDetails a.hidden {
+  color: #333333;
+  font-weight: normal;
+}
+
+/*---------- Hero - Horse Toggle ---------- */
+/*--------------------------------------------- */
+#horseToggleBox {
+  width: 100%;
+}
+
+#horseToggleBox > div {
+  float: right;
+  border: solid 1px #e7e7e7;
+  position: relative;
+  border-radius: 5px;
+  transition-duration: 500ms;
+}
+
+#horseToggleBox > div#horseToggleMounted {
+  float: left;
+}
+
+#horseToggleBox > div.active {
+  border: solid 1px #a3c840;
+  cursor: default;
+}
+
+#horseToggleBox > div .background {
+  width: 270px;
+  height: 313px;
+  z-index: 1;
+  transition-duration: 500ms;
+}
+
+#horseToggleBox > div.active .background {
+  opacity: 1;
+}
+
+#horseToggleBox > div#horseToggleUnmounted .background {
+  background-image: url('../img_rtl/hero/horseToggle/hero-background-1-rtl.png');
+}
+
+#horseToggleBox > div#horseToggleMounted .background {
+  background-image: url('../img_rtl/hero/horseToggle/hero-background-2-rtl.png');
+}
+
+#horseToggleBox > div .details {
+  width: 92%;
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 64px;
+  position: absolute;
+  bottom: 8px;
+  right: 50%;
+  margin-right: -46%;
+  border-radius: 4px;
+  z-index: 4;
+  text-align: center;
+}
+
+#horseToggleBox > div .details span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+#horseToggleBox > div .details .speed {
+  padding: 5px;
+  font-size: 110%;
+  color: #333333;
+  margin-top: 5px;
+}
+
+#horseToggleBox > div .details .state {
+  padding: 5px;
+  width: auto;
+  background: rgba(158, 215, 87, 0.5);
+  position: relative;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+#horseToggleBox > div .details .button button {
+  width: 82%;
+  text-align: center;
+}
+
+#horseToggleBox > div .details .button button .button-content {
+  font-size: 13px;
+}
+.rtl #horseToggleBox > div .details .button button .button-content {
+  font-size: 14px;
+}
+
+#horseToggleBox > div .details .state:before {
+  background: -webkit-linear-gradient(left, transparent, rgba(158, 215, 87, 0.5));
+  background: -o-linear-gradient(left, transparent, rgba(158, 215, 87, 0.5));
+  background: -moz-linear-gradient(left, transparent, rgba(158, 215, 87, 0.5));
+  background: linear-gradient(to left, transparent, rgba(158, 215, 87, 0.5));
+  content: "";
+  width: 80px;
+  height: 26px;
+  position: absolute;
+  right: -80px;
+  top: 0px;
+}
+
+#horseToggleBox > div .details .state:after {
+  background: -webkit-linear-gradient(left, rgba(158, 215, 87, 0.5), transparent);
+  background: -o-linear-gradient(left, rgba(158, 215, 87, 0.5), transparent);
+  background: -moz-linear-gradient(left, rgba(158, 215, 87, 0.5), transparent);
+  background: linear-gradient(to left, rgba(158, 215, 87, 0.5), transparent);
+  content: "";
+  width: 80px;
+  height: 26px;
+  position: absolute;
+  left: -80px;
+  top: 0px;
+}
+
+#horseToggleBox > div.inactive .details .state,
+#horseToggleBox > div.active .details .button {
+  display: none;
+}
+
+#horseToggleBox > div .hero {
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+#horseToggleBox > div#horseToggleMounted .hero {
+  height: 98%;
+  position: absolute;
+  text-align: center;
+}
+
+#horseToggleBox > div#horseToggleUnmounted .hero {
+  height: 98%;
+  text-align: right;
+}
+
+#horseToggleBox .hero img {
+  max-width: 220px;
+  margin-top: 20px;
+}
+
+#horseToggleBox > div#horseToggleUnavailable {
+  height: 90.5%;
+  width: 552px;
+  border: solid 1px #a3c840;
+  cursor: default;
+}
+
+#horseToggleBox > div .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 3;
+  transition-duration: 500ms;
+}
+
+#horseToggleBox > div.active .overlay {
+  opacity: 0;
+}
+
+#horseToggleBox > div.inactive.hover .background {
+  opacity: 0.4;
+}
+
+#horseToggleBox > div.inactive.hover .overlay {
+  opacity: 0;
+}
+
+#horseToggleBox > div#horseToggleUnavailable > .overlay {
+  opacity: 1;
+  border-radius: 5px;
+}
+
+#horseToggleBox > div#horseToggleUnavailable > .background {
+  width: 100%;
+  margin-top: 1px;
+  background: url('../img_rtl/hero/horseToggle/heroNotInHomeVillageBackground-rtl.png') no-repeat bottom center;
+}
+
+#horseToggleBox > div#horseToggleUnavailable > .background.state3,
+#horseToggleBox > div#horseToggleUnavailable > .background.state4,
+#horseToggleBox > div#horseToggleUnavailable > .background.state5,
+#horseToggleBox > div#horseToggleUnavailable > .background.state9,
+#horseToggleBox > div#horseToggleUnavailable > .background.state40,
+#horseToggleBox > div#horseToggleUnavailable > .background.state50 {
+  background-image: url('../img_rtl/hero/horseToggle/heroNotInHomeVillageOnthewayBackground-rtl.png');
+}
+
+#horseToggleBox > div#horseToggleUnavailable > .background.state103 {
+  background-image: url('../img_rtl/hero/horseToggle/heroNotInHomeVillageDefendingBackground-rtl.png');
+}
+
+#horseToggleBox > div#horseToggleUnavailable > .background.state102 {
+  background-image: url('../img_rtl/hero/horseToggle/heroNotInHomeVillageCapturedBackground-rtl.png');
+}
+
+#horseToggleBox > div#horseToggleUnavailable > .hero {
+  width: 270px;
+  height: 313px;
+  z-index: 1;
+  right: 0;
+}
+
+#horseToggleBox > div#horseToggleUnavailable > .hero.mounted {
+  left: 0;
+  right: auto;
+}
+
+#horseToggleBox > div#horseToggleUnavailable > .hero.state3,
+#horseToggleBox > div#horseToggleUnavailable > .hero.state4,
+#horseToggleBox > div#horseToggleUnavailable > .hero.state5,
+#horseToggleBox > div#horseToggleUnavailable > .hero.state9,
+#horseToggleBox > div#horseToggleUnavailable > .hero.state40,
+#horseToggleBox > div#horseToggleUnavailable > .hero.state50,
+#horseToggleBox > div#horseToggleUnavailable > .hero.state103,
+#horseToggleBox > div#horseToggleUnavailable > .hero.state102 {
+  display: none;
+}
+
+#horseToggleBox > div#horseToggleUnavailable > .hero.dead {
+  height: 78.5%;
+  background: url('../img_rtl/hero/horseToggle/heroTombstone-rtl.png') no-repeat bottom center;
+  margin-right: 25px;
+  width: 527px;
+}
+
+#horseToggleBox > div#horseToggleUnavailable > .details .heroStatus,
+#horseToggleBox > div#horseToggleUnavailable > .details .message {
+  height: 16px;
+  line-height: 16px;
+  padding: 5px;
+  font-size: 14px;
+  color: #333333;
+  margin-top: 5px;
+  width: auto;
+  display: block;
+}
+.rtl #horseToggleBox > div#horseToggleUnavailable > .details .heroStatus, .rtl
+#horseToggleBox > div#horseToggleUnavailable > .details .message {
+  font-size: 15px;
+}
+
+#horseToggleBox > div#horseToggleUnavailable > .details .heroStatus {
+  font-weight: bold;
+}
+
+#horseToggleBox > div#horseToggleUnavailable > .details .message {
+  font-size: 13px;
+}
+.rtl #horseToggleBox > div#horseToggleUnavailable > .details .message {
+  font-size: 14px;
+}

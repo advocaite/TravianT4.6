@@ -1,0 +1,50 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#overlayUI {
+  position: absolute;
+  z-index: 999999999;
+  box-sizing: border-box;
+  color: #F2F2F2;
+}
+#overlayUI canvas {
+  position: absolute;
+  z-index: 0;
+}
+#overlayUI .overlayContent {
+  position: absolute;
+  top: 150px;
+  width: 640px;
+  right: 50%;
+}
+#overlayUI .overlayContent .overlaySubcontent {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  width: 600px;
+  padding: 0 20px;
+  color: #F2F2F2;
+  font-size: 15px;
+  line-height: 22px;
+  left: 50%;
+}
+.rtl #overlayUI .overlayContent .overlaySubcontent {
+  font-size: 16px;
+}
+#overlayUI .overlayContent .overlayTitle, #overlayUI .overlayContent .overlayDescription span.important {
+  font-weight: bold;
+  font-size: 16px;
+}
+.rtl #overlayUI .overlayContent .overlayTitle, .rtl #overlayUI .overlayContent .overlayDescription span.important {
+  font-size: 17px;
+}

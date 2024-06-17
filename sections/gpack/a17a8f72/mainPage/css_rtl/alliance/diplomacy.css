@@ -1,0 +1,107 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.alliance .diplomacy p.empty {
+  padding-right: 10px;
+  color: #777777;
+}
+.alliance .diplomacy .tableWrapper {
+  border: 1px solid #C0C0C0;
+  margin: 10px;
+  padding: 10px;
+}
+.alliance .diplomacy .confederacyOffer {
+  border-collapse: collapse;
+}
+.alliance .diplomacy .confederacyOffer thead td {
+  font-weight: bold;
+  line-height: 25px;
+  vertical-align: middle;
+  padding: 0 3px 10px;
+  border-bottom: 1px solid #C0C0C0;
+}
+.alliance .diplomacy .confederacyOffer tbody tr:first-child td {
+  padding: 10px 9px 3px;
+}
+.alliance .diplomacy .confederacyOffer .description {
+  text-align: right;
+}
+.alliance .diplomacy .confederacyOffer .buttons {
+  padding-left: 3px;
+  text-align: left;
+  width: 5%;
+  white-space: nowrap;
+}
+.alliance .diplomacy .confederacyOffer .buttons button:not(:first-of-type) {
+  margin-right: 5px;
+}
+.alliance .diplomacy .diplomacyOffer {
+  margin: 0 10px 15px;
+}
+.alliance .diplomacy .diplomacyOffer button {
+  margin-left: 10px;
+  vertical-align: text-bottom;
+}
+.alliance .diplomacy .diplomacyOffer a {
+  vertical-align: super;
+}
+.alliance .diplomacy .confederacyActive {
+  border-collapse: collapse;
+}
+.alliance .diplomacy .confederacyActive td {
+  padding: 5px 10px;
+}
+.alliance .diplomacy .confederacyActive .member {
+  line-height: 30px;
+  white-space: nowrap;
+  border-left: 1px solid #C0C0C0;
+}
+.alliance .diplomacy .confederacyActive .member button.kick {
+  margin-right: 5px;
+}
+.alliance .diplomacy .confederacyActive .member > img.del {
+  position: relative;
+  top: -1px;
+  right: 0;
+  margin-right: 5px;
+}
+.alliance .diplomacy .confederacyActive tr:first-child td {
+  padding-top: 0;
+}
+.alliance .diplomacy .confederacyActive tr:last-child td {
+  padding-bottom: 0;
+}
+.alliance .diplomacy .confederacyActive tr:not(:last-child) .member {
+  border-bottom: 1px solid #C0C0C0;
+}
+.alliance .diplomacy .confederacyActive .empty {
+  color: #777777;
+}
+.alliance .diplomacy .confederacyActive .buttons {
+  padding-left: 3px;
+}
+
+.proposalConfirmationContent {
+  width: 500px;
+}
+.proposalConfirmationContent .members {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.proposalConfirmationContent .members span {
+  font-weight: bold;
+}
+.proposalConfirmationContent .members span:not(:first-of-type) {
+  margin-right: 20px;
+}

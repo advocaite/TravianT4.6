@@ -1,0 +1,168 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* Banner */
+a#emBanner {
+  width: 163px;
+  height: 117px;
+  background-image: url('../img_ltr/misc/emBanner.png');
+  display: block;
+  z-index: 30;
+}
+
+a.emBannerUnderVillageList {
+  position: relative;
+  left: 21px;
+}
+
+a.emBannerUnderVillageName {
+  position: absolute;
+  left: -805px;
+  top: 200px;
+}
+
+/* Vote Page */
+div.emSpecial div.voteInfos {
+  padding: 0 10px;
+}
+
+div.emSpecial span.emManualHeader {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+div.emSpecial ul.emManual {
+  padding-left: 14px;
+  margin: 5px 0;
+}
+
+div.emSpecial p.emManualDescription {
+  font-style: italic;
+}
+
+div.emSpecial table.currentValues {
+  margin-bottom: 10px;
+}
+
+div.emSpecial table.currentValues td,
+div.emSpecial table.currentValues th {
+  font-weight: bold;
+  vertical-align: top;
+  padding: 5px 0 0;
+}
+
+div.emSpecial table.currentValues th {
+  width: 50%;
+}
+
+div.emSpecial table.currentValues td.showInfo {
+  color: #F88C1F;
+}
+
+div.emSpecial table.currentValues td.prizeHint {
+  font-style: italic;
+  font-size: 10px;
+  padding: 0;
+  line-height: 11px;
+}
+.rtl div.emSpecial table.currentValues td.prizeHint {
+  font-size: 11px;
+}
+
+div.emSpecial div.buttonWrapper {
+  text-align: right;
+}
+
+div.emSpecial ul#emPossibleWinners {
+  list-style: none;
+  padding-left: 10px;
+}
+
+div.emSpecial ul#emPossibleWinners li {
+  float: left;
+  width: 260px;
+  margin-bottom: 2px;
+}
+
+div.emSpecial ul#emPossibleWinners img.flags {
+  margin-top: 5px;
+  height: 11px;
+  width: 16px;
+  background-image: url('../img_ltr/misc/flags/country_sprite.png');
+  border-top: 1px solid #AAAAAA;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_de {
+  background-position: -880px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_ru {
+  background-position: -3008px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_gr {
+  background-position: -1424px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_pl {
+  background-position: -2816px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_cz {
+  background-position: -864px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_dk {
+  background-position: -912px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_nl {
+  background-position: -2608px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_pt {
+  background-position: -2896px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_ie {
+  background-position: -1632px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_it {
+  background-position: -1744px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_hr {
+  background-position: -1568px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_es {
+  background-position: -1072px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_uk,
+div.emSpecial ul#emPossibleWinners img.flag_gb {
+  background-position: -1040px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_fr {
+  background-position: -1216px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_se {
+  background-position: -3120px 0;
+}
+
+div.emSpecial ul#emPossibleWinners img.flag_ua {
+  background-position: -3616px 0;
+}

@@ -1,0 +1,131 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* ------------------- War simulator ------------------- */
+/* ----------------------------------------------------- */
+/* tribe select */
+div.warsim table#select {
+  margin-bottom: 10px;
+}
+
+div.warsim table#select tbody td {
+  padding: 5px 7px;
+  vertical-align: top;
+  width: 33%;
+}
+
+div.warsim table#select .choice {
+  line-height: 24px;
+}
+
+div.warsim table#select input.radio {
+  position: relative;
+  top: 1px;
+}
+
+/* troop form */
+div.warsim #attacker {
+  float: right;
+  margin-bottom: 10px;
+  width: 49%;
+}
+
+div.warsim #defender {
+  float: left;
+  margin-bottom: 10px;
+  width: 49%;
+}
+
+div.warsim .fighterType {
+  float: right;
+  margin-bottom: 10px;
+}
+
+div.warsim .fighterType .boxes-container {
+  padding: 3px 0;
+}
+
+div.warsim .fighterType .boxes-contents {
+  padding: 3px 10px;
+  color: #F2F2F2;
+}
+
+div.warsim .border {
+  border: 1px solid #C0C0C0;
+  margin-bottom: 10px;
+}
+
+div.warsim table.fill_in {
+  width: 100%;
+}
+
+div.warsim table.fill_in th {
+  padding: 2px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #D3D3D3;
+}
+
+div.warsim table.fill_in td {
+  padding: 2px 1px;
+}
+
+div.warsim table.fill_in td.details {
+  padding: 0;
+}
+
+div.warsim table.fill_in td.details table {
+  background-color: #FFFFFF;
+}
+
+div.warsim table.fill_in td.details table td.ico {
+  width: 16px;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+div.warsim table.fill_in td.details table td.value {
+  width: 43px;
+}
+
+div.warsim table.fill_in td.details table td.value input.text {
+  width: 35px;
+}
+
+div.warsim table.fill_in td.details table td.research {
+  width: 23px;
+  padding-left: 4px;
+}
+
+div.warsim table.fill_in td.details table td.research input.text {
+  width: 15px;
+}
+
+/* results */
+div.warsim table.results {
+  margin-bottom: 20px;
+}
+
+div.warsim table.results tbody td {
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+div.warsim table.results tbody th {
+  width: 20%;
+}
+
+div.warsim table.results tbody td {
+  width: 8%;
+  text-align: center;
+}

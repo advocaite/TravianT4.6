@@ -1,0 +1,56 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+div#loyaltyTab td, div#loyaltyTab th {
+  vertical-align: top;
+  padding: 2px 7px;
+}
+
+div#loyaltyTab table thead td, div#loyaltyTab table thead th {
+  text-align: center;
+}
+
+div#loyaltyTab table th {
+  width: 50%;
+}
+
+div#loyaltyTab table td {
+  width: 25%;
+}
+
+div#loyaltyTab table tbody td {
+  text-align: left;
+}
+
+div#loyaltyTab table tbody th {
+  text-align: right;
+}
+
+div#loyaltyTab table tbody td.low {
+  color: #D40000;
+}
+.colorBlind div#loyaltyTab table tbody td.low {
+  color: #0022AF;
+}
+
+div#loyaltyTab table tbody td.medium {
+  color: #666666;
+}
+
+div#loyaltyTab table tbody td.high {
+  color: #228B22;
+}
+
+div#loyaltyTab .currentLoyalty {
+  font-weight: bold;
+}

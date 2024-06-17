@@ -1,0 +1,45 @@
+<Files ~ "^\.(htaccess|htpasswd|env)$">
+deny from all
+</Files>
+Options -Indexes
+DirectoryIndex index.php
+ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php
+<IfModule mime_module>
+  #AddType application/x-httpd-ea-php7 .php .php7 .phtml
+</IfModule>
+<IfModule mod_deflate.c>
+    SetOutputFilter DEFLATE
+    # Netscape 4.x has some problems...
+     BrowserMatch ^Mozilla/4 gzip-only-text/html
+    # Netscape 4.06-4.08 have some more problems
+     BrowserMatch ^Mozilla/4\.0[678] no-gzip
+     # MSIE masquerades as Netscape, but it is fine
+     # BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+
+     # NOTE: Due to a bug in mod_setenvif up to Apache 2.0.48
+     # the above regex won't work. You can use the following
+     # workaround to get the desired effect:
+     BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+     # Don't compress images
+     SetEnvIfNoCase Request_URI .(?:gif|jpe?g|png)$ no-gzip dont-vary
+     # Make sure proxies don't deliver the wrong content
+     Header append Vary User-Agent env=!dont-vary
+</IfModule>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .*php.*\/.*$ $1 [R=404]
+</IfModule>
+<FilesMatch "\.(zip|tar.gz|gz|gzip|rar|tar|exe)$">
+deny from all
+</FilesMatch>
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Redirect Trailing Slashes If Not A Folder...
+    #RewriteCond %{REQUEST_FILENAME} !-d
+    #RewriteRule ^(.*)/$ /$1 [L,R=301]
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>

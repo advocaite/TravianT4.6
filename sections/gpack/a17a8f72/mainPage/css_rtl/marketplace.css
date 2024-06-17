@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* exchange resources popup */
+div#build.exchangeResources {
+  width: 500px;
+}
+div#build.exchangeResources p#submitText,
+div#build.exchangeResources p#submitButton {
+  margin-top: 5px;
+  text-align: left;
+}
+div#build.exchangeResources p#submitButton {
+  display: none;
+}
+div#build.exchangeResources span.corr {
+  color: #FF4000;
+}
+div#build.exchangeResources p.npc_desc {
+  font-size: 13px;
+  margin-top: -2px;
+}
+.rtl div#build.exchangeResources p.npc_desc {
+  font-size: 14px;
+}
+div#build.exchangeResources table#npc {
+  line-height: 25px;
+  margin-bottom: 4px;
+  /* Exceptions for 'fa-IR' and 'he-IL' */
+  /* see: TGHelper_I18n */
+}
+div#build.exchangeResources table#npc th,
+div#build.exchangeResources table#npc td {
+  padding: 2px 7px;
+  text-align: center;
+}
+div#build.exchangeResources table#npc thead td {
+  background-color: #E7E7E7;
+}
+div#build.exchangeResources table#npc thead td i.r4 {
+  vertical-align: middle;
+}
+div#build.exchangeResources table#npc thead td a + span {
+  vertical-align: middle;
+}
+div#build.exchangeResources table#npc td {
+  text-align: center;
+}
+div#build.exchangeResources table#npc td.deco {
+  padding: 0;
+  width: 1px;
+}
+div#build.exchangeResources table#npc td.sel input.text {
+  width: 90%;
+}
+div#build.exchangeResources table#npc td.all {
+  width: 18%;
+}
+div#build.exchangeResources table#npc td.sum {
+  text-align: right;
+  padding-right: 20px;
+}
+.fa-IR div#build.exchangeResources table#npc .rem,
+.fa-IR div#build.exchangeResources table#npc #remain, .he-IL div#build.exchangeResources table#npc .rem,
+.he-IL div#build.exchangeResources table#npc #remain {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+/* Tab Verwaltung - Abschnitt Händler */
+#build.gid17 .whereAreMyMerchants {
+  line-height: 20px;
+  float: right;
+  width: 48%;
+}
+
+#build.gid17 .npcMerchant {
+  float: left;
+  width: 48%;
+}
+
+#build.gid17 .npcMerchant button {
+  margin-top: 3px;
+}
+
+/* ALLES HIER DRUNTER BEIM ROHSTOFFE SENDEN NEU MACHEN AUFRÄUMEN! */
+table#send_select hr {
+  margin: 0;
+}
+
+div#build.gid17 div.carry {
+  padding-bottom: 15px;
+}
+
+.merchantCapacityVisualization {
+  float: right;
+}
+
+.merchantCapacity {
+  float: left;
+}
+
+.invisibleButton {
+  display: none;
+}
+
+div#build.gid17 button.confirm {
+  float: left;
+}
+
+form#marketSend div#button {
+  height: 35px;
+}
+
+#button button.goBack {
+  float: right;
+}
+
+#button button.sendRessources,
+#button button.prepare {
+  float: left;
+}
+
+div#build.gid17 span.pleaseConfirm {
+  color: #a2a2a2;
+  font-weight: normal;
+  padding-right: 0;
+}
+
+#notEnoughMerchantsError {
+  padding-bottom: 10px;
+}
+
+#prepareError {
+  padding-right: 3px;
+  float: right;
+  width: 385px;
+  position: relative;
+}
+
+a.notClickable {
+  cursor: default;
+  color: #d2d2d2;
+}

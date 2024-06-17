@@ -1,0 +1,13 @@
+[Unit]
+Description=Travian game engine ([SERVER_WORLD_ID])
+After=network.target
+After=mysqld.service
+
+[Service]
+User=[SERVER_USER]
+Type=forking
+ExecStart=[SERVER_BASH_LOCATION]
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

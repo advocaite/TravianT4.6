@@ -1,0 +1,133 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* --- Header general --- */
+div#headerBar {
+  display: none;
+}
+
+div#header {
+  height: 64px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  min-width: 1280px;
+  max-width: 1440px;
+  align-self: center;
+  position: relative;
+  z-index: 32;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+div#header:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 23px;
+  margin-left: -1px;
+  background: url('../../img_ltr/layout/headerPattern.png') repeat;
+  position: absolute;
+  border: solid 1px #000000;
+  border-top: none;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  box-shadow: -1px 0 4px rgba(0, 0, 0, 0.8) inset;
+  z-index: 1;
+}
+div#header:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: calc(100% - 20px);
+  margin-top: 20px;
+  position: absolute;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-image: linear-gradient(to top, #f1ddb6, #fdefcc, #f3e0ba);
+  z-index: 0;
+}
+div#header #logo {
+  z-index: 1;
+  width: 114px;
+  background-position: center;
+  left: 150px;
+  height: 38px;
+  margin-left: -57px;
+  position: absolute;
+  top: 24px;
+  background-image: url('../../img_ltr/layout/logoLegends_black.svg');
+  background-size: 114px 40px;
+}
+div#header #logo .overlayUIBackgroundHelper {
+  background-image: url('../../img_ltr/layout/logoLegends_white.svg');
+  background-position: center;
+  background-size: 114px 40px;
+}
+div#header #logo.riseOfAlliances {
+  background-image: url('../../img_ltr/layout/logoRiseOfAlliances_black.svg');
+}
+div#header #logo.riseOfAlliances .overlayUIBackgroundHelper {
+  background-image: url('../../img_ltr/layout/logoRiseOfAlliances_white.svg');
+}
+div#header #logo.fireAndSand {
+  background-image: url('../../img_ltr/layout/logoFireAndSand_black.svg');
+}
+div#header #logo.fireAndSand .overlayUIBackgroundHelper {
+  background-image: url('../../img_ltr/layout/logoFireAndSand_white.svg');
+}
+div#header #logo.pathToPandora {
+  background-image: url('../../img_ltr/layout/logoPathToPandora_black.svg');
+}
+div#header #logo.pathToPandora .overlayUIBackgroundHelper {
+  background-image: url('../../img_ltr/layout/logoPathToPandora_white.svg');
+}
+.activate div#header, .login div#header, .logout div#header {
+  box-shadow: none;
+  border: none;
+  height: 14px;
+}
+.activate div#header:before, .activate div#header:after, .login div#header:before, .login div#header:after, .logout div#header:before, .logout div#header:after {
+  display: none;
+}
+.activate div#header #logo, .login div#header #logo, .logout div#header #logo {
+  top: -2px;
+  left: 0;
+  width: 300px;
+  height: 6em;
+  margin: 0;
+  background-size: 173px 60px;
+}
+div#header ul#navigation {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: -35px;
+}
+.rtl div#header ul#navigation {
+  transform: translateX(50%);
+}
+div#header #goldSilver {
+  width: 74px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 270px;
+  z-index: 1;
+}
+.rtl div#header #goldSilver {
+  transform: translateX(50%);
+}
+div#header #goldSilver.overlayUIAffected {
+  color: #F2F2F2;
+}

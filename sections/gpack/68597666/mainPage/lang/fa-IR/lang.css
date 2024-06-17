@@ -1,0 +1,135 @@
+@CHARSET "UTF-8";
+
+/*
+ *------------------------------------------------------------------------------
+ * LANG is used to define the language-specific images.
+ *
+ * Contains:
+ * width, height, background-image, background-repeat, background-position
+ *------------------------------------------------------------------------------
+ */
+
+/* ------------------- Buttons ------------------- */
+/* ----------------------------------------------- */
+/* Ally Forum */
+div.forum input#fbtn_ok {
+	width: 47px;
+	background-image: url(b/ok.gif);
+}
+
+div.forum input#fbtn_vote {
+	width: 97px;
+	background-image: url(f/vote.gif);
+}
+
+div.forum input#fbtn_result {
+	width: 97px;
+	background-image: url(f/result.gif);
+}
+
+div.forum input#fbtn_voting {
+	width: 97px;
+	background-image: url(f/voting.gif);
+}
+
+div.forum img#fbtn_reply {
+	width: 97px;
+	background-image: url(f/reply.gif);
+}
+
+div.forum img#fbtn_post {
+	width: 97px;
+	background-image: url(f/post.gif);
+}
+
+div.forum img#fbtn_newforum {
+	width: 97px;
+	background-image: url(f/newforum.gif);
+}
+
+/* ------------------- Images ------------------- */
+/* ---------------------------------------------- */
+/* plus previews */
+div.plus table#plus_features td.preview img.autovv {
+	width: 200px;
+	background-image: url(p/autovv.gif);
+	height: 56px;
+}
+
+div.plus table#plus_features td.preview img.bfilter {
+	width: 200px;
+	background-image: url(p/bfilter.gif);
+	height: 45px;
+}
+
+div.plus table#plus_features td.preview img.dorf3 {
+	width: 200px;
+	background-image: url(p/dorf3.jpg);
+	height: 186px;
+}
+
+div.plus table#plus_features td.preview img.p1 {
+	width: 179px;
+	background-image: url(p/p1.gif);
+	height: 29px;
+}
+
+div.plus table#plus_features td.preview img.p3 {
+	width: 163px;
+	background-image: url(p/p3.gif);
+	height: 120px;
+}
+
+div.plus table#plus_features td.preview img.p4 {
+	width: 197px;
+	background-image: url(p/p4.gif);
+	height: 41px;
+}
+
+div.plus table#plus_features td.preview img.p5 {
+	width: 132px;
+	background-image: url(p/p5.gif);
+	height: 51px;
+}
+
+div.plus table#plus_features td.preview img.p6 {
+	width: 111px;
+	background-image: url(p/p6.gif);
+	height: 29px;
+}
+
+div.plus table#plus_features td.preview img.p7 {
+	width: 61px;
+	background-image: url(p/p7.gif);
+	height: 86px;
+}
+
+div.plus table#plus_features td.preview img.p8 {
+	width: 117px;
+	background-image: url(p/p8.gif);
+	height: 121px;
+}
+
+div.plus table#plus_features td.preview img.sort {
+	width: 200px;
+	background-image: url(p/sort.jpg);
+	height: 38px;
+}
+
+div.plus table#plus_features td.preview img.st1 {
+	width: 200px;
+	background-image: url(p/st1.gif);
+	height: 90px;
+}
+
+div.plus table#plus_features td.preview img.xxl_map {
+	width: 146px;
+	background-image: url(p/xxl_map.gif);
+	height: 112px;
+}
+
+div.logout div.bannerShop img {
+	background-image: url(shop/facebook_banner.jpg);
+	width: 300px;
+	height: 100px;
+}

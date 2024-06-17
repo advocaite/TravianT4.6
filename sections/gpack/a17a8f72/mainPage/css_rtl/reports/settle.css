@@ -1,0 +1,102 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+div.reports #reportWrapper .settleReport .settleHeader .headline {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 260px 1fr;
+  grid-template-columns: 260px 1fr;
+}
+div.reports #reportWrapper .settleReport .settleHeader .headline .from {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  padding-right: 10px;
+}
+div.reports #reportWrapper .settleReport .settleHeader .headline .to {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  padding-left: 10px;
+  text-align: left;
+}
+
+div.reports #reportWrapper .settleReport .settleHeader .headline .from,
+div.reports #reportWrapper .settleReport .settleHeader .headline .to {
+  height: 36px;
+  line-height: 36px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #F2F2F2;
+}
+div.reports #reportWrapper .settleReport .settleHeader .headline .from {
+  z-index: 2;
+}
+div.reports #reportWrapper .settleReport .settleHeader .headline .to {
+  overflow: hidden;
+}
+div.reports #reportWrapper .settleReport .settleHeader .headline .to svg {
+  width: 40px;
+  height: 38px;
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  stroke: rgba(0, 0, 0, 0.2);
+  stroke-width: 0.75;
+}
+.rtl div.reports #reportWrapper .settleReport .settleHeader .headline .to svg {
+  transform: scaleX(-1);
+}
+div.reports #reportWrapper .settleReport .settleHeader .headline {
+  -ms-grid-columns: 1fr 150px;
+  grid-template-columns: 1fr 150px;
+  border-left: solid 1px #DFC495;
+  border-right: solid 1px #DFC495;
+}
+div.reports #reportWrapper .settleReport .settleHeader .headline .from {
+  background-color: #E39F4D;
+}
+div.reports #reportWrapper .settleReport .settleHeader .headline .to {
+  background-color: #db8722;
+}
+div.reports #reportWrapper .settleReport .settleHeader .headline .to svg {
+  fill: #E39F4D;
+}
+div.reports #reportWrapper .settleReport .troopHeadline {
+  display: none;
+}
+div.reports #reportWrapper .settleReport .additionalInformation {
+  border: solid 1px #DFC495;
+}
+div.reports #reportWrapper .settleReport .additionalInformation .inlineIcon {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+div.reports #reportWrapper .settleReport .additionalInformation .inlineIcon i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-left: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+div.reports #reportWrapper .settleReport .additionalInformation .inlineIcon span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+div.reports #reportWrapper .settleReport .additionalInformation tbody.infos td div {
+  margin-bottom: 0;
+}

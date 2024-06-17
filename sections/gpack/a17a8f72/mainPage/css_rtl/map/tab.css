@@ -1,0 +1,120 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* Allgemeines aussehen mit runden ecken und co */
+.tab .tab-tl, .tab .tab-tc, .tab .tab-tr,
+.tab .tab-ml, .tab .tab-mc, .tab .tab-mr {
+  background-color: transparent;
+  background-position: left top;
+}
+
+.tab .tab-tc, .tab .tab-mc {
+  margin-right: 4px;
+  margin-left: 4px;
+  width: auto;
+}
+
+.tab .tab-tl {
+  background-repeat: no-repeat;
+}
+
+.tab .tab-tc {
+  background-repeat: repeat-x;
+}
+
+.tab .tab-tr {
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.tab .tab-ml {
+  background-repeat: repeat-y;
+}
+
+.tab .tab-mc {
+  background-repeat: repeat;
+}
+
+.tab .tab-mr {
+  background-position: right top;
+  background-repeat: repeat-y;
+}
+
+.tab .tab-container {
+  position: relative;
+  padding: 4px 4px 0 4px;
+}
+
+.tab .tab-contents {
+  position: relative;
+}
+
+.tab .tab-position,
+.tab .tab-tl, .tab .tab-tc, .tab .tab-tr,
+.tab .tab-ml, .tab .tab-mc, .tab .tab-mr {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.tab .tab-ml {
+  top: 4px;
+}
+
+/* images getrennt wegem IE */
+.tab .tab-tl {
+  background-image: url('../../img_rtl/map/tabs/tl.png');
+}
+
+.tab .tab-tc {
+  background-image: url('../../img_rtl/map/tabs/tc.png');
+}
+
+.tab .tab-tr {
+  background-image: url('../../img_rtl/map/tabs/tr.png');
+}
+
+.tab .tab-ml {
+  background-image: url('../../img_rtl/map/tabs/ml.png');
+}
+
+.tab .tab-mr {
+  background-image: url('../../img_rtl/map/tabs/mr.png');
+}
+
+/* images getrennt wegem IE */
+.tab .selected .tab-tl {
+  background-image: url('../../img_rtl/map/tabs/tl-active.png');
+}
+
+.tab .selected .tab-tc {
+  background-image: url('../../img_rtl/map/tabs/tc-active.png');
+}
+
+.tab .selected .tab-tr {
+  background-image: url('../../img_rtl/map/tabs/tr-active.png');
+}
+
+.tab .selected .tab-ml {
+  background-image: url('../../img_rtl/map/tabs/ml-active.png');
+}
+
+.tab .selected .tab-mc {
+  background-image: url('../../img_rtl/map/tabs/mc-active.png');
+}
+
+.tab .selected .tab-mr {
+  background-image: url('../../img_rtl/map/tabs/mr-active.png');
+}

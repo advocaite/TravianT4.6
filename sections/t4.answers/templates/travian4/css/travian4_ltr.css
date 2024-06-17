@@ -1,0 +1,571 @@
+@charset "utf-8";
+/* CSS Document
+ * 2011/02/07 by Nikolas Grottendieck :: www.nikolasgrottendieck.com
+ * Travian 4 Answers Layout
+ * Based on Original Travian Answers Layout by Aces :: aces@wewaii.com
+ */
+
+/* layout page framework */
+body {
+	direction:ltr;
+	/*font:15px/1.5 Arial; */ /* nur für RTL und arabische schriftzeichen */
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center; /* zwingt den IE6 die Seite zu zentrieren */
+}
+
+#wrap {
+	width:960px;
+	background-color:transparent;
+	text-align:left; /* wird benötigt um die Zentrierung im Body für den IE6 aufzuheben */
+}
+
+#contentLeft {
+	float:left;
+	height:378px;
+	width:300px;
+	padding:0 0 0 28px;
+}
+
+#contentRight {
+	float:right;
+	width:580px;
+	padding:0 17px 0 0;
+}
+
+/* supportLink */
+a.supportlink {
+	display:block;
+	height:30px;
+	width:143px;
+	line-height:30px;
+	background:url(../img/c_box_button_sup.jpg) no-repeat;
+	color: #fff;
+	text-decoration:none;
+	margin:0 auto;
+}
+
+a:hover.supportlink {
+	color:#fff;
+	text-decoration:none;
+}
+
+/** layout - everything with images **/
+/** page layout **/
+body {
+	background:#9FB777 url(../img/body_bg.jpg) no-repeat top center;
+}
+
+#wrap {
+	background:url(../img/wrap_bg.png) repeat-y top center;
+}
+
+#header {
+	background:url(../img/header_bg.png) no-repeat top center;
+	height:280px;
+}
+
+#startersGuide {
+	display:none;
+}
+
+#logo {
+	display:none;
+}
+
+.logo_bg_en, .logo_bg_ar, .logo_bg_de  {
+	display:none;
+}
+
+#footer {
+	background:url(../img/footer_bg.png) no-repeat;
+	height:50px;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+/* contentMiddle */
+#contentMiddle {
+	display:none;
+}
+
+/** layout h1 headers **/
+.shortBox {
+	height:28px;
+	width:286px;
+	background:url(../img/h1_short_bg.png) no-repeat;
+	margin:0 0 16px 0;
+}
+
+.shortBox h1 {
+	line-height:28px;
+	color:#fff;
+	font-size:14px;
+	padding:0 0 0 20px;
+}
+
+.newsBox {
+	height:33px;
+	width:291px;
+	margin:30px 0 15px 0;
+}
+
+.newsBox h1 {
+	line-height:33px;
+	color:#4f4f4f;
+	font-size:14px;
+	padding:0 0 0 20px;
+}
+
+.longBox_a {
+	height:28px;
+	width:579px;
+	background:url(../img/h1_long_bg_a.png) no-repeat;
+	padding:0 0 15px 0;
+}
+
+.longBox_a  h1 {
+	line-height:28px;
+	color:#fff;
+	font-size:17px;
+	padding:0 0 0 20px;
+}
+
+.longBox_b {
+	height:24px;
+	width:579px;
+	background:url(../img/h1_long_bg_b.png) no-repeat;
+	padding:0 0 15px 0;
+}
+
+.longBox_b  h1 {
+	line-height:24px;
+	color:#393939;
+	font-size:17px;
+	padding:0 0 0 20px;
+}
+
+/** layout content boxes **/
+#c_box_select, #c_box_search, #c_box_sitemap {
+	background:url(../img/c_box_middle.jpg) repeat-y left;
+	width:566px;
+	margin:0 0 15px 0px;
+}
+
+.c_box_header {
+	height:26px;
+	width:566px;
+	background:url(../img/c_box_top.jpg) no-repeat;
+	margin:0 0 10px 0;
+}
+
+* html .c_box_header {
+	height:26px;
+	width:566px;
+	background-image: url(../img/c_box_top.jpg) no-repeat;
+	margin-bottom:0px;
+}
+
+.c_box_header h1 {
+	line-height:26px;
+	color:#000;
+	font-size:14px;
+	margin:0 0 0 20px;
+}
+
+.c_box_footer {
+	background:url(../img/c_box_footer.jpg) no-repeat bottom;
+	text-align:center;
+	height:20px;
+	width:566px;
+}
+
+/** layout ul navlist **/
+ul.navList {
+	margin:0 0 35px 0;	
+}
+
+ul.navList li a, ul.navList li span {
+	display:block;
+	background:url(../img/list_bg.jpg) repeat-x top right;
+	color:#4f4f4f;
+	text-decoration:none;
+	padding:0 0 0 10px;
+	cursor:pointer;
+	text-indent:10px;
+}
+
+ul.navList li a:hover, ul.navList li span:hover {
+	display:block;
+	color:#787878;
+	text-decoration:none;
+	padding-left:10px;
+}
+
+/* layout div's */
+
+/* starters guide */
+/** werden nur gebraucht wenn #startersGuide angezeigt wird **/
+#startersGuide p {
+	display:none;
+}
+
+#startersGuide a {
+	display:none;
+}
+
+#startersGuide a:hover {
+	display:none;
+}
+
+/* ul navlist */
+ul.navList li {
+	height:28px;
+	width:286px;
+	line-height:28px;
+	margin:0 0 5px 0px;
+	padding:0;
+}
+
+* html ul.navList li a {
+	height:25px;
+	width:268px;
+}
+
+/* newscontent */
+.newscontent {
+	margin:0 5px 0 20px;
+	width:255px;
+}
+
+.newscontent p {
+	color:#4f4f4f;
+	margin:10px 0 10px 0;
+}
+
+div.newscontent p.author {
+	font-size:80%;
+}
+
+/* contentRight */
+#contentRight p, #contentRight ul, #contentRight h2   {
+	margin-left:20px;
+	margin-right:10px;
+}
+
+/* Socialbookmarks */
+#socialbookmarks {
+	margin:0 0 50px 20px;
+	list-style-image:none !important;
+	list-style-position:outside !important;
+	list-style-type:none !important;
+}
+
+#socialbookmarks li {
+	float:left;
+	margin:0 8px 0 0;
+	padding:0;
+}
+
+/* result */
+.result {
+	margin-top:30px;
+}
+
+.result ul {
+	list-style-image:none !important;
+	list-style-position:inside !important;
+	list-style-type:square !important;
+	margin-left:30px;
+}
+
+/* footer */
+#footer p {
+	color:#787878;
+	font-size:11px;
+	padding-top:20px;
+	text-align:center;
+}
+
+#footer p a {
+	color:#787878;
+	text-decoration:none;
+}
+
+#footer p a:hover {
+	color:#787878;
+	text-decoration:underline;
+}
+
+/* sitemap Stuff */
+#sitemap {
+	text-align:left;
+	padding:10px;
+}
+
+.openSitemap {
+	background:url(../img/c_box_button.png) no-repeat center;
+	height:40px;
+	text-align:center;
+}
+
+.openSitemap a, .openSitemap a:hover, .openSitemap a:visited, .openSitemap a:active  {
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	line-height:40px;
+}
+
+#zoom_content h1 {
+	color:#fff !important;
+}
+
+#utilityNav {
+	float:right;
+	margin: 15px 0 0 0;
+}
+
+#utilityNav ul, #utilityNav li {
+	list-style-type:none;
+}
+
+#utilityNav li {
+	float:right; /* vermutlich verantwortlich für den 100% fancybox bug in ie7 */
+	padding:0;
+	margin:2px;
+	background:url(../img/utility_bg.png) no-repeat top;
+	height:24px;
+	width:24px;	
+}
+
+#utilityNav li a img {
+	margin:4px;
+}
+
+#utilityNav li:hover {
+	background-position: bottom;
+}
+
+#primaryNav {
+	clear: both;	
+}	
+
+#primaryNav li span {
+        margin-left: 5px;
+	color:#000;
+}
+
+#primaryNav li a{
+        margin-left: 5px;
+}
+
+#primaryNav ul, #primaryNav li {
+	list-style-type: none;
+	margin-left: 15px;
+	color:#000;
+	text-align:left;
+}
+
+/** html tags **/
+/* hx */
+h1.introduction {
+	color:#fff;
+	padding-bottom:4px;
+}
+
+h2 {
+	color:#787878;
+	font-size:14px;
+	line-height:20px;
+	width:100%;
+}
+.result h2 {
+	margin-bottom:10px;
+}
+
+/* select */
+select, input[type="text"], input[type="password"], textarea {
+	border:1px solid #787878;
+	background-color:#fff;
+	color:#787878;
+	font-size:100%;
+	padding:5px;
+}
+select {
+	margin-left:20px;
+	margin-right:20px;
+}
+select.category {
+	margin:0 20px 20px;
+	width:530px;
+}
+
+/* input */
+input.mediuminput, select.mediuminput {
+	width:520px;
+}
+
+/* hr */
+hr {
+	border-color:#787878;
+	border-style:solid;
+	border-width:1px 0 0;
+	clear:both;
+	height:0;
+	width:540px;
+}
+
+/* p */
+p.note {
+	color:#aaa;
+	font-size:0.85em;	
+}
+p, ul, li {
+	color:#4f4f4f;
+}
+
+/* links general */
+a {
+	color:#4f4f4f;
+	text-decoration:underline;
+}
+a:hover {
+	color:#4f4f4f;
+	text-decoration:none;
+}
+p a, ul li a {
+	color:#4f4f4f;
+	text-decoration:underline;
+}
+p a:hover, ul li a:hover {
+	color:#4f4f4f;
+	text-decoration:none;
+}
+a.registerButton /* for Safari */ {
+	text-decoration:none;
+}
+
+/* tables */
+table {
+	border-collapse:separate;
+	border-spacing:5px;
+	color:#4f4f4f;
+	empty-cells:hide;
+	margin-left:20px;
+	width:500px;
+}
+td {
+	border:1px solid #ccc;
+	text-align:center;
+}
+
+/* others */
+.result p b {
+	color:#333;
+}
+.result p strong {
+	color:#333;
+}
+.anchor {
+	color:#333;
+	margin-left:20px;
+}
+.important {
+	color:#ff0000;
+}
+
+/* find an answer button stuff */
+/* only here, nowhere else!! */
+#headerInfoAreaWrapperPos {
+	display:none;
+}
+
+/* autocomplete */
+/* Farbschema der Autocompletebox dem Design anpassen */
+.autocomplete { 
+	color:#000; /* text farbe */
+	border-color:#B3E9F6 !important; /* randfarbe der box */
+	/* text-align: left !important; */ /* text ausrichtung innerhalb der box anpassen */
+}
+.autocomplete .selected {
+	background:#D0D0D0 !important; /* zu highlightende auswahl innerhalb der box */
+}  
+.autocomplete strong {
+	color:#3399FF !important; /* zu highlightendes wort */
+}
+
+/* ie6update textausrichtung */
+/* um richtig zu funktionieren wurde innerhalb der ie6update.1.0.js in den zeilen 247 und 261 das float attribut auskommentiert */
+#activebar-container { text-align:left; }
+#activebar-container .icon { float:left; }
+#activebar-container .close { float:right; }
+
+/* schlagschatten mit css3 */
+
+.shadow {
+	box-shadow: 0px 0px 6px #666;
+	-moz-box-shadow: 0px 0px 6px #666;
+	-webkit-box-shadow: 0px 0px 6px #666;
+	border: 8px solid #F8F8F8;
+	filter:progid:DXImageTransform.Microsoft.Shadow(strength=6,color=#666666,direction=135); /* Schatten für die IE Freunde */
+}
+
+/* floats */
+.float-left {
+	float:left;
+	margin-right:15px;
+}
+.float-right {
+	float:right;
+	margin-left:15px;
+}
+/* Toolkit table */
+
+th {
+    border: 1px solid #CCC;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Fancybox restyle */
+#fancybox-loading div, #fancybox-close, #fancybox-left-ico, #fancybox-right-ico, #fancybox-bg-ne, #fancybox-bg-se, #fancybox-bg-sw, #fancybox-bg-nw, #fancybox-title-float-left, #fancybox-title-float-main, #fancybox-title-float-right {
+	background-image: url('../img/fancybox.png');	
+}
+#fancybox-bg-n, #fancybox-bg-s {
+	background-image: url('../img/fancybox_x.png');	
+}
+#fancybox-bg-e, #fancybox-bg-w {
+	background-image: url('../img/fancybox_y.png');
+}
+#fancybox-outer {
+	background:#fff url('../img/fancybox_inner_top.png') repeat-x top center;
+}
+#fancybox-close {
+	position:absolute;
+	top:-5px;
+	left:auto;
+	right:-4px;
+	width:30px;
+	height:30px;
+}
+
+/* IE6 */
+
+.fancybox-ie6 #fancybox-close { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='travian4/img/fancy_close.png', sizingMethod='scale'); } /* adjusted url */
+
+/* IE6, IE7, IE8 */
+
+.fancybox-ie #fancybox-bg-n { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='travian4/img/fancybox-n.png', sizingMethod='scale'); } /* adjusted url */
+.fancybox-ie #fancybox-bg-ne { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='travian4/img/fancybox-ne.png', sizingMethod='scale'); } /* adjusted url */
+.fancybox-ie #fancybox-bg-e { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='travian4/img/fancybox-e.png', sizingMethod='scale'); } /* adjusted url */
+.fancybox-ie #fancybox-bg-se { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='travian4/img/fancybox-se.png', sizingMethod='scale'); } /* adjusted url */
+.fancybox-ie #fancybox-bg-s { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='travian4/img/fancybox-s.png', sizingMethod='scale'); } /* adjusted url */
+.fancybox-ie #fancybox-bg-sw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='travian4/img/fancybox-sw.png', sizingMethod='scale'); } /* adjusted url */
+.fancybox-ie #fancybox-bg-w { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='travian4/img/fancybox-w.png', sizingMethod='scale'); } /* adjusted url */
+.fancybox-ie #fancybox-bg-nw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='travian4/img/fancybox-nw.png', sizingMethod='scale'); } /* adjusted url */
+
+#fancybox-content #sitemap .shortBox { margin:15px 0 0 0; background:none; float:left; }
+#fancybox-content #sitemap .shortBox h1 { padding:0 0 0 15px; color:#252525; }
+#fancybox-content caption { padding:15px 0 0 0; }

@@ -1,0 +1,15 @@
+{
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/sendinblue/APIv3-php-library.git"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "require": {
+    "phpmailer/phpmailer": "^6.0",
+    "sendinblue/api-v3-sdk": "*@dev"
+  }
+}
