@@ -13,7 +13,7 @@ class TaskRunner
 {
     //edit
     private $users = [
-        'username' => [
+        'travuser' => [
             'main_domain' => 'example.org',
             'type' => 'cloudflare',
             'zone_id' => 'ZONEID',
