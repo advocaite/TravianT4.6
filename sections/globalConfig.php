@@ -2,7 +2,7 @@
 global $globalConfig;
 $globalConfig = [];
 $globalConfig['staticParameters'] = [];
-$globalConfig['staticParameters']['default_language'] = 'gr';
+$globalConfig['staticParameters']['default_language'] = 'us';
 $globalConfig['staticParameters']['default_timezone'] = 'Australia/Sydney';
 $globalConfig['staticParameters']['default_direction'] = 'LTR';
 $globalConfig['staticParameters']['default_dateFormat'] = 'y.m.d';
