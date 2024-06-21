@@ -1,0 +1,13 @@
+[Unit]
+Description=Travian game engine (dev)
+After=network.target
+After=mysqld.service
+
+[Service]
+User=travian
+Type=forking
+ExecStart=/travian/sections/servers/dev/include/travuser_dev.service.php
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
