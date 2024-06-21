@@ -15,7 +15,7 @@ $globalConfig['staticParameters']['adminEmail'] = '';
 $globalConfig['staticParameters']['session_timeout'] = 6*3600;
 $globalConfig['staticParameters']['default_payment_location'] = 2;
 $globalConfig['staticParameters']['global_css_class'] = 'travuser';
-$globalConfig['staticParameters']['gpacks'] = require("/travian/sectiond/gpack/gpack.php");
+$globalConfig['staticParameters']['gpacks'] = require("/travian/sections/gpack/gpack.php");
 $globalConfig['staticParameters']['recaptcha_public_key'] = '';
 $globalConfig['staticParameters']['recaptcha_private_key'] = '';
 $globalConfig['cachingServers'] = ['memcached' => [['127.0.0.1', 11211],],];
