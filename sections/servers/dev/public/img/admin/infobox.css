@@ -1,0 +1,274 @@
+@CHARSET "UTF-8";
+
+/* --- Buttons --- */
+.editInfobox button,
+.editInfobox button:hover,
+.editInfobox button:focus {
+	background-color: transparent;
+	border: 0 solid transparent;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	font-size: 11px;
+	line-height: 15px;
+	white-space: nowrap;
+	position: relative;
+	height: 25px;
+	text-align: left;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+.editInfobox button.icon {
+	width: 24px;
+	height: 24px;
+	background-image: url(../un/a/buttonSmall.png);
+}
+
+.editInfobox button.icon:hover {
+	background-position: left -34px;
+}
+
+.editInfobox button.icon.disabled:hover {
+	background-position: left top;
+}
+
+.editInfobox button.icon.iconActive,
+.editInfobox button.icon.iconActive.disabled {
+	background-position: left -68px;
+}
+
+.editInfobox button.icon img {
+	position: relative;
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat
+}
+
+.gecko .editInfobox button.icon img {
+	top: -1px;
+}
+
+/* --- Wartung - Infobox --- */
+.editInfobox label {
+	width: auto;
+	padding: 0 0 0 10px;
+	clear: none;
+}
+
+.editInfobox input.text {
+	width: 100px;
+}
+
+.editInfobox table {
+	margin-bottom: 15px;
+}
+
+.editInfobox table .time {
+	width: 50%;
+	font-size: 11px;
+	line-height: 23px;
+	text-align: left;
+}
+
+.editInfobox .state {
+	line-height: 24px;
+}
+
+.editInfobox .state button.delete {
+	float: right;
+}
+
+.editInfobox .state button.delete img {
+	background-image: url(icon/delete.gif);
+	top: 5px;
+	left: 8px;
+}
+
+.editInfobox table textarea {
+	width: 380px;
+	height: 150px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.editInfobox div.wrapper {
+	position: relative;
+}
+
+.editInfobox div.submitButton {
+	text-align: center;
+	background-color: #71D000;
+	border: 1px solid #C0C0C0;
+	padding-top: 2px;
+}
+
+.editInfobox div.submitButton input {
+	font-size: 16px;
+}
+
+/* --- BB-Editor --- */
+div.bBEditor {
+	float: left;
+	width: 380px;
+}
+
+div.bBEditor div.boxes-contents {
+	padding: 6px 0px;
+}
+
+div.bBEditor div.bbToolbar {
+	padding: 0px 5px;
+}
+
+.ie6 div.bBEditor div.boxes-contents,
+.ie6 div.bBEditor div.bbToolbar {
+	padding: 0px;
+}
+
+div.bBEditor div.bbToolbar .bbButton {
+	margin: 1px;
+	float: left;
+}
+
+.ie6 div.bBEditor div.bbToolbar .bbButton {
+	float: none;
+	display: inline;
+}
+
+div.bBEditor div.bbToolbar .bbButton img {
+	background-image: url(../un/a/bb_buttons.gif);
+	height: 16px;
+	width: 16px;
+	left: 4px;
+}
+
+.gecko div.bBEditor div.bbToolbar .bbButton img {
+	left: 1px;
+}
+
+.ie7 div.bBEditor div.bbToolbar .bbButton img,
+.ie6 div.bBEditor div.bbToolbar .bbButton img {
+	top: 4px;
+}
+
+div.bBEditor div.bbToolbar img.bbBold {
+	background-position: 0px 0px;
+}
+
+div.bBEditor div.bbToolbar img.bbItalic {
+	background-position: 0px -26px;
+}
+
+div.bBEditor div.bbToolbar img.bbUnderscore {
+	background-position: 0px -52px;
+}
+
+div.bBEditor div.bbToolbar button.bbAlliance,
+div.bBEditor div.bbToolbar button.bbPlayer,
+div.bBEditor div.bbToolbar button.bbCoordinate,
+div.bBEditor div.bbToolbar button.bbReport,
+div.bBEditor div.bbToolbar button.bbResource,
+div.bBEditor div.bbToolbar button.bbSmilies,
+div.bBEditor div.bbToolbar button.bbTroops,
+div.bBEditor div.bbToolbar button.bbPreview {
+	display: none;
+}
+
+div.bBEditor div.bbToolbarWindow img {
+	margin: 4px;
+}
+
+div.bBEditor div.bbToolbarWindow div {
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 197px;
+	border: 1px solid #71D000;
+	padding: 5px;
+	background: #efefef;
+	max-width: 240px;
+	display: none;
+}
+
+/* --- Preview --- */
+.editInfobox .preview {
+	position: relative;
+	width: 187px;
+	float: right;
+	margin: 3px;
+	font-size: 12px;
+	text-align: left;
+}
+
+.editInfobox .top,
+.editInfobox .center,
+.editInfobox .bottom {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url(../un/a/infobox.png);
+	background-repeat: no-repeat;
+}
+
+.editInfobox .top {
+	background-position: left top;
+}
+
+.editInfobox .center {
+	background-position: center;
+	background-repeat: repeat-y;
+	margin: 50px 0 18px;
+}
+
+.editInfobox .bottom {
+	background-position: right bottom;
+}
+
+.editInfobox .content {
+	padding: 52px 10px 14px;
+	min-height: 16px;
+	line-height: 16px;
+	position: relative;
+	z-index: 2;
+	width: 160px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	word-wrap: break-word;
+}
+
+/* --- Feedback Meldungen --- */
+div.wrapper div.feedbackMessage {
+	font-weight: bold;
+	font-size: 11px;
+	text-align: left;
+	padding-left: 5px;
+}
+
+div.wrapper div.feedbackMessage .error {
+	color: #DE0000;
+}
+
+div.wrapper div.feedbackMessage .notice {
+	color: #F88C1F;
+}
+
+.auto-actions td:first-child {
+    text-align: right;
+}
+
+.auto-actions td {
+    text-align: left;
+}
+
+.auto-actions input {
+    width: 100%;
+}
+
+.text-size-10 {
+    font-size: 10px;
+}
+
+.text-color-red {
+    color: red;
+}
