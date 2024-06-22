@@ -1,0 +1,11 @@
+[20-Feb-2019 08:47:25 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to PhpMyAdmin\Database\Designer::getHtmlTableList() must be of the type array, null given, called in /home/travian/pma/db_designer.php on line 190 and defined in /home/travian/pma/libraries/classes/Database/Designer.php:290
+Stack trace:
+#0 /home/travian/pma/db_designer.php(190): PhpMyAdmin\Database\Designer->getHtmlTableList(NULL, NULL)
+#1 {main}
+  thrown in /home/travian/pma/libraries/classes/Database/Designer.php on line 290
+[15-May-2019 01:37:33 Asia/Tehran] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 90112 bytes) in Unknown on line 0
+[15-May-2019 01:37:34 Asia/Tehran] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 147456 bytes) in Unknown on line 0
+[15-May-2019 01:37:41 Asia/Tehran] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 81920 bytes) in Unknown on line 0
+[15-May-2019 01:37:44 Asia/Tehran] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 81920 bytes) in Unknown on line 0
+[15-May-2019 01:37:49 Asia/Tehran] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 81920 bytes) in Unknown on line 0
+[15-May-2019 01:37:51 Asia/Tehran] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 139264 bytes) in Unknown on line 0
