@@ -48,7 +48,7 @@ CREATE TABLE `activation` (
 -- Table structure for table `banip`
 --
 
-CREATE TABLE `banip` (
+CREATE TABLE `banIP` (
   `id` int(10) UNSIGNED NOT NULL,
   `ip` bigint(12) UNSIGNED NOT NULL,
   `reason` varchar(100) NOT NULL,
@@ -59,10 +59,10 @@ CREATE TABLE `banip` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `bannershop`
+-- Table structure for table `bannerShop`
 --
 
-CREATE TABLE `bannershop` (
+CREATE TABLE `bannerShop` (
   `id` int(11) NOT NULL,
   `content` text NOT NULL,
   `expire` int(11) NOT NULL,
@@ -72,10 +72,10 @@ CREATE TABLE `bannershop` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `clubmedals`
+-- Table structure for table `clubMedals`
 --
 
-CREATE TABLE `clubmedals` (
+CREATE TABLE `clubMedals` (
   `id` int(11) NOT NULL,
   `worldId` varchar(255) CHARACTER SET utf8mb4 NOT NULL,
   `nickname` varchar(255) NOT NULL,
@@ -140,14 +140,14 @@ CREATE TABLE `email_blacklist` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `gameservers`
+-- Table structure for table `gameServers`
 --
 
-CREATE TABLE `gameservers` (
+CREATE TABLE `gameServers` (
   `id` int(11) NOT NULL,
   `worldId` varchar(100) NOT NULL,
   `speed` int(10) UNSIGNED NOT NULL,
-  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_persian_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `version` int(1) NOT NULL,
   `gameWorldUrl` varchar(500) NOT NULL,
   `startTime` int(10) UNSIGNED NOT NULL,
@@ -162,28 +162,28 @@ CREATE TABLE `gameservers` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `gameservers`
+-- Dumping data for table `gameServers`
 --
 
-INSERT INTO `gameservers` (`id`, `worldId`, `speed`, `name`, `version`, `gameWorldUrl`, `startTime`, `roundLength`, `finished`, `registerClosed`, `activation`, `preregistration_key_only`, `hidden`, `promoted`, `configFileLocation`) VALUES
-(9, 'dev', 5000, 'Developer', 4, 'http://dev.example.com', 1538922600, 1, 0, 0, 1, 0, 0, 0, '/home/travian/example_user/servers/dev/include/connection.php'),
-(359, 'ts2', 100000, '100000X', 4, 'http://ts2.example.com/', 1685131200, 3, 1, 1, 1, 0, 0, 0, '/home/travian/example_user/servers/ts2/include/connection.php'),
+INSERT INTO `gameServers` (`id`, `worldId`, `speed`, `name`, `version`, `gameWorldUrl`, `startTime`, `roundLength`, `finished`, `registerClosed`, `activation`, `preregistration_key_only`, `hidden`, `promoted`, `configFileLocation`) VALUES
+(9, 'dev', 5000, 'Developer', 4, 'http://dev.YOUR_DOMAIN', 1538922600, 1, 0, 0, 1, 0, 0, 0, '/home/travian/USERNAME_HERE/servers/dev/include/connection.php'),
+(359, 'ts2', 100000, '100000X', 4, 'http://ts2.YOUR_DOMAIN/', 1685131200, 3, 1, 1, 1, 0, 0, 0, '/home/travian/USERNAME_HERE/servers/ts2/include/connection.php');
 
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `goldproducts`
+-- Table structure for table `goldProducts`
 --
 
-CREATE TABLE `goldproducts` (
+CREATE TABLE `goldProducts` (
   `goldProductId` int(11) NOT NULL,
   `goldProductName` varchar(100) NOT NULL,
   `goldProductLocation` int(10) UNSIGNED NOT NULL,
   `goldProductGold` int(10) UNSIGNED NOT NULL,
   `goldProductPrice` double UNSIGNED NOT NULL,
   `goldProductMoneyUnit` varchar(100) NOT NULL,
-  `goldProductImageName` varchar(100) CHARACTER SET utf8 COLLATE utf8_persian_ci NOT NULL,
+  `goldProductImageName` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `goldProductHasOffer` tinyint(3) UNSIGNED NOT NULL,
   `isBestSeller` tinyint(4) NOT NULL DEFAULT 0,
   `isBestValue` tinyint(4) NOT NULL DEFAULT 0,
@@ -192,10 +192,10 @@ CREATE TABLE `goldproducts` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `goldproducts`
+-- Dumping data for table `goldProducts`
 --
 
-INSERT INTO `goldproducts` (`goldProductId`, `goldProductName`, `goldProductLocation`, `goldProductGold`, `goldProductPrice`, `goldProductMoneyUnit`, `goldProductImageName`, `goldProductHasOffer`, `isBestSeller`, `isBestValue`, `isSMS`, `isActive`) VALUES
+INSERT INTO `goldProducts` (`goldProductId`, `goldProductName`, `goldProductLocation`, `goldProductGold`, `goldProductPrice`, `goldProductMoneyUnit`, `goldProductImageName`, `goldProductHasOffer`, `isBestSeller`, `isBestValue`, `isSMS`, `isActive`) VALUES
 (2, 'بسته A', 1, 100, 49000, 'IRR', 'Travian_Facelift_1.png', 0, 0, 0, 0, 1),
 (3, 'بسته B', 1, 250, 99000, 'IRR', 'Travian_Facelift_2.png', 0, 0, 0, 0, 1),
 (4, 'بسته C', 1, 500, 179000, 'IRR', 'Travian_Facelift_3.png', 0, 1, 0, 0, 1),
@@ -257,10 +257,10 @@ CREATE TABLE `locations` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `mailserver`
+-- Table structure for table `mailServer`
 --
 
-CREATE TABLE `mailserver` (
+CREATE TABLE `mailServer` (
   `id` int(11) NOT NULL,
   `toEmail` varchar(255) NOT NULL,
   `subject` varchar(255) NOT NULL,
@@ -327,10 +327,10 @@ CREATE TABLE `package_codes` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `passwordrecovery`
+-- Table structure for table `passwordRecovery`
 --
 
-CREATE TABLE `passwordrecovery` (
+CREATE TABLE `passwordRecovery` (
   `id` int(10) UNSIGNED NOT NULL,
   `wid` int(10) UNSIGNED NOT NULL,
   `recoveryCode` varchar(255) NOT NULL,
@@ -340,10 +340,10 @@ CREATE TABLE `passwordrecovery` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `paymentconfig`
+-- Table structure for table `paymentConfig`
 --
 
-CREATE TABLE `paymentconfig` (
+CREATE TABLE `paymentConfig` (
   `id` int(10) UNSIGNED NOT NULL,
   `active` tinyint(1) UNSIGNED NOT NULL DEFAULT 1,
   `offerFrom` int(11) UNSIGNED NOT NULL DEFAULT 0,
@@ -360,10 +360,10 @@ CREATE TABLE `paymentconfig` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `paymentlog`
+-- Table structure for table `paymentLog`
 --
 
-CREATE TABLE `paymentlog` (
+CREATE TABLE `paymentLog` (
   `id` int(10) UNSIGNED NOT NULL,
   `worldUniqueId` int(11) NOT NULL,
   `uid` int(10) UNSIGNED NOT NULL,
@@ -380,10 +380,10 @@ CREATE TABLE `paymentlog` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `paymentproviders`
+-- Table structure for table `paymentProviders`
 --
 
-CREATE TABLE `paymentproviders` (
+CREATE TABLE `paymentProviders` (
   `providerId` int(10) UNSIGNED NOT NULL,
   `providerType` int(10) UNSIGNED NOT NULL,
   `location` int(10) UNSIGNED NOT NULL,
@@ -402,10 +402,10 @@ CREATE TABLE `paymentproviders` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `paymentvoucher`
+-- Table structure for table `paymentVoucher`
 --
 
-CREATE TABLE `paymentvoucher` (
+CREATE TABLE `paymentVoucher` (
   `id` int(11) NOT NULL,
   `gold` int(10) UNSIGNED NOT NULL,
   `email` varchar(100) NOT NULL,
@@ -437,10 +437,10 @@ CREATE TABLE `preregistration_keys` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `taskqueue`
+-- Table structure for table `taskQueue`
 --
 
-CREATE TABLE `taskqueue` (
+CREATE TABLE `taskQueue` (
   `id` int(10) UNSIGNED NOT NULL,
   `type` enum('install','uninstall','flushTokens','start-engine','stop-engine','restart-engine','') CHARACTER SET utf8 NOT NULL,
   `description` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
@@ -507,21 +507,21 @@ ALTER TABLE `activation`
 --
 -- Indexes for table `banip`
 --
-ALTER TABLE `banip`
+ALTER TABLE `banIP`
   ADD PRIMARY KEY (`id`),
   ADD KEY `ip` (`ip`,`blockTill`);
 
 --
--- Indexes for table `bannershop`
+-- Indexes for table `bannerShop`
 --
-ALTER TABLE `bannershop`
+ALTER TABLE `bannerShop`
   ADD PRIMARY KEY (`id`),
   ADD KEY `expire` (`expire`);
 
 --
--- Indexes for table `clubmedals`
+-- Indexes for table `clubMedals`
 --
-ALTER TABLE `clubmedals`
+ALTER TABLE `clubMedals`
   ADD PRIMARY KEY (`id`),
   ADD KEY `hidden` (`hidden`);
 
@@ -546,16 +546,16 @@ ALTER TABLE `email_blacklist`
   ADD KEY `time` (`time`);
 
 --
--- Indexes for table `gameservers`
+-- Indexes for table `gameServers`
 --
-ALTER TABLE `gameservers`
+ALTER TABLE `gameServers`
   ADD PRIMARY KEY (`id`),
   ADD KEY `search` (`finished`,`registerClosed`,`hidden`);
 
 --
--- Indexes for table `goldproducts`
+-- Indexes for table `goldProducts`
 --
-ALTER TABLE `goldproducts`
+ALTER TABLE `goldProducts`
   ADD PRIMARY KEY (`goldProductId`);
 
 --
@@ -579,9 +579,9 @@ ALTER TABLE `locations`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `mailserver`
+-- Indexes for table `mailServer`
 --
-ALTER TABLE `mailserver`
+ALTER TABLE `mailServer`
   ADD PRIMARY KEY (`id`),
   ADD KEY `priority` (`priority`);
 
@@ -618,23 +618,23 @@ ALTER TABLE `package_codes`
   ADD KEY `package_id` (`package_id`);
 
 --
--- Indexes for table `passwordrecovery`
+-- Indexes for table `passwordRecovery`
 --
-ALTER TABLE `passwordrecovery`
+ALTER TABLE `passwordRecovery`
   ADD PRIMARY KEY (`id`,`wid`),
   ADD KEY `recoveryCode` (`recoveryCode`),
   ADD KEY `uid` (`uid`);
 
 --
--- Indexes for table `paymentconfig`
+-- Indexes for table `paymentConfig`
 --
-ALTER TABLE `paymentconfig`
+ALTER TABLE `paymentConfig`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `paymentlog`
+-- Indexes for table `paymentLog`
 --
-ALTER TABLE `paymentlog`
+ALTER TABLE `paymentLog`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `secureId` (`secureId`),
   ADD KEY `uid` (`uid`),
@@ -643,9 +643,9 @@ ALTER TABLE `paymentlog`
   ADD KEY `worldUniqueId` (`worldUniqueId`);
 
 --
--- Indexes for table `paymentproviders`
+-- Indexes for table `paymentProviders`
 --
-ALTER TABLE `paymentproviders`
+ALTER TABLE `paymentProviders`
   ADD PRIMARY KEY (`providerId`),
   ADD KEY `location` (`location`),
   ADD KEY `posId` (`posId`),
@@ -653,9 +653,9 @@ ALTER TABLE `paymentproviders`
   ADD KEY `providerType` (`providerType`);
 
 --
--- Indexes for table `paymentvoucher`
+-- Indexes for table `paymentVoucher`
 --
-ALTER TABLE `paymentvoucher`
+ALTER TABLE `paymentVoucher`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `voucherCode` (`voucherCode`),
   ADD KEY `gold` (`gold`),
@@ -671,9 +671,9 @@ ALTER TABLE `preregistration_keys`
   ADD KEY `worldId` (`worldId`,`pre_key`,`used`);
 
 --
--- Indexes for table `taskqueue`
+-- Indexes for table `taskQueue`
 --
-ALTER TABLE `taskqueue`
+ALTER TABLE `taskQueue`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -712,19 +712,19 @@ ALTER TABLE `activation`
 --
 -- AUTO_INCREMENT for table `banip`
 --
-ALTER TABLE `banip`
+ALTER TABLE `banIP`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `bannershop`
+-- AUTO_INCREMENT for table `bannerShop`
 --
-ALTER TABLE `bannershop`
+ALTER TABLE `bannerShop`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `clubmedals`
+-- AUTO_INCREMENT for table `clubMedals`
 --
-ALTER TABLE `clubmedals`
+ALTER TABLE `clubMedals`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
@@ -746,15 +746,15 @@ ALTER TABLE `email_blacklist`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `gameservers`
+-- AUTO_INCREMENT for table `gameServers`
 --
-ALTER TABLE `gameservers`
+ALTER TABLE `gameServers`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=361;
 
 --
--- AUTO_INCREMENT for table `goldproducts`
+-- AUTO_INCREMENT for table `goldProducts`
 --
-ALTER TABLE `goldproducts`
+ALTER TABLE `goldProducts`
   MODIFY `goldProductId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
@@ -776,9 +776,9 @@ ALTER TABLE `locations`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `mailserver`
+-- AUTO_INCREMENT for table `mailServer`
 --
-ALTER TABLE `mailserver`
+ALTER TABLE `mailServer`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
@@ -806,33 +806,33 @@ ALTER TABLE `package_codes`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `passwordrecovery`
+-- AUTO_INCREMENT for table `passwordRecovery`
 --
-ALTER TABLE `passwordrecovery`
+ALTER TABLE `passwordRecovery`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `paymentconfig`
+-- AUTO_INCREMENT for table `paymentConfig`
 --
-ALTER TABLE `paymentconfig`
+ALTER TABLE `paymentConfig`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `paymentlog`
+-- AUTO_INCREMENT for table `paymentLog`
 --
-ALTER TABLE `paymentlog`
+ALTER TABLE `paymentLog`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `paymentproviders`
+-- AUTO_INCREMENT for table `paymentProviders`
 --
-ALTER TABLE `paymentproviders`
+ALTER TABLE `paymentProviders`
   MODIFY `providerId` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `paymentvoucher`
+-- AUTO_INCREMENT for table `paymentVoucher`
 --
-ALTER TABLE `paymentvoucher`
+ALTER TABLE `paymentVoucher`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
@@ -842,9 +842,9 @@ ALTER TABLE `preregistration_keys`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `taskqueue`
+-- AUTO_INCREMENT for table `taskQueue`
 --
-ALTER TABLE `taskqueue`
+ALTER TABLE `taskQueue`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
