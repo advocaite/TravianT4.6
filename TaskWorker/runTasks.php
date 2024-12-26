@@ -13,8 +13,8 @@ class TaskRunner
 {
     //edit
     private $users = [
-        'sections' => [
-            'main_domain' => 'example.org',
+        'USERNAME_HERE' => [
+            'main_domain' => 'YOUR_DOMAIN',
             'type' => 'cloudflare',
             'zone_id' => 'ZONEID',
             'email' => 'Email@email.com',
@@ -24,8 +24,8 @@ class TaskRunner
 
     private function runTasks($user, $userData)
     {
-        //$globalConfigFileLocation = sprintf('/home/travian/%s/globalConfig.php', $user);
-        $globalConfigFileLocation = sprintf('/travian/sections/globalConfig.php', $user);
+        $globalConfigFileLocation = sprintf('/home/travian/%s/globalConfig.php', $user);
+        //$globalConfigFileLocation = sprintf('/travian/sections/globalConfig.php', $user);
         if (!is_file($globalConfigFileLocation)) {
             return; //Not able to run
         }

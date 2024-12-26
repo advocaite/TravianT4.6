@@ -1,5 +1,5 @@
 #!/bin/bash
-supported_users=("molonlave")
+supported_users=("USERNAME_HERE")
 do_restart_engines=false
 do_stop_engines=false
 sync_dev=true
@@ -61,6 +61,11 @@ function install(){
     ln /travian/services/main/TravianIndex.service /etc/systemd/system/TravianIndex.service
     ln /travian/services/main/TravianMail.service /etc/systemd/system/TravianMail.service
     ln /travian/services/main/TravianTaskWorker.service /etc/systemd/system/TravianTaskWorker.service
+
+    # Ensure the necessary scripts are executable
+    chmod +x /travian/angularIndex/server.js
+    chmod +x /travian/mailNotify/include/mailNotify.sh
+    chmod +x /travian/TaskWorker/runTasks.php
 
     systemctl daemon-reload
 
