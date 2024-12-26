@@ -6,7 +6,7 @@ After=mysqld.service
 [Service]
 User=travian
 Type=forking
-ExecStart=/travian/sections/servers/dev/include/travuser_dev.service.php
+ExecStart=/home/travian/USERNAME_HERE/servers/dev/include/USERNAME_HERE_dev.service.php
 Restart=always
 
 [Install]

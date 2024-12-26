@@ -15,3 +15,9 @@ if you are compitent then you can figure it out
 
 enjoy if anyone does want instructions to insstall figure it out and make a pull request editing this readme.
 this is a fan made recreation and not a part of any offical trvian company source etc etc.
+
+
+search for 
+YOUR_DOMAIN
+USERNAME_HERE
+REDACTED
